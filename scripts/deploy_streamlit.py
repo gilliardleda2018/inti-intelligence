@@ -22,12 +22,12 @@ def main():
         stage_root = "@INTI_DB.PUBLIC.INTI_STAGE/dashboard"
         
         # 1. Upload dashboard/app.py to root stage
-        app_py_path = str(ROOT / "dashboard" / "app.py")
+        app_py_path = (ROOT / "dashboard" / "app.py").as_posix()
         print(f"Enviando {app_py_path} para {stage_root}...")
         session.file.put(app_py_path, stage_root, auto_compress=False, overwrite=True)
         
         # 2. Upload dashboard/logo.png to root stage
-        logo_path = str(ROOT / "dashboard" / "logo.png")
+        logo_path = (ROOT / "dashboard" / "logo.png").as_posix()
         if os.path.exists(logo_path):
             print(f"Enviando {logo_path} para {stage_root}...")
             session.file.put(logo_path, stage_root, auto_compress=False, overwrite=True)
