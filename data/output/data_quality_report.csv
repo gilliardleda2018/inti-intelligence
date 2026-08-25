@@ -1,0 +1,17 @@
+field,rows,non_null,missing,completeness_pct,trust
+product_id,587,587,0,100.0,GOOD
+name,587,587,0,100.0,GOOD
+url,587,587,0,100.0,GOOD
+collection,587,587,0,100.0,GOOD
+category,587,569,18,96.93,GOOD
+color,587,581,6,98.98,GOOD
+price,587,0,587,0.0,MISSING
+original_price,587,0,587,0.0,MISSING
+discount_pct,587,0,587,0.0,MISSING
+sizes,587,587,0,100.0,GOOD
+description,587,583,4,99.32,GOOD
+composition,587,312,275,53.15,PARTIAL
+availability_text,587,587,0,100.0,GOOD
+image_urls,587,575,12,97.96,GOOD
+source,587,587,0,100.0,GOOD
+collected_at,587,587,0,100.0,GOOD

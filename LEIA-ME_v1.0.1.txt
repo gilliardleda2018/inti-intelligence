@@ -1,0 +1,20 @@
+INTI Intelligence v1.0.1 — UX Polish
+TIPO: PATCH INCREMENTAL
+Destino: C:\inti_intelligence\INTI_Intelligence
+
+SUBSTITUI:
+- dashboard\app.py
+- VERSION
+
+Melhorias:
+- contraste reforçado em legendas, eixos, títulos, colorbars e tooltips dos gráficos;
+- cartões KPI com texto "Significa:" e descrições autoexplicativas;
+- labels do Opportunity Engine mais claros em português;
+- bloco explicando cada KPI executivo;
+- explicações simples adicionadas aos gráficos executivos.
+
+Validação:
+$env:PYTHONPATH = "$PWD\src"
+python -m py_compile .\dashboard\app.py
+python -m pytest -q
+python -m streamlit run .\dashboard\app.py

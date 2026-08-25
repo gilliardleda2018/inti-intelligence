@@ -1,0 +1,6 @@
+portfolio_cluster,items,median_price,mean_discount_pct,median_sizes,dominant_category,dominant_color,share_pct
+0,289,644.5,0.0,4.0,Vestidos,Off White,49.23
+2,166,1789.0,0.0,6.0,Vestidos,Off White,28.28
+3,81,116.0,60.88679012345679,4.0,Biquínis,Preto,13.8
+1,46,297.25,57.40108695652174,4.0,Biquínis,Preto,7.84
+4,5,1048.0,0.0,5.0,Biquínis,Preto,0.85

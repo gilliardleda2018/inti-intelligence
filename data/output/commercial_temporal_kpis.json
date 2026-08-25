@@ -1,0 +1,16 @@
+{
+  "comparable_variants": 587,
+  "old_priced_comparable": 575,
+  "new_priced_comparable": 575,
+  "commercial_events_total": 0,
+  "price_increased": 0,
+  "price_decreased": 0,
+  "markdown_started": 0,
+  "markdown_ended": 0,
+  "markdown_deepened": 0,
+  "markdown_reduced": 0,
+  "entered_sale": 0,
+  "left_sale": 0,
+  "old_snapshot": "snapshot_01_2026-08-24_enriched.csv",
+  "new_snapshot": "snapshot_02_2026-08-25_enriched.csv"
+}

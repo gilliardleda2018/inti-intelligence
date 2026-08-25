@@ -1,0 +1,31 @@
+priority,name,category,color,product_role,product_strategic_score,price,discount_pct,size_count,similar_products,redundancy_watch,recommended_action
+HIGH,Vestido Cameron Off-White,Vestidos,Off White,HERO_CANDIDATE,77.6,1889.0,0.0,6,0,False,"Candidato estrutural a produto-herói; validar com vendas, conversão, margem e estoque antes de confirmar."
+HIGH,Vestido Cameron Preto,Vestidos,Preto,HERO_CANDIDATE,75.9,1889.0,0.0,6,0,False,"Candidato estrutural a produto-herói; validar com vendas, conversão, margem e estoque antes de confirmar."
+HIGH,Biquíni Castillo Preto,Biquínis,Preto,MARKDOWN_WATCH,56.9,232.0,65.83,4,4,True,Investigar motivo do markdown e comparar com produtos semelhantes antes de ampliar exposição ou recompra.
+HIGH,Biquíni Castillo Off-White,Biquínis,Off White,MARKDOWN_WATCH,53.6,232.0,65.83,4,2,True,Investigar motivo do markdown e comparar com produtos semelhantes antes de ampliar exposição ou recompra.
+HIGH,Biquíni Alann Preto,Biquínis,Preto,MARKDOWN_WATCH,52.7,220.0,68.53,4,4,True,Investigar motivo do markdown e comparar com produtos semelhantes antes de ampliar exposição ou recompra.
+HIGH,Biquíni Alann Pérola,Biquínis,Pérola,MARKDOWN_WATCH,51.8,220.0,68.53,4,1,False,Investigar motivo do markdown e comparar com produtos semelhantes antes de ampliar exposição ou recompra.
+HIGH,Biquíni Castillo Terracota,Biquínis,Terracota,MARKDOWN_WATCH,44.4,232.0,65.83,4,0,False,Investigar motivo do markdown e comparar com produtos semelhantes antes de ampliar exposição ou recompra.
+HIGH,Biquíni Alann Marrom,Biquínis,Marrom,MARKDOWN_WATCH,42.7,220.0,68.53,4,1,False,Investigar motivo do markdown e comparar com produtos semelhantes antes de ampliar exposição ou recompra.
+HIGH,Biquíni Riva Preto,Biquínis,Preto,MARKDOWN_WATCH,40.8,120.0,65.17,3,6,True,Investigar motivo do markdown e comparar com produtos semelhantes antes de ampliar exposição ou recompra.
+HIGH,Biquíni Riva Pérola,Biquínis,Pérola,MARKDOWN_WATCH,39.9,120.0,65.17,3,6,True,Investigar motivo do markdown e comparar com produtos semelhantes antes de ampliar exposição ou recompra.
+HIGH,Biquíni Riva Azul Índigo,Biquínis,Azul Índigo,MARKDOWN_WATCH,32.0,120.0,65.17,3,1,False,Investigar motivo do markdown e comparar com produtos semelhantes antes de ampliar exposição ou recompra.
+HIGH,Biquíni Eaton Preto,Biquínis,Preto,MARKDOWN_WATCH,30.6,116.0,68.18,3,6,True,Investigar motivo do markdown e comparar com produtos semelhantes antes de ampliar exposição ou recompra.
+HIGH,Biquíni Eaton Pérola,Biquínis,Pérola,MARKDOWN_WATCH,29.7,116.0,68.18,3,6,True,Investigar motivo do markdown e comparar com produtos semelhantes antes de ampliar exposição ou recompra.
+HIGH,Conjunto Althea Preto,Conjuntos,Preto,MARKDOWN_WATCH,27.7,399.5,60.01,4,1,False,Investigar motivo do markdown e comparar com produtos semelhantes antes de ampliar exposição ou recompra.
+HIGH,Conjunto Althea Off-White,Conjuntos,Off White,MARKDOWN_WATCH,26.7,399.5,60.01,4,1,False,Investigar motivo do markdown e comparar com produtos semelhantes antes de ampliar exposição ou recompra.
+HIGH,Biquíni Atticus Pérola,Biquínis,Pérola,MARKDOWN_WATCH,26.5,110.0,67.12,3,6,True,Investigar motivo do markdown e comparar com produtos semelhantes antes de ampliar exposição ou recompra.
+HIGH,Biquíni Bercy Preto,Biquínis,Preto,MARKDOWN_WATCH,25.8,110.0,72.12,3,6,True,Investigar motivo do markdown e comparar com produtos semelhantes antes de ampliar exposição ou recompra.
+HIGH,Biquíni Malawi Pérola,Biquínis,Pérola,MARKDOWN_WATCH,25.1,110.0,71.39,3,6,True,Investigar motivo do markdown e comparar com produtos semelhantes antes de ampliar exposição ou recompra.
+HIGH,Biquíni Bercy Pérola,Biquínis,Pérola,MARKDOWN_WATCH,24.9,110.0,72.12,3,6,True,Investigar motivo do markdown e comparar com produtos semelhantes antes de ampliar exposição ou recompra.
+HIGH,Biquíni Eaton Cobre,Biquínis,Cobre,MARKDOWN_WATCH,23.7,116.0,68.18,3,0,False,Investigar motivo do markdown e comparar com produtos semelhantes antes de ampliar exposição ou recompra.
+HIGH,Conjunto Althea Vermelho,Conjuntos,Vermelho,MARKDOWN_WATCH,21.1,399.5,60.01,4,0,False,Investigar motivo do markdown e comparar com produtos semelhantes antes de ampliar exposição ou recompra.
+HIGH,Biquíni Atticus Terracota,Biquínis,Terracota,MARKDOWN_WATCH,14.9,110.0,67.12,3,0,False,Investigar motivo do markdown e comparar com produtos semelhantes antes de ampliar exposição ou recompra.
+MEDIUM,BIQUÍNI VITTO + PAREÔ | PRETO,Biquínis,Preto,PREMIUM_ANCHOR,88.8,986.1,0.0,5,0,False,"Proteger percepção de valor, conteúdo e disponibilidade de grade; candidato a âncora premium."
+MEDIUM,BIQUÍNI EASTON + PAREÔ | OFF-WHITE,Biquínis,Off White,PREMIUM_ANCHOR,86.1,1048.0,0.0,5,0,False,"Proteger percepção de valor, conteúdo e disponibilidade de grade; candidato a âncora premium."
+MEDIUM,Vestido Sartori Off-White,Vestidos,Off White,PREMIUM_ANCHOR,85.2,2389.0,0.0,6,0,False,"Proteger percepção de valor, conteúdo e disponibilidade de grade; candidato a âncora premium."
+MEDIUM,Vestido Sartori Preto,Vestidos,Preto,PREMIUM_ANCHOR,83.5,2389.0,0.0,6,0,False,"Proteger percepção de valor, conteúdo e disponibilidade de grade; candidato a âncora premium."
+MEDIUM,Vestido Sartori Vermelho,Vestidos,Vermelho,PREMIUM_ANCHOR,82.1,2389.0,0.0,6,0,False,"Proteger percepção de valor, conteúdo e disponibilidade de grade; candidato a âncora premium."
+MEDIUM,BODY CHIARA + PANTALONA SAVOYE | OFF-WHITE,Bodies,Off White,PREMIUM_ANCHOR,81.9,1822.1,0.0,9,0,False,"Proteger percepção de valor, conteúdo e disponibilidade de grade; candidato a âncora premium."
+MEDIUM,Vestido Roland Off-White,Vestidos,Off White,PREMIUM_ANCHOR,81.4,1989.0,0.0,6,3,True,Revisar sobreposição estrutural com itens semelhantes; validar diferenciação com vendas e margem quando disponíveis.
+MEDIUM,Vestido Fontaine Off-White,Vestidos,Off White,PREMIUM_ANCHOR,81.4,1989.0,0.0,6,3,True,Revisar sobreposição estrutural com itens semelhantes; validar diferenciação com vendas e margem quando disponíveis.

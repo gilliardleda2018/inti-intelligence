@@ -1,0 +1,17 @@
+# Private credentials and secrets (CRITICAL)
+.env
+
+# Python cache & virtual environment
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Exclude large binary SQLite files
+*.db
+.system_generated/
+logs/

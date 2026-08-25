@@ -1,0 +1,15 @@
+{
+  "variants_total": 587,
+  "priced_variants": 575,
+  "price_coverage_pct": 97.96,
+  "median_price": 689.5,
+  "mean_price": 831.24,
+  "min_price": 89.5,
+  "max_price": 2392.1,
+  "discounted_variants": 127,
+  "discounted_pct": 22.09,
+  "median_discount_pct": 59.93,
+  "mean_discount_pct": 59.62,
+  "max_discount_pct": 72.12,
+  "high_confidence_pct": 100.0
+}

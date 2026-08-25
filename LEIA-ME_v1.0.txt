@@ -1,0 +1,10 @@
+INTI Intelligence v1.0 — Executive MVP
+PATCH INCREMENTAL
+Destino: C:\inti_intelligence\INTI_Intelligence
+Substitua somente dashboard\app.py e atualize VERSION.
+Antes: Copy-Item .\dashboard\app.py .\dashboard\app_v0.9_backup.py
+Valide:
+$env:PYTHONPATH = "$PWD\src"
+python -m py_compile .\dashboard\app.py
+python -m pytest -q
+python -m streamlit run .\dashboard\app.py

@@ -1,0 +1,16 @@
+﻿category,variants,median_price,q25_price,q75_price,max_price,discounted_variants,discounted_pct,median_discount_pct,price_position_index,category_price_tier,markdown_pressure_index
+Biquínis,110,118.0,110.0,220.0,1261.6,105,95.45,60.09,17.1,ACCESS,77.8
+Conjuntos,22,429.75,399.5,492.25,497.25,22,100.0,50.0,62.3,ACCESS,75.0
+Blazers,25,1589.0,794.5,1789.0,2392.1,0,0.0,,230.5,PREMIUM,0.0
+Vestidos,168,1069.5,744.5,1889.0,2389.0,0,0.0,,155.1,PREMIUM,0.0
+Blusas,23,989.0,829.0,1679.6,1879.1,0,0.0,,143.4,PREMIUM,0.0
+Macacões,41,1489.0,844.5,1789.0,1889.0,0,0.0,,216.0,PREMIUM,0.0
+Sobretudos,1,1244.5,1244.5,1244.5,1244.5,0,0.0,,180.5,PREMIUM,0.0
+Calças,24,694.25,569.5,891.5,989.0,0,0.0,,100.7,CORE,0.0
+Sem categoria,18,694.5,494.5,869.0,1822.1,0,0.0,,100.7,CORE,0.0
+Bodies,52,649.0,344.5,789.0,1822.1,0,0.0,,94.1,CORE,0.0
+Saídas,8,594.5,594.5,693.12,989.0,0,0.0,,86.2,CORE,0.0
+Saias,18,444.5,332.0,607.0,989.0,0,0.0,,64.5,ACCESS,0.0
+Pareôs,23,489.0,366.75,519.0,739.0,0,0.0,,70.9,ACCESS,0.0
+Croppeds,32,394.5,379.5,410.75,859.0,0,0.0,,57.2,ACCESS,0.0
+Shorts,10,372.0,349.88,394.5,689.0,0,0.0,,54.0,ACCESS,0.0

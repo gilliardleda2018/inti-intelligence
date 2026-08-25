@@ -1,0 +1,45 @@
+# INTI Intelligence v0.9.0 — Incremental Patch
+
+**Tipo:** PATCH INCREMENTAL.
+
+**Destino único:** `C:\inti_intelligence\INTI_Intelligence`
+
+Este pacote NÃO é um projeto novo e NÃO deve criar outra pasta INTI.
+
+## Arquivos novos
+
+Copie mantendo exatamente a estrutura:
+
+- `src\inti_intelligence\opportunity_engine.py`
+- `scripts\build_opportunity_engine.py`
+- `tests\test_opportunity_engine.py`
+
+Nenhum snapshot é substituído.
+
+## Depois de copiar
+
+Na raiz:
+
+```powershell
+cd C:\inti_intelligence\INTI_Intelligence
+.\.venv\Scripts\Activate.ps1
+$env:PYTHONPATH = "$PWD\src"
+python .\scripts\build_opportunity_engine.py
+python -m pytest -q
+```
+
+## Saídas esperadas
+
+Em `data\output`:
+
+- `calibrated_similarity.csv`
+- `cluster_intelligence.csv`
+- `portfolio_opportunities.csv`
+- `optimization_kpis.json`
+
+## Importante
+
+Este primeiro pacote instala e valida o motor v0.9.
+A integração visual no dashboard será feita somente depois que o motor executar
+corretamente sobre os 587 produtos reais, evitando substituir um `app.py`
+funcional antes da validação.

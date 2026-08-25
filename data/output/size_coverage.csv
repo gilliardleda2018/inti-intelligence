@@ -1,0 +1,588 @@
+product_id,name,category,color,sizes,size_count,size_coverage_score,url
+4070,Corselet Adrian Framboesa,,Framboesa,36|38|40|42,4,0.0,https://www.intibrand.com/produto/corselet-adrian-framboesa-4070
+4067,Corselet Adrian Off-White,,Off White,36|38|40|42,4,0.0,https://www.intibrand.com/produto/corselet-adrian-off-white-4067
+4068,Corselet Adrian Preto,,Preto,36|38|40|42,4,0.0,https://www.intibrand.com/produto/corselet-adrian-preto-4068
+4069,Corselet Adrian Vermelho,,Vermelho,36|38|40|42,4,0.0,https://www.intibrand.com/produto/corselet-adrian-vermelho-4069
+4637,Corselet Kimbell Off-White,,Off White,36|38|40|42,4,0.0,https://www.intibrand.com/produto/corselet-kimbell-off-white-4637
+4121,Corselet Vicenzo Vanilla,,Vanilla,36|38|40|42,4,0.0,https://www.intibrand.com/produto/corselet-vicenzo-vanilla-4121
+4652,Macaquinho Evans Bege,,Bege,36|38|40|42,4,0.0,https://www.intibrand.com/produto/macaquinho-evans-bege-4652
+4651,Macaquinho Evans Preto,,Preto,36|38|40|42,4,0.0,https://www.intibrand.com/produto/macaquinho-evans-preto-4651
+4580,Macaquinho Linho Tau Bege,,Bege,36|38|40|42,4,0.0,https://www.intibrand.com/produto/macaquinho-linho-tau-bege-4580
+4578,Macaquinho Linho Tau Off-White,,Off White,36|38|40|42,4,0.0,https://www.intibrand.com/produto/macaquinho-linho-tau-off-white-4578
+4579,Macaquinho Linho Tau Preto,,Preto,36|38|40|42,4,0.0,https://www.intibrand.com/produto/macaquinho-linho-tau-preto-4579
+4567,Macaquinho Martin Off-White,,Off White,36|38|40|42,4,0.0,https://www.intibrand.com/produto/macaquinho-martin-off-white-4567
+4910,Corselet Steven Marrom,,Marrom,34|36|38|40|42,5,0.0,https://www.intibrand.com/produto/corselet-steven-marrom-4910
+4908,Corselet Steven Off-White,,Off White,34|36|38|40|42,5,0.0,https://www.intibrand.com/produto/corselet-steven-off-white-4908
+4909,Corselet Steven Preto,,Preto,34|36|38|40|42,5,0.0,https://www.intibrand.com/produto/corselet-steven-preto-4909
+4926,CORSELET KIMBELL + PANTALONA SAVOYE | OFF-WHITE,,Off White,36|38|40|42|34|44,6,0.0,https://www.intibrand.com/produto/corselet-kimbell-pantalona-savoye-off-white-4926
+4925,CORSELET KIMBELL + PANTALONA SAVOYE | PRETO,,Preto,34|36|38|40|42|44,6,0.0,https://www.intibrand.com/produto/corselet-kimbell-pantalona-savoye-preto-4925
+4479,Macaquinho Neil Preto,,Preto,34|36|38|40|42|44,6,0.0,https://www.intibrand.com/produto/macaquinho-neil-preto-4479
+3715,Pareô Azul,Pareôs,Azul,U,1,25.0,https://www.intibrand.com/produto/pareo-azul-3715
+2774,Pareô Azul Marinho,Pareôs,Azul Marinho,U,1,25.0,https://www.intibrand.com/produto/pareo-azul-marinho-2774
+4734,Pareô Lenk Cobre,Pareôs,Cobre,U,1,25.0,https://www.intibrand.com/produto/pareo-lenk-cobre-4734
+4732,Pareô Lenk Pérola,Pareôs,Pérola,U,1,25.0,https://www.intibrand.com/produto/pareo-lenk-perola-4732
+4733,Pareô Lenk Preto,Pareôs,Preto,U,1,25.0,https://www.intibrand.com/produto/pareo-lenk-preto-4733
+4856,Pareô Marrom,Pareôs,Marrom,U,1,25.0,https://www.intibrand.com/produto/pareo-marrom-4856
+2117,Pareô Off-White,Pareôs,Off White,U,1,25.0,https://www.intibrand.com/produto/pareo-off-white-2117
+2116,Pareô Preto,Pareôs,Preto,U,1,25.0,https://www.intibrand.com/produto/pareo-preto-2116
+3153,Pareô Terracota,Pareôs,Terracota,U,1,25.0,https://www.intibrand.com/produto/pareo-terracota-3153
+2672,Pareô Vermelho,Pareôs,Vermelho,U,1,25.0,https://www.intibrand.com/produto/pareo-vermelho-2672
+4078,Body Rodd Off-White,Bodies,Off White,P|G,2,50.0,https://www.intibrand.com/produto/body-rodd-off-white-4078
+3734,Blazer Alvar Azul Índigo,Blazers,Azul Índigo,P|M|G,3,54.5,https://www.intibrand.com/produto/blazer-alvar-azul-indigo-3734
+4641,Blusa Mayfar Bege,Blusas,Bege,36|38|40|42,4,66.7,https://www.intibrand.com/produto/blusa-mayfar-bege-4641
+4639,Blusa Mayfar Off-White,Blusas,Off White,36|38|40|42,4,66.7,https://www.intibrand.com/produto/blusa-mayfar-off-white-4639
+4640,Blusa Mayfar Preto,Blusas,Preto,36|38|40|42,4,66.7,https://www.intibrand.com/produto/blusa-mayfar-preto-4640
+4552,Blusa Moonsoon Bege,Blusas,Bege,36|38|40|42,4,66.7,https://www.intibrand.com/produto/blusa-moonsoon-bege-4552
+4642,Blusa Soho Off-White,Blusas,Off White,36|38|40|42,4,66.7,https://www.intibrand.com/produto/blusa-soho-off-white-4642
+4643,Blusa Soho Preto,Blusas,Preto,36|38|40|42,4,66.7,https://www.intibrand.com/produto/blusa-soho-preto-4643
+4905,BLUSA ZENO + CALÇA ZENO | OFF-WHITE,Blusas,Off White,36|38|40|42,4,66.7,https://www.intibrand.com/produto/blusa-zeno-calca-zeno-off-white-4905
+4906,BLUSA ZENO + CALÇA ZENO | PRETO,Blusas,Preto,36|38|40|42,4,66.7,https://www.intibrand.com/produto/blusa-zeno-calca-zeno-preto-4906
+4762,Blusa Zeno Off-White,Blusas,Off White,36|38|40|42,4,66.7,https://www.intibrand.com/produto/blusa-zeno-off-white-4762
+4530,Blazer Adonis Preto,Blazers,Preto,36|38|40|42,4,72.7,https://www.intibrand.com/produto/blazer-adonis-preto-4530
+4062,Blazer Corrington Preto,Blazers,Preto,36|38|40|42,4,72.7,https://www.intibrand.com/produto/blazer-corrington-preto-4062
+4660,Blazer Linho Fruges Caramelo,Blazers,Caramelo,36|38|40|42,4,72.7,https://www.intibrand.com/produto/blazer-linho-fruges-caramelo-4660
+4659,Blazer Linho Fruges Preto,Blazers,Preto,36|38|40|42,4,72.7,https://www.intibrand.com/produto/blazer-linho-fruges-preto-4659
+4420,Blazer Vestido Agatha Bege,Blazers,Bege,36|38|40|42,4,72.7,https://www.intibrand.com/produto/blazer-vestido-agatha-bege-4420
+4418,Blazer Vestido Agatha Off-White,Blazers,Off White,36|38|40|42,4,72.7,https://www.intibrand.com/produto/blazer-vestido-agatha-off-white-4418
+4419,Blazer Vestido Agatha Preto,Blazers,Preto,36|38|40|42,4,72.7,https://www.intibrand.com/produto/blazer-vestido-agatha-preto-4419
+4454,Blazer Vestido Alec Preto,Blazers,Preto,36|38|40|42,4,72.7,https://www.intibrand.com/produto/blazer-vestido-alec-preto-4454
+4458,Blazer Vestido Schiffer Off-White,Blazers,Off White,36|38|40|42,4,72.7,https://www.intibrand.com/produto/blazer-vestido-schiffer-off-white-4458
+4459,Blazer Vestido Schiffer Preto,Blazers,Preto,36|38|40|42,4,72.7,https://www.intibrand.com/produto/blazer-vestido-schiffer-preto-4459
+4393,Biquíni Atticus Pérola,Biquínis,Pérola,P|M|G,3,75.0,https://www.intibrand.com/produto/biquini-atticus-perola-4393
+4395,Biquíni Atticus Terracota,Biquínis,Terracota,P|M|G,3,75.0,https://www.intibrand.com/produto/biquini-atticus-terracota-4395
+3006,Biquíni Bercy Pérola,Biquínis,Pérola,P|M|G,3,75.0,https://www.intibrand.com/produto/biquini-bercy-perola-3006
+3005,Biquíni Bercy Preto,Biquínis,Preto,P|M|G,3,75.0,https://www.intibrand.com/produto/biquini-bercy-preto-3005
+4058,Biquíni Bernie Off-White,Biquínis,Off White,P|M|G,3,75.0,https://www.intibrand.com/produto/biquini-bernie-off-white-4058
+4424,Biquíni Dion Preto,Biquínis,Preto,P|M|G,3,75.0,https://www.intibrand.com/produto/biquini-dion-preto-4424
+4630,Biquíni Eaton Cobre,Biquínis,Cobre,P|M|G,3,75.0,https://www.intibrand.com/produto/biquini-eaton-cobre-4630
+4628,Biquíni Eaton Pérola,Biquínis,Pérola,P|M|G,3,75.0,https://www.intibrand.com/produto/biquini-eaton-perola-4628
+4629,Biquíni Eaton Preto,Biquínis,Preto,P|M|G,3,75.0,https://www.intibrand.com/produto/biquini-eaton-preto-4629
+4616,Biquíni Finca Pérola,Biquínis,Pérola,P|M|G,3,75.0,https://www.intibrand.com/produto/biquini-finca-perola-4616
+4617,Biquíni Finca Preto,Biquínis,Preto,P|M|G,3,75.0,https://www.intibrand.com/produto/biquini-finca-preto-4617
+4618,Biquíni Finca Vermelho,Biquínis,Vermelho,P|M|G,3,75.0,https://www.intibrand.com/produto/biquini-finca-vermelho-4618
+4428,Biquíni Hali Azul Índigo,Biquínis,Azul Índigo,P|M|G,3,75.0,https://www.intibrand.com/produto/biquini-hali-azul-indigo-4428
+4426,Biquíni Hali Pérola,Biquínis,Pérola,P|M|G,3,75.0,https://www.intibrand.com/produto/biquini-hali-perola-4426
+4427,Biquíni Hali Preto,Biquínis,Preto,P|M|G,3,75.0,https://www.intibrand.com/produto/biquini-hali-preto-4427
+4082,Biquíni Julian Bronze,Biquínis,Bronze,P|M|G,3,75.0,https://www.intibrand.com/produto/biquini-julian-bronze-4082
+4080,Biquíni Julian Pérola,Biquínis,Pérola,P|M|G,3,75.0,https://www.intibrand.com/produto/biquini-julian-perola-4080
+4081,Biquíni Julian Preto,Biquínis,Preto,P|M|G,3,75.0,https://www.intibrand.com/produto/biquini-julian-preto-4081
+3011,Biquíni Malawi Pérola,Biquínis,Pérola,P|M|G,3,75.0,https://www.intibrand.com/produto/biquini-malawi-perola-3011
+4168,Biquíni Marzan Off-White,Biquínis,Off White,P|M|G,3,75.0,https://www.intibrand.com/produto/biquini-marzan-off-white-4168
+4169,Biquíni Marzan Preto,Biquínis,Preto,P|M|G,3,75.0,https://www.intibrand.com/produto/biquini-marzan-preto-4169
+3750,Biquíni Nari Off-White,Biquínis,Off White,P|M|G,3,75.0,https://www.intibrand.com/produto/biquini-nari-off-white-3750
+4431,Biquíni Riva Azul Índigo,Biquínis,Azul Índigo,P|M|G,3,75.0,https://www.intibrand.com/produto/biquini-riva-azul-indigo-4431
+4429,Biquíni Riva Pérola,Biquínis,Pérola,P|M|G,3,75.0,https://www.intibrand.com/produto/biquini-riva-perola-4429
+4430,Biquíni Riva Preto,Biquínis,Preto,P|M|G,3,75.0,https://www.intibrand.com/produto/biquini-riva-preto-4430
+3536,Body Alkash Magenta,Bodies,Magenta,P|M|G,3,75.0,https://www.intibrand.com/produto/body-alkash-magenta-3536
+3539,Body Alkash Vermelho,Bodies,Vermelho,P|M|G,3,75.0,https://www.intibrand.com/produto/body-alkash-vermelho-3539
+4724,Body Bonnie Pérola,Bodies,Pérola,P|M|G,3,75.0,https://www.intibrand.com/produto/body-bonnie-perola-4724
+4818,Body Chiara Marrom,Bodies,Marrom,P|M|G,3,75.0,https://www.intibrand.com/produto/body-chiara-marrom-4818
+4816,Body Chiara Off-White,Bodies,Off White,P|M|G,3,75.0,https://www.intibrand.com/produto/body-chiara-off-white-4816
+4391,Body Darius Pérola,Bodies,Pérola,P|M|G,3,75.0,https://www.intibrand.com/produto/body-darius-perola-4391
+4690,Body Espanya Preto,Bodies,Preto,P|M|G,3,75.0,https://www.intibrand.com/produto/body-espanya-preto-4690
+4691,Body Espanya Vermelho,Bodies,Vermelho,P|M|G,3,75.0,https://www.intibrand.com/produto/body-espanya-vermelho-4691
+4432,Body Ezio Off-White,Bodies,Off White,P|M|G,3,75.0,https://www.intibrand.com/produto/body-ezio-off-white-4432
+4433,Body Ezio Preto,Bodies,Preto,P|M|G,3,75.0,https://www.intibrand.com/produto/body-ezio-preto-4433
+4795,Body Giorgia Marrom,Bodies,Marrom,P|M|G,3,75.0,https://www.intibrand.com/produto/body-giorgia-marrom-4795
+4587,Body Kenzo Cobre,Bodies,Cobre,P|M|G,3,75.0,https://www.intibrand.com/produto/body-kenzo-cobre-4587
+4585,Body Kenzo Pérola,Bodies,Pérola,P|M|G,3,75.0,https://www.intibrand.com/produto/body-kenzo-perola-4585
+4402,Body Lyra Preto,Bodies,Preto,P|M|G,3,75.0,https://www.intibrand.com/produto/body-lyra-preto-4402
+4222,Body Mariani Vermelho Carmim,Bodies,Vermelho Carmim,P|M|G,3,75.0,https://www.intibrand.com/produto/body-mariani-vermelho-carmim-4222
+4833,Body Rocco Off-White,Bodies,Off White,P|M|G,3,75.0,https://www.intibrand.com/produto/body-rocco-off-white-4833
+4834,Body Rocco Preto,Bodies,Preto,P|M|G,3,75.0,https://www.intibrand.com/produto/body-rocco-preto-4834
+4077,Body Rodd Preto,Bodies,Preto,P|M|G,3,75.0,https://www.intibrand.com/produto/body-rodd-preto-4077
+4809,Body Steffano Marrom,Bodies,Marrom,P|M|G,3,75.0,https://www.intibrand.com/produto/body-steffano-marrom-4809
+4807,Body Steffano Off-White,Bodies,Off White,P|M|G,3,75.0,https://www.intibrand.com/produto/body-steffano-off-white-4807
+4808,Body Steffano Preto,Bodies,Preto,P|M|G,3,75.0,https://www.intibrand.com/produto/body-steffano-preto-4808
+4600,Body Theron Azul Índigo,Bodies,Azul Índigo,P|M|G,3,75.0,https://www.intibrand.com/produto/body-theron-azul-indigo-4600
+4406,Body Theron Off-White,Bodies,Off White,P|M|G,3,75.0,https://www.intibrand.com/produto/body-theron-off-white-4406
+4466,Body Waud Preto,Bodies,Preto,P|M|G,3,75.0,https://www.intibrand.com/produto/body-waud-preto-4466
+4687,Saia Bitar Cobre,Saias,Cobre,P|M|G,3,75.0,https://www.intibrand.com/produto/saia-bitar-cobre-4687
+4685,Saia Bitar Pérola,Saias,Pérola,P|M|G,3,75.0,https://www.intibrand.com/produto/saia-bitar-perola-4685
+4686,Saia Bitar Preto,Saias,Preto,P|M|G,3,75.0,https://www.intibrand.com/produto/saia-bitar-preto-4686
+4688,Saia Bitar Vermelho,Saias,Vermelho,P|M|G,3,75.0,https://www.intibrand.com/produto/saia-bitar-vermelho-4688
+4450,Saída Topaz Pérola,Saídas,Pérola,P|M|G,3,75.0,https://www.intibrand.com/produto/saida-topaz-perola-4450
+4451,Saída Topaz Preto,Saídas,Preto,P|M|G,3,75.0,https://www.intibrand.com/produto/saida-topaz-preto-4451
+4647,Macacão Avia Off-White,Macacões,Off White,36|38|40|42,4,80.0,https://www.intibrand.com/produto/macacao-avia-off-white-4647
+4373,Macacão Damian Off-White,Macacões,Off White,36|38|40|42,4,80.0,https://www.intibrand.com/produto/macacao-damian-off-white-4373
+4374,Macacão Damian Preto,Macacões,Preto,36|38|40|42,4,80.0,https://www.intibrand.com/produto/macacao-damian-preto-4374
+4713,Macacão Fiorese Off-White,Macacões,Off White,36|38|40|42,4,80.0,https://www.intibrand.com/produto/macacao-fiorese-off-white-4713
+4613,Macacão Linho Braid Off-White,Macacões,Off White,36|38|40|42,4,80.0,https://www.intibrand.com/produto/macacao-linho-braid-off-white-4613
+4614,Macacão Linho Braid Preto,Macacões,Preto,36|38|40|42,4,80.0,https://www.intibrand.com/produto/macacao-linho-braid-preto-4614
+4712,Macacão Mila Avelã,Macacões,Avelã,36|38|40|42,4,80.0,https://www.intibrand.com/produto/macacao-mila-avela-4712
+4710,Macacão Mila Off-White,Macacões,Off White,36|38|40|42,4,80.0,https://www.intibrand.com/produto/macacao-mila-off-white-4710
+4711,Macacão Mila Preto,Macacões,Preto,36|38|40|42,4,80.0,https://www.intibrand.com/produto/macacao-mila-preto-4711
+4455,Macacão Orpheus Off-White,Macacões,Off White,36|38|40|42,4,80.0,https://www.intibrand.com/produto/macacao-orpheus-off-white-4455
+4457,Macacão Orpheus Vermelho,Macacões,Vermelho,36|38|40|42,4,80.0,https://www.intibrand.com/produto/macacao-orpheus-vermelho-4457
+4646,Macacão Rith Avelã,Macacões,Avelã,36|38|40|42,4,80.0,https://www.intibrand.com/produto/macacao-rith-avela-4646
+4644,Macacão Rith Off-White,Macacões,Off White,36|38|40|42,4,80.0,https://www.intibrand.com/produto/macacao-rith-off-white-4644
+4645,Macacão Rith Preto,Macacões,Preto,36|38|40|42,4,80.0,https://www.intibrand.com/produto/macacao-rith-preto-4645
+4544,Vestido Amida Off-White,Vestidos,Off White,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-amida-off-white-4544
+4301,Vestido Archie Off-White,Vestidos,Off White,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-archie-off-white-4301
+4303,Vestido Archie Preto,Vestidos,Preto,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-archie-preto-4303
+4304,Vestido Archie Vermelho,Vestidos,Vermelho,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-archie-vermelho-4304
+4364,Vestido Asther Off-White,Vestidos,Off White,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-asther-off-white-4364
+4366,Vestido Asther Vermelho,Vestidos,Vermelho,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-asther-vermelho-4366
+4489,Vestido Atlas Off-White,Vestidos,Off White,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-atlas-off-white-4489
+4490,Vestido Atlas Preto,Vestidos,Preto,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-atlas-preto-4490
+4491,Vestido Atlas Vermelho,Vestidos,Vermelho,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-atlas-vermelho-4491
+4358,Vestido Azarius Off-White,Vestidos,Off White,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-azarius-off-white-4358
+4359,Vestido Azarius Preto,Vestidos,Preto,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-azarius-preto-4359
+4360,Vestido Azarius Vermelho,Vestidos,Vermelho,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-azarius-vermelho-4360
+4462,Vestido Barlett Off-White,Vestidos,Off White,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-barlett-off-white-4462
+4463,Vestido Barlett Preto,Vestidos,Preto,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-barlett-preto-4463
+4464,Vestido Barlett Vermelho,Vestidos,Vermelho,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-barlett-vermelho-4464
+4440,Vestido Calla Off-White,Vestidos,Off White,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-calla-off-white-4440
+4441,Vestido Calla Preto,Vestidos,Preto,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-calla-preto-4441
+4442,Vestido Calla Vanilla,Vestidos,Vanilla,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-calla-vanilla-4442
+4498,Vestido Collins Vermelho,Vestidos,Vermelho,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-collins-vermelho-4498
+4328,Vestido Ethan Bege,Vestidos,Bege,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-ethan-bege-4328
+4317,Vestido Ethan Off-White,Vestidos,Off White,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-ethan-off-white-4317
+4318,Vestido Ethan Preto,Vestidos,Preto,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-ethan-preto-4318
+4319,Vestido Ethan Vermelho,Vestidos,Vermelho,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-ethan-vermelho-4319
+4852,Vestido Filippo Azul,Vestidos,Azul,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-filippo-azul-4852
+4850,Vestido Filippo Off-White,Vestidos,Off White,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-filippo-off-white-4850
+4851,Vestido Filippo Preto,Vestidos,Preto,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-filippo-preto-4851
+4774,Vestido Forest Azul,Vestidos,Azul,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-forest-azul-4774
+4772,Vestido Forest Off-White,Vestidos,Off White,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-forest-off-white-4772
+4773,Vestido Forest Preto,Vestidos,Preto,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-forest-preto-4773
+4669,Vestido Gio Azul,Vestidos,Azul,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-gio-azul-4669
+4667,Vestido Gio Off-White,Vestidos,Off White,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-gio-off-white-4667
+4668,Vestido Gio Preto,Vestidos,Preto,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-gio-preto-4668
+4670,Vestido Hadid Off-White,Vestidos,Off White,38|40|42|44,4,80.0,https://www.intibrand.com/produto/vestido-hadid-off-white-4670
+4671,Vestido Hadid Preto,Vestidos,Preto,38|40|42|44,4,80.0,https://www.intibrand.com/produto/vestido-hadid-preto-4671
+4672,Vestido Hadid Vermelho,Vestidos,Vermelho,38|40|42|44,4,80.0,https://www.intibrand.com/produto/vestido-hadid-vermelho-4672
+4093,Vestido Iron Off-White,Vestidos,Off White,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-iron-off-white-4093
+4666,Vestido Linho Arum Avelã,Vestidos,Avelã,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-linho-arum-avela-4666
+4664,Vestido Linho Arum Off-White,Vestidos,Off White,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-linho-arum-off-white-4664
+4665,Vestido Linho Arum Preto,Vestidos,Preto,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-linho-arum-preto-4665
+4663,Vestido Linho Frank Bege,Vestidos,Bege,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-linho-frank-bege-4663
+4662,Vestido Linho Frank Preto,Vestidos,Preto,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-linho-frank-preto-4662
+4560,Vestido Linho Masp Avelã,Vestidos,Avelã,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-linho-masp-avela-4560
+4558,Vestido Linho Masp Off-White,Vestidos,Off White,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-linho-masp-off-white-4558
+4559,Vestido Linho Masp Preto,Vestidos,Preto,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-linho-masp-preto-4559
+4405,Vestido Linho Reyes Preto,Vestidos,Preto,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-linho-reyes-preto-4405
+4757,Vestido Linho Sugarloaf Avelã,Vestidos,Avelã,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-linho-sugarloaf-avela-4757
+4755,Vestido Linho Sugarloaf Off-White,Vestidos,Off White,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-linho-sugarloaf-off-white-4755
+4756,Vestido Linho Sugarloaf Preto,Vestidos,Preto,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-linho-sugarloaf-preto-4756
+4716,Vestido Loren Off-White,Vestidos,Off White,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-loren-off-white-4716
+4717,Vestido Loren Preto,Vestidos,Preto,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-loren-preto-4717
+3697,Vestido Mayon Pink,Vestidos,Pink,PP|P|M|G,4,80.0,https://www.intibrand.com/produto/vestido-mayon-pink-3697
+3699,Vestido Mayon Rosê,Vestidos,Rosê,PP|P|M|G,4,80.0,https://www.intibrand.com/produto/vestido-mayon-rose-3699
+4754,Vestido Perot Azul,Vestidos,Azul,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-perot-azul-4754
+4751,Vestido Perot Off-White,Vestidos,Off White,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-perot-off-white-4751
+4753,Vestido Perot Vermelho,Vestidos,Vermelho,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-perot-vermelho-4753
+4747,Vestido Reidy Paetê Dourado,Vestidos,Paetê Dourado,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-reidy-paete-dourado-4747
+4745,Vestido Reidy Preto,Vestidos,Preto,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-reidy-preto-4745
+4744,Vestido Reidy Vermelho,Vestidos,Vermelho,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-reidy-vermelho-4744
+4540,Vestido Rennie Off-White,Vestidos,Off White,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-rennie-off-white-4540
+4156,Vestido Rizzo Framboesa,Vestidos,Framboesa,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-rizzo-framboesa-4156
+4157,Vestido Rizzo Preto,Vestidos,Preto,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-rizzo-preto-4157
+4158,Vestido Rizzo Vermelho,Vestidos,Vermelho,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-rizzo-vermelho-4158
+4709,Vestido Salk Azul,Vestidos,Azul,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-salk-azul-4709
+4706,Vestido Salk Off-White,Vestidos,Off White,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-salk-off-white-4706
+4708,Vestido Salk Vermelho,Vestidos,Vermelho,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-salk-vermelho-4708
+4740,Vestido Tess Off-White,Vestidos,Off White,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-tess-off-white-4740
+4741,Vestido Tess Preto,Vestidos,Preto,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-tess-preto-4741
+4742,Vestido Tess Vermelho,Vestidos,Vermelho,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-tess-vermelho-4742
+4814,Vestido Tricot Aubrey Bege,Vestidos,Bege,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-tricot-aubrey-bege-4814
+4813,Vestido Tricot Aubrey Preto com Off-White,Vestidos,Off White,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-tricot-aubrey-preto-com-off-white-4813
+4815,Vestido Tricot Aubrey Vermelho,Vestidos,Vermelho,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-tricot-aubrey-vermelho-4815
+4470,Vestido Tricot Effie Off-White,Vestidos,Off White,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-tricot-effie-off-white-4470
+4472,Vestido Tricot Effie Vermelho,Vestidos,Vermelho,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-tricot-effie-vermelho-4472
+4468,Vestido Tricot Murphy Avelã,Vestidos,Avelã,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-tricot-murphy-avela-4468
+4467,Vestido Tricot Murphy Preto com Off-White,Vestidos,Off White,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-tricot-murphy-preto-com-off-white-4467
+4469,Vestido Tricot Murphy Vermelho,Vestidos,Vermelho,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-tricot-murphy-vermelho-4469
+4694,Vestido Tricot Nau Avelã,Vestidos,Avelã,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-tricot-nau-avela-4694
+4692,Vestido Tricot Nau Preto,Vestidos,Preto,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-tricot-nau-preto-4692
+4693,Vestido Tricot Nau Vermelho,Vestidos,Vermelho,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-tricot-nau-vermelho-4693
+4109,Vestido Vallez Off-White,Vestidos,Off White,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-vallez-off-white-4109
+4111,Vestido Vallez Preto,Vestidos,Preto,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-vallez-preto-4111
+4346,Vestido Vitalli Off-White,Vestidos,Off White,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-vitalli-off-white-4346
+3706,Vestido Zakynthos Rosê,Vestidos,Rosê,PP|P|M|G,4,80.0,https://www.intibrand.com/produto/vestido-zakynthos-rose-3706
+4535,Vestido Zephyr Off-White,Vestidos,Off White,36|38|40|42,4,80.0,https://www.intibrand.com/produto/vestido-zephyr-off-white-4535
+4767,Calça Zeno Off-White,Calças,Off White,36|38|40|42,4,88.9,https://www.intibrand.com/produto/calca-zeno-off-white-4767
+4768,Calça Zeno Preto,Calças,Preto,36|38|40|42,4,88.9,https://www.intibrand.com/produto/calca-zeno-preto-4768
+4376,Conjunto Althea Off-White,Conjuntos,Off White,36|38|40|42,4,88.9,https://www.intibrand.com/produto/conjunto-althea-off-white-4376
+4377,Conjunto Althea Preto,Conjuntos,Preto,36|38|40|42,4,88.9,https://www.intibrand.com/produto/conjunto-althea-preto-4377
+4378,Conjunto Althea Vermelho,Conjuntos,Vermelho,36|38|40|42,4,88.9,https://www.intibrand.com/produto/conjunto-althea-vermelho-4378
+3589,Conjunto Campbell Rosê,Conjuntos,Rosê,PP|P|M|G,4,88.9,https://www.intibrand.com/produto/conjunto-campbell-rose-3589
+4005,Conjunto Denver Preto,Conjuntos,Preto,36|38|40|42,4,88.9,https://www.intibrand.com/produto/conjunto-denver-preto-4005
+4002,Conjunto Guillen Off-White,Conjuntos,Off White,36|38|40|42,4,88.9,https://www.intibrand.com/produto/conjunto-guillen-off-white-4002
+4003,Conjunto Guillen Preto,Conjuntos,Preto,36|38|40|42,4,88.9,https://www.intibrand.com/produto/conjunto-guillen-preto-4003
+3592,Conjunto Murano Pink,Conjuntos,Pink,PP|P|M|G,4,88.9,https://www.intibrand.com/produto/conjunto-murano-pink-3592
+3593,Conjunto Murano Preto,Conjuntos,Preto,PP|P|M|G,4,88.9,https://www.intibrand.com/produto/conjunto-murano-preto-3593
+3594,Conjunto Murano Rosê,Conjuntos,Rosê,PP|P|M|G,4,88.9,https://www.intibrand.com/produto/conjunto-murano-rose-3594
+3595,Conjunto Platte Off-White,Conjuntos,Off White,PP|P|M|G,4,88.9,https://www.intibrand.com/produto/conjunto-platte-off-white-3595
+4609,Pantalona Linho Abbie Caramelo,Calças,Caramelo,36|38|40|42,4,88.9,https://www.intibrand.com/produto/pantalona-linho-abbie-caramelo-4609
+4607,Pantalona Linho Abbie Off-White,Calças,Off White,36|38|40|42,4,88.9,https://www.intibrand.com/produto/pantalona-linho-abbie-off-white-4607
+4608,Pantalona Linho Abbie Preto,Calças,Preto,36|38|40|42,4,88.9,https://www.intibrand.com/produto/pantalona-linho-abbie-preto-4608
+4436,Pantalona Ozuna Avelã,Calças,Avelã,36|38|40|42,4,88.9,https://www.intibrand.com/produto/pantalona-ozuna-avela-4436
+4434,Pantalona Ozuna Off-White,Calças,Off White,36|38|40|42,4,88.9,https://www.intibrand.com/produto/pantalona-ozuna-off-white-4434
+4435,Pantalona Ozuna Preto,Calças,Preto,36|38|40|42,4,88.9,https://www.intibrand.com/produto/pantalona-ozuna-preto-4435
+4536,Pantalona Savoye Avelã,Calças,Avelã,36|38|40|42,4,88.9,https://www.intibrand.com/produto/pantalona-savoye-avela-4536
+4563,Pantalona Touret Avelã,Calças,Avelã,36|38|40|42,4,88.9,https://www.intibrand.com/produto/pantalona-touret-avela-4563
+4561,Pantalona Touret Off-White,Calças,Off White,36|38|40|42,4,88.9,https://www.intibrand.com/produto/pantalona-touret-off-white-4561
+4562,Pantalona Touret Preto,Calças,Preto,36|38|40|42,4,88.9,https://www.intibrand.com/produto/pantalona-touret-preto-4562
+4844,Blazer Vestido Dustin Off-White,Blazers,Off White,34|36|38|40|42,5,90.9,https://www.intibrand.com/produto/blazer-vestido-dustin-off-white-4844
+4845,Blazer Vestido Dustin Preto,Blazers,Preto,34|36|38|40|42,5,90.9,https://www.intibrand.com/produto/blazer-vestido-dustin-preto-4845
+4846,Blazer Vestido Dustin Vermelho,Blazers,Vermelho,34|36|38|40|42,5,90.9,https://www.intibrand.com/produto/blazer-vestido-dustin-vermelho-4846
+4870,Biquíni Alann Marrom,Biquínis,Marrom,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/biquini-alann-marrom-4870
+4867,Biquíni Alann Pérola,Biquínis,Pérola,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/biquini-alann-perola-4867
+4868,Biquíni Alann Preto,Biquínis,Preto,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/biquini-alann-preto-4868
+3197,Biquíni Arenella Azul Marinho,Biquínis,Azul Marinho,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/biquini-arenella-azul-marinho-3197
+3196,Biquíni Arenella Off-White,Biquínis,Off White,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/biquini-arenella-off-white-3196
+3193,Biquíni Arenella Preto,Biquínis,Preto,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/biquini-arenella-preto-3193
+3195,Biquíni Arenella Rosê,Biquínis,Rosê,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/biquini-arenella-rose-3195
+4603,Biquíni Bardi Cobre,Biquínis,Cobre,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/biquini-bardi-cobre-4603
+4601,Biquíni Bardi Off-White,Biquínis,Off White,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/biquini-bardi-off-white-4601
+4602,Biquíni Bardi Preto,Biquínis,Preto,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/biquini-bardi-preto-4602
+4412,Biquíni Bonneville Pérola,Biquínis,Pérola,P|M|G|GG,4,100.0,https://www.intibrand.com/produto/biquini-bonneville-perola-4412
+3487,Biquíni Bonneville Preto,Biquínis,Preto,P|M|G|GG,4,100.0,https://www.intibrand.com/produto/biquini-bonneville-preto-3487
+4557,Biquíni Capanema Cobre,Biquínis,Cobre,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/biquini-capanema-cobre-4557
+4555,Biquíni Capanema Pérola,Biquínis,Pérola,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/biquini-capanema-perola-4555
+4556,Biquíni Capanema Preto,Biquínis,Preto,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/biquini-capanema-preto-4556
+5003,Biquíni Castillo Off-White,Biquínis,Off White,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/biquini-castillo-off-white-5003
+5005,Biquíni Castillo Preto,Biquínis,Preto,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/biquini-castillo-preto-5005
+5006,Biquíni Castillo Terracota,Biquínis,Terracota,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/biquini-castillo-terracota-5006
+4884,Biquíni Easton Azul Marinho,Biquínis,Azul Marinho,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/biquini-easton-azul-marinho-4884
+4885,Biquíni Easton Marrom,Biquínis,Marrom,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/biquini-easton-marrom-4885
+4882,Biquíni Easton Off-White,Biquínis,Off White,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/biquini-easton-off-white-4882
+4922,BIQUÍNI EASTON + PAREÔ GRAZIA | PRETO,Biquínis,Preto,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/biquini-easton-pareo-grazia-preto-4922
+4883,Biquíni Easton Preto,Biquínis,Preto,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/biquini-easton-preto-4883
+4477,Biquíni Galea Azul Índigo,Biquínis,Azul Índigo,P|M|G|GG,4,100.0,https://www.intibrand.com/produto/biquini-galea-azul-4477
+3098,Biquíni Galea Preto,Biquínis,Preto,P|M|G|GG,4,100.0,https://www.intibrand.com/produto/biquini-galea-preto-3098
+4735,Biquíni Harper Pérola,Biquínis,Pérola,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/biquini-harper-perola-4735
+4736,Biquíni Harper Preto,Biquínis,Preto,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/biquini-harper-preto-4736
+4873,Biquíni Landon Marrom,Biquínis,Marrom,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/biquini-landon-marrom-4873
+4871,Biquíni Landon Pérola,Biquínis,Pérola,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/biquini-landon-perola-4871
+4872,Biquíni Landon Preto,Biquínis,Preto,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/biquini-landon-preto-4872
+4188,Biquíni Miller Azul Nilo,Biquínis,Azul Nilo,P|M|G|GG,4,100.0,https://www.intibrand.com/produto/biquini-miller-azul-nilo-4188
+4189,Biquíni Miller Cobre,Biquínis,Cobre,P|M|G|GG,4,100.0,https://www.intibrand.com/produto/biquini-miller-cobre-4189
+4186,Biquíni Miller Preto,Biquínis,Preto,P|M|G|GG,4,100.0,https://www.intibrand.com/produto/biquini-miller-preto-4186
+4187,Biquíni Miller Vermelho,Biquínis,Vermelho,P|M|G|GG,4,100.0,https://www.intibrand.com/produto/biquini-miller-vermelho-4187
+4247,Biquíni Perez Azul Índigo,Biquínis,Azul Índigo,P|M|G|GG,4,100.0,https://www.intibrand.com/produto/biquini-perez-azul-indigo-4247
+4248,Biquíni Perez Castanho,Biquínis,Castanho,P|M|G|GG,4,100.0,https://www.intibrand.com/produto/biquini-perez-castanho-4248
+4245,Biquíni Perez Pérola,Biquínis,Pérola,P|M|G|GG,4,100.0,https://www.intibrand.com/produto/biquini-perez-perola-4245
+4246,Biquíni Perez Preto,Biquínis,Preto,P|M|G|GG,4,100.0,https://www.intibrand.com/produto/biquini-perez-preto-4246
+4624,Biquíni Peter Cobre,Biquínis,Cobre,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/biquini-peter-cobre-4624
+4623,Biquíni Peter Preto,Biquínis,Preto,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/biquini-peter-preto-4623
+3528,Biquíni Sopka Off-White,Biquínis,Off White,P|M|G|GG,4,100.0,https://www.intibrand.com/produto/biquini-sopka-off-white-3528
+4570,Biquíni Taut Off-White,Biquínis,Off White,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/biquini-taut-off-white-4570
+4571,Biquíni Taut Preto,Biquínis,Preto,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/biquini-taut-preto-4571
+4821,Biquíni Vitto Azul Marinho,Biquínis,Azul Marinho,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/biquini-vitto-azul-marinho-4821
+4924,BIQUÍNI VITTO + PAREÔ GRAZIA | PÉROLA,Biquínis,Pérola,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/biquini-vitto-pareo-grazia-perola-4924
+4819,Biquíni Vitto Pérola,Biquínis,Pérola,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/biquini-vitto-perola-4819
+4820,Biquíni Vitto Preto,Biquínis,Preto,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/biquini-vitto-preto-4820
+4593,Body Aliyev Cobre,Bodies,Cobre,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/body-aliyev-cobre-4593
+4591,Body Aliyev Off-White,Bodies,Off White,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/body-aliyev-off-white-4591
+4592,Body Aliyev Preto,Bodies,Preto,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/body-aliyev-preto-4592
+3774,Body Claude Off-White,Bodies,Off White,36|38|40|42,4,100.0,https://www.intibrand.com/produto/body-claude-off-white-3774
+4827,Body Dominic Marrom,Bodies,Marrom,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/body-dominic-marrom-4827
+4825,Body Dominic Pérola,Bodies,Pérola,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/body-dominic-perola-4825
+4826,Body Dominic Preto,Bodies,Preto,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/body-dominic-preto-4826
+4972,Body Foster Off-White,Bodies,Off White,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/body-foster-off-white-4972
+4973,Body Foster Preto,Bodies,Preto,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/body-foster-preto-4973
+4575,Body Heydar Preto,Bodies,Preto,36|38|40|42,4,100.0,https://www.intibrand.com/produto/body-heydar-preto-4575
+4576,Body Otto Off-White,Bodies,Off White,36|38|40|42,4,100.0,https://www.intibrand.com/produto/body-otto-off-white-4576
+4577,Body Otto Preto,Bodies,Preto,36|38|40|42,4,100.0,https://www.intibrand.com/produto/body-otto-preto-4577
+4332,Body Rinaldi Off-White,Bodies,Off White,P|M|G|GG,4,100.0,https://www.intibrand.com/produto/body-rinaldi-off-white-4332
+4331,Body Rinaldi Preto,Bodies,Preto,P|M|G|GG,4,100.0,https://www.intibrand.com/produto/body-rinaldi-preto-4331
+3880,Cropped Adams Off-White,Croppeds,Off White,36|38|40|42,4,100.0,https://www.intibrand.com/produto/cropped-adams-off-white-3880
+3882,Cropped Adams Preto,Croppeds,Preto,36|38|40|42,4,100.0,https://www.intibrand.com/produto/cropped-adams-preto-3882
+4636,Cropped Lelac Bege,Croppeds,Bege,36|38|40|42,4,100.0,https://www.intibrand.com/produto/cropped-lelac-bege-4636
+4606,Cropped Linho Brett Caramelo,Croppeds,Caramelo,36|38|40|42,4,100.0,https://www.intibrand.com/produto/cropped-linho-brett-caramelo-4606
+4604,Cropped Linho Brett Off-White,Croppeds,Off White,36|38|40|42,4,100.0,https://www.intibrand.com/produto/cropped-linho-brett-off-white-4604
+4605,Cropped Linho Brett Preto,Croppeds,Preto,36|38|40|42,4,100.0,https://www.intibrand.com/produto/cropped-linho-brett-preto-4605
+4285,Cropped Linho Carl Azul,Croppeds,Azul,36|38|40|42,4,100.0,https://www.intibrand.com/produto/cropped-linho-carl-azul-4285
+4288,Cropped Linho Carl Caramelo,Croppeds,Caramelo,36|38|40|42,4,100.0,https://www.intibrand.com/produto/cropped-linho-carl-caramelo-4288
+4286,Cropped Linho Carl Off-White,Croppeds,Off White,36|38|40|42,4,100.0,https://www.intibrand.com/produto/cropped-linho-carl-off-white-4286
+4287,Cropped Linho Carl Preto,Croppeds,Preto,36|38|40|42,4,100.0,https://www.intibrand.com/produto/cropped-linho-carl-preto-4287
+3615,Cropped Nahanni Pink Juice,Croppeds,Pink Juice,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/cropped-nahanni-pink-juice-3615
+4480,Cropped Ophelia Off-White,Croppeds,Off White,36|38|40|42,4,100.0,https://www.intibrand.com/produto/cropped-ophelia-off-white-4480
+4481,Cropped Ophelia Preto,Croppeds,Preto,36|38|40|42,4,100.0,https://www.intibrand.com/produto/cropped-ophelia-preto-4481
+4379,Cropped Petal Off-White,Croppeds,Off White,36|38|40|42,4,100.0,https://www.intibrand.com/produto/cropped-petal-off-white-4379
+4380,Cropped Petal Preto,Croppeds,Preto,36|38|40|42,4,100.0,https://www.intibrand.com/produto/cropped-petal-preto-4380
+4381,Cropped Petal Vermelho,Croppeds,Vermelho,36|38|40|42,4,100.0,https://www.intibrand.com/produto/cropped-petal-vermelho-4381
+3620,Cropped Phuket Pink Juice,Croppeds,Pink Juice,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/cropped-phuket-pink-juice-3620
+3135,Cropped Robie Off-White,Croppeds,Off White,36|38|40|42,4,100.0,https://www.intibrand.com/produto/cropped-robie-off-white-3135
+3137,Cropped Robie Preto,Croppeds,Preto,36|38|40|42,4,100.0,https://www.intibrand.com/produto/cropped-robie-preto-3137
+3767,Cropped Saarinen Off-White,Croppeds,Off White,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/cropped-saarinen-off-white-3767
+4087,Cropped Wiley Off-White,Croppeds,Off White,36|38|40|42,4,100.0,https://www.intibrand.com/produto/cropped-wiley-off-white-4087
+4859,Pareô Grazia Marrom,Pareôs,Marrom,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/pareo-grazia-marrom-4859
+4857,Pareô Grazia Pérola,Pareôs,Pérola,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/pareo-grazia-perola-4857
+4858,Pareô Grazia Preto,Pareôs,Preto,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/pareo-grazia-preto-4858
+4683,Pareô Heidi Cobre,Pareôs,Cobre,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/pareo-heidi-cobre-4683
+4684,Pareô Heidi Vermelho,Pareôs,Vermelho,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/pareo-heidi-vermelho-4684
+4590,Pareô Leanni Cobre,Pareôs,Cobre,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/pareo-leanni-cobre-4590
+4588,Pareô Leanni Pérola,Pareôs,Pérola,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/pareo-leanni-perola-4588
+4589,Pareô Leanni Preto,Pareôs,Preto,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/pareo-leanni-preto-4589
+3718,Pareô Maya Azul,Pareôs,Azul,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/pareo-maya-azul-3718
+4223,Pareô Maya Azul Índigo,Pareôs,Azul Índigo,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/pareo-maya-azul-indigo-4223
+3636,Pareô Maya Azul Marinho,Pareôs,Azul Marinho,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/pareo-maya-azul-marinho-3636
+3964,Pareô Maya Pérola,Pareôs,Pérola,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/pareo-maya-perola-3964
+3640,Pareô Maya Preto,Pareôs,Preto,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/pareo-maya-preto-3640
+4523,Saia Dorian Off-White,Saias,Off White,36|38|40|42,4,100.0,https://www.intibrand.com/produto/saia-dorian-off-white-4523
+4524,Saia Dorian Preto,Saias,Preto,36|38|40|42,4,100.0,https://www.intibrand.com/produto/saia-dorian-preto-4524
+4194,Saia Gianni Preta,Saias,,36|38|40|42,4,100.0,https://www.intibrand.com/produto/saia-gianni-preta-4194
+4572,Saia Hazel Off-White,Saias,Off White,36|38|40|42,4,100.0,https://www.intibrand.com/produto/saia-hazel-off-white-4572
+4036,Saia Keith Off-White,Saias,Off White,36|38|40|42,4,100.0,https://www.intibrand.com/produto/saia-keith-off-white-4036
+4676,Saia Lisse Off-White,Saias,Off White,36|38|40|42,4,100.0,https://www.intibrand.com/produto/saia-lisse-off-white-4676
+4677,Saia Lisse Preto,Saias,Preto,36|38|40|42,4,100.0,https://www.intibrand.com/produto/saia-lisse-preto-4677
+3948,Saída Bennett Pérola,Saídas,Pérola,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/saida-bennett-perola-3948
+3949,Saída Bennett Preta,Saídas,,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/saida-bennett-preta-3949
+4584,Saída Clarke Cobre,Saídas,Cobre,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/saida-clarke-cobre-4584
+4581,Saída Clarke Pérola,Saídas,Pérola,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/saida-clarke-perola-4581
+4582,Saída Clarke Preto,Saídas,Preto,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/saida-clarke-preto-4582
+4583,Saída Clarke Vermelho,Saídas,Vermelho,PP|P|M|G,4,100.0,https://www.intibrand.com/produto/saida-clarke-vermelho-4583
+4533,Short Adonis Preto,Shorts,Preto,36|38|40|42,4,100.0,https://www.intibrand.com/produto/short-adonis-preto-4533
+4598,Short Linho Strauss Caramelo,Shorts,Caramelo,36|38|40|42,4,100.0,https://www.intibrand.com/produto/short-linho-strauss-caramelo-4598
+4597,Short Linho Strauss Preto,Shorts,Preto,36|38|40|42,4,100.0,https://www.intibrand.com/produto/short-linho-strauss-preto-4597
+4520,Short Saia Donati Preto,Shorts,Preto,36|38|40|42,4,100.0,https://www.intibrand.com/produto/short-saia-donati-preto-4520
+4673,Short Saia Kahn Off-White,Shorts,Off White,36|38|40|42,4,100.0,https://www.intibrand.com/produto/short-saia-kahn-off-white-4673
+4674,Short Saia Kahn Preto,Shorts,Preto,36|38|40|42,4,100.0,https://www.intibrand.com/produto/short-saia-kahn-preto-4674
+4678,Short Vesu Off-White,Shorts,Off White,36|38|40|42,4,100.0,https://www.intibrand.com/produto/short-vesu-off-white-4678
+4437,Sobretudo Ferraro Off-White,Sobretudos,Off White,36|38|40|42,4,100.0,https://www.intibrand.com/produto/sobretudo-ferraro-off-white-4437
+2333,Top Orion Branco | Orion Top White,Croppeds,Branco,P|M|G|GG,4,100.0,https://www.intibrand.com/produto/top-orion-branco-2333
+4790,Macacão Aaron Off-White,Macacões,Off White,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/macacao-aaron-off-white-4790
+4791,Macacão Aaron Preto,Macacões,Preto,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/macacao-aaron-preto-4791
+3738,Macacão Alberts Bege,Macacões,Bege,36|38|40|42|44,5,100.0,https://www.intibrand.com/produto/macacao-alberts-bege-3738
+3739,Macacão Alberts Off-White,Macacões,Off White,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/macacao-alberts-off-white-3739
+3740,Macacão Alberts Preto,Macacões,Preto,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/macacao-alberts-preto-3740
+4811,Macacão Megan Preto,Macacões,Preto,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/macacao-megan-preto-4811
+4812,Macacão Megan Vermelho,Macacões,Vermelho,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/macacao-megan-vermelho-4812
+4234,Macacão Oliver Framboesa,Macacões,Framboesa,36|38|40|42|44,5,100.0,https://www.intibrand.com/produto/macacao-oliver-framboesa-4234
+4231,Macacão Oliver Off-White,Macacões,Off White,36|38|40|42|44,5,100.0,https://www.intibrand.com/produto/macacao-oliver-off-white-4231
+4233,Macacão Oliver Vermelho,Macacões,Vermelho,36|38|40|42|44,5,100.0,https://www.intibrand.com/produto/macacao-oliver-vermelho-4233
+4564,Macacão Sleuk Off-White,Macacões,Off White,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/macacao-sleuk-off-white-4564
+4565,Macacão Sleuk Preto,Macacões,Preto,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/macacao-sleuk-preto-4565
+4566,Macacão Sleuk Vermelho,Macacões,Vermelho,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/macacao-sleuk-vermelho-4566
+4367,Macacão Zander Off-White,Macacões,Off White,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/macacao-zander-off-white-4367
+4703,Vestido Alvorada Off-White,Vestidos,Off White,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/vestido-alvorada-off-white-4703
+4704,Vestido Alvorada Preto,Vestidos,Preto,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/vestido-alvorada-preto-4704
+4705,Vestido Alvorada Vermelho,Vestidos,Vermelho,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/vestido-alvorada-vermelho-4705
+4341,Vestido Axel Preto,Vestidos,Preto,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/vestido-axel-preto-4341
+4342,Vestido Axel Vermelho,Vestidos,Vermelho,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/vestido-axel-vermelho-4342
+4749,Vestido Bauhaus Preto,Vestidos,Preto,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/vestido-bauhaus-preto-4749
+4750,Vestido Bauhaus Vermelho,Vestidos,Vermelho,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/vestido-bauhaus-vermelho-4750
+3891,Vestido Bonet Off-White,Vestidos,Off White,36|38|40|42|44,5,100.0,https://www.intibrand.com/produto/vestido-bonet-off-white-3891
+3889,Vestido Bonet Rosê,Vestidos,Rosê,36|38|40|42|44,5,100.0,https://www.intibrand.com/produto/vestido-bonet-rose-3889
+4300,Vestido Brice Preto,Vestidos,Preto,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/vestido-brice-preto-4300
+4343,Vestido Brice Vermelho,Vestidos,Vermelho,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/vestido-brice-vermelho-4343
+4026,Vestido Catton Off-White,Vestidos,Off White,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/vestido-catton-off-white-4026
+4764,Vestido Copan Off-White,Vestidos,Off White,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/vestido-copan-off-white-4764
+4766,Vestido Copan Vermelho,Vestidos,Vermelho,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/vestido-copan-vermelho-4766
+4787,Vestido Cowden Off-White,Vestidos,Off White,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/vestido-cowden-off-white-4787
+4788,Vestido Cowden Preto,Vestidos,Preto,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/vestido-cowden-preto-4788
+4789,Vestido Cowden Vermelho,Vestidos,Vermelho,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/vestido-cowden-vermelho-4789
+4295,Vestido Fontana Off-White,Vestidos,Off White,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/vestido-fontana-off-white-4295
+4298,Vestido Fontana Vermelho,Vestidos,Vermelho,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/vestido-fontana-vermelho-4298
+4698,Vestido Harpa Preto,Vestidos,Preto,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/vestido-harpa-preto-4698
+4699,Vestido Harpa Vermelho,Vestidos,Vermelho,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/vestido-harpa-vermelho-4699
+4843,Vestido Ivory Azul,Vestidos,Azul,36|38|40|42|44,5,100.0,https://www.intibrand.com/produto/vestido-ivory-azul-4843
+4842,Vestido Ivory Fúcsia,Vestidos,Fúcsia,36|38|40|42|44,5,100.0,https://www.intibrand.com/produto/vestido-ivory-fucsia-4842
+4840,Vestido Ivory Off-White,Vestidos,Off White,36|38|40|42|44,5,100.0,https://www.intibrand.com/produto/vestido-ivory-off-white-4840
+4841,Vestido Ivory Preto,Vestidos,Preto,36|38|40|42|44,5,100.0,https://www.intibrand.com/produto/vestido-ivory-preto-4841
+4731,Vestido Linho Alanis Avelã,Vestidos,Avelã,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/vestido-linho-alanis-avela-4731
+4729,Vestido Linho Alanis Off-White,Vestidos,Off White,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/vestido-linho-alanis-off-white-4729
+4730,Vestido Linho Alanis Preto,Vestidos,Preto,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/vestido-linho-alanis-preto-4730
+4780,Vestido Maddox Off-White,Vestidos,Off White,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/vestido-maddox-off-white-4780
+4782,Vestido Maddox Vermelho,Vestidos,Vermelho,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/vestido-maddox-vermelho-4782
+4719,Vestido Malmo Off-White,Vestidos,Off White,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/vestido-malmo-off-white-4719
+4720,Vestido Malmo Preto,Vestidos,Preto,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/vestido-malmo-preto-4720
+4721,Vestido Malmo Vermelho,Vestidos,Vermelho,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/vestido-malmo-vermelho-4721
+4107,Vestido Matt Preto,Vestidos,Preto,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/vestido-matt-preto-4107
+4936,Vestido Osbert Marrom,Vestidos,Marrom,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/vestido-osbert-marrom-4936
+4933,Vestido Osbert Off-White,Vestidos,Off White,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/vestido-osbert-off-white-4933
+4934,Vestido Osbert Preto,Vestidos,Preto,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/vestido-osbert-preto-4934
+4164,Vestido Riccie Off-White,Vestidos,Off White,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/vestido-riccie-off-white-4164
+4738,Vestido Sanaa Paetê Dourado,Vestidos,Paetê Dourado,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/vestido-sanaa-paete-dourado-4738
+4739,Vestido Sanaa Paetê Prateado,Vestidos,Paetê Prateado,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/vestido-sanaa-paete-prateado-4739
+4864,Vestido Tucker Off-White,Vestidos,Off White,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/vestido-tucker-off-white-4864
+4866,Vestido Tucker Vermelho,Vestidos,Vermelho,34|36|38|40|42,5,100.0,https://www.intibrand.com/produto/vestido-tucker-vermelho-4866
+4940,Blusa Alexis Off-White,Blusas,Off White,34|36|38|40|42|44,6,100.0,https://www.intibrand.com/produto/blusa-alexis-off-white-4940
+4957,BLUSA ALEXIS OFF-WHITE + CALÇA JEANS MALCOLM AZUL ESCURO,Blusas,Off White,34|36|38|40|42|44,6,100.0,https://www.intibrand.com/produto/blusa-alexis-off-white-calca-jeans-malcolm-azul-escuro-4957
+4956,BLUSA ALEXIS PRETA + CALÇA JEANS MALCOLM AZUL ESCURO,Blusas,Azul,34|36|38|40|42|44,6,100.0,https://www.intibrand.com/produto/blusa-alexis-preta-calca-jeans-malcolm-azul-escuro-4956
+4941,Blusa Alexis Preto,Blusas,Preto,34|36|38|40|42|44,6,100.0,https://www.intibrand.com/produto/blusa-alexis-preto-4941
+4631,Blusa Alpheus Off-White,Blusas,Off White,34|36|38|40|42|44,6,100.0,https://www.intibrand.com/produto/blusa-alpheus-off-white-4631
+4632,Blusa Alpheus Preto,Blusas,Preto,34|36|38|40|42|44,6,100.0,https://www.intibrand.com/produto/blusa-alpheus-preto-4632
+4896,Blusa Cesare Preto,Blusas,Preto,34|36|38|40|42|44,6,100.0,https://www.intibrand.com/produto/blusa-cesare-preto-4896
+4918,BLUSA CESARE + SAIA RILEY | OFF-WHITE,Blusas,Off White,34|36|38|40|42|44,6,100.0,https://www.intibrand.com/produto/blusa-cesare-saia-riley-off-white-4918
+4796,BLUSA MAYFAR + PANTALONA SAVOYE | OFF-WHITE,Blusas,Off White,34|36|38|40|42|44,6,100.0,https://www.intibrand.com/produto/blusa-mayfar-pantalona-savoye-off-white-4796
+4838,Blusa Percy Off-White,Blusas,Off White,34|36|38|40|42|44,6,100.0,https://www.intibrand.com/produto/blusa-percy-off-white-4838
+4930,BLUSA PERCY OFF-WHITE + CALÇA JEANS MALCOLM AZUL CLARO,Blusas,Off White,34|36|38|40|42|44,6,100.0,https://www.intibrand.com/produto/blusa-percy-off-white-calca-jeans-malcolm-azul-claro-4930
+4931,BLUSA PERCY PRETA + CALÇA JEANS MALCOLM AZUL ESCURO,Blusas,Azul,34|36|38|40|42|44,6,100.0,https://www.intibrand.com/produto/blusa-percy-preta-calca-jeans-malcolm-azul-escuro-4931
+4839,Blusa Percy Preto,Blusas,Preto,34|36|38|40|42|44,6,100.0,https://www.intibrand.com/produto/blusa-percy-preto-4839
+4916,BLUSA PERCY + SAIA REMMY | PRETO,Blusas,Preto,34|36|38|40|42|44,6,100.0,https://www.intibrand.com/produto/blusa-percy-saia-remmy-preto-4916
+4898,Blusa Tommaso Preto,Blusas,Preto,34|36|38|40|42|44,6,100.0,https://www.intibrand.com/produto/blusa-tommaso-preto-4898
+4917,BLUSA TOMMASO + SAIA RILEY | PRETO,Blusas,Preto,34|36|38|40|42|44,6,100.0,https://www.intibrand.com/produto/blusa-tommaso-saia-riley-preto-4917
+4927,BLUSA TOMMASO + SHORT CALEB | OFF-WHITE,Blusas,Off White,34|36|38|40|42|44,6,100.0,https://www.intibrand.com/produto/blusa-tommaso-short-caleb-off-white-4927
+4894,Blazer Carmine Caramelo,Blazers,Caramelo,34|36|38|40|42|44,6,109.1,https://www.intibrand.com/produto/blazer-carmine-caramelo-4894
+4955,BLAZER CARMINE CARAMELO + CALÇA JEANS MALCOLM AZUL CLARO,Blazers,Caramelo,34|36|38|40|42|44,6,109.1,https://www.intibrand.com/produto/blazer-carmine-caramelo-calca-jeans-malcolm-azul-claro-4955
+4892,Blazer Carmine Off-White,Blazers,Off White,34|36|38|40|42|44,6,109.1,https://www.intibrand.com/produto/blazer-carmine-off-white-4892
+4953,BLAZER CARMINE + PANTALONA SAVOYE | OFF-WHITE,Blazers,Off White,34|36|38|40|42|44,6,109.1,https://www.intibrand.com/produto/blazer-carmine-pantalona-savoye-off-white-4953
+4954,BLAZER CARMINE + PANTALONA SAVOYE | PRETO,Blazers,Preto,34|36|38|40|42|44,6,109.1,https://www.intibrand.com/produto/blazer-carmine-pantalona-savoye-preto-4954
+4893,Blazer Carmine Preto,Blazers,Preto,34|36|38|40|42|44,6,109.1,https://www.intibrand.com/produto/blazer-carmine-preto-4893
+4958,BLAZER DONATO MARROM + PANTALONA SAVOYE OFF-WHITE,Blazers,Off White,34|36|38|40|42|44,6,109.1,https://www.intibrand.com/produto/blazer-donato-marrom-pantalona-savoye-off-white-4958
+4962,BLAZER DONATO + PANTALONA SAVOYE OFF-WHITE,Blazers,Off White,34|36|38|40|42|44,6,109.1,https://www.intibrand.com/produto/blazer-donato-pantalona-savoye-off-white-4962
+4963,BLAZER DONATO + PANTALONA SAVOYE PRETO,Blazers,Preto,34|36|38|40|42|44,6,109.1,https://www.intibrand.com/produto/blazer-donato-pantalona-savoye-preto-4963
+4891,Blazer Vestido Darleen Marrom,Blazers,Marrom,34|36|38|40|42|44,6,109.1,https://www.intibrand.com/produto/blazer-vestido-darleen-marrom-4891
+4890,Blazer Vestido Darleen Preto,Blazers,Preto,34|36|38|40|42|44,6,109.1,https://www.intibrand.com/produto/blazer-vestido-darleen-preto-4890
+4849,Blazer Vestido Vincent Caramelo,Blazers,Caramelo,34|36|38|40|42|44,6,109.1,https://www.intibrand.com/produto/blazer-vestido-vincent-caramelo-4849
+4847,Blazer Vestido Vincent Off-White,Blazers,Off White,34|36|38|40|42|44,6,109.1,https://www.intibrand.com/produto/blazer-vestido-vincent-off-white-4847
+4848,Blazer Vestido Vincent Preto,Blazers,Preto,34|36|38|40|42|44,6,109.1,https://www.intibrand.com/produto/blazer-vestido-vincent-preto-4848
+4445,Calça Jeans Dihl Azul Claro,Calças,Azul,34|36|38|40|42,5,111.1,https://www.intibrand.com/produto/calca-jeans-dihl-azul-claro-4445
+4446,Calça Jeans Dihl Azul Escuro,Calças,Azul,34|36|38|40|42,5,111.1,https://www.intibrand.com/produto/calca-jeans-dihl-azul-escuro-4446
+4008,Conjunto Denver Off-White,Conjuntos,Off White,34|36|38|40|42,5,111.1,https://www.intibrand.com/produto/conjunto-denver-off-white-4008
+4215,Conjunto Fellicce Framboesa,Conjuntos,Framboesa,34|36|38|40|42,5,111.1,https://www.intibrand.com/produto/conjunto-fellicce-framboesa-4215
+4212,Conjunto Fellicce Off-White,Conjuntos,Off White,34|36|38|40|42,5,111.1,https://www.intibrand.com/produto/conjunto-fellicce-off-white-4212
+4214,Conjunto Fellicce Preto,Conjuntos,Preto,34|36|38|40|42,5,111.1,https://www.intibrand.com/produto/conjunto-fellicce-preto-4214
+4217,Conjunto Fellicce Vermelho,Conjuntos,Vermelho,34|36|38|40|42,5,111.1,https://www.intibrand.com/produto/conjunto-fellicce-vermelho-4217
+4339,Conjunto Ivy Off-White,Conjuntos,Off White,34|36|38|40|42,5,111.1,https://www.intibrand.com/produto/conjunto-ivy-off-white-4339
+4336,Conjunto Ivy Preto,Conjuntos,Preto,34|36|38|40|42,5,111.1,https://www.intibrand.com/produto/conjunto-ivy-preto-4336
+4702,Conjunto Lamellae Azul,Conjuntos,Azul,34|36|38|40|42,5,111.1,https://www.intibrand.com/produto/conjunto-lamellae-azul-4702
+4700,Conjunto Lamellae Off-White,Conjuntos,Off White,34|36|38|40|42,5,111.1,https://www.intibrand.com/produto/conjunto-lamellae-off-white-4700
+4701,Conjunto Lamellae Preto,Conjuntos,Preto,34|36|38|40|42,5,111.1,https://www.intibrand.com/produto/conjunto-lamellae-preto-4701
+3955,Conjunto Mitchell Preto,Conjuntos,Preto,34|36|38|40|42,5,111.1,https://www.intibrand.com/produto/conjunto-mitchell-preto-3955
+4801,Pantalona Braxton Off-White,Calças,Off White,34|36|38|40|42,5,111.1,https://www.intibrand.com/produto/pantalona-braxton-off-white-4801
+4802,Pantalona Braxton Preto,Calças,Preto,34|36|38|40|42,5,111.1,https://www.intibrand.com/produto/pantalona-braxton-preto-4802
+3721,Pantalona Savoye Areia,Calças,Areia,36|38|40|42|44,5,111.1,https://www.intibrand.com/produto/pantalona-savoye-areia-3721
+3635,Pantalona Suytun Preta,Calças,,36|38|40|42|44,5,111.1,https://www.intibrand.com/produto/pantalona-suytun-preta-3635
+4853,Macacão Amber Off-White,Macacões,Off White,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/macacao-amber-off-white-4853
+4854,Macacão Amber Preto,Macacões,Preto,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/macacao-amber-preto-4854
+4855,Macacão Amber Vermelho,Macacões,Vermelho,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/macacao-amber-vermelho-4855
+4786,Macacão Breddon Marrom,Macacões,Marrom,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/macacao-breddon-marrom-4786
+4783,Macacão Breddon Off-White,Macacões,Off White,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/macacao-breddon-off-white-4783
+4784,Macacão Breddon Preto,Macacões,Preto,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/macacao-breddon-preto-4784
+4785,Macacão Breddon Vermelho,Macacões,Vermelho,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/macacao-breddon-vermelho-4785
+4975,Macacão Linho Armand Azul,Macacões,Azul,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/macacao-linho-armand-azul-4975
+4977,Macacão Linho Armand Marrom,Macacões,Marrom,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/macacao-linho-armand-marrom-4977
+4976,Macacão Linho Armand Preto,Macacões,Preto,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/macacao-linho-armand-preto-4976
+4810,Macacão Megan Off-White,Macacões,Off White,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/macacao-megan-off-white-4810
+4959,Macacão Novari Off-White,Macacões,Off White,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/macacao-novari-off-white-4959
+4960,Macacão Novari Preto,Macacões,Preto,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/macacao-novari-preto-4960
+4961,Macacão Novari Vermelho,Macacões,Vermelho,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/macacao-novari-vermelho-4961
+4385,Vestido Acacius Off-White,Vestidos,Off White,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-acacius-off-white-4385
+4386,Vestido Acacius Preto,Vestidos,Preto,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-acacius-preto-4386
+4387,Vestido Acacius Vermelho,Vestidos,Vermelho,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-acacius-vermelho-4387
+4989,Vestido Bianchi Marrom,Vestidos,Marrom,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-bianchi-marrom-4989
+4986,Vestido Bianchi Off-White,Vestidos,Off White,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-bianchi-off-white-4986
+4987,Vestido Bianchi Preto,Vestidos,Preto,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-bianchi-preto-4987
+4988,Vestido Bianchi Vermelho,Vestidos,Vermelho,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-bianchi-vermelho-4988
+4952,Vestido Brent Marrom,Vestidos,Marrom,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-brent-marrom-4952
+4950,Vestido Brent Off-White,Vestidos,Off White,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-brent-off-white-4950
+4951,Vestido Brent Preto,Vestidos,Preto,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-brent-preto-4951
+4145,Vestido Bridget Vermelho,Vestidos,Vermelho,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-bridget-vermelho-4145
+4800,Vestido Cameron Azul,Vestidos,Azul,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-cameron-azul-4800
+4799,Vestido Cameron Fúcsia,Vestidos,Fúcsia,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-cameron-fucsia-4799
+4797,Vestido Cameron Off-White,Vestidos,Off White,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-cameron-off-white-4797
+4798,Vestido Cameron Preto,Vestidos,Preto,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-cameron-preto-4798
+4822,Vestido Dylan Off-White,Vestidos,Off White,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-dylan-off-white-4822
+4823,Vestido Dylan Preto,Vestidos,Preto,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-dylan-preto-4823
+4824,Vestido Dylan Vermelho,Vestidos,Vermelho,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-dylan-vermelho-4824
+4969,Vestido Fontaine Framboesa,Vestidos,Framboesa,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-fontaine-framboesa-4969
+4968,Vestido Fontaine Off-White,Vestidos,Off White,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-fontaine-off-white-4968
+4970,Vestido Fontaine Preto,Vestidos,Preto,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-fontaine-preto-4970
+4971,Vestido Fontaine Vermelho,Vestidos,Vermelho,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-fontaine-vermelho-4971
+4492,Vestido Jones Off-White,Vestidos,Off White,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-jones-off-white-4492
+4493,Vestido Jones Preto,Vestidos,Preto,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-jones-preto-4493
+4494,Vestido Jones Vermelho,Vestidos,Vermelho,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-jones-vermelho-4494
+4547,Vestido Ludwig Off-White,Vestidos,Off White,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-ludwig-off-white-4547
+4548,Vestido Ludwig Preto,Vestidos,Preto,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-ludwig-preto-4548
+4549,Vestido Ludwig Vermelho,Vestidos,Vermelho,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-ludwig-vermelho-4549
+4779,Vestido Roland Marrom,Vestidos,Marrom,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-roland-marrom-4779
+4776,Vestido Roland Off-White,Vestidos,Off White,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-roland-off-white-4776
+4777,Vestido Roland Preto,Vestidos,Preto,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-roland-preto-4777
+4778,Vestido Roland Vermelho,Vestidos,Vermelho,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-roland-vermelho-4778
+4983,Vestido Salvi Azul,Vestidos,Azul,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-salvi-azul-4983
+4982,Vestido Salvi Off-White,Vestidos,Off White,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-salvi-off-white-4982
+4984,Vestido Salvi Preto,Vestidos,Preto,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-salvi-preto-4984
+4985,Vestido Salvi Vermelho,Vestidos,Vermelho,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-salvi-vermelho-4985
+4349,Vestido Sartori Off-White,Vestidos,Off White,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-sartori-off-white-4349
+4350,Vestido Sartori Preto,Vestidos,Preto,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-sartori-preto-4350
+5007,Vestido Sartori Rosê,Vestidos,Rosê,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-sartori-rose-5007
+4351,Vestido Sartori Vermelho,Vestidos,Vermelho,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-sartori-vermelho-4351
+4979,Vestido Walker Framboesa,Vestidos,Framboesa,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-walker-framboesa-4979
+4978,Vestido Walker Off-White,Vestidos,Off White,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-walker-off-white-4978
+4980,Vestido Walker Preto,Vestidos,Preto,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-walker-preto-4980
+4981,Vestido Walker Vermelho,Vestidos,Vermelho,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-walker-vermelho-4981
+4949,Vestido Warren Marrom,Vestidos,Marrom,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-warren-marrom-4949
+4947,Vestido Warren Off-White,Vestidos,Off White,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-warren-off-white-4947
+4948,Vestido Warren Preto,Vestidos,Preto,34|36|38|40|42|44,6,120.0,https://www.intibrand.com/produto/vestido-warren-preto-4948
+4228,Biquíni Alessio Castanho,Biquínis,Castanho,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/biquini-alessio-castanho-4228
+4226,Biquíni Alessio Preto,Biquínis,Preto,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/biquini-alessio-preto-4226
+4227,Biquíni Alessio Vermelho Carmim,Biquínis,Vermelho Carmim,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/biquini-alessio-vermelho-carmim-4227
+3481,Biquíni Azov Preto,Biquínis,Preto,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/biquini-azov-preto-3481
+3494,Biquíni Clark Fúcsia,Biquínis,Fúcsia,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/biquini-clark-fucsia-3494
+4283,Biquíni Conti Castanho,Biquínis,Castanho,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/biquini-conti-castanho-4283
+4280,Biquíni Conti Pérola,Biquínis,Pérola,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/biquini-conti-perola-4280
+4284,Biquíni Conti Vermelho Carmim,Biquínis,Vermelho Carmim,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/biquini-conti-vermelho-carmim-4284
+3498,Biquíni Cyprus Azul Turquesa,Biquínis,Azul Turquesa,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/biquini-cyprus-azul-turquesa-3498
+3499,Biquíni Cyprus Fúcsia,Biquínis,Fúcsia,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/biquini-cyprus-fucsia-3499
+3500,Biquíni Cyprus Off-White,Biquínis,Off White,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/biquini-cyprus-off-white-3500
+4183,Biquíni Duncan Azul,Biquínis,Azul,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/biquini-duncan-azul-4183
+4184,Biquíni Duncan Cobre,Biquínis,Cobre,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/biquini-duncan-cobre-4184
+4907,BIQUÍNI EASTON + PAREÔ | MARROM,Biquínis,Marrom,PP|P|M|G|U,5,125.0,https://www.intibrand.com/produto/biquini-easton-pareo-marrom-4907
+4921,BIQUÍNI EASTON + PAREÔ | OFF-WHITE,Biquínis,Off White,PP|P|M|G|U,5,125.0,https://www.intibrand.com/produto/biquini-easton-pareo-off-white-4921
+3815,Biquíni Hess Pérola,Biquínis,Pérola,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/biquini-hess-perola-3815
+4272,Biquíni Kobe Azul,Biquínis,Azul,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/biquini-kobe-azul-4272
+4273,Biquíni Kobe Cobre,Biquínis,Cobre,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/biquini-kobe-cobre-4273
+4270,Biquíni Kobe Pérola,Biquínis,Pérola,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/biquini-kobe-perola-4270
+4271,Biquíni Kobe Preto,Biquínis,Preto,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/biquini-kobe-preto-4271
+4274,Biquíni Kobe Vermelho,Biquínis,Vermelho,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/biquini-kobe-vermelho-4274
+4997,Biquíni Lorian Off-White,Biquínis,Off White,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/biquini-lorian-off-white-4997
+4998,Biquíni Lorian Preto,Biquínis,Preto,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/biquini-lorian-preto-4998
+3505,Biquíni Lusty Fúcsia,Biquínis,Fúcsia,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/biquini-lusty-fucsia-3505
+4293,Biquíni Mark Azul Índigo,Biquínis,Azul Índigo,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/biquini-mark-azul-indigo-4293
+4294,Biquíni Mark Castanho,Biquínis,Castanho,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/biquini-mark-castanho-4294
+4291,Biquíni Mark Pérola,Biquínis,Pérola,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/biquini-mark-perola-4291
+4292,Biquíni Mark Preto,Biquínis,Preto,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/biquini-mark-preto-4292
+3510,Biquíni Menorca Azul Marinho,Biquínis,Azul Marinho,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/biquini-menorca-azul-marinho-3510
+3512,Biquíni Menorca Preto,Biquínis,Preto,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/biquini-menorca-preto-3512
+3902,Biquíni Mies Azul Turquesa,Biquínis,Azul Turquesa,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/biquini-mies-azul-turquesa-3902
+3904,Biquíni Mies Off-White,Biquínis,Off White,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/biquini-mies-off-white-3904
+3903,Biquíni Mies Preto,Biquínis,Preto,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/biquini-mies-preto-3903
+4260,Biquíni Vince Castanho,Biquínis,Castanho,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/biquini-vince-castanho-4260
+4257,Biquíni Vince Pérola,Biquínis,Pérola,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/biquini-vince-perola-4257
+4258,Biquíni Vince Preto,Biquínis,Preto,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/biquini-vince-preto-4258
+4320,Biquíni Vince Vermelho Carmim,Biquínis,Vermelho Carmim,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/biquini-vince-vermelho-carmim-4320
+4923,BIQUÍNI VITTO + PAREÔ | PRETO,Biquínis,Preto,PP|P|M|G|U,5,125.0,https://www.intibrand.com/produto/biquini-vitto-pareo-preto-4923
+4553,Body Eli Off-White,Bodies,Off White,34|36|38|40|42,5,125.0,https://www.intibrand.com/produto/body-eli-off-white-4553
+4554,Body Eli Preto,Bodies,Preto,34|36|38|40|42,5,125.0,https://www.intibrand.com/produto/body-eli-preto-4554
+4832,Body Mattia Marrom,Bodies,Marrom,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/body-mattia-marrom-4832
+4830,Body Mattia Off-White,Bodies,Off White,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/body-mattia-off-white-4830
+4831,Body Mattia Preto,Bodies,Preto,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/body-mattia-preto-4831
+3870,Cropped Brooks Azul Marinho,Croppeds,Azul Marinho,34|36|38|40|42,5,125.0,https://www.intibrand.com/produto/cropped-brooks-azul-marinho-3870
+3608,Cropped Daksa Pink Juice,Croppeds,Pink Juice,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/cropped-daksa-pink-juice-3608
+4149,Cropped Fiore Azul,Croppeds,Azul,34|36|38|40|42,5,125.0,https://www.intibrand.com/produto/cropped-fiore-azul-4149
+3612,Cropped Linho Lugano Pink,Croppeds,Pink,PP|P|M|G|GG,5,125.0,https://www.intibrand.com/produto/cropped-linho-lugano-pink-3612
+4126,Cropped Mancini Bege,Croppeds,Bege,34|36|38|40|42,5,125.0,https://www.intibrand.com/produto/cropped-mancini-bege-4126
+4123,Cropped Mancini Off-White,Croppeds,Off White,34|36|38|40|42,5,125.0,https://www.intibrand.com/produto/cropped-mancini-off-white-4123
+4124,Cropped Mancini Preto,Croppeds,Preto,34|36|38|40|42,5,125.0,https://www.intibrand.com/produto/cropped-mancini-preto-4124
+4125,Cropped Mancini Vermelho,Croppeds,Vermelho,34|36|38|40|42,5,125.0,https://www.intibrand.com/produto/cropped-mancini-vermelho-4125
+3878,Saia Hill Pink,Saias,Pink,34|36|38|40|42,5,125.0,https://www.intibrand.com/produto/saia-hill-pink-3878
+4162,Saia Moretti Vermelho,Saias,Vermelho,36|38|40|42|44,5,125.0,https://www.intibrand.com/produto/saia-moretti-vermelho-4162
+4806,Saia Remmy Marrom,Saias,Marrom,34|36|38|40|42,5,125.0,https://www.intibrand.com/produto/saia-remmy-marrom-4806
+4805,Saia Remmy Preto,Saias,Preto,34|36|38|40|42,5,125.0,https://www.intibrand.com/produto/saia-remmy-preto-4805
+4151,Saia Smith Preta,Saias,,34|36|38|40|42,5,125.0,https://www.intibrand.com/produto/saia-smith-preta-4151
+4140,Short Saia Raff Azul Marinho,Shorts,Azul Marinho,34|36|38|40|42,5,125.0,https://www.intibrand.com/produto/short-saia-raff-azul-marinho-4140
+4899,Calça Jeans Malcolm Azul Claro,Calças,Azul,34|36|38|40|42|44,6,133.3,https://www.intibrand.com/produto/calca-jeans-malcolm-azul-claro-4899
+4900,Calça Jeans Malcolm Azul Escuro,Calças,Azul,34|36|38|40|42|44,6,133.3,https://www.intibrand.com/produto/calca-jeans-malcolm-azul-escuro-4900
+2095,Pantalona Flare Off-White,Calças,Off White,34|36|38|40|42|44,6,133.3,https://www.intibrand.com/produto/pantalona-flare-off-white-2095
+2094,Pantalona Flare Preta,Calças,,34|36|38|40|42|44,6,133.3,https://www.intibrand.com/produto/pantalona-flare-preta-2094
+2777,Pantalona Savoye Off-White,Calças,Off White,34|36|38|40|42|44,6,133.3,https://www.intibrand.com/produto/pantalona-savoye-off-white-2777
+2778,Pantalona Savoye Preta,Calças,,34|36|38|40|42|44,6,133.3,https://www.intibrand.com/produto/pantalona-savoye-preta-2778
+4828,Body Emma Off-White,Bodies,Off White,34|36|38|40|42|44,6,150.0,https://www.intibrand.com/produto/body-emma-off-white-4828
+4912,BODY EMMA + PANTALONA BRAXTON | OFF-WHITE,Bodies,Off White,34|36|38|40|42|44,6,150.0,https://www.intibrand.com/produto/body-emma-pantalona-braxton-off-white-4912
+4911,BODY EMMA + PANTALONA BRAXTON | PRETO,Bodies,Preto,34|36|38|40|42|44,6,150.0,https://www.intibrand.com/produto/body-emma-pantalona-braxton-preto-4911
+4829,Body Emma Preto,Bodies,Preto,34|36|38|40|42|44,6,150.0,https://www.intibrand.com/produto/body-emma-preto-4829
+4928,BODY EMMA + SHORT CALEB | PRETO,Bodies,Preto,34|36|38|40|42|44,6,150.0,https://www.intibrand.com/produto/body-emma-short-caleb-preto-4928
+4862,Cropped Carlo Off-White,Croppeds,Off White,34|36|38|40|42|44,6,150.0,https://www.intibrand.com/produto/cropped-carlo-off-white-4862
+4863,Cropped Carlo Preto,Croppeds,Preto,34|36|38|40|42|44,6,150.0,https://www.intibrand.com/produto/cropped-carlo-preto-4863
+4860,Saia Riley Off-White,Saias,Off White,34|36|38|40|42|44,6,150.0,https://www.intibrand.com/produto/saia-riley-off-white-4860
+4861,Saia Riley Preto,Saias,Preto,34|36|38|40|42|44,6,150.0,https://www.intibrand.com/produto/saia-riley-preto-4861
+4901,Short Caleb Off-White,Shorts,Off White,34|36|38|40|42|44,6,150.0,https://www.intibrand.com/produto/short-caleb-off-white-4901
+4902,Short Caleb Preto,Shorts,Preto,34|36|38|40|42|44,6,150.0,https://www.intibrand.com/produto/short-caleb-preto-4902
+4904,BODY CHIARA + PANTALONA SAVOYE | OFF-WHITE,Bodies,Off White,P|M|G|34|36|38|40|42|44,9,150.0,https://www.intibrand.com/produto/body-chiara-pantalona-savoye-off-white-4904
+4919,BODY ROCCO + PANTALONA FLARE | OFF-WHITE,Bodies,Off White,P|M|G|34|36|38|40|42|44,9,150.0,https://www.intibrand.com/produto/body-rocco-pantalona-flare-off-white-4919
+4920,BODY ROCCO + PANTALONA FLARE | PRETO,Bodies,Preto,P|M|G|34|36|38|40|42|44,9,150.0,https://www.intibrand.com/produto/body-rocco-pantalona-flare-preto-4920

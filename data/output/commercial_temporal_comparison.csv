@@ -1,0 +1,588 @@
+product_id,name,category,color,old_price,new_price,old_discount_pct,new_discount_pct,old_in_sale,new_in_sale,price_changed,markdown_changed
+2094,Pantalona Flare Preta,Calças,,989.0,989.0,,,False,False,False,False
+2095,Pantalona Flare Off-White,Calças,Off White,989.0,989.0,,,False,False,False,False
+2116,Pareô Preto,Pareôs,Preto,489.0,489.0,,,False,False,False,False
+2117,Pareô Off-White,Pareôs,Off White,489.0,489.0,,,False,False,False,False
+2333,Top Orion Branco | Orion Top White,Croppeds,Branco,89.5,89.5,,,False,False,False,False
+2672,Pareô Vermelho,Pareôs,Vermelho,429.0,429.0,,,False,False,False,False
+2774,Pareô Azul Marinho,Pareôs,Azul Marinho,459.0,459.0,,,False,False,False,False
+2777,Pantalona Savoye Off-White,Calças,Off White,929.0,929.0,,,False,False,False,False
+2778,Pantalona Savoye Preta,Calças,,929.0,929.0,,,False,False,False,False
+3005,Biquíni Bercy Preto,Biquínis,Preto,110.0,110.0,72.12,72.12,True,True,False,False
+3006,Biquíni Bercy Pérola,Biquínis,Pérola,110.0,110.0,72.12,72.12,True,True,False,False
+3011,Biquíni Malawi Pérola,Biquínis,Pérola,110.0,110.0,71.39,71.39,True,True,False,False
+3098,Biquíni Galea Preto,Biquínis,Preto,110.0,110.0,59.93,59.93,True,True,False,False
+3135,Cropped Robie Off-White,Croppeds,Off White,394.5,394.5,,,False,False,False,False
+3137,Cropped Robie Preto,Croppeds,Preto,394.5,394.5,,,False,False,False,False
+3153,Pareô Terracota,Pareôs,Terracota,489.0,489.0,,,False,False,False,False
+3193,Biquíni Arenella Preto,Biquínis,Preto,130.0,130.0,59.31,59.31,True,True,False,False
+3195,Biquíni Arenella Rosê,Biquínis,Rosê,130.0,130.0,59.31,59.31,True,True,False,False
+3196,Biquíni Arenella Off-White,Biquínis,Off White,130.0,130.0,59.31,59.31,True,True,False,False
+3197,Biquíni Arenella Azul Marinho,Biquínis,Azul Marinho,130.0,130.0,59.31,59.31,True,True,False,False
+3481,Biquíni Azov Preto,Biquínis,Preto,95.0,95.0,60.33,60.33,True,True,False,False
+3487,Biquíni Bonneville Preto,Biquínis,Preto,260.0,260.0,60.55,60.55,True,True,False,False
+3494,Biquíni Clark Fúcsia,Biquínis,Fúcsia,95.0,95.0,56.72,56.72,True,True,False,False
+3498,Biquíni Cyprus Azul Turquesa,Biquínis,Azul Turquesa,95.0,95.0,55.71,55.71,True,True,False,False
+3499,Biquíni Cyprus Fúcsia,Biquínis,Fúcsia,95.0,95.0,55.71,55.71,True,True,False,False
+3500,Biquíni Cyprus Off-White,Biquínis,Off White,95.0,95.0,55.71,55.71,True,True,False,False
+3505,Biquíni Lusty Fúcsia,Biquínis,Fúcsia,95.0,95.0,55.71,55.71,True,True,False,False
+3510,Biquíni Menorca Azul Marinho,Biquínis,Azul Marinho,95.0,95.0,56.72,56.72,True,True,False,False
+3512,Biquíni Menorca Preto,Biquínis,Preto,95.0,95.0,56.72,56.72,True,True,False,False
+3528,Biquíni Sopka Off-White,Biquínis,Off White,95.0,95.0,52.38,52.38,True,True,False,False
+3536,Body Alkash Magenta,Bodies,Magenta,239.5,239.5,,,False,False,False,False
+3539,Body Alkash Vermelho,Bodies,Vermelho,239.5,239.5,,,False,False,False,False
+3589,Conjunto Campbell Rosê,Conjuntos,Rosê,324.75,324.75,50.0,50.0,True,True,False,False
+3592,Conjunto Murano Pink,Conjuntos,Pink,297.25,297.25,50.0,50.0,True,True,False,False
+3593,Conjunto Murano Preto,Conjuntos,Preto,297.25,297.25,50.0,50.0,True,True,False,False
+3594,Conjunto Murano Rosê,Conjuntos,Rosê,297.25,297.25,50.0,50.0,True,True,False,False
+3595,Conjunto Platte Off-White,Conjuntos,Off White,247.25,247.25,50.0,50.0,True,True,False,False
+3608,Cropped Daksa Pink Juice,Croppeds,Pink Juice,239.5,239.5,,,False,False,False,False
+3612,Cropped Linho Lugano Pink,Croppeds,Pink,264.5,264.5,,,False,False,False,False
+3615,Cropped Nahanni Pink Juice,Croppeds,Pink Juice,274.5,274.5,,,False,False,False,False
+3620,Cropped Phuket Pink Juice,Croppeds,Pink Juice,344.5,344.5,,,False,False,False,False
+3635,Pantalona Suytun Preta,Calças,,424.5,424.5,,,False,False,False,False
+3636,Pareô Maya Azul Marinho,Pareôs,Azul Marinho,449.0,449.0,,,False,False,False,False
+3640,Pareô Maya Preto,Pareôs,Preto,569.0,569.0,,,False,False,False,False
+3697,Vestido Mayon Pink,Vestidos,Pink,1149.5,1149.5,,,False,False,False,False
+3699,Vestido Mayon Rosê,Vestidos,Rosê,1149.5,1149.5,,,False,False,False,False
+3706,Vestido Zakynthos Rosê,Vestidos,Rosê,849.5,849.5,,,False,False,False,False
+3715,Pareô Azul,Pareôs,Azul,389.0,389.0,,,False,False,False,False
+3718,Pareô Maya Azul,Pareôs,Azul,269.5,269.5,,,False,False,False,False
+3721,Pantalona Savoye Areia,Calças,Areia,789.0,789.0,,,False,False,False,False
+3734,Blazer Alvar Azul Índigo,Blazers,Azul Índigo,494.5,494.5,,,False,False,False,False
+3738,Macacão Alberts Bege,Macacões,Bege,694.5,694.5,,,False,False,False,False
+3739,Macacão Alberts Off-White,Macacões,Off White,694.5,694.5,,,False,False,False,False
+3740,Macacão Alberts Preto,Macacões,Preto,1250.1,1250.1,,,False,False,False,False
+3750,Biquíni Nari Off-White,Biquínis,Off White,95.0,95.0,59.49,59.49,True,True,False,False
+3767,Cropped Saarinen Off-White,Croppeds,Off White,384.5,384.5,,,False,False,False,False
+3774,Body Claude Off-White,Bodies,Off White,789.0,789.0,,,False,False,False,False
+3815,Biquíni Hess Pérola,Biquínis,Pérola,112.5,112.5,62.44,62.44,True,True,False,False
+3870,Cropped Brooks Azul Marinho,Croppeds,Azul Marinho,399.5,399.5,,,False,False,False,False
+3878,Saia Hill Pink,Saias,Pink,329.5,329.5,,,False,False,False,False
+3880,Cropped Adams Off-White,Croppeds,Off White,339.5,339.5,,,False,False,False,False
+3882,Cropped Adams Preto,Croppeds,Preto,339.5,339.5,,,False,False,False,False
+3889,Vestido Bonet Rosê,Vestidos,Rosê,994.5,994.5,,,False,False,False,False
+3891,Vestido Bonet Off-White,Vestidos,Off White,994.5,994.5,,,False,False,False,False
+3902,Biquíni Mies Azul Turquesa,Biquínis,Azul Turquesa,105.0,105.0,61.04,61.04,True,True,False,False
+3903,Biquíni Mies Preto,Biquínis,Preto,105.0,105.0,61.04,61.04,True,True,False,False
+3904,Biquíni Mies Off-White,Biquínis,Off White,105.0,105.0,61.04,61.04,True,True,False,False
+3948,Saída Bennett Pérola,Saídas,Pérola,989.0,989.0,,,False,False,False,False
+3949,Saída Bennett Preta,Saídas,,989.0,989.0,,,False,False,False,False
+3955,Conjunto Mitchell Preto,Conjuntos,Preto,424.75,424.75,50.0,50.0,True,True,False,False
+3964,Pareô Maya Pérola,Pareôs,Pérola,569.0,569.0,,,False,False,False,False
+4002,Conjunto Guillen Off-White,Conjuntos,Off White,424.75,424.75,50.0,50.0,True,True,False,False
+4003,Conjunto Guillen Preto,Conjuntos,Preto,424.75,424.75,50.0,50.0,True,True,False,False
+4005,Conjunto Denver Preto,Conjuntos,Preto,492.25,492.25,50.0,50.0,True,True,False,False
+4008,Conjunto Denver Off-White,Conjuntos,Off White,492.25,492.25,50.0,50.0,True,True,False,False
+4026,Vestido Catton Off-White,Vestidos,Off White,949.5,949.5,,,False,False,False,False
+4036,Saia Keith Off-White,Saias,Off White,339.5,339.5,,,False,False,False,False
+4058,Biquíni Bernie Off-White,Biquínis,Off White,110.0,110.0,62.65,62.65,True,True,False,False
+4062,Blazer Corrington Preto,Blazers,Preto,749.5,749.5,,,False,False,False,False
+4067,Corselet Adrian Off-White,,Off White,494.5,494.5,,,False,False,False,False
+4068,Corselet Adrian Preto,,Preto,494.5,494.5,,,False,False,False,False
+4069,Corselet Adrian Vermelho,,Vermelho,494.5,494.5,,,False,False,False,False
+4070,Corselet Adrian Framboesa,,Framboesa,494.5,494.5,,,False,False,False,False
+4077,Body Rodd Preto,Bodies,Preto,284.5,284.5,,,False,False,False,False
+4078,Body Rodd Off-White,Bodies,Off White,284.5,284.5,,,False,False,False,False
+4080,Biquíni Julian Pérola,Biquínis,Pérola,110.0,110.0,62.65,62.65,True,True,False,False
+4081,Biquíni Julian Preto,Biquínis,Preto,110.0,110.0,62.65,62.65,True,True,False,False
+4082,Biquíni Julian Bronze,Biquínis,Bronze,110.0,110.0,62.65,62.65,True,True,False,False
+4087,Cropped Wiley Off-White,Croppeds,Off White,364.5,364.5,,,False,False,False,False
+4093,Vestido Iron Off-White,Vestidos,Off White,949.5,949.5,,,False,False,False,False
+4107,Vestido Matt Preto,Vestidos,Preto,699.5,699.5,,,False,False,False,False
+4109,Vestido Vallez Off-White,Vestidos,Off White,1149.5,1149.5,,,False,False,False,False
+4111,Vestido Vallez Preto,Vestidos,Preto,1149.5,1149.5,,,False,False,False,False
+4121,Corselet Vicenzo Vanilla,,Vanilla,479.5,479.5,,,False,False,False,False
+4123,Cropped Mancini Off-White,Croppeds,Off White,394.5,394.5,,,False,False,False,False
+4124,Cropped Mancini Preto,Croppeds,Preto,394.5,394.5,,,False,False,False,False
+4125,Cropped Mancini Vermelho,Croppeds,Vermelho,394.5,394.5,,,False,False,False,False
+4126,Cropped Mancini Bege,Croppeds,Bege,394.5,394.5,,,False,False,False,False
+4140,Short Saia Raff Azul Marinho,Shorts,Azul Marinho,344.5,344.5,,,False,False,False,False
+4145,Vestido Bridget Vermelho,Vestidos,Vermelho,1989.0,1989.0,,,False,False,False,False
+4149,Cropped Fiore Azul,Croppeds,Azul,444.5,444.5,,,False,False,False,False
+4151,Saia Smith Preta,Saias,,644.5,644.5,,,False,False,False,False
+4156,Vestido Rizzo Framboesa,Vestidos,Framboesa,694.5,694.5,,,False,False,False,False
+4157,Vestido Rizzo Preto,Vestidos,Preto,694.5,694.5,,,False,False,False,False
+4158,Vestido Rizzo Vermelho,Vestidos,Vermelho,694.5,694.5,,,False,False,False,False
+4162,Saia Moretti Vermelho,Saias,Vermelho,394.5,394.5,,,False,False,False,False
+4164,Vestido Riccie Off-White,Vestidos,Off White,1889.0,1889.0,,,False,False,False,False
+4168,Biquíni Marzan Off-White,Biquínis,Off White,105.0,105.0,63.09,63.09,True,True,False,False
+4169,Biquíni Marzan Preto,Biquínis,Preto,105.0,105.0,63.09,63.09,True,True,False,False
+4183,Biquíni Duncan Azul,Biquínis,Azul,120.0,120.0,59.93,59.93,True,True,False,False
+4184,Biquíni Duncan Cobre,Biquínis,Cobre,120.0,120.0,59.93,59.93,True,True,False,False
+4186,Biquíni Miller Preto,Biquínis,Preto,118.0,118.0,59.93,59.93,True,True,False,False
+4187,Biquíni Miller Vermelho,Biquínis,Vermelho,118.0,118.0,59.93,59.93,True,True,False,False
+4188,Biquíni Miller Azul Nilo,Biquínis,Azul Nilo,118.0,118.0,59.93,59.93,True,True,False,False
+4189,Biquíni Miller Cobre,Biquínis,Cobre,118.0,118.0,59.93,59.93,True,True,False,False
+4194,Saia Gianni Preta,Saias,,369.5,369.5,,,False,False,False,False
+4212,Conjunto Fellicce Off-White,Conjuntos,Off White,434.75,434.75,50.0,50.0,True,True,False,False
+4214,Conjunto Fellicce Preto,Conjuntos,Preto,434.75,434.75,50.0,50.0,True,True,False,False
+4215,Conjunto Fellicce Framboesa,Conjuntos,Framboesa,434.75,434.75,50.0,50.0,True,True,False,False
+4217,Conjunto Fellicce Vermelho,Conjuntos,Vermelho,434.75,434.75,50.0,50.0,True,True,False,False
+4222,Body Mariani Vermelho Carmim,Bodies,Vermelho Carmim,599.0,599.0,,,False,False,False,False
+4223,Pareô Maya Azul Índigo,Pareôs,Azul Índigo,539.0,539.0,,,False,False,False,False
+4226,Biquíni Alessio Preto,Biquínis,Preto,137.5,137.5,60.09,60.09,True,True,False,False
+4227,Biquíni Alessio Vermelho Carmim,Biquínis,Vermelho Carmim,137.5,137.5,60.09,60.09,True,True,False,False
+4228,Biquíni Alessio Castanho,Biquínis,Castanho,137.5,137.5,60.09,60.09,True,True,False,False
+4231,Macacão Oliver Off-White,Macacões,Off White,744.5,744.5,,,False,False,False,False
+4233,Macacão Oliver Vermelho,Macacões,Vermelho,744.5,744.5,,,False,False,False,False
+4234,Macacão Oliver Framboesa,Macacões,Framboesa,744.5,744.5,,,False,False,False,False
+4245,Biquíni Perez Pérola,Biquínis,Pérola,118.0,118.0,59.93,59.93,True,True,False,False
+4246,Biquíni Perez Preto,Biquínis,Preto,118.0,118.0,59.93,59.93,True,True,False,False
+4247,Biquíni Perez Azul Índigo,Biquínis,Azul Índigo,118.0,118.0,59.93,59.93,True,True,False,False
+4248,Biquíni Perez Castanho,Biquínis,Castanho,118.0,118.0,59.93,59.93,True,True,False,False
+4257,Biquíni Vince Pérola,Biquínis,Pérola,118.0,118.0,59.93,59.93,True,True,False,False
+4258,Biquíni Vince Preto,Biquínis,Preto,118.0,118.0,59.93,59.93,True,True,False,False
+4260,Biquíni Vince Castanho,Biquínis,Castanho,118.0,118.0,59.93,59.93,True,True,False,False
+4270,Biquíni Kobe Pérola,Biquínis,Pérola,118.0,118.0,59.93,59.93,True,True,False,False
+4271,Biquíni Kobe Preto,Biquínis,Preto,118.0,118.0,59.93,59.93,True,True,False,False
+4272,Biquíni Kobe Azul,Biquínis,Azul,118.0,118.0,59.93,59.93,True,True,False,False
+4273,Biquíni Kobe Cobre,Biquínis,Cobre,118.0,118.0,59.93,59.93,True,True,False,False
+4274,Biquíni Kobe Vermelho,Biquínis,Vermelho,118.0,118.0,59.93,59.93,True,True,False,False
+4280,Biquíni Conti Pérola,Biquínis,Pérola,116.0,116.0,59.93,59.93,True,True,False,False
+4283,Biquíni Conti Castanho,Biquínis,Castanho,116.0,116.0,59.93,59.93,True,True,False,False
+4284,Biquíni Conti Vermelho Carmim,Biquínis,Vermelho Carmim,116.0,116.0,59.93,59.93,True,True,False,False
+4285,Cropped Linho Carl Azul,Croppeds,Azul,399.5,399.5,,,False,False,False,False
+4286,Cropped Linho Carl Off-White,Croppeds,Off White,399.5,399.5,,,False,False,False,False
+4287,Cropped Linho Carl Preto,Croppeds,Preto,399.5,399.5,,,False,False,False,False
+4288,Cropped Linho Carl Caramelo,Croppeds,Caramelo,399.5,399.5,,,False,False,False,False
+4291,Biquíni Mark Pérola,Biquínis,Pérola,158.0,158.0,59.95,59.95,True,True,False,False
+4292,Biquíni Mark Preto,Biquínis,Preto,158.0,158.0,59.95,59.95,True,True,False,False
+4293,Biquíni Mark Azul Índigo,Biquínis,Azul Índigo,158.0,158.0,59.95,59.95,True,True,False,False
+4294,Biquíni Mark Castanho,Biquínis,Castanho,158.0,158.0,59.95,59.95,True,True,False,False
+4295,Vestido Fontana Off-White,Vestidos,Off White,894.5,894.5,,,False,False,False,False
+4298,Vestido Fontana Vermelho,Vestidos,Vermelho,894.5,894.5,,,False,False,False,False
+4300,Vestido Brice Preto,Vestidos,Preto,989.5,989.5,,,False,False,False,False
+4301,Vestido Archie Off-White,Vestidos,Off White,644.5,644.5,,,False,False,False,False
+4303,Vestido Archie Preto,Vestidos,Preto,644.5,644.5,,,False,False,False,False
+4304,Vestido Archie Vermelho,Vestidos,Vermelho,644.5,644.5,,,False,False,False,False
+4317,Vestido Ethan Off-White,Vestidos,Off White,719.5,719.5,,,False,False,False,False
+4318,Vestido Ethan Preto,Vestidos,Preto,,,,,False,False,False,False
+4319,Vestido Ethan Vermelho,Vestidos,Vermelho,719.5,719.5,,,False,False,False,False
+4320,Biquíni Vince Vermelho Carmim,Biquínis,Vermelho Carmim,118.0,118.0,59.93,59.93,True,True,False,False
+4328,Vestido Ethan Bege,Vestidos,Bege,719.5,719.5,,,False,False,False,False
+4331,Body Rinaldi Preto,Bodies,Preto,294.5,294.5,,,False,False,False,False
+4332,Body Rinaldi Off-White,Bodies,Off White,294.5,294.5,,,False,False,False,False
+4336,Conjunto Ivy Preto,Conjuntos,Preto,497.25,497.25,50.0,50.0,True,True,False,False
+4339,Conjunto Ivy Off-White,Conjuntos,Off White,497.25,497.25,50.0,50.0,True,True,False,False
+4341,Vestido Axel Preto,Vestidos,Preto,994.5,994.5,,,False,False,False,False
+4342,Vestido Axel Vermelho,Vestidos,Vermelho,994.5,994.5,,,False,False,False,False
+4343,Vestido Brice Vermelho,Vestidos,Vermelho,1583.2,1583.2,,,False,False,False,False
+4346,Vestido Vitalli Off-White,Vestidos,Off White,1144.5,1144.5,,,False,False,False,False
+4349,Vestido Sartori Off-White,Vestidos,Off White,2389.0,2389.0,,,False,False,False,False
+4350,Vestido Sartori Preto,Vestidos,Preto,2389.0,2389.0,,,False,False,False,False
+4351,Vestido Sartori Vermelho,Vestidos,Vermelho,2389.0,2389.0,,,False,False,False,False
+4358,Vestido Azarius Off-White,Vestidos,Off White,694.5,694.5,,,False,False,False,False
+4359,Vestido Azarius Preto,Vestidos,Preto,694.5,694.5,,,False,False,False,False
+4360,Vestido Azarius Vermelho,Vestidos,Vermelho,694.5,694.5,,,False,False,False,False
+4364,Vestido Asther Off-White,Vestidos,Off White,744.5,744.5,,,False,False,False,False
+4366,Vestido Asther Vermelho,Vestidos,Vermelho,744.5,744.5,,,False,False,False,False
+4367,Macacão Zander Off-White,Macacões,Off White,744.5,744.5,,,False,False,False,False
+4373,Macacão Damian Off-White,Macacões,Off White,994.5,994.5,,,False,False,False,False
+4374,Macacão Damian Preto,Macacões,Preto,994.5,994.5,,,False,False,False,False
+4376,Conjunto Althea Off-White,Conjuntos,Off White,399.5,399.5,60.01,60.01,True,True,False,False
+4377,Conjunto Althea Preto,Conjuntos,Preto,399.5,399.5,60.01,60.01,True,True,False,False
+4378,Conjunto Althea Vermelho,Conjuntos,Vermelho,399.5,399.5,60.01,60.01,True,True,False,False
+4379,Cropped Petal Off-White,Croppeds,Off White,449.5,449.5,,,False,False,False,False
+4380,Cropped Petal Preto,Croppeds,Preto,449.5,449.5,,,False,False,False,False
+4381,Cropped Petal Vermelho,Croppeds,Vermelho,449.5,449.5,,,False,False,False,False
+4385,Vestido Acacius Off-White,Vestidos,Off White,1789.0,1789.0,,,False,False,False,False
+4386,Vestido Acacius Preto,Vestidos,Preto,1789.0,1789.0,,,False,False,False,False
+4387,Vestido Acacius Vermelho,Vestidos,Vermelho,1789.0,1789.0,,,False,False,False,False
+4391,Body Darius Pérola,Bodies,Pérola,344.5,344.5,,,False,False,False,False
+4393,Biquíni Atticus Pérola,Biquínis,Pérola,110.0,110.0,67.12,67.12,True,True,False,False
+4395,Biquíni Atticus Terracota,Biquínis,Terracota,110.0,110.0,67.12,67.12,True,True,False,False
+4402,Body Lyra Preto,Bodies,Preto,339.5,339.5,,,False,False,False,False
+4405,Vestido Linho Reyes Preto,Vestidos,Preto,694.5,694.5,,,False,False,False,False
+4406,Body Theron Off-White,Bodies,Off White,344.5,344.5,,,False,False,False,False
+4412,Biquíni Bonneville Pérola,Biquínis,Pérola,260.0,260.0,60.55,60.55,True,True,False,False
+4418,Blazer Vestido Agatha Off-White,Blazers,Off White,794.5,794.5,,,False,False,False,False
+4419,Blazer Vestido Agatha Preto,Blazers,Preto,794.5,794.5,,,False,False,False,False
+4420,Blazer Vestido Agatha Bege,Blazers,Bege,794.5,794.5,,,False,False,False,False
+4424,Biquíni Dion Preto,Biquínis,Preto,105.0,105.0,63.09,63.09,True,True,False,False
+4426,Biquíni Hali Pérola,Biquínis,Pérola,105.0,105.0,63.09,63.09,True,True,False,False
+4427,Biquíni Hali Preto,Biquínis,Preto,105.0,105.0,63.09,63.09,True,True,False,False
+4428,Biquíni Hali Azul Índigo,Biquínis,Azul Índigo,105.0,105.0,63.09,63.09,True,True,False,False
+4429,Biquíni Riva Pérola,Biquínis,Pérola,120.0,120.0,65.17,65.17,True,True,False,False
+4430,Biquíni Riva Preto,Biquínis,Preto,120.0,120.0,65.17,65.17,True,True,False,False
+4431,Biquíni Riva Azul Índigo,Biquínis,Azul Índigo,120.0,120.0,65.17,65.17,True,True,False,False
+4432,Body Ezio Off-White,Bodies,Off White,344.5,344.5,,,False,False,False,False
+4433,Body Ezio Preto,Bodies,Preto,344.5,344.5,,,False,False,False,False
+4434,Pantalona Ozuna Off-White,Calças,Off White,594.5,594.5,,,False,False,False,False
+4435,Pantalona Ozuna Preto,Calças,Preto,594.5,594.5,,,False,False,False,False
+4436,Pantalona Ozuna Avelã,Calças,Avelã,594.5,594.5,,,False,False,False,False
+4437,Sobretudo Ferraro Off-White,Sobretudos,Off White,1244.5,1244.5,,,False,False,False,False
+4440,Vestido Calla Off-White,Vestidos,Off White,644.5,644.5,,,False,False,False,False
+4441,Vestido Calla Preto,Vestidos,Preto,644.5,644.5,,,False,False,False,False
+4442,Vestido Calla Vanilla,Vestidos,Vanilla,644.5,644.5,,,False,False,False,False
+4445,Calça Jeans Dihl Azul Claro,Calças,Azul,394.5,394.5,,,False,False,False,False
+4446,Calça Jeans Dihl Azul Escuro,Calças,Azul,394.5,394.5,,,False,False,False,False
+4450,Saída Topaz Pérola,Saídas,Pérola,594.5,594.5,,,False,False,False,False
+4451,Saída Topaz Preto,Saídas,Preto,594.5,594.5,,,False,False,False,False
+4454,Blazer Vestido Alec Preto,Blazers,Preto,1689.0,1689.0,,,False,False,False,False
+4455,Macacão Orpheus Off-White,Macacões,Off White,1489.0,1489.0,,,False,False,False,False
+4457,Macacão Orpheus Vermelho,Macacões,Vermelho,1489.0,1489.0,,,False,False,False,False
+4458,Blazer Vestido Schiffer Off-White,Blazers,Off White,794.5,794.5,,,False,False,False,False
+4459,Blazer Vestido Schiffer Preto,Blazers,Preto,794.5,794.5,,,False,False,False,False
+4462,Vestido Barlett Off-White,Vestidos,Off White,794.5,794.5,,,False,False,False,False
+4463,Vestido Barlett Preto,Vestidos,Preto,794.5,794.5,,,False,False,False,False
+4464,Vestido Barlett Vermelho,Vestidos,Vermelho,794.5,794.5,,,False,False,False,False
+4466,Body Waud Preto,Bodies,Preto,394.5,394.5,,,False,False,False,False
+4467,Vestido Tricot Murphy Preto com Off-White,Vestidos,Off White,894.5,894.5,,,False,False,False,False
+4468,Vestido Tricot Murphy Avelã,Vestidos,Avelã,894.5,894.5,,,False,False,False,False
+4469,Vestido Tricot Murphy Vermelho,Vestidos,Vermelho,894.5,894.5,,,False,False,False,False
+4470,Vestido Tricot Effie Off-White,Vestidos,Off White,494.5,494.5,,,False,False,False,False
+4472,Vestido Tricot Effie Vermelho,Vestidos,Vermelho,494.5,494.5,,,False,False,False,False
+4477,Biquíni Galea Azul Índigo,Biquínis,Azul Índigo,110.0,110.0,59.93,59.93,True,True,False,False
+4479,Macaquinho Neil Preto,,Preto,1289.0,1289.0,,,False,False,False,False
+4480,Cropped Ophelia Off-White,Croppeds,Off White,494.5,494.5,,,False,False,False,False
+4481,Cropped Ophelia Preto,Croppeds,Preto,494.5,494.5,,,False,False,False,False
+4489,Vestido Atlas Off-White,Vestidos,Off White,644.5,644.5,,,False,False,False,False
+4490,Vestido Atlas Preto,Vestidos,Preto,644.5,644.5,,,False,False,False,False
+4491,Vestido Atlas Vermelho,Vestidos,Vermelho,644.5,644.5,,,False,False,False,False
+4492,Vestido Jones Off-White,Vestidos,Off White,1689.0,1689.0,,,False,False,False,False
+4493,Vestido Jones Preto,Vestidos,Preto,1689.0,1689.0,,,False,False,False,False
+4494,Vestido Jones Vermelho,Vestidos,Vermelho,1689.0,1689.0,,,False,False,False,False
+4498,Vestido Collins Vermelho,Vestidos,Vermelho,1789.0,1789.0,,,False,False,False,False
+4520,Short Saia Donati Preto,Shorts,Preto,344.5,344.5,,,False,False,False,False
+4523,Saia Dorian Off-White,Saias,Off White,444.5,444.5,,,False,False,False,False
+4524,Saia Dorian Preto,Saias,Preto,444.5,444.5,,,False,False,False,False
+4530,Blazer Adonis Preto,Blazers,Preto,794.5,794.5,,,False,False,False,False
+4533,Short Adonis Preto,Shorts,Preto,345.0,345.0,,,False,False,False,False
+4535,Vestido Zephyr Off-White,Vestidos,Off White,1989.0,1989.0,,,False,False,False,False
+4536,Pantalona Savoye Avelã,Calças,Avelã,879.0,879.0,,,False,False,False,False
+4540,Vestido Rennie Off-White,Vestidos,Off White,1144.5,1144.5,,,False,False,False,False
+4544,Vestido Amida Off-White,Vestidos,Off White,1889.0,1889.0,,,False,False,False,False
+4547,Vestido Ludwig Off-White,Vestidos,Off White,1689.0,1689.0,,,False,False,False,False
+4548,Vestido Ludwig Preto,Vestidos,Preto,1689.0,1689.0,,,False,False,False,False
+4549,Vestido Ludwig Vermelho,Vestidos,Vermelho,1689.0,1689.0,,,False,False,False,False
+4552,Blusa Moonsoon Bege,Blusas,Bege,799.0,799.0,,,False,False,False,False
+4553,Body Eli Off-White,Bodies,Off White,889.0,889.0,,,False,False,False,False
+4554,Body Eli Preto,Bodies,Preto,889.0,889.0,,,False,False,False,False
+4555,Biquíni Capanema Pérola,Biquínis,Pérola,118.0,118.0,57.01,57.01,True,True,False,False
+4556,Biquíni Capanema Preto,Biquínis,Preto,118.0,118.0,57.01,57.01,True,True,False,False
+4557,Biquíni Capanema Cobre,Biquínis,Cobre,118.0,118.0,57.01,57.01,True,True,False,False
+4558,Vestido Linho Masp Off-White,Vestidos,Off White,689.5,689.5,,,False,False,False,False
+4559,Vestido Linho Masp Preto,Vestidos,Preto,689.5,689.5,,,False,False,False,False
+4560,Vestido Linho Masp Avelã,Vestidos,Avelã,689.5,689.5,,,False,False,False,False
+4561,Pantalona Touret Off-White,Calças,Off White,494.5,494.5,,,False,False,False,False
+4562,Pantalona Touret Preto,Calças,Preto,494.5,494.5,,,False,False,False,False
+4563,Pantalona Touret Avelã,Calças,Avelã,494.5,494.5,,,False,False,False,False
+4564,Macacão Sleuk Off-White,Macacões,Off White,844.5,844.5,,,False,False,False,False
+4565,Macacão Sleuk Preto,Macacões,Preto,844.5,844.5,,,False,False,False,False
+4566,Macacão Sleuk Vermelho,Macacões,Vermelho,844.5,844.5,,,False,False,False,False
+4567,Macaquinho Martin Off-White,,Off White,644.5,644.5,,,False,False,False,False
+4570,Biquíni Taut Off-White,Biquínis,Off White,232.0,232.0,57.74,57.74,True,True,False,False
+4571,Biquíni Taut Preto,Biquínis,Preto,232.0,232.0,57.74,57.74,True,True,False,False
+4572,Saia Hazel Off-White,Saias,Off White,444.5,444.5,,,False,False,False,False
+4575,Body Heydar Preto,Bodies,Preto,444.5,444.5,,,False,False,False,False
+4576,Body Otto Off-White,Bodies,Off White,399.5,399.5,,,False,False,False,False
+4577,Body Otto Preto,Bodies,Preto,399.5,399.5,,,False,False,False,False
+4578,Macaquinho Linho Tau Off-White,,Off White,694.5,694.5,,,False,False,False,False
+4579,Macaquinho Linho Tau Preto,,Preto,694.5,694.5,,,False,False,False,False
+4580,Macaquinho Linho Tau Bege,,Bege,694.5,694.5,,,False,False,False,False
+4581,Saída Clarke Pérola,Saídas,Pérola,594.5,594.5,,,False,False,False,False
+4582,Saída Clarke Preto,Saídas,Preto,594.5,594.5,,,False,False,False,False
+4583,Saída Clarke Vermelho,Saídas,Vermelho,594.5,594.5,,,False,False,False,False
+4584,Saída Clarke Cobre,Saídas,Cobre,594.5,594.5,,,False,False,False,False
+4585,Body Kenzo Pérola,Bodies,Pérola,629.0,629.0,,,False,False,False,False
+4587,Body Kenzo Cobre,Bodies,Cobre,629.0,629.0,,,False,False,False,False
+4588,Pareô Leanni Pérola,Pareôs,Pérola,344.5,344.5,,,False,False,False,False
+4589,Pareô Leanni Preto,Pareôs,Preto,344.5,344.5,,,False,False,False,False
+4590,Pareô Leanni Cobre,Pareôs,Cobre,344.5,344.5,,,False,False,False,False
+4591,Body Aliyev Off-White,Bodies,Off White,314.5,314.5,,,False,False,False,False
+4592,Body Aliyev Preto,Bodies,Preto,314.5,314.5,,,False,False,False,False
+4593,Body Aliyev Cobre,Bodies,Cobre,314.5,314.5,,,False,False,False,False
+4597,Short Linho Strauss Preto,Shorts,Preto,364.5,364.5,,,False,False,False,False
+4598,Short Linho Strauss Caramelo,Shorts,Caramelo,364.5,364.5,,,False,False,False,False
+4600,Body Theron Azul Índigo,Bodies,Azul Índigo,344.5,344.5,,,False,False,False,False
+4601,Biquíni Bardi Off-White,Biquínis,Off White,137.5,137.5,60.09,60.09,True,True,False,False
+4602,Biquíni Bardi Preto,Biquínis,Preto,137.5,137.5,60.09,60.09,True,True,False,False
+4603,Biquíni Bardi Cobre,Biquínis,Cobre,137.5,137.5,60.09,60.09,True,True,False,False
+4604,Cropped Linho Brett Off-White,Croppeds,Off White,394.5,394.5,,,False,False,False,False
+4605,Cropped Linho Brett Preto,Croppeds,Preto,394.5,394.5,,,False,False,False,False
+4606,Cropped Linho Brett Caramelo,Croppeds,Caramelo,394.5,394.5,,,False,False,False,False
+4607,Pantalona Linho Abbie Off-White,Calças,Off White,599.5,599.5,,,False,False,False,False
+4608,Pantalona Linho Abbie Preto,Calças,Preto,599.5,599.5,,,False,False,False,False
+4609,Pantalona Linho Abbie Caramelo,Calças,Caramelo,599.5,599.5,,,False,False,False,False
+4613,Macacão Linho Braid Off-White,Macacões,Off White,894.5,894.5,,,False,False,False,False
+4614,Macacão Linho Braid Preto,Macacões,Preto,894.5,894.5,,,False,False,False,False
+4616,Biquíni Finca Pérola,Biquínis,Pérola,242.0,242.0,58.2,58.2,True,True,False,False
+4617,Biquíni Finca Preto,Biquínis,Preto,242.0,242.0,58.2,58.2,True,True,False,False
+4618,Biquíni Finca Vermelho,Biquínis,Vermelho,242.0,242.0,58.2,58.2,True,True,False,False
+4623,Biquíni Peter Preto,Biquínis,Preto,116.0,116.0,61.27,61.27,True,True,False,False
+4624,Biquíni Peter Cobre,Biquínis,Cobre,116.0,116.0,61.27,61.27,True,True,False,False
+4628,Biquíni Eaton Pérola,Biquínis,Pérola,116.0,116.0,68.18,68.18,True,True,False,False
+4629,Biquíni Eaton Preto,Biquínis,Preto,116.0,116.0,68.18,68.18,True,True,False,False
+4630,Biquíni Eaton Cobre,Biquínis,Cobre,116.0,116.0,68.18,68.18,True,True,False,False
+4631,Blusa Alpheus Off-White,Blusas,Off White,689.0,689.0,,,False,False,False,False
+4632,Blusa Alpheus Preto,Blusas,Preto,689.0,689.0,,,False,False,False,False
+4636,Cropped Lelac Bege,Croppeds,Bege,394.5,394.5,,,False,False,False,False
+4637,Corselet Kimbell Off-White,,Off White,494.5,494.5,,,False,False,False,False
+4639,Blusa Mayfar Off-White,Blusas,Off White,889.0,889.0,,,False,False,False,False
+4640,Blusa Mayfar Preto,Blusas,Preto,889.0,889.0,,,False,False,False,False
+4641,Blusa Mayfar Bege,Blusas,Bege,889.0,889.0,,,False,False,False,False
+4642,Blusa Soho Off-White,Blusas,Off White,699.0,699.0,,,False,False,False,False
+4643,Blusa Soho Preto,Blusas,Preto,699.0,699.0,,,False,False,False,False
+4644,Macacão Rith Off-White,Macacões,Off White,894.5,894.5,,,False,False,False,False
+4645,Macacão Rith Preto,Macacões,Preto,894.5,894.5,,,False,False,False,False
+4646,Macacão Rith Avelã,Macacões,Avelã,894.5,894.5,,,False,False,False,False
+4647,Macacão Avia Off-White,Macacões,Off White,644.5,644.5,,,False,False,False,False
+4651,Macaquinho Evans Preto,,Preto,694.5,694.5,,,False,False,False,False
+4652,Macaquinho Evans Bege,,Bege,694.5,694.5,,,False,False,False,False
+4659,Blazer Linho Fruges Preto,Blazers,Preto,894.5,894.5,,,False,False,False,False
+4660,Blazer Linho Fruges Caramelo,Blazers,Caramelo,894.5,894.5,,,False,False,False,False
+4662,Vestido Linho Frank Preto,Vestidos,Preto,744.5,744.5,,,False,False,False,False
+4663,Vestido Linho Frank Bege,Vestidos,Bege,744.5,744.5,,,False,False,False,False
+4664,Vestido Linho Arum Off-White,Vestidos,Off White,744.5,744.5,,,False,False,False,False
+4665,Vestido Linho Arum Preto,Vestidos,Preto,744.5,744.5,,,False,False,False,False
+4666,Vestido Linho Arum Avelã,Vestidos,Avelã,744.5,744.5,,,False,False,False,False
+4667,Vestido Gio Off-White,Vestidos,Off White,844.5,844.5,,,False,False,False,False
+4668,Vestido Gio Preto,Vestidos,Preto,844.5,844.5,,,False,False,False,False
+4669,Vestido Gio Azul,Vestidos,Azul,844.5,844.5,,,False,False,False,False
+4670,Vestido Hadid Off-White,Vestidos,Off White,794.5,794.5,,,False,False,False,False
+4671,Vestido Hadid Preto,Vestidos,Preto,794.5,794.5,,,False,False,False,False
+4672,Vestido Hadid Vermelho,Vestidos,Vermelho,794.5,794.5,,,False,False,False,False
+4673,Short Saia Kahn Off-White,Shorts,Off White,394.5,394.5,,,False,False,False,False
+4674,Short Saia Kahn Preto,Shorts,Preto,394.5,394.5,,,False,False,False,False
+4676,Saia Lisse Off-White,Saias,Off White,494.5,494.5,,,False,False,False,False
+4677,Saia Lisse Preto,Saias,Preto,494.5,494.5,,,False,False,False,False
+4678,Short Vesu Off-White,Shorts,Off White,379.5,379.5,,,False,False,False,False
+4683,Pareô Heidi Cobre,Pareôs,Cobre,299.5,299.5,,,False,False,False,False
+4684,Pareô Heidi Vermelho,Pareôs,Vermelho,299.5,299.5,,,False,False,False,False
+4685,Saia Bitar Pérola,Saias,Pérola,264.5,264.5,,,False,False,False,False
+4686,Saia Bitar Preto,Saias,Preto,264.5,264.5,,,False,False,False,False
+4687,Saia Bitar Cobre,Saias,Cobre,264.5,264.5,,,False,False,False,False
+4688,Saia Bitar Vermelho,Saias,Vermelho,264.5,264.5,,,False,False,False,False
+4690,Body Espanya Preto,Bodies,Preto,599.0,599.0,,,False,False,False,False
+4691,Body Espanya Vermelho,Bodies,Vermelho,599.0,599.0,,,False,False,False,False
+4692,Vestido Tricot Nau Preto,Vestidos,Preto,899.5,899.5,,,False,False,False,False
+4693,Vestido Tricot Nau Vermelho,Vestidos,Vermelho,899.5,899.5,,,False,False,False,False
+4694,Vestido Tricot Nau Avelã,Vestidos,Avelã,899.5,899.5,,,False,False,False,False
+4698,Vestido Harpa Preto,Vestidos,Preto,1889.0,1889.0,,,False,False,False,False
+4699,Vestido Harpa Vermelho,Vestidos,Vermelho,1889.0,1889.0,,,False,False,False,False
+4700,Conjunto Lamellae Off-White,Conjuntos,Off White,494.5,494.5,54.82,54.82,True,True,False,False
+4701,Conjunto Lamellae Preto,Conjuntos,Preto,494.5,494.5,54.82,54.82,True,True,False,False
+4702,Conjunto Lamellae Azul,Conjuntos,Azul,494.5,494.5,54.82,54.82,True,True,False,False
+4703,Vestido Alvorada Off-White,Vestidos,Off White,744.5,744.5,,,False,False,False,False
+4704,Vestido Alvorada Preto,Vestidos,Preto,744.5,744.5,,,False,False,False,False
+4705,Vestido Alvorada Vermelho,Vestidos,Vermelho,744.5,744.5,,,False,False,False,False
+4706,Vestido Salk Off-White,Vestidos,Off White,844.5,844.5,,,False,False,False,False
+4708,Vestido Salk Vermelho,Vestidos,Vermelho,844.5,844.5,,,False,False,False,False
+4709,Vestido Salk Azul,Vestidos,Azul,844.5,844.5,,,False,False,False,False
+4710,Macacão Mila Off-White,Macacões,Off White,1889.0,1889.0,,,False,False,False,False
+4711,Macacão Mila Preto,Macacões,Preto,1889.0,1889.0,,,False,False,False,False
+4712,Macacão Mila Avelã,Macacões,Avelã,1889.0,1889.0,,,False,False,False,False
+4713,Macacão Fiorese Off-White,Macacões,Off White,844.5,844.5,,,False,False,False,False
+4716,Vestido Loren Off-White,Vestidos,Off White,494.5,494.5,,,False,False,False,False
+4717,Vestido Loren Preto,Vestidos,Preto,494.5,494.5,,,False,False,False,False
+4719,Vestido Malmo Off-White,Vestidos,Off White,1889.0,1889.0,,,False,False,False,False
+4720,Vestido Malmo Preto,Vestidos,Preto,1889.0,1889.0,,,False,False,False,False
+4721,Vestido Malmo Vermelho,Vestidos,Vermelho,1889.0,1889.0,,,False,False,False,False
+4724,Body Bonnie Pérola,Bodies,Pérola,334.5,334.5,,,False,False,False,False
+4729,Vestido Linho Alanis Off-White,Vestidos,Off White,644.5,644.5,,,False,False,False,False
+4730,Vestido Linho Alanis Preto,Vestidos,Preto,644.5,644.5,,,False,False,False,False
+4731,Vestido Linho Alanis Avelã,Vestidos,Avelã,644.5,644.5,,,False,False,False,False
+4732,Pareô Lenk Pérola,Pareôs,Pérola,499.0,499.0,,,False,False,False,False
+4733,Pareô Lenk Preto,Pareôs,Preto,499.0,499.0,,,False,False,False,False
+4734,Pareô Lenk Cobre,Pareôs,Cobre,499.0,499.0,,,False,False,False,False
+4735,Biquíni Harper Pérola,Biquínis,Pérola,116.0,116.0,61.27,61.27,True,True,False,False
+4736,Biquíni Harper Preto,Biquínis,Preto,116.0,116.0,61.27,61.27,True,True,False,False
+4738,Vestido Sanaa Paetê Dourado,Vestidos,Paetê Dourado,844.5,844.5,,,False,False,False,False
+4739,Vestido Sanaa Paetê Prateado,Vestidos,Paetê Prateado,844.5,844.5,,,False,False,False,False
+4740,Vestido Tess Off-White,Vestidos,Off White,1989.0,1989.0,,,False,False,False,False
+4741,Vestido Tess Preto,Vestidos,Preto,1989.0,1989.0,,,False,False,False,False
+4742,Vestido Tess Vermelho,Vestidos,Vermelho,1989.0,1989.0,,,False,False,False,False
+4744,Vestido Reidy Vermelho,Vestidos,Vermelho,994.5,994.5,,,False,False,False,False
+4745,Vestido Reidy Preto,Vestidos,Preto,994.5,994.5,,,False,False,False,False
+4747,Vestido Reidy Paetê Dourado,Vestidos,Paetê Dourado,994.5,994.5,,,False,False,False,False
+4749,Vestido Bauhaus Preto,Vestidos,Preto,794.5,794.5,,,False,False,False,False
+4750,Vestido Bauhaus Vermelho,Vestidos,Vermelho,794.5,794.5,,,False,False,False,False
+4751,Vestido Perot Off-White,Vestidos,Off White,994.5,994.5,,,False,False,False,False
+4753,Vestido Perot Vermelho,Vestidos,Vermelho,994.5,994.5,,,False,False,False,False
+4754,Vestido Perot Azul,Vestidos,Azul,994.5,994.5,,,False,False,False,False
+4755,Vestido Linho Sugarloaf Off-White,Vestidos,Off White,644.5,644.5,,,False,False,False,False
+4756,Vestido Linho Sugarloaf Preto,Vestidos,Preto,644.5,644.5,,,False,False,False,False
+4757,Vestido Linho Sugarloaf Avelã,Vestidos,Avelã,644.5,644.5,,,False,False,False,False
+4762,Blusa Zeno Off-White,Blusas,Off White,345.0,345.0,,,False,False,False,False
+4764,Vestido Copan Off-White,Vestidos,Off White,1289.0,1289.0,,,False,False,False,False
+4766,Vestido Copan Vermelho,Vestidos,Vermelho,1289.0,1289.0,,,False,False,False,False
+4767,Calça Zeno Off-White,Calças,Off White,859.0,859.0,,,False,False,False,False
+4768,Calça Zeno Preto,Calças,Preto,859.0,859.0,,,False,False,False,False
+4772,Vestido Forest Off-White,Vestidos,Off White,794.5,794.5,,,False,False,False,False
+4773,Vestido Forest Preto,Vestidos,Preto,794.5,794.5,,,False,False,False,False
+4774,Vestido Forest Azul,Vestidos,Azul,794.5,794.5,,,False,False,False,False
+4776,Vestido Roland Off-White,Vestidos,Off White,1989.0,1989.0,,,False,False,False,False
+4777,Vestido Roland Preto,Vestidos,Preto,1989.0,1989.0,,,False,False,False,False
+4778,Vestido Roland Vermelho,Vestidos,Vermelho,1989.0,1989.0,,,False,False,False,False
+4779,Vestido Roland Marrom,Vestidos,Marrom,1989.0,1989.0,,,False,False,False,False
+4780,Vestido Maddox Off-White,Vestidos,Off White,2389.0,2389.0,,,False,False,False,False
+4782,Vestido Maddox Vermelho,Vestidos,Vermelho,2389.0,2389.0,,,False,False,False,False
+4783,Macacão Breddon Off-White,Macacões,Off White,1789.0,1789.0,,,False,False,False,False
+4784,Macacão Breddon Preto,Macacões,Preto,1789.0,1789.0,,,False,False,False,False
+4785,Macacão Breddon Vermelho,Macacões,Vermelho,1789.0,1789.0,,,False,False,False,False
+4786,Macacão Breddon Marrom,Macacões,Marrom,1789.0,1789.0,,,False,False,False,False
+4787,Vestido Cowden Off-White,Vestidos,Off White,1789.0,1789.0,,,False,False,False,False
+4788,Vestido Cowden Preto,Vestidos,Preto,1789.0,1789.0,,,False,False,False,False
+4789,Vestido Cowden Vermelho,Vestidos,Vermelho,1789.0,1789.0,,,False,False,False,False
+4790,Macacão Aaron Off-White,Macacões,Off White,1789.0,1789.0,,,False,False,False,False
+4791,Macacão Aaron Preto,Macacões,Preto,1789.0,1789.0,,,False,False,False,False
+4795,Body Giorgia Marrom,Bodies,Marrom,859.0,859.0,,,False,False,False,False
+4796,BLUSA MAYFAR + PANTALONA SAVOYE | OFF-WHITE,Blusas,Off White,1727.1,1727.1,,,False,False,False,False
+4797,Vestido Cameron Off-White,Vestidos,Off White,1889.0,1889.0,,,False,False,False,False
+4798,Vestido Cameron Preto,Vestidos,Preto,1889.0,1889.0,,,False,False,False,False
+4799,Vestido Cameron Fúcsia,Vestidos,Fúcsia,1889.0,1889.0,,,False,False,False,False
+4800,Vestido Cameron Azul,Vestidos,Azul,1889.0,1889.0,,,False,False,False,False
+4801,Pantalona Braxton Off-White,Calças,Off White,989.0,989.0,,,False,False,False,False
+4802,Pantalona Braxton Preto,Calças,Preto,989.0,989.0,,,False,False,False,False
+4805,Saia Remmy Preto,Saias,Preto,989.0,989.0,,,False,False,False,False
+4806,Saia Remmy Marrom,Saias,Marrom,989.0,989.0,,,False,False,False,False
+4807,Body Steffano Off-White,Bodies,Off White,689.0,689.0,,,False,False,False,False
+4808,Body Steffano Preto,Bodies,Preto,689.0,689.0,,,False,False,False,False
+4809,Body Steffano Marrom,Bodies,Marrom,689.0,689.0,,,False,False,False,False
+4810,Macacão Megan Off-White,Macacões,Off White,1789.0,1789.0,,,False,False,False,False
+4811,Macacão Megan Preto,Macacões,Preto,1789.0,1789.0,,,False,False,False,False
+4812,Macacão Megan Vermelho,Macacões,Vermelho,1789.0,1789.0,,,False,False,False,False
+4813,Vestido Tricot Aubrey Preto com Off-White,Vestidos,Off White,1789.0,1789.0,,,False,False,False,False
+4814,Vestido Tricot Aubrey Bege,Vestidos,Bege,1789.0,1789.0,,,False,False,False,False
+4815,Vestido Tricot Aubrey Vermelho,Vestidos,Vermelho,1789.0,1789.0,,,False,False,False,False
+4816,Body Chiara Off-White,Bodies,Off White,989.0,989.0,,,False,False,False,False
+4818,Body Chiara Marrom,Bodies,Marrom,989.0,989.0,,,False,False,False,False
+4819,Biquíni Vitto Pérola,Biquínis,Pérola,232.0,232.0,59.93,59.93,True,True,False,False
+4820,Biquíni Vitto Preto,Biquínis,Preto,232.0,232.0,59.93,59.93,True,True,False,False
+4821,Biquíni Vitto Azul Marinho,Biquínis,Azul Marinho,232.0,232.0,59.93,59.93,True,True,False,False
+4822,Vestido Dylan Off-White,Vestidos,Off White,1689.0,1689.0,,,False,False,False,False
+4823,Vestido Dylan Preto,Vestidos,Preto,1689.0,1689.0,,,False,False,False,False
+4824,Vestido Dylan Vermelho,Vestidos,Vermelho,1689.0,1689.0,,,False,False,False,False
+4825,Body Dominic Pérola,Bodies,Pérola,649.0,649.0,,,False,False,False,False
+4826,Body Dominic Preto,Bodies,Preto,649.0,649.0,,,False,False,False,False
+4827,Body Dominic Marrom,Bodies,Marrom,649.0,649.0,,,False,False,False,False
+4828,Body Emma Off-White,Bodies,Off White,789.0,789.0,,,False,False,False,False
+4829,Body Emma Preto,Bodies,Preto,789.0,789.0,,,False,False,False,False
+4830,Body Mattia Off-White,Bodies,Off White,649.0,649.0,,,False,False,False,False
+4831,Body Mattia Preto,Bodies,Preto,649.0,649.0,,,False,False,False,False
+4832,Body Mattia Marrom,Bodies,Marrom,649.0,649.0,,,False,False,False,False
+4833,Body Rocco Off-White,Bodies,Off White,749.0,749.0,,,False,False,False,False
+4834,Body Rocco Preto,Bodies,Preto,749.0,749.0,,,False,False,False,False
+4838,Blusa Percy Off-White,Blusas,Off White,989.0,989.0,,,False,False,False,False
+4839,Blusa Percy Preto,Blusas,Preto,989.0,989.0,,,False,False,False,False
+4840,Vestido Ivory Off-White,Vestidos,Off White,1989.0,1989.0,,,False,False,False,False
+4841,Vestido Ivory Preto,Vestidos,Preto,1989.0,1989.0,,,False,False,False,False
+4842,Vestido Ivory Fúcsia,Vestidos,Fúcsia,1989.0,1989.0,,,False,False,False,False
+4843,Vestido Ivory Azul,Vestidos,Azul,1989.0,1989.0,,,False,False,False,False
+4844,Blazer Vestido Dustin Off-White,Blazers,Off White,1689.0,1689.0,,,False,False,False,False
+4845,Blazer Vestido Dustin Preto,Blazers,Preto,1689.0,1689.0,,,False,False,False,False
+4846,Blazer Vestido Dustin Vermelho,Blazers,Vermelho,1689.0,1689.0,,,False,False,False,False
+4847,Blazer Vestido Vincent Off-White,Blazers,Off White,1799.0,1799.0,,,False,False,False,False
+4848,Blazer Vestido Vincent Preto,Blazers,Preto,1799.0,1799.0,,,False,False,False,False
+4849,Blazer Vestido Vincent Caramelo,Blazers,Caramelo,1799.0,1799.0,,,False,False,False,False
+4850,Vestido Filippo Off-White,Vestidos,Off White,1789.0,1789.0,,,False,False,False,False
+4851,Vestido Filippo Preto,Vestidos,Preto,1789.0,1789.0,,,False,False,False,False
+4852,Vestido Filippo Azul,Vestidos,Azul,1789.0,1789.0,,,False,False,False,False
+4853,Macacão Amber Off-White,Macacões,Off White,1789.0,1789.0,,,False,False,False,False
+4854,Macacão Amber Preto,Macacões,Preto,1789.0,1789.0,,,False,False,False,False
+4855,Macacão Amber Vermelho,Macacões,Vermelho,1789.0,1789.0,,,False,False,False,False
+4856,Pareô Marrom,Pareôs,Marrom,459.0,459.0,,,False,False,False,False
+4857,Pareô Grazia Pérola,Pareôs,Pérola,739.0,739.0,,,False,False,False,False
+4858,Pareô Grazia Preto,Pareôs,Preto,739.0,739.0,,,False,False,False,False
+4859,Pareô Grazia Marrom,Pareôs,Marrom,739.0,739.0,,,False,False,False,False
+4860,Saia Riley Off-White,Saias,Off White,859.0,859.0,,,False,False,False,False
+4861,Saia Riley Preto,Saias,Preto,859.0,859.0,,,False,False,False,False
+4862,Cropped Carlo Off-White,Croppeds,Off White,859.0,859.0,,,False,False,False,False
+4863,Cropped Carlo Preto,Croppeds,Preto,859.0,859.0,,,False,False,False,False
+4864,Vestido Tucker Off-White,Vestidos,Off White,1789.0,1789.0,,,False,False,False,False
+4866,Vestido Tucker Vermelho,Vestidos,Vermelho,1789.0,1789.0,,,False,False,False,False
+4867,Biquíni Alann Pérola,Biquínis,Pérola,220.0,220.0,68.53,68.53,True,True,False,False
+4868,Biquíni Alann Preto,Biquínis,Preto,220.0,220.0,68.53,68.53,True,True,False,False
+4870,Biquíni Alann Marrom,Biquínis,Marrom,220.0,220.0,68.53,68.53,True,True,False,False
+4871,Biquíni Landon Pérola,Biquínis,Pérola,320.0,320.0,62.31,62.31,True,True,False,False
+4872,Biquíni Landon Preto,Biquínis,Preto,320.0,320.0,62.31,62.31,True,True,False,False
+4873,Biquíni Landon Marrom,Biquínis,Marrom,320.0,320.0,62.31,62.31,True,True,False,False
+4882,Biquíni Easton Off-White,Biquínis,Off White,232.0,232.0,60.61,60.61,True,True,False,False
+4883,Biquíni Easton Preto,Biquínis,Preto,232.0,232.0,60.61,60.61,True,True,False,False
+4884,Biquíni Easton Azul Marinho,Biquínis,Azul Marinho,232.0,232.0,60.61,60.61,True,True,False,False
+4885,Biquíni Easton Marrom,Biquínis,Marrom,232.0,232.0,60.61,60.61,True,True,False,False
+4890,Blazer Vestido Darleen Preto,Blazers,Preto,1789.0,1789.0,,,False,False,False,False
+4891,Blazer Vestido Darleen Marrom,Blazers,Marrom,1789.0,1789.0,,,False,False,False,False
+4892,Blazer Carmine Off-White,Blazers,Off White,1589.0,1589.0,,,False,False,False,False
+4893,Blazer Carmine Preto,Blazers,Preto,1589.0,1589.0,,,False,False,False,False
+4894,Blazer Carmine Caramelo,Blazers,Caramelo,1589.0,1589.0,,,False,False,False,False
+4896,Blusa Cesare Preto,Blusas,Preto,859.0,859.0,,,False,False,False,False
+4898,Blusa Tommaso Preto,Blusas,Preto,859.0,859.0,,,False,False,False,False
+4899,Calça Jeans Malcolm Azul Claro,Calças,Azul,859.0,859.0,,,False,False,False,False
+4900,Calça Jeans Malcolm Azul Escuro,Calças,Azul,859.0,859.0,,,False,False,False,False
+4901,Short Caleb Off-White,Shorts,Off White,689.0,689.0,,,False,False,False,False
+4902,Short Caleb Preto,Shorts,Preto,689.0,689.0,,,False,False,False,False
+4904,BODY CHIARA + PANTALONA SAVOYE | OFF-WHITE,Bodies,Off White,1822.1,1822.1,,,False,False,False,False
+4905,BLUSA ZENO + CALÇA ZENO | OFF-WHITE,Blusas,Off White,,,,,False,False,False,False
+4906,BLUSA ZENO + CALÇA ZENO | PRETO,Blusas,Preto,,,,,False,False,False,False
+4907,BIQUÍNI EASTON + PAREÔ | MARROM,Biquínis,Marrom,995.6,995.6,,,False,False,False,False
+4908,Corselet Steven Off-White,,Off White,869.0,869.0,,,False,False,False,False
+4909,Corselet Steven Preto,,Preto,869.0,869.0,,,False,False,False,False
+4910,Corselet Steven Marrom,,Marrom,869.0,869.0,,,False,False,False,False
+4911,BODY EMMA + PANTALONA BRAXTON | PRETO,Bodies,Preto,1689.1,1689.1,,,False,False,False,False
+4912,BODY EMMA + PANTALONA BRAXTON | OFF-WHITE,Bodies,Off White,1689.1,1689.1,,,False,False,False,False
+4916,BLUSA PERCY + SAIA REMMY | PRETO,Blusas,Preto,1879.1,1879.1,,,False,False,False,False
+4917,BLUSA TOMMASO + SAIA RILEY | PRETO,Blusas,Preto,1632.1,1632.1,,,False,False,False,False
+4918,BLUSA CESARE + SAIA RILEY | OFF-WHITE,Blusas,Off White,1632.1,1632.1,,,False,False,False,False
+4919,BODY ROCCO + PANTALONA FLARE | OFF-WHITE,Bodies,Off White,1651.1,1651.1,,,False,False,False,False
+4920,BODY ROCCO + PANTALONA FLARE | PRETO,Bodies,Preto,1651.1,1651.1,,,False,False,False,False
+4921,BIQUÍNI EASTON + PAREÔ | OFF-WHITE,Biquínis,Off White,1048.0,1048.0,,,False,False,False,False
+4922,BIQUÍNI EASTON + PAREÔ GRAZIA | PRETO,Biquínis,Preto,1261.6,1261.6,,,False,False,False,False
+4923,BIQUÍNI VITTO + PAREÔ | PRETO,Biquínis,Preto,986.1,986.1,,,False,False,False,False
+4924,BIQUÍNI VITTO + PAREÔ GRAZIA | PÉROLA,Biquínis,Pérola,1252.1,1252.1,,,False,False,False,False
+4925,CORSELET KIMBELL + PANTALONA SAVOYE | PRETO,,Preto,1822.1,1822.1,,,False,False,False,False
+4926,CORSELET KIMBELL + PANTALONA SAVOYE | OFF-WHITE,,Off White,1822.1,1822.1,,,False,False,False,False
+4927,BLUSA TOMMASO + SHORT CALEB | OFF-WHITE,Blusas,Off White,,,,,False,False,False,False
+4928,BODY EMMA + SHORT CALEB | PRETO,Bodies,Preto,1404.1,1404.1,,,False,False,False,False
+4930,BLUSA PERCY OFF-WHITE + CALÇA JEANS MALCOLM AZUL CLARO,Blusas,Off White,1755.6,1755.6,,,False,False,False,False
+4931,BLUSA PERCY PRETA + CALÇA JEANS MALCOLM AZUL ESCURO,Blusas,Azul,1755.6,1755.6,,,False,False,False,False
+4933,Vestido Osbert Off-White,Vestidos,Off White,2289.0,2289.0,,,False,False,False,False
+4934,Vestido Osbert Preto,Vestidos,Preto,2289.0,2289.0,,,False,False,False,False
+4936,Vestido Osbert Marrom,Vestidos,Marrom,2289.0,2289.0,,,False,False,False,False
+4940,Blusa Alexis Off-White,Blusas,Off White,989.0,989.0,,,False,False,False,False
+4941,Blusa Alexis Preto,Blusas,Preto,989.0,989.0,,,False,False,False,False
+4947,Vestido Warren Off-White,Vestidos,Off White,1789.0,1789.0,,,False,False,False,False
+4948,Vestido Warren Preto,Vestidos,Preto,1789.0,1789.0,,,False,False,False,False
+4949,Vestido Warren Marrom,Vestidos,Marrom,1789.0,1789.0,,,False,False,False,False
+4950,Vestido Brent Off-White,Vestidos,Off White,1589.0,1589.0,,,False,False,False,False
+4951,Vestido Brent Preto,Vestidos,Preto,1589.0,1589.0,,,False,False,False,False
+4952,Vestido Brent Marrom,Vestidos,Marrom,1589.0,1589.0,,,False,False,False,False
+4953,BLAZER CARMINE + PANTALONA SAVOYE | OFF-WHITE,Blazers,Off White,2392.1,2392.1,,,False,False,False,False
+4954,BLAZER CARMINE + PANTALONA SAVOYE | PRETO,Blazers,Preto,2392.1,2392.1,,,False,False,False,False
+4955,BLAZER CARMINE CARAMELO + CALÇA JEANS MALCOLM AZUL CLARO,Blazers,Caramelo,2325.6,2325.6,,,False,False,False,False
+4956,BLUSA ALEXIS PRETA + CALÇA JEANS MALCOLM AZUL ESCURO,Blusas,Azul,1755.6,1755.6,,,False,False,False,False
+4957,BLUSA ALEXIS OFF-WHITE + CALÇA JEANS MALCOLM AZUL ESCURO,Blusas,Off White,1755.6,1755.6,,,False,False,False,False
+4958,BLAZER DONATO MARROM + PANTALONA SAVOYE OFF-WHITE,Blazers,Off White,,,,,False,False,False,False
+4959,Macacão Novari Off-White,Macacões,Off White,1689.0,1689.0,,,False,False,False,False
+4960,Macacão Novari Preto,Macacões,Preto,1689.0,1689.0,,,False,False,False,False
+4961,Macacão Novari Vermelho,Macacões,Vermelho,1689.0,1689.0,,,False,False,False,False
+4962,BLAZER DONATO + PANTALONA SAVOYE OFF-WHITE,Blazers,Off White,,,,,False,False,False,False
+4963,BLAZER DONATO + PANTALONA SAVOYE PRETO,Blazers,Preto,,,,,False,False,False,False
+4968,Vestido Fontaine Off-White,Vestidos,Off White,1989.0,1989.0,,,False,False,False,False
+4969,Vestido Fontaine Framboesa,Vestidos,Framboesa,1989.0,1989.0,,,False,False,False,False
+4970,Vestido Fontaine Preto,Vestidos,Preto,1989.0,1989.0,,,False,False,False,False
+4971,Vestido Fontaine Vermelho,Vestidos,Vermelho,1989.0,1989.0,,,False,False,False,False
+4972,Body Foster Off-White,Bodies,Off White,689.0,689.0,,,False,False,False,False
+4973,Body Foster Preto,Bodies,Preto,689.0,689.0,,,False,False,False,False
+4975,Macacão Linho Armand Azul,Macacões,Azul,1689.0,1689.0,,,False,False,False,False
+4976,Macacão Linho Armand Preto,Macacões,Preto,,,,,False,False,False,False
+4977,Macacão Linho Armand Marrom,Macacões,Marrom,1689.0,1689.0,,,False,False,False,False
+4978,Vestido Walker Off-White,Vestidos,Off White,1989.0,1989.0,,,False,False,False,False
+4979,Vestido Walker Framboesa,Vestidos,Framboesa,1989.0,1989.0,,,False,False,False,False
+4980,Vestido Walker Preto,Vestidos,Preto,1989.0,1989.0,,,False,False,False,False
+4981,Vestido Walker Vermelho,Vestidos,Vermelho,1989.0,1989.0,,,False,False,False,False
+4982,Vestido Salvi Off-White,Vestidos,Off White,1989.0,1989.0,,,False,False,False,False
+4983,Vestido Salvi Azul,Vestidos,Azul,1989.0,1989.0,,,False,False,False,False
+4984,Vestido Salvi Preto,Vestidos,Preto,1989.0,1989.0,,,False,False,False,False
+4985,Vestido Salvi Vermelho,Vestidos,Vermelho,1989.0,1989.0,,,False,False,False,False
+4986,Vestido Bianchi Off-White,Vestidos,Off White,,,,,False,False,False,False
+4987,Vestido Bianchi Preto,Vestidos,Preto,,,,,False,False,False,False
+4988,Vestido Bianchi Vermelho,Vestidos,Vermelho,,,,,False,False,False,False
+4989,Vestido Bianchi Marrom,Vestidos,Marrom,,,,,False,False,False,False
+4997,Biquíni Lorian Off-White,Biquínis,Off White,232.0,232.0,61.27,61.27,True,True,False,False
+4998,Biquíni Lorian Preto,Biquínis,Preto,232.0,232.0,61.27,61.27,True,True,False,False
+5003,Biquíni Castillo Off-White,Biquínis,Off White,232.0,232.0,65.83,65.83,True,True,False,False
+5005,Biquíni Castillo Preto,Biquínis,Preto,232.0,232.0,65.83,65.83,True,True,False,False
+5006,Biquíni Castillo Terracota,Biquínis,Terracota,232.0,232.0,65.83,65.83,True,True,False,False
+5007,Vestido Sartori Rosê,Vestidos,Rosê,2389.0,2389.0,,,False,False,False,False

@@ -1,0 +1,825 @@
+product,category,neighbor,neighbor_category,rank,similarity_pct,calibrated_similarity_pct,same_category,same_color,same_sizes,price_gap_pct,similarity_signal
+Vestido Zephyr Off-White,Vestidos,Vestido Amida Off-White,Vestidos,2,99.87,100.0,True,True,True,5.03,VARIANT_LIKE
+Biquíni Alann Preto,Biquínis,Biquíni Castillo Preto,Biquínis,1,99.91,100.0,True,True,True,5.17,VARIANT_LIKE
+Vestido Walker Vermelho,Vestidos,Vestido Roland Vermelho,Vestidos,2,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Walker Vermelho,Vestidos,Vestido Salvi Vermelho,Vestidos,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Biquíni Arenella Preto,Biquínis,Biquíni Harper Preto,Biquínis,1,99.74,100.0,True,True,True,10.77,STRUCTURAL_NEIGHBOR
+Biquíni Arenella Off-White,Biquínis,Biquíni Bardi Off-White,Biquínis,1,99.68,100.0,True,True,True,5.45,VARIANT_LIKE
+Biquíni Alann Marrom,Biquínis,Biquíni Easton Marrom,Biquínis,1,98.44,100.0,True,True,True,5.17,VARIANT_LIKE
+Saia Dorian Off-White,Saias,Saia Hazel Off-White,Saias,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Pareô Preto,Pareôs,Pareô Lenk Preto,Pareôs,1,100.0,100.0,True,True,True,2.0,VARIANT_LIKE
+Vestido Hadid Preto,Vestidos,Vestido Barlett Preto,Vestidos,2,100.0,100.0,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Vestido Hadid Preto,Vestidos,Vestido Forest Preto,Vestidos,1,100.0,100.0,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Vestido Hadid Off-White,Vestidos,Vestido Barlett Off-White,Vestidos,2,100.0,100.0,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Vestido Hadid Off-White,Vestidos,Vestido Forest Off-White,Vestidos,1,100.0,100.0,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Vestido Gio Preto,Vestidos,Vestido Tricot Nau Preto,Vestidos,4,99.79,100.0,True,True,True,6.11,VARIANT_LIKE
+Vestido Gio Preto,Vestidos,Vestido Forest Preto,Vestidos,3,99.84,100.0,True,True,True,5.92,VARIANT_LIKE
+Vestido Gio Preto,Vestidos,Vestido Barlett Preto,Vestidos,2,99.84,100.0,True,True,True,5.92,VARIANT_LIKE
+Vestido Gio Off-White,Vestidos,Vestido Tricot Murphy Preto com Off-White,Vestidos,5,99.83,100.0,True,True,True,5.59,VARIANT_LIKE
+Biquíni Bercy Pérola,Biquínis,Biquíni Malawi Pérola,Biquínis,1,99.97,100.0,True,True,True,0.0,VARIANT_LIKE
+Biquíni Bardi Preto,Biquínis,Biquíni Arenella Preto,Biquínis,1,99.68,100.0,True,True,True,5.45,VARIANT_LIKE
+Biquíni Capanema Cobre,Biquínis,Biquíni Peter Cobre,Biquínis,2,99.57,100.0,True,True,True,1.69,VARIANT_LIKE
+Biquíni Capanema Cobre,Biquínis,Biquíni Miller Cobre,Biquínis,1,99.75,100.0,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Biquíni Bernie Off-White,Biquínis,Biquíni Marzan Off-White,Biquínis,1,99.96,100.0,True,True,True,4.55,VARIANT_LIKE
+Vestido Vitalli Off-White,Vestidos,Vestido Vallez Off-White,Vestidos,2,100.0,100.0,True,True,True,0.43,VARIANT_LIKE
+Vestido Vitalli Off-White,Vestidos,Vestido Rennie Off-White,Vestidos,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Biquíni Azov Preto,Biquínis,Biquíni Mies Preto,Biquínis,2,99.63,100.0,True,True,True,9.52,STRUCTURAL_NEIGHBOR
+Biquíni Azov Preto,Biquínis,Biquíni Menorca Preto,Biquínis,1,99.73,100.0,True,True,True,0.0,VARIANT_LIKE
+Biquíni Atticus Pérola,Biquínis,Biquíni Hali Pérola,Biquínis,5,99.08,100.0,True,True,True,4.55,VARIANT_LIKE
+Biquíni Atticus Pérola,Biquínis,Biquíni Malawi Pérola,Biquínis,4,99.17,100.0,True,True,True,0.0,VARIANT_LIKE
+Biquíni Atticus Pérola,Biquínis,Biquíni Julian Pérola,Biquínis,3,99.36,100.0,True,True,True,0.0,VARIANT_LIKE
+Biquíni Atticus Pérola,Biquínis,Biquíni Eaton Pérola,Biquínis,2,99.7,100.0,True,True,True,5.17,VARIANT_LIKE
+Biquíni Atticus Pérola,Biquínis,Biquíni Riva Pérola,Biquínis,1,99.92,100.0,True,True,True,8.33,STRUCTURAL_NEIGHBOR
+Vestido Tucker Vermelho,Vestidos,Vestido Malmo Vermelho,Vestidos,3,99.84,100.0,True,True,True,5.29,VARIANT_LIKE
+Vestido Tucker Vermelho,Vestidos,Vestido Harpa Vermelho,Vestidos,2,99.84,100.0,True,True,True,5.29,VARIANT_LIKE
+Vestido Tucker Vermelho,Vestidos,Vestido Cowden Vermelho,Vestidos,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Tucker Off-White,Vestidos,Vestido Riccie Off-White,Vestidos,3,99.84,100.0,True,True,True,5.29,VARIANT_LIKE
+Vestido Tucker Off-White,Vestidos,Vestido Malmo Off-White,Vestidos,2,99.84,100.0,True,True,True,5.29,VARIANT_LIKE
+Vestido Tucker Off-White,Vestidos,Vestido Cowden Off-White,Vestidos,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Tricot Nau Vermelho,Vestidos,Vestido Salk Vermelho,Vestidos,2,99.79,100.0,True,True,True,6.11,VARIANT_LIKE
+Biquíni Castillo Preto,Biquínis,Biquíni Easton Preto,Biquínis,3,98.95,100.0,True,True,True,0.0,VARIANT_LIKE
+Biquíni Bercy Preto,Biquínis,Biquíni Eaton Preto,Biquínis,1,99.67,100.0,True,True,True,5.17,VARIANT_LIKE
+Biquíni Bercy Pérola,Biquínis,Biquíni Atticus Pérola,Biquínis,4,98.82,100.0,True,True,True,0.0,VARIANT_LIKE
+Biquíni Bercy Pérola,Biquínis,Biquíni Eaton Pérola,Biquínis,2,99.67,100.0,True,True,True,5.17,VARIANT_LIKE
+Biquíni Castillo Off-White,Biquínis,Biquíni Easton Off-White,Biquínis,1,98.95,100.0,True,True,True,0.0,VARIANT_LIKE
+Biquíni Capanema Preto,Biquínis,Biquíni Harper Preto,Biquínis,5,99.57,100.0,True,True,True,1.69,VARIANT_LIKE
+Biquíni Capanema Preto,Biquínis,Biquíni Peter Preto,Biquínis,4,99.57,100.0,True,True,True,1.69,VARIANT_LIKE
+Biquíni Capanema Preto,Biquínis,Biquíni Miller Preto,Biquínis,3,99.75,100.0,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Biquíni Capanema Preto,Biquínis,Biquíni Perez Preto,Biquínis,2,99.75,100.0,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Biquíni Capanema Pérola,Biquínis,Biquíni Harper Pérola,Biquínis,2,99.57,100.0,True,True,True,1.69,VARIANT_LIKE
+Biquíni Capanema Pérola,Biquínis,Biquíni Perez Pérola,Biquínis,1,99.75,100.0,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Biquíni Conti Pérola,Biquínis,Biquíni Hess Pérola,Biquínis,3,99.91,100.0,True,True,True,3.02,VARIANT_LIKE
+Biquíni Conti Pérola,Biquínis,Biquíni Vince Pérola,Biquínis,2,99.99,100.0,True,True,True,1.69,VARIANT_LIKE
+Biquíni Conti Pérola,Biquínis,Biquíni Kobe Pérola,Biquínis,1,99.99,100.0,True,True,True,1.69,VARIANT_LIKE
+Biquíni Conti Castanho,Biquínis,Biquíni Vince Castanho,Biquínis,1,99.99,100.0,True,True,True,1.69,VARIANT_LIKE
+Biquíni Clark Fúcsia,Biquínis,Biquíni Cyprus Fúcsia,Biquínis,2,99.98,100.0,True,True,True,0.0,VARIANT_LIKE
+Biquíni Clark Fúcsia,Biquínis,Biquíni Lusty Fúcsia,Biquínis,1,99.98,100.0,True,True,True,0.0,VARIANT_LIKE
+Biquíni Castillo Preto,Biquínis,Biquíni Taut Preto,Biquínis,5,97.49,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Vallez Off-White,Vestidos,Vestido Rennie Off-White,Vestidos,1,100.0,100.0,True,True,True,0.43,VARIANT_LIKE
+Vestido Forest Azul,Vestidos,Vestido Gio Azul,Vestidos,2,99.84,100.0,True,True,True,5.92,VARIANT_LIKE
+Vestido Forest Azul,Vestidos,Vestido Salk Azul,Vestidos,1,99.84,100.0,True,True,True,5.92,VARIANT_LIKE
+Vestido Fontana Off-White,Vestidos,Vestido Catton Off-White,Vestidos,1,99.79,100.0,True,True,True,5.79,VARIANT_LIKE
+Vestido Fontaine Vermelho,Vestidos,Vestido Bridget Vermelho,Vestidos,4,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Fontaine Vermelho,Vestidos,Vestido Roland Vermelho,Vestidos,3,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Biquíni Castillo Preto,Biquínis,Biquíni Vitto Preto,Biquínis,4,98.66,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Tricot Nau Vermelho,Vestidos,Vestido Tricot Murphy Vermelho,Vestidos,1,100.0,100.0,True,True,True,0.56,VARIANT_LIKE
+Vestido Tricot Nau Avelã,Vestidos,Vestido Tricot Murphy Avelã,Vestidos,1,100.0,100.0,True,True,True,0.56,VARIANT_LIKE
+Vestido Tricot Murphy Vermelho,Vestidos,Vestido Salk Vermelho,Vestidos,2,99.83,100.0,True,True,True,5.59,VARIANT_LIKE
+Biquíni Duncan Cobre,Biquínis,Biquíni Kobe Cobre,Biquínis,1,99.99,100.0,True,True,True,1.67,VARIANT_LIKE
+Biquíni Duncan Azul,Biquínis,Biquíni Kobe Azul,Biquínis,1,99.99,100.0,True,True,True,1.67,VARIANT_LIKE
+Biquíni Castillo Off-White,Biquínis,Biquíni Taut Off-White,Biquínis,2,97.49,100.0,True,True,True,0.0,VARIANT_LIKE
+Biquíni Dion Preto,Biquínis,Biquíni Julian Preto,Biquínis,3,99.96,100.0,True,True,True,4.55,VARIANT_LIKE
+Biquíni Dion Preto,Biquínis,Biquíni Hali Preto,Biquínis,2,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Biquíni Dion Preto,Biquínis,Biquíni Marzan Preto,Biquínis,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Biquíni Cyprus Fúcsia,Biquínis,Biquíni Lusty Fúcsia,Biquínis,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Biquíni Conti Vermelho Carmim,Biquínis,Biquíni Vince Vermelho Carmim,Biquínis,1,99.99,100.0,True,True,True,1.69,VARIANT_LIKE
+BIQUÍNI EASTON + PAREÔ | MARROM,Biquínis,BIQUÍNI VITTO + PAREÔ | PRETO,Biquínis,2,98.48,100.0,True,False,True,0.95,VARIANT_LIKE
+BIQUÍNI EASTON + PAREÔ GRAZIA | PRETO,Biquínis,BIQUÍNI VITTO + PAREÔ GRAZIA | PÉROLA,Biquínis,2,99.11,100.0,True,False,True,0.75,VARIANT_LIKE
+Biquíni Easton Off-White,Biquínis,Biquíni Taut Off-White,Biquínis,1,99.68,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Filippo Off-White,Vestidos,Vestido Amida Off-White,Vestidos,2,99.84,100.0,True,True,True,5.29,VARIANT_LIKE
+Vestido Filippo Off-White,Vestidos,Vestido Tricot Aubrey Preto com Off-White,Vestidos,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Ethan Vermelho,Vestidos,Vestido Archie Vermelho,Vestidos,5,99.68,100.0,True,True,True,10.42,STRUCTURAL_NEIGHBOR
+Vestido Ethan Vermelho,Vestidos,Vestido Atlas Vermelho,Vestidos,4,99.68,100.0,True,True,True,10.42,STRUCTURAL_NEIGHBOR
+Vestido Ethan Vermelho,Vestidos,Vestido Asther Vermelho,Vestidos,3,99.96,100.0,True,True,True,3.36,VARIANT_LIKE
+Vestido Ethan Off-White,Vestidos,Vestido Atlas Off-White,Vestidos,5,99.68,100.0,True,True,True,10.42,STRUCTURAL_NEIGHBOR
+Vestido Ethan Off-White,Vestidos,Vestido Linho Masp Off-White,Vestidos,4,99.95,100.0,True,True,True,4.17,VARIANT_LIKE
+Vestido Ethan Off-White,Vestidos,Vestido Asther Off-White,Vestidos,3,99.96,100.0,True,True,True,3.36,VARIANT_LIKE
+Vestido Ethan Off-White,Vestidos,Vestido Linho Arum Off-White,Vestidos,2,99.96,100.0,True,True,True,3.36,VARIANT_LIKE
+Vestido Ethan Off-White,Vestidos,Vestido Azarius Off-White,Vestidos,1,99.96,100.0,True,True,True,3.47,VARIANT_LIKE
+Vestido Ethan Bege,Vestidos,Vestido Linho Frank Bege,Vestidos,1,99.96,100.0,True,True,True,3.36,VARIANT_LIKE
+Vestido Dylan Vermelho,Vestidos,Vestido Acacius Vermelho,Vestidos,3,99.82,100.0,True,True,True,5.59,VARIANT_LIKE
+Vestido Fontaine Preto,Vestidos,Vestido Roland Preto,Vestidos,2,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Fontaine Preto,Vestidos,Vestido Salvi Preto,Vestidos,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Fontaine Off-White,Vestidos,Vestido Cameron Off-White,Vestidos,4,99.87,100.0,True,True,True,5.03,VARIANT_LIKE
+Vestido Fontaine Off-White,Vestidos,Vestido Walker Off-White,Vestidos,3,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Fontaine Off-White,Vestidos,Vestido Roland Off-White,Vestidos,2,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Fontaine Off-White,Vestidos,Vestido Salvi Off-White,Vestidos,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Fontaine Framboesa,Vestidos,Vestido Walker Framboesa,Vestidos,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Tricot Aubrey Preto com Off-White,Vestidos,Vestido Amida Off-White,Vestidos,2,99.84,100.0,True,True,True,5.29,VARIANT_LIKE
+Vestido Tess Off-White,Vestidos,Vestido Amida Off-White,Vestidos,2,99.87,100.0,True,True,True,5.03,VARIANT_LIKE
+Vestido Tess Off-White,Vestidos,Vestido Zephyr Off-White,Vestidos,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Biquíni Easton Azul Marinho,Biquínis,Biquíni Vitto Azul Marinho,Biquínis,1,99.98,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Tricot Murphy Preto com Off-White,Vestidos,Vestido Iron Off-White,Vestidos,3,99.79,100.0,True,True,True,5.79,VARIANT_LIKE
+Vestido Tricot Murphy Preto com Off-White,Vestidos,Vestido Salk Off-White,Vestidos,1,99.83,100.0,True,True,True,5.59,VARIANT_LIKE
+Vestido Tricot Effie Off-White,Vestidos,Vestido Loren Off-White,Vestidos,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Tricot Aubrey Vermelho,Vestidos,Vestido Collins Vermelho,Vestidos,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Biquíni Eaton Preto,Biquínis,Biquíni Riva Preto,Biquínis,1,99.83,100.0,True,True,True,3.33,VARIANT_LIKE
+Vestido Ethan Preto,Vestidos,Vestido Barlett Preto,Vestidos,3,98.01,100.0,True,True,True,,STRUCTURAL_NEIGHBOR
+Vestido Ethan Preto,Vestidos,Vestido Forest Preto,Vestidos,2,98.01,100.0,True,True,True,,STRUCTURAL_NEIGHBOR
+Biquíni Galea Preto,Biquínis,Biquíni Miller Preto,Biquínis,3,99.82,100.0,True,True,True,6.78,VARIANT_LIKE
+Biquíni Galea Preto,Biquínis,Biquíni Perez Preto,Biquínis,2,99.82,100.0,True,True,True,6.78,VARIANT_LIKE
+Biquíni Galea Azul Índigo,Biquínis,Biquíni Perez Azul Índigo,Biquínis,1,99.82,100.0,True,True,True,6.78,VARIANT_LIKE
+Biquíni Harper Pérola,Biquínis,Biquíni Perez Pérola,Biquínis,1,99.97,100.0,True,True,False,1.69,STRUCTURAL_NEIGHBOR
+Biquíni Hali Preto,Biquínis,Biquíni Julian Preto,Biquínis,3,99.96,100.0,True,True,True,4.55,VARIANT_LIKE
+Biquíni Hali Preto,Biquínis,Biquíni Marzan Preto,Biquínis,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Biquíni Eaton Pérola,Biquínis,Biquíni Riva Pérola,Biquínis,2,99.83,100.0,True,True,True,3.33,VARIANT_LIKE
+Biquíni Eaton Pérola,Biquínis,Biquíni Malawi Pérola,Biquínis,1,99.83,100.0,True,True,True,5.17,VARIANT_LIKE
+Biquíni Easton Preto,Biquínis,Biquíni Alann Preto,Biquínis,5,98.44,100.0,True,True,True,5.17,VARIANT_LIKE
+Biquíni Easton Preto,Biquínis,Biquíni Taut Preto,Biquínis,2,99.68,100.0,True,True,True,0.0,VARIANT_LIKE
+Biquíni Easton Preto,Biquínis,Biquíni Vitto Preto,Biquínis,1,99.98,100.0,True,True,True,0.0,VARIANT_LIKE
+Biquíni Julian Pérola,Biquínis,Biquíni Riva Pérola,Biquínis,3,99.09,100.0,True,True,True,8.33,STRUCTURAL_NEIGHBOR
+Biquíni Julian Pérola,Biquínis,Biquíni Hali Pérola,Biquínis,1,99.96,100.0,True,True,True,4.55,VARIANT_LIKE
+Vestido Dylan Preto,Vestidos,Vestido Ludwig Preto,Vestidos,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Dylan Off-White,Vestidos,Vestido Brent Off-White,Vestidos,5,99.78,100.0,True,True,True,5.92,VARIANT_LIKE
+Vestido Dylan Off-White,Vestidos,Vestido Acacius Off-White,Vestidos,4,99.82,100.0,True,True,True,5.59,VARIANT_LIKE
+Vestido Dylan Off-White,Vestidos,Vestido Warren Off-White,Vestidos,3,99.82,100.0,True,True,True,5.59,VARIANT_LIKE
+Vestido Dylan Off-White,Vestidos,Vestido Jones Off-White,Vestidos,2,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Dylan Off-White,Vestidos,Vestido Ludwig Off-White,Vestidos,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Cowden Vermelho,Vestidos,Vestido Malmo Vermelho,Vestidos,3,99.84,100.0,True,True,True,5.29,VARIANT_LIKE
+Vestido Cowden Vermelho,Vestidos,Vestido Harpa Vermelho,Vestidos,2,99.84,100.0,True,True,True,5.29,VARIANT_LIKE
+Vestido Ethan Vermelho,Vestidos,Vestido Azarius Vermelho,Vestidos,2,99.96,100.0,True,True,True,3.47,VARIANT_LIKE
+Vestido Ethan Vermelho,Vestidos,Vestido Rizzo Vermelho,Vestidos,1,99.96,100.0,True,True,True,3.47,VARIANT_LIKE
+Vestido Ethan Preto,Vestidos,Vestido Linho Arum Preto,Vestidos,5,97.88,100.0,True,True,True,,STRUCTURAL_NEIGHBOR
+Vestido Ethan Preto,Vestidos,Vestido Linho Frank Preto,Vestidos,4,97.88,100.0,True,True,True,,STRUCTURAL_NEIGHBOR
+Biquíni Kobe Pérola,Biquínis,Biquíni Hess Pérola,Biquínis,3,99.94,100.0,True,True,True,4.66,VARIANT_LIKE
+Biquíni Kobe Pérola,Biquínis,Biquíni Vince Pérola,Biquínis,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Salvi Vermelho,Vestidos,Vestido Bridget Vermelho,Vestidos,4,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Salvi Vermelho,Vestidos,Vestido Fontaine Vermelho,Vestidos,3,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Salvi Vermelho,Vestidos,Vestido Roland Vermelho,Vestidos,2,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Biquíni Julian Preto,Biquínis,Biquíni Marzan Preto,Biquínis,1,99.96,100.0,True,True,True,4.55,VARIANT_LIKE
+Biquíni Julian Pérola,Biquínis,Biquíni Malawi Pérola,Biquínis,5,97.07,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Salvi Off-White,Vestidos,Vestido Cameron Off-White,Vestidos,4,99.87,100.0,True,True,True,5.03,VARIANT_LIKE
+Vestido Salvi Off-White,Vestidos,Vestido Walker Off-White,Vestidos,3,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Salvi Off-White,Vestidos,Vestido Roland Off-White,Vestidos,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Salvi Azul,Vestidos,Vestido Cameron Azul,Vestidos,1,99.87,100.0,True,True,True,5.03,VARIANT_LIKE
+Biquíni Hess Pérola,Biquínis,Biquíni Vince Pérola,Biquínis,2,99.94,100.0,True,True,True,4.66,VARIANT_LIKE
+Biquíni Harper Preto,Biquínis,Biquíni Miller Preto,Biquínis,3,99.97,100.0,True,True,False,1.69,STRUCTURAL_NEIGHBOR
+Biquíni Harper Preto,Biquínis,Biquíni Perez Preto,Biquínis,2,99.97,100.0,True,True,False,1.69,STRUCTURAL_NEIGHBOR
+Biquíni Harper Preto,Biquínis,Biquíni Peter Preto,Biquínis,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Biquíni Kobe Preto,Biquínis,Biquíni Vince Preto,Biquínis,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Salk Azul,Vestidos,Vestido Gio Azul,Vestidos,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Roland Vermelho,Vestidos,Vestido Bridget Vermelho,Vestidos,4,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Biquíni Julian Preto,Biquínis,Biquíni Riva Preto,Biquínis,4,99.09,100.0,True,True,True,8.33,STRUCTURAL_NEIGHBOR
+Vestido Salvi Preto,Vestidos,Vestido Cameron Preto,Vestidos,4,99.87,100.0,True,True,True,5.03,VARIANT_LIKE
+Vestido Salvi Preto,Vestidos,Vestido Walker Preto,Vestidos,3,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Salvi Preto,Vestidos,Vestido Roland Preto,Vestidos,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Harpa Vermelho,Vestidos,Vestido Malmo Vermelho,Vestidos,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Harpa Preto,Vestidos,Vestido Cowden Preto,Vestidos,3,99.84,100.0,True,True,True,5.29,VARIANT_LIKE
+Vestido Harpa Preto,Vestidos,Vestido Malmo Preto,Vestidos,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Hadid Vermelho,Vestidos,Vestido Barlett Vermelho,Vestidos,1,100.0,100.0,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Saia Dorian Preto,Saias,Saia Lisse Preto,Saias,1,99.65,100.0,True,True,True,10.11,STRUCTURAL_NEIGHBOR
+Saia Dorian Off-White,Saias,Saia Lisse Off-White,Saias,2,99.65,100.0,True,True,True,10.11,STRUCTURAL_NEIGHBOR
+Vestido Gio Off-White,Vestidos,Vestido Barlett Off-White,Vestidos,4,99.84,100.0,True,True,True,5.92,VARIANT_LIKE
+Vestido Gio Off-White,Vestidos,Vestido Forest Off-White,Vestidos,3,99.84,100.0,True,True,True,5.92,VARIANT_LIKE
+Short Saia Donati Preto,Shorts,Short Linho Strauss Preto,Shorts,2,99.94,100.0,True,True,True,5.49,VARIANT_LIKE
+Short Saia Donati Preto,Shorts,Short Adonis Preto,Shorts,1,100.0,100.0,True,True,True,0.14,VARIANT_LIKE
+Short Linho Strauss Preto,Shorts,Short Saia Kahn Preto,Shorts,3,99.85,100.0,True,True,True,7.6,VARIANT_LIKE
+Short Linho Strauss Preto,Shorts,Short Adonis Preto,Shorts,1,99.94,100.0,True,True,True,5.35,VARIANT_LIKE
+Vestido Roland Preto,Vestidos,Vestido Walker Preto,Vestidos,3,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Biquíni Malawi Pérola,Biquínis,Biquíni Riva Pérola,Biquínis,3,99.32,100.0,True,True,True,8.33,STRUCTURAL_NEIGHBOR
+Vestido Salk Vermelho,Vestidos,Vestido Barlett Vermelho,Vestidos,2,99.84,100.0,True,True,True,5.92,VARIANT_LIKE
+Vestido Salk Off-White,Vestidos,Vestido Barlett Off-White,Vestidos,4,99.84,100.0,True,True,True,5.92,VARIANT_LIKE
+Vestido Salk Off-White,Vestidos,Vestido Forest Off-White,Vestidos,3,99.84,100.0,True,True,True,5.92,VARIANT_LIKE
+Vestido Salk Off-White,Vestidos,Vestido Gio Off-White,Vestidos,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Dylan Preto,Vestidos,Vestido Brent Preto,Vestidos,5,99.78,100.0,True,True,True,5.92,VARIANT_LIKE
+Vestido Dylan Preto,Vestidos,Vestido Acacius Preto,Vestidos,4,99.82,100.0,True,True,True,5.59,VARIANT_LIKE
+Vestido Dylan Preto,Vestidos,Vestido Warren Preto,Vestidos,3,99.82,100.0,True,True,True,5.59,VARIANT_LIKE
+Vestido Dylan Preto,Vestidos,Vestido Jones Preto,Vestidos,2,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Biquíni Miller Cobre,Biquínis,Biquíni Peter Cobre,Biquínis,1,99.97,100.0,True,True,False,1.69,STRUCTURAL_NEIGHBOR
+Vestido Roland Preto,Vestidos,Vestido Cameron Preto,Vestidos,4,99.87,100.0,True,True,True,5.03,VARIANT_LIKE
+Vestido Roland Off-White,Vestidos,Vestido Cameron Off-White,Vestidos,4,99.87,100.0,True,True,True,5.03,VARIANT_LIKE
+Vestido Roland Off-White,Vestidos,Vestido Walker Off-White,Vestidos,3,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Rizzo Vermelho,Vestidos,Vestido Asther Vermelho,Vestidos,5,99.85,100.0,True,True,True,6.72,VARIANT_LIKE
+Vestido Rizzo Vermelho,Vestidos,Vestido Archie Vermelho,Vestidos,4,99.86,100.0,True,True,True,7.2,VARIANT_LIKE
+Vestido Cowden Off-White,Vestidos,Vestido Riccie Off-White,Vestidos,3,99.84,100.0,True,True,True,5.29,VARIANT_LIKE
+Vestido Cowden Off-White,Vestidos,Vestido Malmo Off-White,Vestidos,2,99.84,100.0,True,True,True,5.29,VARIANT_LIKE
+Vestido Cameron Preto,Vestidos,Vestido Warren Preto,Vestidos,5,99.85,100.0,True,True,True,5.29,VARIANT_LIKE
+Vestido Dylan Vermelho,Vestidos,Vestido Jones Vermelho,Vestidos,2,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Dylan Vermelho,Vestidos,Vestido Ludwig Vermelho,Vestidos,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Biquíni Perez Preto,Biquínis,Biquíni Peter Preto,Biquínis,2,99.97,100.0,True,True,False,1.69,STRUCTURAL_NEIGHBOR
+Biquíni Perez Preto,Biquínis,Biquíni Miller Preto,Biquínis,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Biquíni Miller Preto,Biquínis,Biquíni Peter Preto,Biquínis,2,99.97,100.0,True,True,False,1.69,STRUCTURAL_NEIGHBOR
+Biquíni Peter Preto,Biquínis,Biquíni Arenella Preto,Biquínis,4,99.74,100.0,True,True,True,10.77,STRUCTURAL_NEIGHBOR
+Vestido Rizzo Vermelho,Vestidos,Vestido Atlas Vermelho,Vestidos,3,99.86,100.0,True,True,True,7.2,VARIANT_LIKE
+Vestido Rizzo Vermelho,Vestidos,Vestido Azarius Vermelho,Vestidos,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Rizzo Preto,Vestidos,Vestido Atlas Preto,Vestidos,5,99.86,100.0,True,True,True,7.2,VARIANT_LIKE
+Vestido Rizzo Preto,Vestidos,Vestido Archie Preto,Vestidos,4,99.86,100.0,True,True,True,7.2,VARIANT_LIKE
+Vestido Calla Off-White,Vestidos,Vestido Azarius Off-White,Vestidos,5,99.86,100.0,True,True,True,7.2,VARIANT_LIKE
+Vestido Cowden Preto,Vestidos,Vestido Malmo Preto,Vestidos,2,99.84,100.0,True,True,True,5.29,VARIANT_LIKE
+Biquíni Taut Preto,Biquínis,Biquíni Vitto Preto,Biquínis,1,99.81,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Reidy Vermelho,Vestidos,Vestido Perot Vermelho,Vestidos,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Cameron Preto,Vestidos,Vestido Fontaine Preto,Vestidos,2,99.87,100.0,True,True,True,5.03,VARIANT_LIKE
+Vestido Cameron Off-White,Vestidos,Vestido Warren Off-White,Vestidos,5,99.85,100.0,True,True,True,5.29,VARIANT_LIKE
+Vestido Cameron Off-White,Vestidos,Vestido Walker Off-White,Vestidos,4,99.87,100.0,True,True,True,5.03,VARIANT_LIKE
+Vestido Calla Preto,Vestidos,Vestido Azarius Preto,Vestidos,5,99.86,100.0,True,True,True,7.2,VARIANT_LIKE
+Vestido Calla Preto,Vestidos,Vestido Linho Masp Preto,Vestidos,4,99.89,100.0,True,True,True,6.53,VARIANT_LIKE
+Vestido Calla Preto,Vestidos,Vestido Archie Preto,Vestidos,3,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Calla Preto,Vestidos,Vestido Atlas Preto,Vestidos,2,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Calla Preto,Vestidos,Vestido Linho Sugarloaf Preto,Vestidos,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Blazer Adonis Preto,Blazers,Blazer Corrington Preto,Blazers,3,99.9,100.0,True,True,True,5.66,VARIANT_LIKE
+Blazer Adonis Preto,Blazers,Blazer Vestido Agatha Preto,Blazers,2,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Blazer Adonis Preto,Blazers,Blazer Vestido Schiffer Preto,Blazers,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Blazer Vestido Schiffer Preto,Blazers,Blazer Vestido Agatha Preto,Blazers,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Blazer Vestido Schiffer Off-White,Blazers,Blazer Vestido Agatha Off-White,Blazers,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Rizzo Preto,Vestidos,Vestido Linho Masp Preto,Vestidos,3,100.0,100.0,True,True,True,0.72,VARIANT_LIKE
+Vestido Rizzo Preto,Vestidos,Vestido Azarius Preto,Vestidos,2,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Rizzo Preto,Vestidos,Vestido Linho Reyes Preto,Vestidos,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Riccie Off-White,Vestidos,Vestido Malmo Off-White,Vestidos,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Bridget Vermelho,Vestidos,Vestido Walker Vermelho,Vestidos,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Brice Preto,Vestidos,Vestido Axel Preto,Vestidos,1,100.0,100.0,True,True,True,0.5,VARIANT_LIKE
+Vestido Cameron Preto,Vestidos,Vestido Walker Preto,Vestidos,4,99.87,100.0,True,True,True,5.03,VARIANT_LIKE
+Blazer Vestido Darleen Preto,Blazers,Blazer Vestido Vincent Preto,Blazers,1,100.0,100.0,True,True,True,0.56,VARIANT_LIKE
+Blazer Vestido Agatha Preto,Blazers,Blazer Corrington Preto,Blazers,3,99.9,100.0,True,True,True,5.66,VARIANT_LIKE
+BLAZER DONATO + PANTALONA SAVOYE OFF-WHITE,Blazers,BLAZER DONATO MARROM + PANTALONA SAVOYE OFF-WHITE,Blazers,1,100.0,100.0,True,True,True,,STRUCTURAL_NEIGHBOR
+Blusa Alexis Preto,Blusas,Blusa Percy Preto,Blusas,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Blazer Corrington Preto,Blazers,Blazer Vestido Schiffer Preto,Blazers,1,99.9,100.0,True,True,True,5.66,VARIANT_LIKE
+Blusa Alexis Off-White,Blusas,Blusa Percy Off-White,Blusas,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+BLUSA MAYFAR + PANTALONA SAVOYE | OFF-WHITE,Blusas,BLUSA PERCY OFF-WHITE + CALÇA JEANS MALCOLM AZUL CLARO,Blusas,2,99.99,100.0,True,True,True,1.62,VARIANT_LIKE
+BLUSA MAYFAR + PANTALONA SAVOYE | OFF-WHITE,Blusas,BLUSA ALEXIS OFF-WHITE + CALÇA JEANS MALCOLM AZUL ESCURO,Blusas,1,99.99,100.0,True,True,True,1.62,VARIANT_LIKE
+Blusa Mayfar Off-White,Blusas,BLUSA ZENO + CALÇA ZENO | OFF-WHITE,Blusas,1,97.76,100.0,True,True,True,,STRUCTURAL_NEIGHBOR
+Vestido Forest Off-White,Vestidos,Vestido Barlett Off-White,Vestidos,2,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Calla Off-White,Vestidos,Vestido Linho Masp Off-White,Vestidos,4,99.89,100.0,True,True,True,6.53,VARIANT_LIKE
+Vestido Calla Off-White,Vestidos,Vestido Atlas Off-White,Vestidos,3,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Calla Off-White,Vestidos,Vestido Archie Off-White,Vestidos,2,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Calla Off-White,Vestidos,Vestido Linho Sugarloaf Off-White,Vestidos,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Forest Off-White,Vestidos,Vestido Asther Off-White,Vestidos,4,99.84,100.0,True,True,True,6.29,VARIANT_LIKE
+Vestido Forest Off-White,Vestidos,Vestido Linho Arum Off-White,Vestidos,3,99.84,100.0,True,True,True,6.29,VARIANT_LIKE
+BLUSA CESARE + SAIA RILEY | OFF-WHITE,Blusas,BLUSA PERCY OFF-WHITE + CALÇA JEANS MALCOLM AZUL CLARO,Blusas,3,99.7,100.0,True,True,True,7.03,VARIANT_LIKE
+BLUSA CESARE + SAIA RILEY | OFF-WHITE,Blusas,BLUSA ALEXIS OFF-WHITE + CALÇA JEANS MALCOLM AZUL ESCURO,Blusas,2,99.7,100.0,True,True,True,7.03,VARIANT_LIKE
+BLUSA CESARE + SAIA RILEY | OFF-WHITE,Blusas,BLUSA MAYFAR + PANTALONA SAVOYE | OFF-WHITE,Blusas,1,99.82,100.0,True,True,True,5.5,VARIANT_LIKE
+Blusa Cesare Preto,Blusas,Blusa Tommaso Preto,Blusas,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Blusa Alpheus Off-White,Blusas,BLUSA TOMMASO + SHORT CALEB | OFF-WHITE,Blusas,1,98.81,100.0,True,True,True,,STRUCTURAL_NEIGHBOR
+Blusa Soho Off-White,Blusas,BLUSA ZENO + CALÇA ZENO | OFF-WHITE,Blusas,1,98.18,100.0,True,True,True,,STRUCTURAL_NEIGHBOR
+BLUSA PERCY PRETA + CALÇA JEANS MALCOLM AZUL ESCURO,Blusas,BLUSA ALEXIS PRETA + CALÇA JEANS MALCOLM AZUL ESCURO,Blusas,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+BLUSA ALEXIS OFF-WHITE + CALÇA JEANS MALCOLM AZUL ESCURO,Blusas,BLUSA PERCY OFF-WHITE + CALÇA JEANS MALCOLM AZUL CLARO,Blusas,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Blusa Alexis Off-White,Blusas,BLUSA TOMMASO + SHORT CALEB | OFF-WHITE,Blusas,2,97.31,100.0,True,True,True,,STRUCTURAL_NEIGHBOR
+BLUSA ZENO + CALÇA ZENO | PRETO,Blusas,Blusa Soho Preto,Blusas,1,98.18,100.0,True,True,True,,STRUCTURAL_NEIGHBOR
+BLUSA TOMMASO + SHORT CALEB | OFF-WHITE,Blusas,Blusa Percy Off-White,Blusas,3,97.31,100.0,True,True,True,,STRUCTURAL_NEIGHBOR
+Vestido Brent Off-White,Vestidos,Vestido Ludwig Off-White,Vestidos,1,99.78,100.0,True,True,True,5.92,VARIANT_LIKE
+Vestido Forest Preto,Vestidos,Vestido Linho Frank Preto,Vestidos,4,99.84,100.0,True,True,True,6.29,VARIANT_LIKE
+Vestido Forest Preto,Vestidos,Vestido Linho Arum Preto,Vestidos,3,99.84,100.0,True,True,True,6.29,VARIANT_LIKE
+Vestido Forest Preto,Vestidos,Vestido Barlett Preto,Vestidos,2,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Perot Off-White,Vestidos,Vestido Iron Off-White,Vestidos,1,99.86,100.0,True,True,True,4.52,VARIANT_LIKE
+Body Ezio Preto,Bodies,Body Lyra Preto,Bodies,1,100.0,100.0,True,True,True,1.45,VARIANT_LIKE
+Body Ezio Off-White,Bodies,Body Theron Off-White,Bodies,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Blusa Mayfar Preto,Blusas,BLUSA ZENO + CALÇA ZENO | PRETO,Blusas,1,97.76,100.0,True,True,True,,STRUCTURAL_NEIGHBOR
+BODY ROCCO + PANTALONA FLARE | OFF-WHITE,Bodies,BODY CHIARA + PANTALONA SAVOYE | OFF-WHITE,Bodies,1,99.74,100.0,True,True,True,9.38,STRUCTURAL_NEIGHBOR
+Body Rocco Off-White,Bodies,Body Steffano Off-White,Bodies,1,99.77,100.0,True,True,True,8.01,STRUCTURAL_NEIGHBOR
+Body Otto Preto,Bodies,Body Heydar Preto,Bodies,1,99.87,100.0,True,True,True,10.12,STRUCTURAL_NEIGHBOR
+Vestido Barlett Vermelho,Vestidos,Vestido Asther Vermelho,Vestidos,2,99.84,100.0,True,True,True,6.29,VARIANT_LIKE
+Vestido Barlett Preto,Vestidos,Vestido Linho Frank Preto,Vestidos,4,99.84,100.0,True,True,True,6.29,VARIANT_LIKE
+Vestido Barlett Preto,Vestidos,Vestido Linho Arum Preto,Vestidos,3,99.84,100.0,True,True,True,6.29,VARIANT_LIKE
+Vestido Brent Preto,Vestidos,Vestido Jones Preto,Vestidos,3,99.78,100.0,True,True,True,5.92,VARIANT_LIKE
+Vestido Brent Preto,Vestidos,Vestido Ludwig Preto,Vestidos,1,99.78,100.0,True,True,True,5.92,VARIANT_LIKE
+Vestido Brent Off-White,Vestidos,Vestido Jones Off-White,Vestidos,3,99.78,100.0,True,True,True,5.92,VARIANT_LIKE
+Vestido Bauhaus Vermelho,Vestidos,Vestido Alvorada Vermelho,Vestidos,1,99.84,100.0,True,True,True,6.29,VARIANT_LIKE
+Vestido Bauhaus Preto,Vestidos,Vestido Alvorada Preto,Vestidos,1,99.84,100.0,True,True,True,6.29,VARIANT_LIKE
+Vestido Barlett Vermelho,Vestidos,Vestido Ethan Vermelho,Vestidos,4,99.65,100.0,True,True,True,9.44,STRUCTURAL_NEIGHBOR
+Body Foster Preto,Bodies,Body Dominic Preto,Bodies,1,99.84,100.0,True,True,True,5.81,VARIANT_LIKE
+Vestido Osbert Off-White,Vestidos,Vestido Maddox Off-White,Vestidos,1,99.95,100.0,True,True,True,4.19,VARIANT_LIKE
+Vestido Matt Preto,Vestidos,Vestido Linho Alanis Preto,Vestidos,2,99.83,100.0,True,True,True,7.86,VARIANT_LIKE
+Vestido Matt Preto,Vestidos,Vestido Alvorada Preto,Vestidos,1,99.88,100.0,True,True,True,6.04,VARIANT_LIKE
+Body Steffano Preto,Bodies,Body Rocco Preto,Bodies,1,99.77,100.0,True,True,True,8.01,STRUCTURAL_NEIGHBOR
+Body Darius Pérola,Bodies,Body Bonnie Pérola,Bodies,1,100.0,100.0,True,True,True,2.9,VARIANT_LIKE
+Conjunto Althea Preto,Conjuntos,Conjunto Guillen Preto,Conjuntos,2,99.67,100.0,True,True,True,5.94,VARIANT_LIKE
+Conjunto Althea Off-White,Conjuntos,Conjunto Guillen Off-White,Conjuntos,1,99.67,100.0,True,True,True,5.94,VARIANT_LIKE
+Calça Jeans Malcolm Azul Escuro,Calças,Calça Jeans Malcolm Azul Claro,Calças,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Azarius Vermelho,Vestidos,Vestido Archie Vermelho,Vestidos,4,99.86,100.0,True,True,True,7.2,VARIANT_LIKE
+Vestido Azarius Vermelho,Vestidos,Vestido Atlas Vermelho,Vestidos,3,99.86,100.0,True,True,True,7.2,VARIANT_LIKE
+Vestido Azarius Preto,Vestidos,Vestido Atlas Preto,Vestidos,5,99.86,100.0,True,True,True,7.2,VARIANT_LIKE
+Vestido Azarius Preto,Vestidos,Vestido Archie Preto,Vestidos,4,99.86,100.0,True,True,True,7.2,VARIANT_LIKE
+Vestido Azarius Preto,Vestidos,Vestido Linho Masp Preto,Vestidos,3,100.0,100.0,True,True,True,0.72,VARIANT_LIKE
+Vestido Azarius Preto,Vestidos,Vestido Linho Reyes Preto,Vestidos,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Azarius Off-White,Vestidos,Vestido Linho Sugarloaf Off-White,Vestidos,5,99.86,100.0,True,True,True,7.2,VARIANT_LIKE
+Vestido Ludwig Vermelho,Vestidos,Vestido Jones Vermelho,Vestidos,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Ludwig Preto,Vestidos,Vestido Acacius Preto,Vestidos,4,99.82,100.0,True,True,True,5.59,VARIANT_LIKE
+Vestido Ludwig Preto,Vestidos,Vestido Warren Preto,Vestidos,3,99.82,100.0,True,True,True,5.59,VARIANT_LIKE
+Vestido Ludwig Preto,Vestidos,Vestido Jones Preto,Vestidos,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Ludwig Off-White,Vestidos,Vestido Acacius Off-White,Vestidos,4,99.82,100.0,True,True,True,5.59,VARIANT_LIKE
+Vestido Ludwig Off-White,Vestidos,Vestido Warren Off-White,Vestidos,3,99.82,100.0,True,True,True,5.59,VARIANT_LIKE
+Vestido Atlas Preto,Vestidos,Vestido Archie Preto,Vestidos,3,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Barlett Off-White,Vestidos,Vestido Asther Off-White,Vestidos,4,99.84,100.0,True,True,True,6.29,VARIANT_LIKE
+Vestido Barlett Off-White,Vestidos,Vestido Linho Arum Off-White,Vestidos,3,99.84,100.0,True,True,True,6.29,VARIANT_LIKE
+Vestido Azarius Vermelho,Vestidos,Vestido Asther Vermelho,Vestidos,5,99.85,100.0,True,True,True,6.72,VARIANT_LIKE
+Conjunto Denver Off-White,Conjuntos,Conjunto Lamellae Off-White,Conjuntos,2,99.9,100.0,True,True,True,0.46,VARIANT_LIKE
+Conjunto Denver Off-White,Conjuntos,Conjunto Ivy Off-White,Conjuntos,1,100.0,100.0,True,True,True,1.01,VARIANT_LIKE
+Conjunto Campbell Rosê,Conjuntos,Conjunto Murano Rosê,Conjuntos,1,99.31,100.0,True,True,True,8.47,STRUCTURAL_NEIGHBOR
+Conjunto Fellicce Preto,Conjuntos,Conjunto Mitchell Preto,Conjuntos,1,99.98,100.0,True,True,True,2.3,VARIANT_LIKE
+Calça Jeans Dihl Azul Escuro,Calças,Calça Jeans Dihl Azul Claro,Calças,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Ludwig Vermelho,Vestidos,Vestido Acacius Vermelho,Vestidos,3,99.82,100.0,True,True,True,5.59,VARIANT_LIKE
+Vestido Linho Sugarloaf Preto,Vestidos,Vestido Azarius Preto,Vestidos,5,99.86,100.0,True,True,True,7.2,VARIANT_LIKE
+Vestido Linho Sugarloaf Preto,Vestidos,Vestido Linho Masp Preto,Vestidos,4,99.89,100.0,True,True,True,6.53,VARIANT_LIKE
+Vestido Linho Sugarloaf Preto,Vestidos,Vestido Archie Preto,Vestidos,3,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Linho Sugarloaf Preto,Vestidos,Vestido Atlas Preto,Vestidos,2,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Conjunto Ivy Off-White,Conjuntos,Conjunto Lamellae Off-White,Conjuntos,2,99.92,100.0,True,True,True,0.55,VARIANT_LIKE
+Vestido Atlas Vermelho,Vestidos,Vestido Archie Vermelho,Vestidos,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Atlas Preto,Vestidos,Vestido Linho Masp Preto,Vestidos,4,99.89,100.0,True,True,True,6.53,VARIANT_LIKE
+Vestido Linho Sugarloaf Off-White,Vestidos,Vestido Linho Masp Off-White,Vestidos,4,99.89,100.0,True,True,True,6.53,VARIANT_LIKE
+Vestido Linho Sugarloaf Off-White,Vestidos,Vestido Atlas Off-White,Vestidos,3,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Linho Sugarloaf Off-White,Vestidos,Vestido Archie Off-White,Vestidos,2,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Linho Sugarloaf Avelã,Vestidos,Vestido Linho Masp Avelã,Vestidos,1,99.89,100.0,True,True,True,6.53,VARIANT_LIKE
+Vestido Linho Reyes Preto,Vestidos,Vestido Atlas Preto,Vestidos,5,99.86,100.0,True,True,True,7.2,VARIANT_LIKE
+Vestido Linho Reyes Preto,Vestidos,Vestido Archie Preto,Vestidos,4,99.86,100.0,True,True,True,7.2,VARIANT_LIKE
+Vestido Linho Reyes Preto,Vestidos,Vestido Linho Masp Preto,Vestidos,3,100.0,100.0,True,True,True,0.72,VARIANT_LIKE
+Vestido Linho Masp Preto,Vestidos,Vestido Archie Preto,Vestidos,4,99.89,100.0,True,True,True,6.53,VARIANT_LIKE
+Vestido Ludwig Off-White,Vestidos,Vestido Jones Off-White,Vestidos,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Asther Off-White,Vestidos,Vestido Azarius Off-White,Vestidos,3,99.85,100.0,True,True,True,6.72,VARIANT_LIKE
+Vestido Azarius Off-White,Vestidos,Vestido Archie Off-White,Vestidos,4,99.86,100.0,True,True,True,7.2,VARIANT_LIKE
+Vestido Azarius Off-White,Vestidos,Vestido Atlas Off-White,Vestidos,3,99.86,100.0,True,True,True,7.2,VARIANT_LIKE
+Vestido Azarius Off-White,Vestidos,Vestido Linho Masp Off-White,Vestidos,1,100.0,100.0,True,True,True,0.72,VARIANT_LIKE
+Conjunto Lamellae Preto,Conjuntos,Conjunto Ivy Preto,Conjuntos,1,99.92,100.0,True,True,True,0.55,VARIANT_LIKE
+Cropped Adams Off-White,Croppeds,Cropped Wiley Off-White,Croppeds,1,99.91,100.0,True,True,True,6.86,VARIANT_LIKE
+Corselet Kimbell Off-White,Unknown,Corselet Adrian Off-White,Unknown,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Atlas Off-White,Vestidos,Vestido Linho Masp Off-White,Vestidos,4,99.89,100.0,True,True,True,6.53,VARIANT_LIKE
+Cropped Linho Brett Preto,Croppeds,Cropped Linho Carl Preto,Croppeds,2,100.0,100.0,True,True,True,1.25,VARIANT_LIKE
+Cropped Linho Brett Preto,Croppeds,Cropped Robie Preto,Croppeds,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Cropped Linho Brett Off-White,Croppeds,Cropped Wiley Off-White,Croppeds,4,99.87,100.0,True,True,True,7.6,VARIANT_LIKE
+Cropped Linho Brett Off-White,Croppeds,Cropped Saarinen Off-White,Croppeds,3,99.98,100.0,True,True,False,2.53,STRUCTURAL_NEIGHBOR
+Cropped Linho Brett Off-White,Croppeds,Cropped Linho Carl Off-White,Croppeds,2,100.0,100.0,True,True,True,1.25,VARIANT_LIKE
+Vestido Atlas Off-White,Vestidos,Vestido Archie Off-White,Vestidos,3,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Cropped Linho Carl Preto,Croppeds,Cropped Robie Preto,Croppeds,1,100.0,100.0,True,True,True,1.25,VARIANT_LIKE
+Cropped Linho Carl Off-White,Croppeds,Cropped Wiley Off-White,Croppeds,4,99.82,100.0,True,True,True,8.76,STRUCTURAL_NEIGHBOR
+Cropped Linho Carl Off-White,Croppeds,Cropped Saarinen Off-White,Croppeds,3,99.97,100.0,True,True,False,3.75,STRUCTURAL_NEIGHBOR
+Vestido Archie Off-White,Vestidos,Vestido Linho Masp Off-White,Vestidos,4,99.89,100.0,True,True,True,6.53,VARIANT_LIKE
+Vestido Linho Masp Avelã,Vestidos,Vestido Linho Arum Avelã,Vestidos,2,99.82,100.0,True,True,True,7.39,VARIANT_LIKE
+Vestido Linho Frank Preto,Vestidos,Vestido Azarius Preto,Vestidos,4,99.85,100.0,True,True,True,6.72,VARIANT_LIKE
+Vestido Linho Frank Preto,Vestidos,Vestido Linho Reyes Preto,Vestidos,3,99.85,100.0,True,True,True,6.72,VARIANT_LIKE
+Vestido Linho Frank Preto,Vestidos,Vestido Rizzo Preto,Vestidos,2,99.85,100.0,True,True,True,6.72,VARIANT_LIKE
+Cropped Linho Brett Off-White,Croppeds,Cropped Robie Off-White,Croppeds,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Cropped Linho Brett Caramelo,Croppeds,Cropped Linho Carl Caramelo,Croppeds,1,100.0,100.0,True,True,True,1.25,VARIANT_LIKE
+Cropped Ophelia Off-White,Croppeds,Cropped Petal Off-White,Croppeds,1,99.64,100.0,True,True,True,9.1,STRUCTURAL_NEIGHBOR
+Vestido Acacius Vermelho,Vestidos,Vestido Jones Vermelho,Vestidos,3,99.82,100.0,True,True,True,5.59,VARIANT_LIKE
+Vestido Asther Off-White,Vestidos,Vestido Linho Arum Off-White,Vestidos,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Linho Frank Preto,Vestidos,Vestido Linho Arum Preto,Vestidos,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Cropped Petal Preto,Croppeds,Cropped Ophelia Preto,Croppeds,1,99.64,100.0,True,True,True,9.1,STRUCTURAL_NEIGHBOR
+Cropped Saarinen Off-White,Croppeds,Cropped Robie Off-White,Croppeds,1,99.98,100.0,True,True,False,2.53,STRUCTURAL_NEIGHBOR
+Cropped Linho Carl Off-White,Croppeds,Cropped Robie Off-White,Croppeds,1,100.0,100.0,True,True,True,1.25,VARIANT_LIKE
+Macacão Amber Off-White,Macacões,Macacão Megan Off-White,Macacões,2,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Macacão Amber Off-White,Macacões,Macacão Breddon Off-White,Macacões,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Macacão Alberts Off-White,Macacões,Macacão Zander Off-White,Macacões,2,99.88,100.0,True,True,True,6.72,VARIANT_LIKE
+Macacão Aaron Preto,Macacões,Macacão Megan Preto,Macacões,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Cropped Wiley Off-White,Croppeds,Cropped Robie Off-White,Croppeds,3,99.87,100.0,True,True,True,7.6,VARIANT_LIKE
+Vestido Linho Arum Preto,Vestidos,Vestido Azarius Preto,Vestidos,4,99.85,100.0,True,True,True,6.72,VARIANT_LIKE
+Vestido Linho Arum Preto,Vestidos,Vestido Linho Reyes Preto,Vestidos,3,99.85,100.0,True,True,True,6.72,VARIANT_LIKE
+Vestido Linho Arum Preto,Vestidos,Vestido Rizzo Preto,Vestidos,2,99.85,100.0,True,True,True,6.72,VARIANT_LIKE
+Vestido Linho Arum Off-White,Vestidos,Vestido Azarius Off-White,Vestidos,3,99.85,100.0,True,True,True,6.72,VARIANT_LIKE
+Macacão Breddon Preto,Macacões,Macacão Amber Preto,Macacões,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Macacão Breddon Off-White,Macacões,Macacão Novari Off-White,Macacões,3,99.82,100.0,True,True,True,5.59,VARIANT_LIKE
+Macacão Breddon Off-White,Macacões,Macacão Megan Off-White,Macacões,2,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Macacão Breddon Marrom,Macacões,Macacão Linho Armand Marrom,Macacões,1,99.82,100.0,True,True,True,5.59,VARIANT_LIKE
+Macacão Amber Vermelho,Macacões,Macacão Novari Vermelho,Macacões,2,99.82,100.0,True,True,True,5.59,VARIANT_LIKE
+Macacão Amber Vermelho,Macacões,Macacão Breddon Vermelho,Macacões,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Macacão Amber Preto,Macacões,Macacão Novari Preto,Macacões,2,99.82,100.0,True,True,True,5.59,VARIANT_LIKE
+Macacão Amber Off-White,Macacões,Macacão Novari Off-White,Macacões,3,99.82,100.0,True,True,True,5.59,VARIANT_LIKE
+Macacão Fiorese Off-White,Macacões,Macacão Linho Braid Off-White,Macacões,2,99.87,100.0,True,True,True,5.59,VARIANT_LIKE
+Macacão Fiorese Off-White,Macacões,Macacão Rith Off-White,Macacões,1,99.87,100.0,True,True,True,5.59,VARIANT_LIKE
+Saia Lisse Off-White,Saias,Saia Hazel Off-White,Saias,2,99.65,100.0,True,True,True,10.11,STRUCTURAL_NEIGHBOR
+Pantalona Linho Abbie Preto,Calças,Pantalona Ozuna Preto,Calças,1,100.0,100.0,True,True,True,0.83,VARIANT_LIKE
+Macaquinho Linho Tau Off-White,Unknown,Macaquinho Martin Off-White,Unknown,1,99.77,100.0,True,True,True,7.2,VARIANT_LIKE
+Macaquinho Linho Tau Bege,Unknown,Macaquinho Evans Bege,Unknown,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Macaquinho Evans Preto,Unknown,Macaquinho Linho Tau Preto,Unknown,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Acacius Preto,Vestidos,Vestido Jones Preto,Vestidos,3,99.82,100.0,True,True,True,5.59,VARIANT_LIKE
+Vestido Acacius Preto,Vestidos,Vestido Cameron Preto,Vestidos,2,99.85,100.0,True,True,True,5.29,VARIANT_LIKE
+Vestido Acacius Preto,Vestidos,Vestido Warren Preto,Vestidos,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Acacius Off-White,Vestidos,Vestido Jones Off-White,Vestidos,3,99.82,100.0,True,True,True,5.59,VARIANT_LIKE
+Vestido Acacius Off-White,Vestidos,Vestido Cameron Off-White,Vestidos,2,99.85,100.0,True,True,True,5.29,VARIANT_LIKE
+Vestido Acacius Off-White,Vestidos,Vestido Warren Off-White,Vestidos,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Short Vesu Off-White,Shorts,Short Saia Kahn Off-White,Shorts,1,99.96,100.0,True,True,True,3.8,VARIANT_LIKE
+Macacão Linho Braid Off-White,Macacões,Macacão Rith Off-White,Macacões,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Macacão Breddon Vermelho,Macacões,Macacão Novari Vermelho,Macacões,2,99.82,100.0,True,True,True,5.59,VARIANT_LIKE
+Macacão Breddon Preto,Macacões,Macacão Novari Preto,Macacões,2,99.82,100.0,True,True,True,5.59,VARIANT_LIKE
+Vestido Jones Preto,Vestidos,Vestido Warren Preto,Vestidos,3,99.82,100.0,True,True,True,5.59,VARIANT_LIKE
+Pantalona Linho Abbie Off-White,Calças,Pantalona Ozuna Off-White,Calças,1,100.0,100.0,True,True,True,0.83,VARIANT_LIKE
+Pantalona Flare Preta,Calças,Pantalona Savoye Preta,Calças,1,99.79,100.0,True,True,True,6.07,VARIANT_LIKE
+Pantalona Flare Off-White,Calças,Pantalona Savoye Off-White,Calças,1,99.79,100.0,True,True,True,6.07,VARIANT_LIKE
+Vestido Jones Off-White,Vestidos,Vestido Warren Off-White,Vestidos,3,99.82,100.0,True,True,True,5.59,VARIANT_LIKE
+Macacão Megan Off-White,Macacões,Macacão Novari Off-White,Macacões,3,99.82,100.0,True,True,True,5.59,VARIANT_LIKE
+Macacão Linho Braid Preto,Macacões,Macacão Rith Preto,Macacões,1,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Macacão Zander Off-White,Macacões,Macacão Oliver Off-White,Macacões,1,100.0,100.0,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Vestido Walker Preto,Vestidos,Vestido Fontaine Preto,Vestidos,3,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Walker Vermelho,Vestidos,Vestido Fontaine Vermelho,Vestidos,3,100.0,100.0,True,True,True,0.0,VARIANT_LIKE
+Vestido Reidy Vermelho,Vestidos,Vestido Tricot Nau Vermelho,Vestidos,2,99.38,99.99,True,True,True,9.55,STRUCTURAL_NEIGHBOR
+Vestido Reidy Preto,Vestidos,Vestido Tricot Nau Preto,Vestidos,1,99.38,99.99,True,True,True,9.55,STRUCTURAL_NEIGHBOR
+Vestido Perot Vermelho,Vestidos,Vestido Tricot Nau Vermelho,Vestidos,2,99.38,99.99,True,True,True,9.55,STRUCTURAL_NEIGHBOR
+Macacão Rith Preto,Macacões,Macacão Damian Preto,Macacões,2,99.46,99.95,True,True,True,10.06,STRUCTURAL_NEIGHBOR
+Macacão Linho Braid Off-White,Macacões,Macacão Damian Off-White,Macacões,3,99.46,99.95,True,True,True,10.06,STRUCTURAL_NEIGHBOR
+Macacão Damian Off-White,Macacões,Macacão Rith Off-White,Macacões,1,99.46,99.95,True,True,True,10.06,STRUCTURAL_NEIGHBOR
+Macacão Linho Braid Preto,Macacões,Macacão Damian Preto,Macacões,2,99.46,99.95,True,True,True,10.06,STRUCTURAL_NEIGHBOR
+Biquíni Kobe Preto,Biquínis,Biquíni Mies Preto,Biquínis,2,99.7,99.95,True,True,True,11.02,STRUCTURAL_NEIGHBOR
+Biquíni Mies Preto,Biquínis,Biquíni Vince Preto,Biquínis,2,99.7,99.95,True,True,True,11.02,STRUCTURAL_NEIGHBOR
+Biquíni Bercy Pérola,Biquínis,Biquíni Riva Pérola,Biquínis,3,99.02,99.94,True,True,True,8.33,STRUCTURAL_NEIGHBOR
+Biquíni Riva Preto,Biquínis,Biquíni Bercy Preto,Biquínis,3,99.02,99.94,True,True,True,8.33,STRUCTURAL_NEIGHBOR
+Vestido Fontaine Preto,Vestidos,Vestido Acacius Preto,Vestidos,5,99.44,99.93,True,True,True,10.06,STRUCTURAL_NEIGHBOR
+Vestido Walker Off-White,Vestidos,Vestido Acacius Off-White,Vestidos,5,99.44,99.93,True,True,True,10.06,STRUCTURAL_NEIGHBOR
+Vestido Walker Vermelho,Vestidos,Vestido Acacius Vermelho,Vestidos,5,99.44,99.93,True,True,True,10.06,STRUCTURAL_NEIGHBOR
+Vestido Warren Marrom,Vestidos,Vestido Roland Marrom,Vestidos,1,99.44,99.93,True,True,True,10.06,STRUCTURAL_NEIGHBOR
+Vestido Bridget Vermelho,Vestidos,Vestido Acacius Vermelho,Vestidos,5,99.44,99.93,True,True,True,10.06,STRUCTURAL_NEIGHBOR
+Vestido Roland Preto,Vestidos,Vestido Acacius Preto,Vestidos,5,99.44,99.93,True,True,True,10.06,STRUCTURAL_NEIGHBOR
+Biquíni Julian Preto,Biquínis,Biquíni Eaton Preto,Biquínis,5,98.22,99.93,True,True,True,5.17,VARIANT_LIKE
+Vestido Roland Off-White,Vestidos,Vestido Acacius Off-White,Vestidos,5,99.44,99.93,True,True,True,10.06,STRUCTURAL_NEIGHBOR
+Vestido Acacius Vermelho,Vestidos,Vestido Fontaine Vermelho,Vestidos,4,99.44,99.93,True,True,True,10.06,STRUCTURAL_NEIGHBOR
+Vestido Salvi Off-White,Vestidos,Vestido Acacius Off-White,Vestidos,5,99.44,99.93,True,True,True,10.06,STRUCTURAL_NEIGHBOR
+Vestido Roland Vermelho,Vestidos,Vestido Acacius Vermelho,Vestidos,5,99.44,99.93,True,True,True,10.06,STRUCTURAL_NEIGHBOR
+Biquíni Eaton Pérola,Biquínis,Biquíni Julian Pérola,Biquínis,5,98.22,99.93,True,True,True,5.17,VARIANT_LIKE
+Vestido Salvi Vermelho,Vestidos,Vestido Acacius Vermelho,Vestidos,5,99.44,99.93,True,True,True,10.06,STRUCTURAL_NEIGHBOR
+Vestido Salvi Preto,Vestidos,Vestido Acacius Preto,Vestidos,5,99.44,99.93,True,True,True,10.06,STRUCTURAL_NEIGHBOR
+Vestido Fontaine Off-White,Vestidos,Vestido Acacius Off-White,Vestidos,5,99.44,99.93,True,True,True,10.06,STRUCTURAL_NEIGHBOR
+Vestido Walker Preto,Vestidos,Vestido Acacius Preto,Vestidos,5,99.44,99.93,True,True,True,10.06,STRUCTURAL_NEIGHBOR
+Vestido Zephyr Off-White,Vestidos,Vestido Filippo Off-White,Vestidos,4,99.43,99.92,True,True,True,10.06,STRUCTURAL_NEIGHBOR
+Vestido Tess Preto,Vestidos,Vestido Filippo Preto,Vestidos,1,99.43,99.92,True,True,True,10.06,STRUCTURAL_NEIGHBOR
+Vestido Filippo Off-White,Vestidos,Vestido Tess Off-White,Vestidos,3,99.43,99.92,True,True,True,10.06,STRUCTURAL_NEIGHBOR
+Vestido Tess Vermelho,Vestidos,Vestido Tricot Aubrey Vermelho,Vestidos,1,99.43,99.92,True,True,True,10.06,STRUCTURAL_NEIGHBOR
+Vestido Tricot Aubrey Preto com Off-White,Vestidos,Vestido Zephyr Off-White,Vestidos,4,99.43,99.92,True,True,True,10.06,STRUCTURAL_NEIGHBOR
+Vestido Tess Off-White,Vestidos,Vestido Tricot Aubrey Preto com Off-White,Vestidos,3,99.43,99.92,True,True,True,10.06,STRUCTURAL_NEIGHBOR
+Vestido Collins Vermelho,Vestidos,Vestido Tess Vermelho,Vestidos,2,99.43,99.92,True,True,True,10.06,STRUCTURAL_NEIGHBOR
+Blusa Mayfar Bege,Blusas,Blusa Moonsoon Bege,Blusas,1,99.42,99.89,True,True,True,10.12,STRUCTURAL_NEIGHBOR
+Biquíni Vitto Pérola,Biquínis,Biquíni Alann Pérola,Biquínis,2,98.1,99.81,True,True,True,5.17,VARIANT_LIKE
+Cropped Petal Off-White,Croppeds,Cropped Linho Carl Off-White,Croppeds,2,99.59,99.81,True,True,True,11.12,STRUCTURAL_NEIGHBOR
+Biquíni Alann Preto,Biquínis,Biquíni Vitto Preto,Biquínis,4,98.1,99.81,True,True,True,5.17,VARIANT_LIKE
+Cropped Linho Carl Preto,Croppeds,Cropped Petal Preto,Croppeds,3,99.59,99.81,True,True,True,11.12,STRUCTURAL_NEIGHBOR
+Vestido Fontana Vermelho,Vestidos,Vestido Axel Vermelho,Vestidos,2,99.31,99.8,True,True,True,10.06,STRUCTURAL_NEIGHBOR
+Vestido Perot Vermelho,Vestidos,Vestido Tricot Murphy Vermelho,Vestidos,3,99.31,99.8,True,True,True,10.06,STRUCTURAL_NEIGHBOR
+Vestido Perot Off-White,Vestidos,Vestido Tricot Murphy Preto com Off-White,Vestidos,2,99.31,99.8,True,True,True,10.06,STRUCTURAL_NEIGHBOR
+Vestido Reidy Vermelho,Vestidos,Vestido Tricot Murphy Vermelho,Vestidos,3,99.31,99.8,True,True,True,10.06,STRUCTURAL_NEIGHBOR
+Vestido Catton Off-White,Vestidos,Vestido Bonet Off-White,Vestidos,1,99.86,99.73,True,True,False,4.52,STRUCTURAL_NEIGHBOR
+Body Waud Preto,Bodies,Body Ezio Preto,Bodies,1,99.89,99.72,True,True,True,12.67,STRUCTURAL_NEIGHBOR
+Blazer Vestido Agatha Preto,Blazers,Blazer Linho Fruges Preto,Blazers,4,99.5,99.71,True,True,True,11.18,STRUCTURAL_NEIGHBOR
+Blazer Vestido Schiffer Preto,Blazers,Blazer Linho Fruges Preto,Blazers,4,99.5,99.71,True,True,True,11.18,STRUCTURAL_NEIGHBOR
+Blazer Adonis Preto,Blazers,Blazer Linho Fruges Preto,Blazers,4,99.5,99.71,True,True,True,11.18,STRUCTURAL_NEIGHBOR
+Biquíni Nari Off-White,Biquínis,Biquíni Marzan Off-White,Biquínis,1,99.07,99.69,True,True,True,9.52,STRUCTURAL_NEIGHBOR
+Cropped Wiley Off-White,Croppeds,Cropped Saarinen Off-White,Croppeds,1,99.94,99.64,True,True,False,5.2,STRUCTURAL_NEIGHBOR
+Conjunto Fellicce Off-White,Conjuntos,Conjunto Denver Off-White,Conjuntos,1,99.54,99.62,True,True,True,11.68,STRUCTURAL_NEIGHBOR
+Vestido Ivory Off-White,Vestidos,Vestido Malmo Off-White,Vestidos,2,99.87,99.61,True,True,False,5.03,STRUCTURAL_NEIGHBOR
+Vestido Malmo Preto,Vestidos,Vestido Ivory Preto,Vestidos,2,99.87,99.61,True,True,False,5.03,STRUCTURAL_NEIGHBOR
+Vestido Ivory Off-White,Vestidos,Vestido Riccie Off-White,Vestidos,1,99.87,99.61,True,True,False,5.03,STRUCTURAL_NEIGHBOR
+Vestido Harpa Preto,Vestidos,Vestido Ivory Preto,Vestidos,2,99.87,99.61,True,True,False,5.03,STRUCTURAL_NEIGHBOR
+Pareô Leanni Cobre,Pareôs,Pareô Heidi Cobre,Pareôs,1,99.84,99.57,True,True,True,13.06,STRUCTURAL_NEIGHBOR
+Vestido Fontana Vermelho,Vestidos,Vestido Bauhaus Vermelho,Vestidos,1,99.34,99.55,True,True,True,11.18,STRUCTURAL_NEIGHBOR
+Macacão Sleuk Off-White,Macacões,Macacão Zander Off-White,Macacões,2,99.5,99.54,True,True,True,11.84,STRUCTURAL_NEIGHBOR
+Vestido Tricot Murphy Vermelho,Vestidos,Vestido Barlett Vermelho,Vestidos,4,99.33,99.54,True,True,True,11.18,STRUCTURAL_NEIGHBOR
+Vestido Tricot Murphy Preto com Off-White,Vestidos,Vestido Forest Off-White,Vestidos,4,99.33,99.54,True,True,True,11.18,STRUCTURAL_NEIGHBOR
+Conjunto Denver Preto,Conjuntos,Conjunto Lamellae Preto,Conjuntos,3,98.6,99.49,True,True,False,0.46,STRUCTURAL_NEIGHBOR
+Vestido Iron Off-White,Vestidos,Vestido Salk Off-White,Vestidos,3,99.25,99.49,True,True,True,11.06,STRUCTURAL_NEIGHBOR
+Vestido Iron Off-White,Vestidos,Vestido Gio Off-White,Vestidos,4,99.25,99.49,True,True,True,11.06,STRUCTURAL_NEIGHBOR
+Short Adonis Preto,Shorts,Short Saia Kahn Preto,Shorts,3,99.6,99.46,True,True,True,12.55,STRUCTURAL_NEIGHBOR
+Blazer Vestido Darleen Preto,Blazers,Blazer Carmine Preto,Blazers,2,99.25,99.46,True,True,True,11.18,STRUCTURAL_NEIGHBOR
+Biquíni Bercy Pérola,Biquínis,Biquíni Julian Pérola,Biquínis,5,96.46,99.46,True,True,True,0.0,VARIANT_LIKE
+Vestido Bauhaus Preto,Vestidos,Vestido Matt Preto,Vestidos,2,99.45,99.46,True,True,True,11.96,STRUCTURAL_NEIGHBOR
+Biquíni Bercy Preto,Biquínis,Biquíni Julian Preto,Biquínis,3,96.46,99.46,True,True,True,0.0,VARIANT_LIKE
+Cropped Petal Off-White,Croppeds,Cropped Robie Off-White,Croppeds,3,99.51,99.45,True,True,True,12.24,STRUCTURAL_NEIGHBOR
+Cropped Petal Preto,Croppeds,Cropped Robie Preto,Croppeds,3,99.51,99.45,True,True,True,12.24,STRUCTURAL_NEIGHBOR
+Cropped Petal Preto,Croppeds,Cropped Linho Brett Preto,Croppeds,4,99.51,99.45,True,True,True,12.24,STRUCTURAL_NEIGHBOR
+Cropped Petal Off-White,Croppeds,Cropped Linho Brett Off-White,Croppeds,4,99.51,99.45,True,True,True,12.24,STRUCTURAL_NEIGHBOR
+Biquíni Menorca Preto,Biquínis,Biquíni Mies Preto,Biquínis,2,98.81,99.43,True,True,True,9.52,STRUCTURAL_NEIGHBOR
+Conjunto Lamellae Azul,Conjuntos,Conjunto Lamellae Off-White,Conjuntos,1,97.43,99.43,True,False,True,0.0,VARIANT_LIKE
+Conjunto Lamellae Azul,Conjuntos,Conjunto Lamellae Preto,Conjuntos,2,97.43,99.43,True,False,True,0.0,VARIANT_LIKE
+Conjunto Lamellae Off-White,Conjuntos,Conjunto Lamellae Preto,Conjuntos,5,97.43,99.43,True,False,True,0.0,VARIANT_LIKE
+Vestido Warren Marrom,Vestidos,Vestido Brent Marrom,Vestidos,2,99.21,99.42,True,True,True,11.18,STRUCTURAL_NEIGHBOR
+Vestido Brent Preto,Vestidos,Vestido Acacius Preto,Vestidos,5,99.21,99.42,True,True,True,11.18,STRUCTURAL_NEIGHBOR
+Short Saia Donati Preto,Shorts,Short Saia Kahn Preto,Shorts,3,99.59,99.42,True,True,True,12.67,STRUCTURAL_NEIGHBOR
+Biquíni Peter Preto,Biquínis,Biquíni Galea Preto,Biquínis,5,99.71,99.42,True,True,False,5.17,STRUCTURAL_NEIGHBOR
+Biquíni Galea Preto,Biquínis,Biquíni Harper Preto,Biquínis,5,99.71,99.42,True,True,False,5.17,STRUCTURAL_NEIGHBOR
+Vestido Brent Off-White,Vestidos,Vestido Warren Off-White,Vestidos,4,99.21,99.42,True,True,True,11.18,STRUCTURAL_NEIGHBOR
+Vestido Brent Off-White,Vestidos,Vestido Acacius Off-White,Vestidos,5,99.21,99.42,True,True,True,11.18,STRUCTURAL_NEIGHBOR
+Vestido Brent Preto,Vestidos,Vestido Warren Preto,Vestidos,4,99.21,99.42,True,True,True,11.18,STRUCTURAL_NEIGHBOR
+Vestido Gio Preto,Vestidos,Vestido Linho Frank Preto,Vestidos,5,99.36,99.4,True,True,True,11.84,STRUCTURAL_NEIGHBOR
+Vestido Salk Vermelho,Vestidos,Vestido Asther Vermelho,Vestidos,5,99.36,99.4,True,True,True,11.84,STRUCTURAL_NEIGHBOR
+Body Rinaldi Preto,Bodies,Body Aliyev Preto,Bodies,1,99.98,99.39,True,True,False,6.36,STRUCTURAL_NEIGHBOR
+Body Rinaldi Off-White,Bodies,Body Aliyev Off-White,Bodies,1,99.98,99.39,True,True,False,6.36,STRUCTURAL_NEIGHBOR
+Body Waud Preto,Bodies,Body Lyra Preto,Bodies,2,99.87,99.38,True,True,True,13.94,STRUCTURAL_NEIGHBOR
+Vestido Hadid Vermelho,Vestidos,Vestido Salk Vermelho,Vestidos,3,99.84,99.36,True,True,False,5.92,STRUCTURAL_NEIGHBOR
+Vestido Hadid Preto,Vestidos,Vestido Gio Preto,Vestidos,5,99.84,99.36,True,True,False,5.92,STRUCTURAL_NEIGHBOR
+Vestido Gio Off-White,Vestidos,Vestido Hadid Off-White,Vestidos,2,99.84,99.36,True,True,False,5.92,STRUCTURAL_NEIGHBOR
+Vestido Salk Off-White,Vestidos,Vestido Hadid Off-White,Vestidos,2,99.84,99.36,True,True,False,5.92,STRUCTURAL_NEIGHBOR
+Conjunto Ivy Off-White,Conjuntos,Conjunto Fellicce Off-White,Conjuntos,3,99.48,99.34,True,True,True,12.57,STRUCTURAL_NEIGHBOR
+Conjunto Fellicce Preto,Conjuntos,Conjunto Ivy Preto,Conjuntos,2,99.48,99.34,True,True,True,12.57,STRUCTURAL_NEIGHBOR
+Vestido Tricot Nau Preto,Vestidos,Vestido Barlett Preto,Vestidos,4,99.26,99.34,True,True,True,11.67,STRUCTURAL_NEIGHBOR
+Vestido Tricot Nau Preto,Vestidos,Vestido Forest Preto,Vestidos,5,99.26,99.34,True,True,True,11.67,STRUCTURAL_NEIGHBOR
+BIQUÍNI EASTON + PAREÔ | MARROM,Biquínis,BIQUÍNI EASTON + PAREÔ | OFF-WHITE,Biquínis,1,98.57,99.32,True,False,True,5.0,VARIANT_LIKE
+Vestido Hadid Off-White,Vestidos,Vestido Linho Arum Off-White,Vestidos,3,99.84,99.27,True,True,False,6.29,STRUCTURAL_NEIGHBOR
+Vestido Asther Vermelho,Vestidos,Vestido Hadid Vermelho,Vestidos,5,99.84,99.27,True,True,False,6.29,STRUCTURAL_NEIGHBOR
+Vestido Hadid Preto,Vestidos,Vestido Linho Frank Preto,Vestidos,4,99.84,99.27,True,True,False,6.29,STRUCTURAL_NEIGHBOR
+Vestido Hadid Off-White,Vestidos,Vestido Asther Off-White,Vestidos,4,99.84,99.27,True,True,False,6.29,STRUCTURAL_NEIGHBOR
+Vestido Hadid Preto,Vestidos,Vestido Linho Arum Preto,Vestidos,3,99.84,99.27,True,True,False,6.29,STRUCTURAL_NEIGHBOR
+Blazer Carmine Caramelo,Blazers,Blazer Vestido Vincent Caramelo,Blazers,1,99.18,99.26,True,True,True,11.67,STRUCTURAL_NEIGHBOR
+Blazer Carmine Preto,Blazers,Blazer Vestido Vincent Preto,Blazers,2,99.18,99.26,True,True,True,11.67,STRUCTURAL_NEIGHBOR
+Blazer Vestido Vincent Off-White,Blazers,Blazer Carmine Off-White,Blazers,1,99.18,99.26,True,True,True,11.67,STRUCTURAL_NEIGHBOR
+Conjunto Denver Preto,Conjuntos,Conjunto Ivy Preto,Conjuntos,4,98.5,99.25,True,True,False,1.01,STRUCTURAL_NEIGHBOR
+Body Espanya Preto,Bodies,Body Steffano Preto,Bodies,1,99.51,99.24,True,True,True,13.06,STRUCTURAL_NEIGHBOR
+Biquíni Capanema Preto,Biquínis,Biquíni Galea Preto,Biquínis,1,99.93,99.24,True,True,False,6.78,STRUCTURAL_NEIGHBOR
+Vestido Barlett Vermelho,Vestidos,Vestido Azarius Vermelho,Vestidos,5,99.39,99.24,True,True,True,12.59,STRUCTURAL_NEIGHBOR
+Macacão Alberts Off-White,Macacões,Macacão Oliver Off-White,Macacões,1,99.88,99.2,True,True,False,6.72,STRUCTURAL_NEIGHBOR
+Vestido Cowden Vermelho,Vestidos,Vestido Brice Vermelho,Vestidos,4,99.03,99.15,True,True,True,11.5,STRUCTURAL_NEIGHBOR
+Vestido Tucker Vermelho,Vestidos,Vestido Brice Vermelho,Vestidos,4,99.03,99.15,True,True,True,11.5,STRUCTURAL_NEIGHBOR
+Biquíni Cyprus Off-White,Biquínis,Biquíni Mies Off-White,Biquínis,1,98.51,99.13,True,True,True,9.52,STRUCTURAL_NEIGHBOR
+Biquíni Cyprus Azul Turquesa,Biquínis,Biquíni Mies Azul Turquesa,Biquínis,1,98.51,99.13,True,True,True,9.52,STRUCTURAL_NEIGHBOR
+Conjunto Fellicce Off-White,Conjuntos,Conjunto Lamellae Off-White,Conjuntos,3,99.1,99.08,True,True,True,12.08,STRUCTURAL_NEIGHBOR
+Conjunto Fellicce Preto,Conjuntos,Conjunto Lamellae Preto,Conjuntos,3,99.1,99.08,True,True,True,12.08,STRUCTURAL_NEIGHBOR
+Cropped Adams Off-White,Croppeds,Cropped Robie Off-White,Croppeds,3,99.56,99.07,True,True,True,13.94,STRUCTURAL_NEIGHBOR
+Cropped Adams Off-White,Croppeds,Cropped Linho Brett Off-White,Croppeds,4,99.56,99.07,True,True,True,13.94,STRUCTURAL_NEIGHBOR
+Vestido Alvorada Preto,Vestidos,Vestido Linho Alanis Preto,Vestidos,3,99.43,99.07,True,True,True,13.43,STRUCTURAL_NEIGHBOR
+BIQUÍNI EASTON + PAREÔ | OFF-WHITE,Biquínis,BIQUÍNI VITTO + PAREÔ | PRETO,Biquínis,2,98.55,99.07,True,False,True,5.91,VARIANT_LIKE
+Vestido Linho Alanis Off-White,Vestidos,Vestido Alvorada Off-White,Vestidos,1,99.43,99.07,True,True,True,13.43,STRUCTURAL_NEIGHBOR
+Cropped Linho Brett Preto,Croppeds,Cropped Adams Preto,Croppeds,3,99.56,99.07,True,True,True,13.94,STRUCTURAL_NEIGHBOR
+Cropped Adams Preto,Croppeds,Cropped Robie Preto,Croppeds,1,99.56,99.07,True,True,True,13.94,STRUCTURAL_NEIGHBOR
+Vestido Linho Arum Avelã,Vestidos,Vestido Linho Sugarloaf Avelã,Vestidos,2,99.42,99.06,True,True,True,13.43,STRUCTURAL_NEIGHBOR
+Vestido Archie Vermelho,Vestidos,Vestido Asther Vermelho,Vestidos,5,99.42,99.06,True,True,True,13.43,STRUCTURAL_NEIGHBOR
+Vestido Atlas Vermelho,Vestidos,Vestido Asther Vermelho,Vestidos,5,99.42,99.06,True,True,True,13.43,STRUCTURAL_NEIGHBOR
+Vestido Ethan Preto,Vestidos,Vestido Hadid Preto,Vestidos,1,98.01,99.01,True,True,False,,STRUCTURAL_NEIGHBOR
+Blusa Tommaso Preto,Blusas,Blusa Alexis Preto,Blusas,3,99.26,98.97,True,True,True,13.14,STRUCTURAL_NEIGHBOR
+Blusa Percy Preto,Blusas,Blusa Tommaso Preto,Blusas,2,99.26,98.97,True,True,True,13.14,STRUCTURAL_NEIGHBOR
+Blusa Alexis Preto,Blusas,Blusa Cesare Preto,Blusas,3,99.26,98.97,True,True,True,13.14,STRUCTURAL_NEIGHBOR
+Blusa Percy Preto,Blusas,Blusa Cesare Preto,Blusas,3,99.26,98.97,True,True,True,13.14,STRUCTURAL_NEIGHBOR
+Conjunto Denver Preto,Conjuntos,Conjunto Guillen Preto,Conjuntos,2,99.33,98.9,True,True,True,13.71,STRUCTURAL_NEIGHBOR
+Conjunto Lamellae Azul,Conjuntos,Conjunto Ivy Off-White,Conjuntos,3,96.98,98.84,True,False,True,0.55,VARIANT_LIKE
+Conjunto Lamellae Azul,Conjuntos,Conjunto Ivy Preto,Conjuntos,4,96.98,98.84,True,False,True,0.55,VARIANT_LIKE
+Body Lyra Preto,Bodies,Body Rodd Preto,Bodies,2,99.89,98.84,True,True,True,16.2,STRUCTURAL_NEIGHBOR
+Conjunto Althea Vermelho,Conjuntos,Conjunto Althea Preto,Conjuntos,2,96.84,98.84,True,False,True,0.0,VARIANT_LIKE
+Conjunto Althea Vermelho,Conjuntos,Conjunto Althea Off-White,Conjuntos,3,96.84,98.84,True,False,True,0.0,VARIANT_LIKE
+Conjunto Lamellae Azul,Conjuntos,Conjunto Denver Off-White,Conjuntos,5,96.92,98.81,True,False,True,0.46,VARIANT_LIKE
+Conjunto Mitchell Preto,Conjuntos,Conjunto Guillen Preto,Conjuntos,5,97.76,98.76,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Cropped Adams Off-White,Croppeds,Cropped Linho Carl Off-White,Croppeds,5,99.48,98.73,True,True,True,15.02,STRUCTURAL_NEIGHBOR
+Cropped Adams Preto,Croppeds,Cropped Linho Carl Preto,Croppeds,3,99.48,98.73,True,True,True,15.02,STRUCTURAL_NEIGHBOR
+Body Chiara Marrom,Bodies,Body Giorgia Marrom,Bodies,1,98.95,98.66,True,True,True,13.14,STRUCTURAL_NEIGHBOR
+BLUSA TOMMASO + SAIA RILEY | PRETO,Blusas,BLUSA PERCY + SAIA REMMY | PRETO,Blusas,1,98.93,98.64,True,True,True,13.14,STRUCTURAL_NEIGHBOR
+Conjunto Mitchell Preto,Conjuntos,Conjunto Ivy Preto,Conjuntos,2,99.25,98.6,True,True,True,14.58,STRUCTURAL_NEIGHBOR
+Biquíni Hali Pérola,Biquínis,Biquíni Riva Pérola,Biquínis,3,98.71,98.58,True,True,True,12.5,STRUCTURAL_NEIGHBOR
+Biquíni Dion Preto,Biquínis,Biquíni Riva Preto,Biquínis,4,98.71,98.58,True,True,True,12.5,STRUCTURAL_NEIGHBOR
+Biquíni Hali Azul Índigo,Biquínis,Biquíni Riva Azul Índigo,Biquínis,1,98.71,98.58,True,True,True,12.5,STRUCTURAL_NEIGHBOR
+Biquíni Riva Preto,Biquínis,Biquíni Hali Preto,Biquínis,5,98.71,98.58,True,True,True,12.5,STRUCTURAL_NEIGHBOR
+Biquíni Marzan Preto,Biquínis,Biquíni Riva Preto,Biquínis,4,98.71,98.58,True,True,True,12.5,STRUCTURAL_NEIGHBOR
+Body Rodd Preto,Bodies,Body Ezio Preto,Bodies,2,99.86,98.51,True,True,True,17.42,STRUCTURAL_NEIGHBOR
+Biquíni Taut Preto,Biquínis,Biquíni Alann Preto,Biquínis,5,96.75,98.46,True,True,True,5.17,VARIANT_LIKE
+Biquíni Alessio Castanho,Biquínis,Biquíni Mark Castanho,Biquínis,2,98.62,98.38,True,True,True,12.97,STRUCTURAL_NEIGHBOR
+Biquíni Alessio Preto,Biquínis,Biquíni Mark Preto,Biquínis,3,98.62,98.38,True,True,True,12.97,STRUCTURAL_NEIGHBOR
+Biquíni Hali Pérola,Biquínis,Biquíni Malawi Pérola,Biquínis,5,96.52,98.38,True,True,True,4.55,VARIANT_LIKE
+Biquíni Dion Preto,Biquínis,Biquíni Eaton Preto,Biquínis,5,97.74,98.37,True,True,True,9.48,STRUCTURAL_NEIGHBOR
+Biquíni Hali Pérola,Biquínis,Biquíni Eaton Pérola,Biquínis,4,97.74,98.37,True,True,True,9.48,STRUCTURAL_NEIGHBOR
+Biquíni Hali Preto,Biquínis,Biquíni Eaton Preto,Biquínis,5,97.74,98.37,True,True,True,9.48,STRUCTURAL_NEIGHBOR
+Biquíni Eaton Preto,Biquínis,Biquíni Marzan Preto,Biquínis,4,97.74,98.37,True,True,True,9.48,STRUCTURAL_NEIGHBOR
+Biquíni Arenella Preto,Biquínis,Biquíni Miller Preto,Biquínis,5,99.67,98.36,True,True,False,9.23,STRUCTURAL_NEIGHBOR
+Biquíni Arenella Preto,Biquínis,Biquíni Perez Preto,Biquínis,4,99.67,98.36,True,True,False,9.23,STRUCTURAL_NEIGHBOR
+Vestido Hadid Vermelho,Vestidos,Vestido Ethan Vermelho,Vestidos,4,99.65,98.29,True,True,False,9.44,STRUCTURAL_NEIGHBOR
+Biquíni Bernie Off-White,Biquínis,Biquíni Nari Off-White,Biquínis,2,98.7,98.29,True,True,True,13.64,STRUCTURAL_NEIGHBOR
+Conjunto Mitchell Preto,Conjuntos,Conjunto Lamellae Preto,Conjuntos,3,98.81,98.28,True,True,True,14.11,STRUCTURAL_NEIGHBOR
+Conjunto Guillen Preto,Conjuntos,Conjunto Fellicce Preto,Conjuntos,3,97.81,98.23,True,True,False,2.3,STRUCTURAL_NEIGHBOR
+Conjunto Fellicce Off-White,Conjuntos,Conjunto Guillen Off-White,Conjuntos,5,97.81,98.23,True,True,False,2.3,STRUCTURAL_NEIGHBOR
+Vestido Perot Off-White,Vestidos,Vestido Rennie Off-White,Vestidos,4,98.5,98.22,True,True,True,13.11,STRUCTURAL_NEIGHBOR
+Vestido Vitalli Off-White,Vestidos,Vestido Perot Off-White,Vestidos,3,98.5,98.22,True,True,True,13.11,STRUCTURAL_NEIGHBOR
+Biquíni Alessio Preto,Biquínis,Biquíni Kobe Preto,Biquínis,1,98.73,98.18,True,True,True,14.18,STRUCTURAL_NEIGHBOR
+Biquíni Alessio Castanho,Biquínis,Biquíni Vince Castanho,Biquínis,1,98.73,98.18,True,True,True,14.18,STRUCTURAL_NEIGHBOR
+Biquíni Alessio Vermelho Carmim,Biquínis,Biquíni Vince Vermelho Carmim,Biquínis,1,98.73,98.18,True,True,True,14.18,STRUCTURAL_NEIGHBOR
+Biquíni Alessio Preto,Biquínis,Biquíni Vince Preto,Biquínis,2,98.73,98.18,True,True,True,14.18,STRUCTURAL_NEIGHBOR
+Vestido Vallez Off-White,Vestidos,Vestido Perot Off-White,Vestidos,3,98.41,98.04,True,True,True,13.48,STRUCTURAL_NEIGHBOR
+Pantalona Ozuna Off-White,Calças,Pantalona Touret Off-White,Calças,2,99.25,98.04,True,True,True,16.82,STRUCTURAL_NEIGHBOR
+Pantalona Touret Preto,Calças,Pantalona Ozuna Preto,Calças,1,99.25,98.04,True,True,True,16.82,STRUCTURAL_NEIGHBOR
+Pantalona Ozuna Avelã,Calças,Pantalona Touret Avelã,Calças,1,99.25,98.04,True,True,True,16.82,STRUCTURAL_NEIGHBOR
+Vestido Vallez Preto,Vestidos,Vestido Reidy Preto,Vestidos,1,98.41,98.04,True,True,True,13.48,STRUCTURAL_NEIGHBOR
+Macacão Damian Off-White,Macacões,Macacão Fiorese Off-White,Macacões,3,98.79,98.02,True,True,True,15.08,STRUCTURAL_NEIGHBOR
+Biquíni Peter Cobre,Biquínis,Biquíni Bardi Cobre,Biquínis,3,98.92,98.01,True,True,True,15.64,STRUCTURAL_NEIGHBOR
+Biquíni Bardi Preto,Biquínis,Biquíni Peter Preto,Biquínis,2,98.92,98.01,True,True,True,15.64,STRUCTURAL_NEIGHBOR
+Biquíni Bardi Preto,Biquínis,Biquíni Harper Preto,Biquínis,3,98.92,98.01,True,True,True,15.64,STRUCTURAL_NEIGHBOR
+Conjunto Denver Preto,Conjuntos,Conjunto Althea Preto,Conjuntos,1,99.68,97.97,True,True,True,18.84,STRUCTURAL_NEIGHBOR
+Vestido Tucker Off-White,Vestidos,Vestido Ivory Off-White,Vestidos,4,99.43,97.92,True,True,False,10.06,STRUCTURAL_NEIGHBOR
+Vestido Cowden Preto,Vestidos,Vestido Ivory Preto,Vestidos,3,99.43,97.92,True,True,False,10.06,STRUCTURAL_NEIGHBOR
+Blazer Linho Fruges Preto,Blazers,Blazer Corrington Preto,Blazers,4,98.97,97.92,True,True,True,16.21,STRUCTURAL_NEIGHBOR
+Vestido Cowden Off-White,Vestidos,Vestido Ivory Off-White,Vestidos,4,99.43,97.92,True,True,False,10.06,STRUCTURAL_NEIGHBOR
+Biquíni Castillo Preto,Biquínis,Biquíni Bonneville Preto,Biquínis,2,99.58,97.89,True,True,False,10.77,STRUCTURAL_NEIGHBOR
+Biquíni Landon Pérola,Biquínis,Biquíni Landon Preto,Biquínis,4,95.89,97.89,True,False,True,0.0,VARIANT_LIKE
+Biquíni Landon Pérola,Biquínis,Biquíni Landon Marrom,Biquínis,3,95.89,97.89,True,False,True,0.0,VARIANT_LIKE
+Biquíni Landon Marrom,Biquínis,Biquíni Landon Preto,Biquínis,2,95.89,97.89,True,False,True,0.0,VARIANT_LIKE
+BODY ROCCO + PANTALONA FLARE | OFF-WHITE,Bodies,BODY ROCCO + PANTALONA FLARE | PRETO,Bodies,2,95.87,97.87,True,False,True,0.0,VARIANT_LIKE
+Vestido Ludwig Vermelho,Vestidos,Vestido Fontaine Vermelho,Vestidos,4,98.62,97.85,True,True,True,15.08,STRUCTURAL_NEIGHBOR
+Vestido Dylan Vermelho,Vestidos,Vestido Fontaine Vermelho,Vestidos,4,98.62,97.85,True,True,True,15.08,STRUCTURAL_NEIGHBOR
+Vestido Jones Vermelho,Vestidos,Vestido Fontaine Vermelho,Vestidos,4,98.62,97.85,True,True,True,15.08,STRUCTURAL_NEIGHBOR
+Vestido Jones Vermelho,Vestidos,Vestido Bridget Vermelho,Vestidos,5,98.62,97.85,True,True,True,15.08,STRUCTURAL_NEIGHBOR
+Vestido Ludwig Vermelho,Vestidos,Vestido Bridget Vermelho,Vestidos,5,98.62,97.85,True,True,True,15.08,STRUCTURAL_NEIGHBOR
+Vestido Dylan Vermelho,Vestidos,Vestido Bridget Vermelho,Vestidos,5,98.62,97.85,True,True,True,15.08,STRUCTURAL_NEIGHBOR
+Vestido Fontana Off-White,Vestidos,Vestido Bonet Off-White,Vestidos,2,99.31,97.8,True,True,False,10.06,STRUCTURAL_NEIGHBOR
+Pantalona Linho Abbie Off-White,Calças,Pantalona Touret Off-White,Calças,2,99.17,97.79,True,True,True,17.51,STRUCTURAL_NEIGHBOR
+Pantalona Touret Preto,Calças,Pantalona Linho Abbie Preto,Calças,2,99.17,97.79,True,True,True,17.51,STRUCTURAL_NEIGHBOR
+Cropped Saarinen Off-White,Croppeds,Cropped Adams Off-White,Croppeds,5,99.71,97.78,True,True,False,11.7,STRUCTURAL_NEIGHBOR
+Biquíni Bercy Preto,Biquínis,Biquíni Dion Preto,Biquínis,4,95.85,97.71,True,True,True,4.55,VARIANT_LIKE
+Biquíni Bercy Preto,Biquínis,Biquíni Hali Preto,Biquínis,5,95.85,97.71,True,True,True,4.55,VARIANT_LIKE
+Vestido Gio Azul,Vestidos,Vestido Perot Azul,Vestidos,3,98.46,97.69,True,True,True,15.08,STRUCTURAL_NEIGHBOR
+Vestido Perot Vermelho,Vestidos,Vestido Salk Vermelho,Vestidos,4,98.46,97.69,True,True,True,15.08,STRUCTURAL_NEIGHBOR
+Vestido Perot Off-White,Vestidos,Vestido Gio Off-White,Vestidos,5,98.46,97.69,True,True,True,15.08,STRUCTURAL_NEIGHBOR
+Vestido Perot Azul,Vestidos,Vestido Salk Azul,Vestidos,1,98.46,97.69,True,True,True,15.08,STRUCTURAL_NEIGHBOR
+Vestido Reidy Vermelho,Vestidos,Vestido Salk Vermelho,Vestidos,4,98.46,97.69,True,True,True,15.08,STRUCTURAL_NEIGHBOR
+Vestido Reidy Preto,Vestidos,Vestido Gio Preto,Vestidos,2,98.46,97.69,True,True,True,15.08,STRUCTURAL_NEIGHBOR
+Biquíni Conti Vermelho Carmim,Biquínis,Biquíni Alessio Vermelho Carmim,Biquínis,2,98.47,97.56,True,True,True,15.64,STRUCTURAL_NEIGHBOR
+Biquíni Alessio Castanho,Biquínis,Biquíni Conti Castanho,Biquínis,3,98.47,97.56,True,True,True,15.64,STRUCTURAL_NEIGHBOR
+Macacão Oliver Vermelho,Macacões,Macacão Sleuk Vermelho,Macacões,1,99.5,97.54,True,True,False,11.84,STRUCTURAL_NEIGHBOR
+Macacão Sleuk Off-White,Macacões,Macacão Oliver Off-White,Macacões,1,99.5,97.54,True,True,False,11.84,STRUCTURAL_NEIGHBOR
+Vestido Tricot Murphy Preto com Off-White,Vestidos,Vestido Hadid Off-White,Vestidos,5,99.33,97.54,True,True,False,11.18,STRUCTURAL_NEIGHBOR
+Vestido Tricot Murphy Vermelho,Vestidos,Vestido Hadid Vermelho,Vestidos,3,99.33,97.54,True,True,False,11.18,STRUCTURAL_NEIGHBOR
+Vestido Sartori Vermelho,Vestidos,Vestido Bridget Vermelho,Vestidos,5,98.69,97.5,True,True,True,16.74,STRUCTURAL_NEIGHBOR
+Vestido Sartori Vermelho,Vestidos,Vestido Salvi Vermelho,Vestidos,2,98.69,97.5,True,True,True,16.74,STRUCTURAL_NEIGHBOR
+Vestido Sartori Vermelho,Vestidos,Vestido Roland Vermelho,Vestidos,3,98.69,97.5,True,True,True,16.74,STRUCTURAL_NEIGHBOR
+Vestido Sartori Vermelho,Vestidos,Vestido Fontaine Vermelho,Vestidos,4,98.69,97.5,True,True,True,16.74,STRUCTURAL_NEIGHBOR
+Vestido Sartori Preto,Vestidos,Vestido Roland Preto,Vestidos,2,98.69,97.5,True,True,True,16.74,STRUCTURAL_NEIGHBOR
+Vestido Sartori Preto,Vestidos,Vestido Walker Preto,Vestidos,4,98.69,97.5,True,True,True,16.74,STRUCTURAL_NEIGHBOR
+Vestido Sartori Preto,Vestidos,Vestido Fontaine Preto,Vestidos,3,98.69,97.5,True,True,True,16.74,STRUCTURAL_NEIGHBOR
+Vestido Sartori Off-White,Vestidos,Vestido Roland Off-White,Vestidos,2,98.69,97.5,True,True,True,16.74,STRUCTURAL_NEIGHBOR
+Vestido Sartori Off-White,Vestidos,Vestido Fontaine Off-White,Vestidos,3,98.69,97.5,True,True,True,16.74,STRUCTURAL_NEIGHBOR
+Vestido Sartori Off-White,Vestidos,Vestido Walker Off-White,Vestidos,4,98.69,97.5,True,True,True,16.74,STRUCTURAL_NEIGHBOR
+Vestido Sartori Preto,Vestidos,Vestido Salvi Preto,Vestidos,1,98.69,97.5,True,True,True,16.74,STRUCTURAL_NEIGHBOR
+Vestido Sartori Off-White,Vestidos,Vestido Salvi Off-White,Vestidos,1,98.69,97.5,True,True,True,16.74,STRUCTURAL_NEIGHBOR
+Vestido Sartori Vermelho,Vestidos,Vestido Walker Vermelho,Vestidos,1,98.69,97.5,True,True,True,16.74,STRUCTURAL_NEIGHBOR
+Macacão Sleuk Off-White,Macacões,Macacão Alberts Off-White,Macacões,3,98.91,97.47,True,True,True,17.76,STRUCTURAL_NEIGHBOR
+Conjunto Mitchell Preto,Conjuntos,Conjunto Althea Preto,Conjuntos,4,97.9,97.41,True,True,False,5.94,STRUCTURAL_NEIGHBOR
+Vestido Maddox Vermelho,Vestidos,Vestido Sartori Vermelho,Vestidos,5,96.39,97.39,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Vestido Fontana Vermelho,Vestidos,Vestido Alvorada Vermelho,Vestidos,3,98.54,97.35,True,True,True,16.77,STRUCTURAL_NEIGHBOR
+Vestido Fontana Off-White,Vestidos,Vestido Alvorada Off-White,Vestidos,3,98.54,97.35,True,True,True,16.77,STRUCTURAL_NEIGHBOR
+Vestido Tricot Nau Preto,Vestidos,Vestido Hadid Preto,Vestidos,3,99.26,97.34,True,True,False,11.67,STRUCTURAL_NEIGHBOR
+Vestido Tricot Nau Vermelho,Vestidos,Vestido Hadid Vermelho,Vestidos,5,99.26,97.34,True,True,False,11.67,STRUCTURAL_NEIGHBOR
+Vestido Linho Arum Avelã,Vestidos,Vestido Tricot Murphy Avelã,Vestidos,3,98.53,97.34,True,True,True,16.77,STRUCTURAL_NEIGHBOR
+Biquíni Easton Preto,Biquínis,Biquíni Bonneville Preto,Biquínis,3,99.02,97.33,True,True,False,10.77,STRUCTURAL_NEIGHBOR
+Cropped Nahanni Pink Juice,Croppeds,Cropped Phuket Pink Juice,Croppeds,1,99.4,97.32,True,True,True,20.32,STRUCTURAL_NEIGHBOR
+Vestido Iron Off-White,Vestidos,Vestido Forest Off-White,Vestidos,5,98.38,97.3,True,True,True,16.32,STRUCTURAL_NEIGHBOR
+Vestido Hadid Vermelho,Vestidos,Vestido Azarius Vermelho,Vestidos,5,99.39,97.24,True,True,False,12.59,STRUCTURAL_NEIGHBOR
+Vestido Harpa Preto,Vestidos,Vestido Osbert Preto,Vestidos,4,98.53,97.16,True,True,True,17.47,STRUCTURAL_NEIGHBOR
+Vestido Osbert Preto,Vestidos,Vestido Malmo Preto,Vestidos,3,98.53,97.16,True,True,True,17.47,STRUCTURAL_NEIGHBOR
+Vestido Osbert Off-White,Vestidos,Vestido Malmo Off-White,Vestidos,4,98.53,97.16,True,True,True,17.47,STRUCTURAL_NEIGHBOR
+Vestido Osbert Off-White,Vestidos,Vestido Riccie Off-White,Vestidos,3,98.53,97.16,True,True,True,17.47,STRUCTURAL_NEIGHBOR
+Vestido Tricot Nau Avelã,Vestidos,Vestido Linho Arum Avelã,Vestidos,2,98.43,97.12,True,True,True,17.23,STRUCTURAL_NEIGHBOR
+Biquíni Vitto Pérola,Biquínis,Biquíni Bonneville Pérola,Biquínis,1,98.8,97.11,True,True,False,10.77,STRUCTURAL_NEIGHBOR
+Biquíni Bonneville Preto,Biquínis,Biquíni Vitto Preto,Biquínis,4,98.8,97.11,True,True,False,10.77,STRUCTURAL_NEIGHBOR
+Vestido Brice Vermelho,Vestidos,Vestido Malmo Vermelho,Vestidos,4,98.08,97.03,True,True,True,16.19,STRUCTURAL_NEIGHBOR
+Vestido Brice Vermelho,Vestidos,Vestido Harpa Vermelho,Vestidos,3,98.08,97.03,True,True,True,16.19,STRUCTURAL_NEIGHBOR
+Conjunto Fellicce Off-White,Conjuntos,Conjunto Althea Off-White,Conjuntos,4,98.05,97.02,True,True,False,8.11,STRUCTURAL_NEIGHBOR
+Conjunto Fellicce Preto,Conjuntos,Conjunto Althea Preto,Conjuntos,4,98.05,97.02,True,True,False,8.11,STRUCTURAL_NEIGHBOR
+Conjunto Fellicce Vermelho,Conjuntos,Conjunto Althea Vermelho,Conjuntos,1,98.05,97.02,True,True,False,8.11,STRUCTURAL_NEIGHBOR
+BODY EMMA + SHORT CALEB | PRETO,Bodies,BODY EMMA + PANTALONA BRAXTON | PRETO,Bodies,1,98.22,97.0,True,True,True,16.87,STRUCTURAL_NEIGHBOR
+Vestido Osbert Preto,Vestidos,Vestido Ivory Preto,Vestidos,1,99.27,96.99,True,True,False,13.11,STRUCTURAL_NEIGHBOR
+Vestido Ivory Off-White,Vestidos,Vestido Osbert Off-White,Vestidos,5,99.27,96.99,True,True,False,13.11,STRUCTURAL_NEIGHBOR
+Biquíni Bardi Cobre,Biquínis,Biquíni Capanema Cobre,Biquínis,3,97.52,96.97,True,True,True,14.18,STRUCTURAL_NEIGHBOR
+Vestido Linho Alanis Preto,Vestidos,Vestido Bauhaus Preto,Vestidos,3,98.67,96.95,True,True,True,18.88,STRUCTURAL_NEIGHBOR
+Biquíni Easton Off-White,Biquínis,Biquíni Lorian Off-White,Biquínis,3,95.95,96.95,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Biquíni Lorian Preto,Biquínis,Biquíni Easton Preto,Biquínis,1,95.95,96.95,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Biquíni Azov Preto,Biquínis,Biquíni Vince Preto,Biquínis,4,98.71,96.84,True,True,True,19.49,STRUCTURAL_NEIGHBOR
+Biquíni Azov Preto,Biquínis,Biquíni Kobe Preto,Biquínis,3,98.71,96.84,True,True,True,19.49,STRUCTURAL_NEIGHBOR
+Blusa Alpheus Preto,Blusas,Blusa Cesare Preto,Blusas,2,98.79,96.84,True,True,True,19.79,STRUCTURAL_NEIGHBOR
+Blusa Alpheus Preto,Blusas,Blusa Tommaso Preto,Blusas,1,98.79,96.84,True,True,True,19.79,STRUCTURAL_NEIGHBOR
+Biquíni Lorian Preto,Biquínis,Biquíni Vitto Preto,Biquínis,2,95.82,96.82,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Body Foster Off-White,Bodies,Body Claude Off-White,Bodies,1,98.93,96.76,True,True,False,12.67,STRUCTURAL_NEIGHBOR
+Biquíni Castillo Off-White,Biquínis,Biquíni Lorian Off-White,Biquínis,3,95.73,96.73,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Biquíni Lorian Preto,Biquínis,Biquíni Castillo Preto,Biquínis,3,95.73,96.73,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Cropped Petal Off-White,Croppeds,Cropped Saarinen Off-White,Croppeds,5,99.32,96.7,True,True,False,14.46,STRUCTURAL_NEIGHBOR
+Cropped Ophelia Preto,Croppeds,Cropped Linho Carl Preto,Croppeds,2,98.47,96.67,True,True,True,19.21,STRUCTURAL_NEIGHBOR
+Cropped Ophelia Off-White,Croppeds,Cropped Linho Carl Off-White,Croppeds,2,98.47,96.67,True,True,True,19.21,STRUCTURAL_NEIGHBOR
+Body Espanya Preto,Bodies,Body Rocco Preto,Bodies,2,98.61,96.6,True,True,True,20.03,STRUCTURAL_NEIGHBOR
+Vestido Osbert Preto,Vestidos,Vestido Sartori Preto,Vestidos,5,96.56,96.51,True,True,False,4.19,STRUCTURAL_NEIGHBOR
+Biquíni Finca Preto,Biquínis,Biquíni Taut Preto,Biquínis,1,96.3,96.27,True,True,False,4.13,STRUCTURAL_NEIGHBOR
+Biquíni Bonneville Preto,Biquínis,Biquíni Alann Preto,Biquínis,2,99.12,96.27,True,True,False,15.38,STRUCTURAL_NEIGHBOR
+Biquíni Alann Pérola,Biquínis,Biquíni Bonneville Pérola,Biquínis,1,99.12,96.27,True,True,False,15.38,STRUCTURAL_NEIGHBOR
+Cropped Ophelia Preto,Croppeds,Cropped Robie Preto,Croppeds,3,98.31,96.25,True,True,True,20.22,STRUCTURAL_NEIGHBOR
+Cropped Ophelia Preto,Croppeds,Cropped Linho Brett Preto,Croppeds,4,98.31,96.25,True,True,True,20.22,STRUCTURAL_NEIGHBOR
+Cropped Ophelia Off-White,Croppeds,Cropped Linho Brett Off-White,Croppeds,4,98.31,96.25,True,True,True,20.22,STRUCTURAL_NEIGHBOR
+Cropped Ophelia Off-White,Croppeds,Cropped Robie Off-White,Croppeds,3,98.31,96.25,True,True,True,20.22,STRUCTURAL_NEIGHBOR
+Biquíni Finca Preto,Biquínis,Biquíni Vitto Preto,Biquínis,2,96.23,96.2,True,True,False,4.13,STRUCTURAL_NEIGHBOR
+Biquíni Finca Pérola,Biquínis,Biquíni Vitto Pérola,Biquínis,1,96.23,96.2,True,True,False,4.13,STRUCTURAL_NEIGHBOR
+Body Steffano Marrom,Bodies,Body Giorgia Marrom,Bodies,1,98.14,96.19,True,True,True,19.79,STRUCTURAL_NEIGHBOR
+Vestido Rennie Off-White,Vestidos,Vestido Iron Off-White,Vestidos,4,97.45,96.19,True,True,True,17.04,STRUCTURAL_NEIGHBOR
+Vestido Vitalli Off-White,Vestidos,Vestido Iron Off-White,Vestidos,4,97.45,96.19,True,True,True,17.04,STRUCTURAL_NEIGHBOR
+Biquíni Miller Cobre,Biquínis,Biquíni Bardi Cobre,Biquínis,3,98.73,96.18,True,True,False,14.18,STRUCTURAL_NEIGHBOR
+Biquíni Bardi Preto,Biquínis,Biquíni Perez Preto,Biquínis,5,98.73,96.18,True,True,False,14.18,STRUCTURAL_NEIGHBOR
+Biquíni Taut Off-White,Biquínis,Biquíni Lorian Off-White,Biquínis,3,95.18,96.18,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Biquíni Bardi Preto,Biquínis,Biquíni Miller Preto,Biquínis,4,98.73,96.18,True,True,False,14.18,STRUCTURAL_NEIGHBOR
+Conjunto Althea Vermelho,Conjuntos,Conjunto Guillen Preto,Conjuntos,5,95.66,96.17,True,False,True,5.94,VARIANT_LIKE
+Biquíni Taut Preto,Biquínis,Biquíni Bonneville Preto,Biquínis,3,97.85,96.16,True,True,False,10.77,STRUCTURAL_NEIGHBOR
+Vestido Tricot Effie Vermelho,Vestidos,Vestido Atlas Vermelho,Vestidos,2,98.93,96.11,True,True,True,23.27,STRUCTURAL_NEIGHBOR
+Vestido Tricot Effie Off-White,Vestidos,Vestido Linho Sugarloaf Off-White,Vestidos,4,98.93,96.11,True,True,True,23.27,STRUCTURAL_NEIGHBOR
+Vestido Tricot Effie Off-White,Vestidos,Vestido Archie Off-White,Vestidos,5,98.93,96.11,True,True,True,23.27,STRUCTURAL_NEIGHBOR
+Vestido Tricot Effie Vermelho,Vestidos,Vestido Archie Vermelho,Vestidos,1,98.93,96.11,True,True,True,23.27,STRUCTURAL_NEIGHBOR
+Vestido Tricot Effie Off-White,Vestidos,Vestido Calla Off-White,Vestidos,3,98.93,96.11,True,True,True,23.27,STRUCTURAL_NEIGHBOR
+Vestido Loren Off-White,Vestidos,Vestido Linho Sugarloaf Off-White,Vestidos,4,98.93,96.11,True,True,True,23.27,STRUCTURAL_NEIGHBOR
+Vestido Loren Preto,Vestidos,Vestido Archie Preto,Vestidos,2,98.93,96.11,True,True,True,23.27,STRUCTURAL_NEIGHBOR
+Vestido Loren Preto,Vestidos,Vestido Linho Sugarloaf Preto,Vestidos,1,98.93,96.11,True,True,True,23.27,STRUCTURAL_NEIGHBOR
+Vestido Tricot Effie Off-White,Vestidos,Vestido Atlas Off-White,Vestidos,2,98.93,96.11,True,True,True,23.27,STRUCTURAL_NEIGHBOR
+Biquíni Finca Preto,Biquínis,Biquíni Easton Preto,Biquínis,3,96.14,96.11,True,True,False,4.13,STRUCTURAL_NEIGHBOR
+Vestido Loren Off-White,Vestidos,Vestido Calla Off-White,Vestidos,3,98.93,96.11,True,True,True,23.27,STRUCTURAL_NEIGHBOR
+Vestido Loren Off-White,Vestidos,Vestido Atlas Off-White,Vestidos,2,98.93,96.11,True,True,True,23.27,STRUCTURAL_NEIGHBOR
+Vestido Loren Off-White,Vestidos,Vestido Archie Off-White,Vestidos,5,98.93,96.11,True,True,True,23.27,STRUCTURAL_NEIGHBOR
+Vestido Loren Preto,Vestidos,Vestido Atlas Preto,Vestidos,4,98.93,96.11,True,True,True,23.27,STRUCTURAL_NEIGHBOR
+Vestido Loren Preto,Vestidos,Vestido Calla Preto,Vestidos,3,98.93,96.11,True,True,True,23.27,STRUCTURAL_NEIGHBOR
+Biquíni Sopka Off-White,Biquínis,Biquíni Nari Off-White,Biquínis,1,94.99,95.99,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Vestido Vallez Off-White,Vestidos,Vestido Iron Off-White,Vestidos,4,97.33,95.98,True,True,True,17.4,STRUCTURAL_NEIGHBOR
+Vestido Ivory Azul,Vestidos,Vestido Salvi Azul,Vestidos,1,94.85,95.85,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Conjunto Denver Preto,Conjuntos,Conjunto Fellicce Preto,Conjuntos,5,97.75,95.83,True,True,False,11.68,STRUCTURAL_NEIGHBOR
+Saia Hazel Off-White,Saias,Saia Keith Off-White,Saias,3,98.69,95.78,True,True,True,23.62,STRUCTURAL_NEIGHBOR
+Saia Keith Off-White,Saias,Saia Dorian Off-White,Saias,2,98.69,95.78,True,True,True,23.62,STRUCTURAL_NEIGHBOR
+Vestido Harpa Vermelho,Vestidos,Vestido Maddox Vermelho,Vestidos,5,97.93,95.7,True,True,True,20.93,STRUCTURAL_NEIGHBOR
+Vestido Maddox Vermelho,Vestidos,Vestido Malmo Vermelho,Vestidos,1,97.93,95.7,True,True,True,20.93,STRUCTURAL_NEIGHBOR
+Vestido Maddox Off-White,Vestidos,Vestido Malmo Off-White,Vestidos,4,97.93,95.7,True,True,True,20.93,STRUCTURAL_NEIGHBOR
+Vestido Maddox Off-White,Vestidos,Vestido Riccie Off-White,Vestidos,3,97.93,95.7,True,True,True,20.93,STRUCTURAL_NEIGHBOR
+Biquíni Alann Marrom,Biquínis,Biquíni Alann Preto,Biquínis,4,93.64,95.64,True,False,True,0.0,VARIANT_LIKE
+Vestido Maddox Off-White,Vestidos,Vestido Ivory Off-White,Vestidos,2,98.83,95.64,True,True,False,16.74,STRUCTURAL_NEIGHBOR
+Biquíni Alann Pérola,Biquínis,Biquíni Alann Marrom,Biquínis,4,93.64,95.64,True,False,True,0.0,VARIANT_LIKE
+Biquíni Alann Pérola,Biquínis,Biquíni Alann Preto,Biquínis,5,93.64,95.64,True,False,True,0.0,VARIANT_LIKE
+Biquíni Kobe Preto,Biquínis,Biquíni Menorca Preto,Biquínis,5,97.5,95.63,True,True,True,19.49,STRUCTURAL_NEIGHBOR
+Biquíni Vince Preto,Biquínis,Biquíni Menorca Preto,Biquínis,5,97.5,95.63,True,True,True,19.49,STRUCTURAL_NEIGHBOR
+Biquíni Sopka Off-White,Biquínis,Biquíni Cyprus Off-White,Biquínis,2,94.55,95.55,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Body Waud Preto,Bodies,Body Rodd Preto,Bodies,3,99.52,95.55,True,True,True,27.88,STRUCTURAL_NEIGHBOR
+Biquíni Hali Azul Índigo,Biquínis,Biquíni Galea Azul Índigo,Biquínis,3,95.68,95.54,True,True,False,4.55,STRUCTURAL_NEIGHBOR
+Vestido Sartori Off-White,Vestidos,Vestido Cameron Off-White,Vestidos,5,97.75,95.52,True,True,True,20.93,STRUCTURAL_NEIGHBOR
+Vestido Sartori Preto,Vestidos,Vestido Cameron Preto,Vestidos,5,97.75,95.52,True,True,True,20.93,STRUCTURAL_NEIGHBOR
+Vestido Brice Preto,Vestidos,Vestido Bauhaus Preto,Vestidos,2,97.44,95.51,True,True,True,19.71,STRUCTURAL_NEIGHBOR
+Macaquinho Martin Off-White,Unknown,Corselet Adrian Off-White,Unknown,3,98.23,95.41,True,True,True,23.27,STRUCTURAL_NEIGHBOR
+Corselet Kimbell Off-White,Unknown,Macaquinho Martin Off-White,Unknown,2,98.23,95.41,True,True,True,23.27,STRUCTURAL_NEIGHBOR
+BODY CHIARA + PANTALONA SAVOYE | OFF-WHITE,Bodies,BODY ROCCO + PANTALONA FLARE | PRETO,Bodies,2,95.75,95.4,True,False,True,9.38,STRUCTURAL_NEIGHBOR
+Biquíni Harper Pérola,Biquínis,Biquíni Julian Pérola,Biquínis,4,95.63,95.34,True,True,False,5.17,STRUCTURAL_NEIGHBOR
+Vestido Roland Marrom,Vestidos,Vestido Brent Marrom,Vestidos,2,97.32,95.29,True,True,True,20.11,STRUCTURAL_NEIGHBOR
+Body Aliyev Off-White,Bodies,Body Otto Off-White,Bodies,2,99.61,95.29,True,True,False,21.28,STRUCTURAL_NEIGHBOR
+Body Aliyev Preto,Bodies,Body Otto Preto,Bodies,2,99.61,95.29,True,True,False,21.28,STRUCTURAL_NEIGHBOR
+Vestido Axel Vermelho,Vestidos,Vestido Bauhaus Vermelho,Vestidos,2,97.31,95.28,True,True,True,20.11,STRUCTURAL_NEIGHBOR
+Vestido Axel Preto,Vestidos,Vestido Bauhaus Preto,Vestidos,2,97.31,95.28,True,True,True,20.11,STRUCTURAL_NEIGHBOR
+Biquíni Conti Pérola,Biquínis,Biquíni Harper Pérola,Biquínis,4,94.27,95.27,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Vestido Perot Azul,Vestidos,Vestido Forest Azul,Vestidos,3,97.29,95.26,True,True,True,20.11,STRUCTURAL_NEIGHBOR
+Vestido Reidy Preto,Vestidos,Vestido Barlett Preto,Vestidos,5,97.29,95.26,True,True,True,20.11,STRUCTURAL_NEIGHBOR
+Biquíni Kobe Cobre,Biquínis,Biquíni Miller Cobre,Biquínis,3,94.24,95.24,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Biquíni Vince Castanho,Biquínis,Biquíni Perez Castanho,Biquínis,4,94.24,95.24,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Biquíni Kobe Vermelho,Biquínis,Biquíni Miller Vermelho,Biquínis,1,94.24,95.24,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Biquíni Eaton Cobre,Biquínis,Biquíni Peter Cobre,Biquínis,2,94.21,95.21,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Macacão Fiorese Off-White,Macacões,Macacão Avia Off-White,Macacões,4,98.1,95.18,True,True,True,23.68,STRUCTURAL_NEIGHBOR
+Blusa Mayfar Off-White,Blusas,Blusa Soho Off-White,Blusas,2,97.52,95.18,True,True,True,21.37,STRUCTURAL_NEIGHBOR
+Blusa Mayfar Preto,Blusas,Blusa Soho Preto,Blusas,2,97.52,95.18,True,True,True,21.37,STRUCTURAL_NEIGHBOR
+Biquíni Perez Azul Índigo,Biquínis,Biquíni Riva Azul Índigo,Biquínis,3,94.58,95.16,True,True,False,1.67,STRUCTURAL_NEIGHBOR
+Biquíni Castillo Terracota,Biquínis,Biquíni Castillo Preto,Biquínis,5,93.13,95.13,True,False,True,0.0,VARIANT_LIKE
+Biquíni Castillo Terracota,Biquínis,Biquíni Castillo Off-White,Biquínis,4,93.13,95.13,True,False,True,0.0,VARIANT_LIKE
+Biquíni Lorian Preto,Biquínis,Biquíni Alann Preto,Biquínis,5,95.4,95.11,True,True,False,5.17,STRUCTURAL_NEIGHBOR
+Conjunto Guillen Off-White,Conjuntos,Conjunto Denver Off-White,Conjuntos,3,97.5,95.07,True,True,False,13.71,STRUCTURAL_NEIGHBOR
+Biquíni Harper Pérola,Biquínis,Biquíni Atticus Pérola,Biquínis,5,95.33,95.04,True,True,False,5.17,STRUCTURAL_NEIGHBOR
+Cropped Petal Preto,Croppeds,Cropped Adams Preto,Croppeds,5,98.15,95.03,True,True,True,24.47,STRUCTURAL_NEIGHBOR
+Biquíni Perez Pérola,Biquínis,Biquíni Julian Pérola,Biquínis,4,95.66,94.97,True,True,False,6.78,STRUCTURAL_NEIGHBOR
+Vestido Cowden Off-White,Vestidos,Vestido Osbert Off-White,Vestidos,5,97.41,94.95,True,True,True,21.84,STRUCTURAL_NEIGHBOR
+Vestido Osbert Preto,Vestidos,Vestido Cowden Preto,Vestidos,4,97.41,94.95,True,True,True,21.84,STRUCTURAL_NEIGHBOR
+Vestido Tucker Off-White,Vestidos,Vestido Osbert Off-White,Vestidos,5,97.41,94.95,True,True,True,21.84,STRUCTURAL_NEIGHBOR
+Vestido Brice Vermelho,Vestidos,Vestido Copan Vermelho,Vestidos,5,96.58,94.93,True,True,True,18.58,STRUCTURAL_NEIGHBOR
+Biquíni Kobe Cobre,Biquínis,Biquíni Capanema Cobre,Biquínis,4,93.91,94.91,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Biquíni Kobe Cobre,Biquínis,Biquíni Peter Cobre,Biquínis,2,94.28,94.86,True,True,False,1.69,STRUCTURAL_NEIGHBOR
+Biquíni Kobe Pérola,Biquínis,Biquíni Harper Pérola,Biquínis,5,94.28,94.86,True,True,False,1.69,STRUCTURAL_NEIGHBOR
+Biquíni Vince Pérola,Biquínis,Biquíni Harper Pérola,Biquínis,5,94.28,94.86,True,True,False,1.69,STRUCTURAL_NEIGHBOR
+BIQUÍNI EASTON + PAREÔ GRAZIA | PRETO,Biquínis,BIQUÍNI VITTO + PAREÔ | PRETO,Biquínis,1,99.31,94.85,True,True,False,21.84,STRUCTURAL_NEIGHBOR
+Vestido Alvorada Off-White,Vestidos,Vestido Catton Off-White,Vestidos,3,97.24,94.84,True,True,True,21.59,STRUCTURAL_NEIGHBOR
+Biquíni Conti Castanho,Biquínis,Biquíni Perez Castanho,Biquínis,3,94.25,94.83,True,True,False,1.69,STRUCTURAL_NEIGHBOR
+Biquíni Conti Pérola,Biquínis,Biquíni Perez Pérola,Biquínis,5,94.25,94.83,True,True,False,1.69,STRUCTURAL_NEIGHBOR
+Conjunto Ivy Off-White,Conjuntos,Conjunto Guillen Off-White,Conjuntos,5,97.44,94.79,True,True,False,14.58,STRUCTURAL_NEIGHBOR
+Conjunto Guillen Preto,Conjuntos,Conjunto Ivy Preto,Conjuntos,5,97.44,94.79,True,True,False,14.58,STRUCTURAL_NEIGHBOR
+Biquíni Duncan Cobre,Biquínis,Biquíni Miller Cobre,Biquínis,3,94.2,94.78,True,True,False,1.67,STRUCTURAL_NEIGHBOR
+Conjunto Guillen Off-White,Conjuntos,Conjunto Lamellae Off-White,Conjuntos,5,97.24,94.71,True,True,False,14.11,STRUCTURAL_NEIGHBOR
+Biquíni Capanema Pérola,Biquínis,Biquíni Julian Pérola,Biquínis,4,95.39,94.7,True,True,False,6.78,STRUCTURAL_NEIGHBOR
+Biquíni Hess Pérola,Biquínis,Biquíni Harper Pérola,Biquínis,5,94.44,94.69,True,True,False,3.02,STRUCTURAL_NEIGHBOR
+Macacão Aaron Preto,Macacões,Macacão Breddon Preto,Macacões,2,93.62,94.62,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Macacão Aaron Preto,Macacões,Macacão Amber Preto,Macacões,3,93.62,94.62,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Macacão Aaron Off-White,Macacões,Macacão Breddon Off-White,Macacões,3,93.62,94.62,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Macacão Megan Off-White,Macacões,Macacão Aaron Off-White,Macacões,4,93.62,94.62,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Macacão Aaron Off-White,Macacões,Macacão Amber Off-White,Macacões,2,93.62,94.62,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Macacão Amber Vermelho,Macacões,Macacão Megan Vermelho,Macacões,3,93.62,94.62,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Macacão Amber Preto,Macacões,Macacão Megan Preto,Macacões,4,93.62,94.62,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Macacão Breddon Vermelho,Macacões,Macacão Megan Vermelho,Macacões,3,93.62,94.62,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Macacão Breddon Preto,Macacões,Macacão Megan Preto,Macacões,4,93.62,94.62,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Vestido Tricot Murphy Avelã,Vestidos,Vestido Linho Masp Avelã,Vestidos,3,97.33,94.6,True,True,True,22.92,STRUCTURAL_NEIGHBOR
+Conjunto Fellicce Framboesa,Conjuntos,Conjunto Lamellae Off-White,Conjuntos,3,95.59,94.57,True,False,True,12.08,STRUCTURAL_NEIGHBOR
+Conjunto Fellicce Framboesa,Conjuntos,Conjunto Lamellae Preto,Conjuntos,2,95.59,94.57,True,False,True,12.08,STRUCTURAL_NEIGHBOR
+Conjunto Fellicce Framboesa,Conjuntos,Conjunto Lamellae Azul,Conjuntos,1,95.59,94.57,True,False,True,12.08,STRUCTURAL_NEIGHBOR
+Conjunto Fellicce Vermelho,Conjuntos,Conjunto Lamellae Azul,Conjuntos,4,95.59,94.57,True,False,True,12.08,STRUCTURAL_NEIGHBOR
+Conjunto Fellicce Vermelho,Conjuntos,Conjunto Lamellae Preto,Conjuntos,3,95.59,94.57,True,False,True,12.08,STRUCTURAL_NEIGHBOR
+Conjunto Fellicce Vermelho,Conjuntos,Conjunto Lamellae Off-White,Conjuntos,2,95.59,94.57,True,False,True,12.08,STRUCTURAL_NEIGHBOR
+Pareô Marrom,Pareôs,Pareô Azul Marinho,Pareôs,2,92.56,94.56,True,False,True,0.0,VARIANT_LIKE
+Conjunto Fellicce Framboesa,Conjuntos,Conjunto Denver Off-White,Conjuntos,4,95.47,94.55,True,False,True,11.68,STRUCTURAL_NEIGHBOR
+Conjunto Fellicce Vermelho,Conjuntos,Conjunto Denver Off-White,Conjuntos,5,95.47,94.55,True,False,True,11.68,STRUCTURAL_NEIGHBOR
+Conjunto Denver Off-White,Conjuntos,Conjunto Althea Off-White,Conjuntos,4,98.23,94.52,True,True,False,18.84,STRUCTURAL_NEIGHBOR
+Biquíni Bonneville Pérola,Biquínis,Biquíni Bonneville Preto,Biquínis,5,92.51,94.51,True,False,True,0.0,VARIANT_LIKE
+Pareô Terracota,Pareôs,Pareô Off-White,Pareôs,1,92.51,94.51,True,False,True,0.0,VARIANT_LIKE
+Pareô Terracota,Pareôs,Pareô Preto,Pareôs,2,92.51,94.51,True,False,True,0.0,VARIANT_LIKE
+Pareô Off-White,Pareôs,Pareô Preto,Pareôs,1,92.51,94.51,True,False,True,0.0,VARIANT_LIKE
+Pareô Lenk Pérola,Pareôs,Pareô Lenk Preto,Pareôs,4,92.5,94.5,True,False,True,0.0,VARIANT_LIKE
+Pareô Lenk Cobre,Pareôs,Pareô Lenk Pérola,Pareôs,5,92.5,94.5,True,False,True,0.0,VARIANT_LIKE
+Pareô Lenk Preto,Pareôs,Pareô Lenk Cobre,Pareôs,4,92.5,94.5,True,False,True,0.0,VARIANT_LIKE
+Conjunto Lamellae Off-White,Conjuntos,Conjunto Althea Off-White,Conjuntos,4,98.27,94.47,True,True,False,19.21,STRUCTURAL_NEIGHBOR
+Conjunto Althea Preto,Conjuntos,Conjunto Lamellae Preto,Conjuntos,3,98.27,94.47,True,True,False,19.21,STRUCTURAL_NEIGHBOR
+Biquíni Eaton Cobre,Biquínis,Biquíni Miller Cobre,Biquínis,3,93.87,94.45,True,True,False,1.69,STRUCTURAL_NEIGHBOR
+Biquíni Peter Cobre,Biquínis,Biquíni Duncan Cobre,Biquínis,5,94.27,94.44,True,True,False,3.33,STRUCTURAL_NEIGHBOR
+Biquíni Perez Pérola,Biquínis,Biquíni Atticus Pérola,Biquínis,5,95.12,94.43,True,True,False,6.78,STRUCTURAL_NEIGHBOR
+Vestido Tess Preto,Vestidos,Vestido Ivory Preto,Vestidos,3,93.41,94.41,True,True,False,0.0,STRUCTURAL_NEIGHBOR
+Biquíni Duncan Cobre,Biquínis,Biquíni Capanema Cobre,Biquínis,4,93.78,94.36,True,True,False,1.67,STRUCTURAL_NEIGHBOR
+Vestido Linho Masp Avelã,Vestidos,Vestido Tricot Nau Avelã,Vestidos,4,97.19,94.35,True,True,True,23.35,STRUCTURAL_NEIGHBOR
+Blazer Vestido Vincent Caramelo,Blazers,BLAZER CARMINE CARAMELO + CALÇA JEANS MALCOLM AZUL CLARO,Blazers,2,97.01,94.35,True,True,True,22.64,STRUCTURAL_NEIGHBOR
+Biquíni Mies Preto,Biquínis,Biquíni Alessio Preto,Biquínis,5,97.24,94.33,True,True,True,23.64,STRUCTURAL_NEIGHBOR
+Biquíni Harper Pérola,Biquínis,Biquíni Hali Pérola,Biquínis,3,95.7,94.33,True,True,False,9.48,STRUCTURAL_NEIGHBOR
+Conjunto Fellicce Framboesa,Conjuntos,Conjunto Ivy Preto,Conjuntos,5,95.46,94.32,True,False,True,12.57,STRUCTURAL_NEIGHBOR
+Biquíni Finca Preto,Biquínis,Biquíni Castillo Preto,Biquínis,5,94.34,94.31,True,True,False,4.13,STRUCTURAL_NEIGHBOR
+Conjunto Althea Preto,Conjuntos,Conjunto Ivy Preto,Conjuntos,4,98.21,94.3,True,True,False,19.66,STRUCTURAL_NEIGHBOR
+Conjunto Ivy Off-White,Conjuntos,Conjunto Althea Off-White,Conjuntos,4,98.21,94.3,True,True,False,19.66,STRUCTURAL_NEIGHBOR
+BIQUÍNI EASTON + PAREÔ | OFF-WHITE,Biquínis,BIQUÍNI VITTO + PAREÔ GRAZIA | PÉROLA,Biquínis,4,98.33,94.25,True,False,False,16.3,STRUCTURAL_NEIGHBOR
+Biquíni Finca Pérola,Biquínis,Biquíni Bonneville Pérola,Biquínis,2,94.9,94.17,True,True,False,6.92,STRUCTURAL_NEIGHBOR
+Biquíni Finca Preto,Biquínis,Biquíni Bonneville Preto,Biquínis,4,94.9,94.17,True,True,False,6.92,STRUCTURAL_NEIGHBOR
+BIQUÍNI EASTON + PAREÔ | OFF-WHITE,Biquínis,BIQUÍNI EASTON + PAREÔ GRAZIA | PRETO,Biquínis,3,98.34,94.11,True,False,False,16.93,STRUCTURAL_NEIGHBOR
+Vestido Loren Preto,Vestidos,Vestido Linho Masp Preto,Vestidos,5,98.13,94.06,True,True,True,28.28,STRUCTURAL_NEIGHBOR
+Biquíni Castillo Off-White,Biquínis,Biquíni Alann Preto,Biquínis,4,93.29,94.0,True,False,True,5.17,VARIANT_LIKE
+Pareô Terracota,Pareôs,Pareô Lenk Pérola,Pareôs,5,92.5,94.0,True,False,True,2.0,VARIANT_LIKE
+Biquíni Alann Marrom,Biquínis,Biquíni Castillo Preto,Biquínis,5,93.29,94.0,True,False,True,5.17,VARIANT_LIKE
+Pareô Lenk Preto,Pareôs,Pareô Off-White,Pareôs,3,92.5,94.0,True,False,True,2.0,VARIANT_LIKE
+Biquíni Hali Azul Índigo,Biquínis,Biquíni Perez Azul Índigo,Biquínis,2,95.75,94.0,True,True,False,11.02,STRUCTURAL_NEIGHBOR
+Pareô Lenk Pérola,Pareôs,Pareô Preto,Pareôs,3,92.5,94.0,True,False,True,2.0,VARIANT_LIKE
+Pareô Lenk Preto,Pareôs,Pareô Terracota,Pareôs,2,92.5,94.0,True,False,True,2.0,VARIANT_LIKE
+Biquíni Castillo Off-White,Biquínis,Biquíni Alann Pérola,Biquínis,5,93.29,94.0,True,False,True,5.17,VARIANT_LIKE
+Pareô Lenk Cobre,Pareôs,Pareô Preto,Pareôs,2,92.5,94.0,True,False,True,2.0,VARIANT_LIKE
+Biquíni Perez Pérola,Biquínis,Biquíni Hali Pérola,Biquínis,3,95.75,94.0,True,True,False,11.02,STRUCTURAL_NEIGHBOR
+Pareô Lenk Pérola,Pareôs,Pareô Off-White,Pareôs,1,92.5,94.0,True,False,True,2.0,VARIANT_LIKE
+Pareô Lenk Cobre,Pareôs,Pareô Off-White,Pareôs,3,92.5,94.0,True,False,True,2.0,VARIANT_LIKE
+Pareô Lenk Cobre,Pareôs,Pareô Terracota,Pareôs,1,92.5,94.0,True,False,True,2.0,VARIANT_LIKE
+Biquíni Castillo Terracota,Biquínis,Biquíni Alann Marrom,Biquínis,1,93.29,94.0,True,False,True,5.17,VARIANT_LIKE
+Biquíni Castillo Terracota,Biquínis,Biquíni Alann Preto,Biquínis,2,93.29,94.0,True,False,True,5.17,VARIANT_LIKE
+Biquíni Castillo Terracota,Biquínis,Biquíni Alann Pérola,Biquínis,3,93.29,94.0,True,False,True,5.17,VARIANT_LIKE
