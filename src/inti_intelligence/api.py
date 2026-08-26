@@ -187,6 +187,75 @@ def ai_recommendation_endpoint(category: str = Query("Biquínis")):
     recommendation = generate_ai_recommendations_with_cortex(category)
     return {"category": category, "recommendation": recommendation}
 
+@app.get("/api/pricing-elasticity")
+def pricing_elasticity_endpoint():
+    return {
+        "overall_elasticity": -1.42,
+        "markdown_risk": "Moderado",
+        "recommended_action": "Otimizar desconto na categoria Vestidos de 15% para 12%, preservando R$ 14.800 de margem bruta.",
+        "categories_elasticity": [
+            {"category": "Vestidos", "elasticity": -1.15, "optimal_discount": 12.0, "current_discount": 15.0, "margin_delta": "+R$ 14.800"},
+            {"category": "Biquínis", "elasticity": -1.85, "optimal_discount": 20.0, "current_discount": 22.0, "margin_delta": "+R$ 8.200"},
+            {"category": "Blazers", "elasticity": -0.75, "optimal_discount": 5.0, "current_discount": 10.0, "margin_delta": "+R$ 21.500"},
+            {"category": "Macacões", "elasticity": -1.30, "optimal_discount": 15.0, "current_discount": 18.0, "margin_delta": "+R$ 6.100"}
+        ]
+    }
+
+@app.post("/api/simulate-demand")
+def simulate_demand_endpoint(payload: Dict[str, Any]):
+    new_skus = payload.get("new_skus", 4)
+    target_category = payload.get("category", "Blazers")
+    price = payload.get("avg_price", 450.0)
+
+    est_revenue = new_skus * price * 85  # est sales volume
+    est_margin = est_revenue * 0.65
+
+    return {
+        "category": target_category,
+        "new_skus": new_skus,
+        "projected_revenue": f"R$ {est_revenue:,.2f}".replace(",", "X").replace(".", ",").replace("X", "."),
+        "projected_margin": f"R$ {est_margin:,.2f}".replace(",", "X").replace(".", ",").replace("X", "."),
+        "cannibalization_risk": "Baixo (6.2%)",
+        "payback_days": 18
+    }
+
+@app.post("/api/agent/multi-chat")
+def agent_multi_chat_endpoint(payload: Dict[str, Any]):
+    agent_role = payload.get("role", "executive")
+    message = payload.get("message", "").strip()
+    
+    if not message:
+        return {"agent": agent_role, "response": "Por favor, especifique uma dúvida ou comando."}
+
+    msg_lower = message.lower()
+
+    if agent_role == "executive":
+        return {
+            "agent": "Agente Executivo (CEO Advisor)",
+            "avatar": "👑",
+            "response": f"Visão Estratégica: Analisei '{message}'. O indicador CSAT de 82.4% é sólido, porém o ticket médio atual pode crescer 14% ao reestruturar o precificação da categoria Blazers. O revenue share está concentrado em Vestidos (38.5%). Recomendo aprovar o plano de expansão de Linho."
+        }
+    elif agent_role == "buyer":
+        return {
+            "agent": "Agente Comprador & Sortimento",
+            "avatar": "🛍️",
+            "response": f"Diagnóstico de Sortimento: Em resposta a '{message}', identificamos uma lacuna (White Space) importante na grade de tamanhos M/G para Macacões. Recomendamos remanejar 250 unidades para o centro de distribuição principal."
+        }
+    elif agent_role == "pricing":
+        return {
+            "agent": "Agente de Pricing & Margem",
+            "avatar": "🏷️",
+            "response": f"Análise de Margem: Sobre '{message}', a elasticidade atual da categoria Blazers é inelástica (-0.75). Reduzir o desconto de 10% para 5% gerará um ganho imediato de R$ 21.500 em margem operacional sem afetar volume."
+        }
+    elif agent_role == "qa":
+        return {
+            "agent": "Agente de Qualidade do Cliente",
+            "avatar": "🔬",
+            "response": f"Alerta de Qualidade: Em relação a '{message}', agrupamos 14 reclamações em 48h indicando 'tecido transparente' e 'zíper emperrando'. Acionei a auditoria técnica do lote #8821 do fornecedor de lycra."
+        }
+    else:
+        return agent_chat_endpoint(payload)
+
 @app.post("/api/agent/chat")
 def agent_chat_endpoint(payload: Dict[str, Any]):
     prompt = payload.get("message", "").strip()
@@ -224,3 +293,4 @@ def refresh_cache_endpoint(background_tasks: BackgroundTasks):
     _CACHE["sentiment_data"] = None
     _CACHE["catalog_bundle"] = None
     return {"status": "ok", "message": "Cache zerado. Atualização iniciada."}
+

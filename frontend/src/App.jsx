@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { 
-  BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell 
+  BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell, LineChart, Line 
 } from 'recharts';
 import { 
   TrendingUp, MessageSquare, AlertTriangle, RefreshCw, Send, Cpu, Sparkles, 
-  ShoppingBag, Layers, Target, Zap 
+  ShoppingBag, Layers, Target, Zap, Crown, Tag, ShieldCheck, DollarSign, Calculator, ChevronRight
 } from 'lucide-react';
 import './styles.css';
 
@@ -31,21 +31,6 @@ const DEFAULT_COMMERCIAL = {
   ]
 };
 
-const DEFAULT_ASSORTMENT = {
-  kpis: {
-    total_skus: 102,
-    categories_count: 4,
-    avg_colors_per_style: 3.2,
-    size_coverage_index: "91.2%"
-  },
-  architecture: [
-    { category: "Vestidos", share_pct: 41.2, depth_score: 8.5 },
-    { category: "Biquínis", share_pct: 27.5, depth_score: 7.8 },
-    { category: "Blazers", share_pct: 17.6, depth_score: 9.1 },
-    { category: "Macacões", share_pct: 13.7, depth_score: 6.9 }
-  ]
-};
-
 const DEFAULT_PORTFOLIO = {
   clusters: [
     { cluster_id: 0, label: "Top Sellers Premium", count: 28, avg_price: 380.0, opportunity: "Expandir Cores em Alta Demanda" },
@@ -56,6 +41,18 @@ const DEFAULT_PORTFOLIO = {
   total_clustered: 102
 };
 
+const DEFAULT_ELASTICITY = {
+  overall_elasticity: -1.42,
+  markdown_risk: "Moderado",
+  recommended_action: "Otimizar desconto na categoria Vestidos de 15% para 12%, preservando R$ 14.800 de margem bruta.",
+  categories_elasticity: [
+    { category: "Vestidos", elasticity: -1.15, optimal_discount: 12.0, current_discount: 15.0, margin_delta: "+R$ 14.800" },
+    { category: "Biquínis", elasticity: -1.85, optimal_discount: 20.0, current_discount: 22.0, margin_delta: "+R$ 8.200" },
+    { category: "Blazers", elasticity: -0.75, optimal_discount: 5.0, current_discount: 10.0, margin_delta: "+R$ 21.500" },
+    { category: "Macacões", elasticity: -1.30, optimal_discount: 15.0, current_discount: 18.0, margin_delta: "+R$ 6.100" }
+  ]
+};
+
 const DEFAULT_DECISIONS = {
   opportunities: [
     { id: "OPP-01", title: "Expansão de Linha Linho Premium", category: "Blazers", impact: "Alto", confidence: "94%", action: "Adicionar 4 SKUs em cores neutras" },
@@ -64,19 +61,36 @@ const DEFAULT_DECISIONS = {
   ]
 };
 
+const AGENTS = [
+  { id: "executive", name: "Agente Executivo", title: "CEO Advisor", icon: Crown, color: "#F59E0B", desc: "Análise estratégica de vendas, metas e projeção executiva." },
+  { id: "buyer", name: "Agente Comprador", title: "Assortment Specialist", icon: ShoppingBag, color: "#10B981", desc: "Recomendações de reposição, novos SKUs e white spaces." },
+  { id: "pricing", name: "Agente de Pricing", title: "Margin & Elasticity", icon: Tag, color: "#3B82F6", desc: "Estratégia de preço ótimo, liquidação e margem de contribuição." },
+  { id: "qa", name: "Agente de Qualidade", title: "Customer QA Audit", icon: ShieldCheck, color: "#EF4444", desc: "Auditoria de insatisfações de produtos, tecidos e modelagens." }
+];
+
 function App() {
-  const [activeTab, setActiveTab] = useState("executivo");
+  const [activeTab, setActiveTab] = useState("cockpit");
+  const [selectedAgent, setSelectedAgent] = useState("executive");
+  
   const [reviews, setReviews] = useState(DEFAULT_REVIEWS);
-  const [kpis, setKpis] = useState({ total_reviews: 11, avg_sentiment: 0.28, csat_score: 72.5, positive: 7, negative: 4, neutral: 0 });
+  const [kpis, setKpis] = useState({ total_reviews: 11, avg_sentiment: 0.28, csat_score: 82.4, positive: 7, negative: 4, neutral: 0 });
   const [commercialData, setCommercialData] = useState(DEFAULT_COMMERCIAL);
-  const [assortmentData, setAssortmentData] = useState(DEFAULT_ASSORTMENT);
   const [portfolioData, setPortfolioData] = useState(DEFAULT_PORTFOLIO);
+  const [elasticityData, setElasticityData] = useState(DEFAULT_ELASTICITY);
   const [decisionsData, setDecisionsData] = useState(DEFAULT_DECISIONS);
   
   const [selectedCategory, setSelectedCategory] = useState("Biquínis");
-  const [aiRec, setAiRec] = useState("Análise de Sentimento (Cortex Active): Clientes reclamam que o tamanho de Biquínis veio menor que o padrão e que as cores desbotaram na primeira lavagem. Ações recomendadas: Auditar a modelagem e solicitar testes de solidez de cor ao fornecedor.");
+  const [aiRec, setAiRec] = useState("Análise de Sentimento Snowflake Cortex: Reclamações concentradas em tamanho pequeno de Biquínis e desbotamento na lavagem. Recomenda-se auditar o fornecedor de tecido.");
+  
+  // Simulator State
+  const [simSkus, setSimSkus] = useState(4);
+  const [simCat, setSimCat] = useState("Blazers");
+  const [simPrice, setSimPrice] = useState(450);
+  const [simResult, setSimResult] = useState({ revenue: "R$ 153.000,00", margin: "R$ 99.450,00", risk: "Baixo (6.2%)" });
+
+  // Multi-Agent Chat Messages
   const [chatMessages, setChatMessages] = useState([
-    { sender: "agent", text: "Olá! Sou o Agente de IA INTI Intelligence. Como posso apoiar suas decisões estratégicas de varejo hoje?" }
+    { sender: "agent", agentRole: "executive", text: "👑 Agente Executivo INTI: Bem-vindo! Selecione um dos 4 Agentes Especialistas no painel acima para consultas analíticas específicas." }
   ]);
   const [userQuery, setUserQuery] = useState("");
   const [isRefreshing, setIsRefreshing] = useState(false);
@@ -85,21 +99,21 @@ function App() {
     fetchData();
   }, []);
 
-  const safeFetchJson = async (url) => {
+  const safeFetchJson = async (url, opts = {}) => {
     try {
-      const res = await fetch(url);
+      const res = await fetch(url, opts);
       if (res.ok && res.headers.get('content-type')?.includes('application/json')) {
         return await res.json();
       }
     } catch {
-      // Ignore network errors and keep default state
+      // Keep default fallback state
     }
     return null;
   };
 
   const fetchData = async () => {
     const rSent = await safeFetchJson('/api/sentiment');
-    if (rSent && Array.isArray(rSent) && rSent.length > 0) setReviews(rSent);
+    if (rSent && Array.isArray(rSent)) setReviews(rSent);
 
     const rKpi = await safeFetchJson('/api/kpis');
     if (rKpi) setKpis(rKpi);
@@ -107,35 +121,14 @@ function App() {
     const rCom = await safeFetchJson('/api/commercial');
     if (rCom) setCommercialData(rCom);
 
-    const rAss = await safeFetchJson('/api/assortment');
-    if (rAss) setAssortmentData(rAss);
-
     const rPort = await safeFetchJson('/api/portfolio-ml');
     if (rPort) setPortfolioData(rPort);
 
+    const rElast = await safeFetchJson('/api/pricing-elasticity');
+    if (rElast) setElasticityData(rElast);
+
     const rDec = await safeFetchJson('/api/decisions');
     if (rDec) setDecisionsData(rDec);
-  };
-
-  useEffect(() => {
-    fetchAiRec(selectedCategory);
-  }, [selectedCategory]);
-
-  const fetchAiRec = async (cat) => {
-    const d = await safeFetchJson(`/api/ai-recommendation?category=${encodeURIComponent(cat)}`);
-    if (d && d.recommendation) {
-      setAiRec(d.recommendation);
-    } else {
-      if (cat === "Biquínis") {
-        setAiRec("Análise de Sentimento (Cortex Active): Clientes reclamam de tamanho menor que o padrão e desbotamento na primeira lavagem. Ações recomendadas: Auditar modelagem e exigir testes de solidez de cor do fornecedor de lycra.");
-      } else if (cat === "Vestidos") {
-        setAiRec("Análise de Sentimento (Cortex Active): Relatos de costura frágil próximo ao zíper em tecidos de seda/cetim. Ações recomendadas: Inserir costura dupla/reforço nas áreas de maior tensão.");
-      } else if (cat === "Blazers") {
-        setAiRec("Análise de Sentimento (Cortex Active): Excelente caimento e acabamento de luxo nos modelos de linho. Ações recomendadas: Expandir oferta em novas cores neutras para atender a alta demanda.");
-      } else {
-        setAiRec(`Análise de Sentimento (Cortex Active): Monitoramento ativo para ${cat}. Indicadores de satisfação dentro da meta com alta fidelidade de clientes.`);
-      }
-    }
   };
 
   const handleRefresh = async () => {
@@ -145,33 +138,50 @@ function App() {
     setTimeout(() => setIsRefreshing(false), 500);
   };
 
-  const handleSendChat = async (e) => {
+  const handleSimulate = async () => {
+    const res = await safeFetchJson('/api/simulate-demand', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ new_skus: Number(simSkus), category: simCat, avg_price: Number(simPrice) })
+    });
+    if (res) {
+      setSimResult({ revenue: res.projected_revenue, margin: res.projected_margin, risk: res.cannibalization_risk });
+    } else {
+      const rev = Number(simSkus) * Number(simPrice) * 85;
+      setSimResult({
+        revenue: `R$ ${rev.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}`,
+        margin: `R$ ${(rev * 0.65).toLocaleString('pt-BR', { minimumFractionDigits: 2 })}`,
+        risk: "Baixo (6.2%)"
+      });
+    }
+  };
+
+  const handleSendMultiChat = async (e) => {
     e.preventDefault();
     if (!userQuery.trim()) return;
 
     const q = userQuery;
+    const currentRole = selectedAgent;
     setUserQuery("");
+    
     setChatMessages(prev => [...prev, { sender: "user", text: q }]);
 
-    const d = await safeFetchJson('/api/agent/chat', {
+    const d = await safeFetchJson('/api/agent/multi-chat', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ message: q })
+      body: JSON.stringify({ role: currentRole, message: q })
     });
 
     if (d && d.response) {
-      setChatMessages(prev => [...prev, { sender: "agent", text: d.response }]);
+      setChatMessages(prev => [...prev, { sender: "agent", agentRole: currentRole, text: `${d.avatar || '🤖'} ${d.agent || 'Agente'}: ${d.response}` }]);
     } else {
-      const qLower = q.lower ? q.lower() : q.toLowerCase();
-      let reply = "Agente INTI AI (Cortex Active): Analisei seu pedido. Todos os dados do catálogo, vendas e sentimento estão sincronizados.";
-      if (qLower.includes("sentimento") || qLower.includes("avaliações")) {
-        reply = "Agente INTI AI: Analisei as avaliações recentes. Identificamos reclamações concentradas em Biquínis (tamanho pequeno) e Vestidos (costura no zíper). Recomendo auditar fornecedores.";
-      } else if (qLower.includes("comercial") || qLower.includes("vendas") || qLower.includes("preço")) {
-        reply = "Agente INTI AI: Faturamento estimado em R$ 485.200,00 com desconto médio de 18.4%. Vestidos lideram com 38.5% do faturamento total.";
-      } else if (qLower.includes("oportunidade") || qLower.includes("sortimento") || qLower.includes("cluster")) {
-        reply = "Agente INTI AI: Detectamos oportunidade em Blazers Linho Premium (margem 68%). Recomendamos adicionar 4 novas SKUs neutras.";
-      }
-      setChatMessages(prev => [...prev, { sender: "agent", text: reply }]);
+      let reply = `Agente INTI AI (${currentRole}): Analisei '${q}'. Todos os módulos Snowflake Cortex estão sincronizados.`;
+      if (currentRole === "executive") reply = `👑 Agente Executivo: Analisei '${q}'. O CSAT de ${kpis.csat_score}% indica alta fidelidade. Recomendo focar na expansão da linha de linho.`;
+      if (currentRole === "buyer") reply = `🛍️ Agente Comprador: Para '${q}', identificamos demanda reprimida em Macacões M/G. Sugerimos reposição de 250 unidades.`;
+      if (currentRole === "pricing") reply = `🏷️ Agente de Pricing: Em '${q}', a elasticidade atual é -1.42. Reduzir o desconto médio em 3% aumentará a margem em R$ 21.500.`;
+      if (currentRole === "qa") reply = `🔬 Agente de Qualidade: Sobre '${q}', registramos 14 reclamações sobre costuras finas em zíperes de Seda. Auditoria técnica acionada.`;
+      
+      setChatMessages(prev => [...prev, { sender: "agent", agentRole: currentRole, text: reply }]);
     }
   };
 
@@ -182,204 +192,168 @@ function App() {
   ];
 
   return (
-    <div className="dashboard-root">
-      {/* Header */}
-      <header className="navbar">
-        <div className="brand">
-          <div className="logo-badge">INTI</div>
-          <div>
-            <h1>INTI Intelligence <span className="tag-live">v1.1 LIVE</span></h1>
-            <p className="subtitle">Plataforma Híbrida Executiva de IA & Analítica de Varejo</p>
+    <div className="app-container">
+      {/* Sidebar Navigation */}
+      <aside className="sidebar">
+        <div className="sidebar-brand">
+          <div className="brand-badge">INTI</div>
+          <div className="brand-info">
+            <h2>INTI Intelligence</h2>
+            <span className="brand-tag">v2.0 Snowflake AI</span>
           </div>
         </div>
 
-        {/* Navigation Tabs */}
-        <nav className="tab-nav">
-          <button className={`tab-btn ${activeTab === 'executivo' ? 'active' : ''}`} onClick={() => setActiveTab('executivo')}>
-            <TrendingUp size={16} /> Painel Executivo
+        <nav className="sidebar-menu">
+          <button className={`menu-item ${activeTab === 'cockpit' ? 'active' : ''}`} onClick={() => setActiveTab('cockpit')}>
+            <TrendingUp size={18} /> <span>Cockpit & Sentimento</span>
           </button>
-          <button className={`tab-btn ${activeTab === 'comercial' ? 'active' : ''}`} onClick={() => setActiveTab('comercial')}>
-            <ShoppingBag size={16} /> Comercial & Sortimento
+          <button className={`menu-item ${activeTab === 'agentes' ? 'active' : ''}`} onClick={() => setActiveTab('agentes')}>
+            <Cpu size={18} /> <span>Suíte de Agentes IA</span>
           </button>
-          <button className={`tab-btn ${activeTab === 'portfolio' ? 'active' : ''}`} onClick={() => setActiveTab('portfolio')}>
-            <Layers size={16} /> Portfólio ML (Clusters)
+          <button className={`menu-item ${activeTab === 'pricing' ? 'active' : ''}`} onClick={() => setActiveTab('pricing')}>
+            <DollarSign size={18} /> <span>Precificação Dinâmica</span>
           </button>
-          <button className={`tab-btn ${activeTab === 'agente' ? 'active' : ''}`} onClick={() => setActiveTab('agente')}>
-            <Cpu size={16} /> Agente de IA & Oportunidades
+          <button className={`menu-item ${activeTab === 'sortimento' ? 'active' : ''}`} onClick={() => setActiveTab('sortimento')}>
+            <Layers size={18} /> <span>Sortimento & Clusters</span>
+          </button>
+          <button className={`menu-item ${activeTab === 'decisões' ? 'active' : ''}`} onClick={() => setActiveTab('decisões')}>
+            <Zap size={18} /> <span>Motor de Oportunidades</span>
           </button>
         </nav>
 
-        <div className="header-actions">
-          <button className={`btn-refresh ${isRefreshing ? 'spinning' : ''}`} onClick={handleRefresh}>
-            <RefreshCw size={16} />
-            <span>{isRefreshing ? 'Atualizando...' : 'Atualizar'}</span>
+        <div className="sidebar-footer">
+          <button className={`btn-refresh-full ${isRefreshing ? 'spinning' : ''}`} onClick={handleRefresh}>
+            <RefreshCw size={16} /> <span>{isRefreshing ? 'Sincronizando...' : 'Atualizar Dados'}</span>
           </button>
         </div>
-      </header>
+      </aside>
 
-      <main className="main-content">
-        {/* TAB 1: EXECUTIVE & SENTIMENT */}
-        {activeTab === 'executivo' && (
-          <>
-            <section className="kpi-grid">
-              <div className="kpi-card">
-                <div className="kpi-icon icon-blue"><MessageSquare size={22} /></div>
-                <div className="kpi-data">
-                  <span className="kpi-label">Avaliações de Clientes</span>
-                  <h2 className="kpi-value">{kpis.total_reviews}</h2>
-                  <span className="kpi-sub green">+12.4% este mês</span>
+      {/* Main Content Area */}
+      <main className="main-viewport">
+        {/* Top Header */}
+        <header className="header-bar">
+          <div className="header-title">
+            <h1>
+              {activeTab === 'cockpit' && '📊 Cockpit Executivo & Análise de Sentimento Cortex'}
+              {activeTab === 'agentes' && '🤖 Central de Agentes de IA Multi-Especialistas'}
+              {activeTab === 'pricing' && '💰 Precificação Dinâmica & Elasticidade de Descontos'}
+              {activeTab === 'sortimento' && '🛍️ Inteligência de Sortimento & Clusters KMeans'}
+              {activeTab === 'decisões' && '⚡ Matriz de Decisões & Ações Automatizadas'}
+            </h1>
+            <p>Conectado ao Snowflake Warehouse | Sub-Second Cache Active</p>
+          </div>
+          <div className="status-badge">
+            <span className="dot-green"></span> Snowflake Cortex Online
+          </div>
+        </header>
+
+        {/* SECTION 1: COCKPIT & SENTIMENT */}
+        {activeTab === 'cockpit' && (
+          <div className="content-body">
+            <div className="kpi-row">
+              <div className="glass-card">
+                <div className="card-icon icon-amber"><MessageSquare size={20} /></div>
+                <div>
+                  <span className="card-label">Total de Reviews</span>
+                  <h3 className="card-val">{kpis.total_reviews}</h3>
+                  <span className="card-sub green">+15.2% vs mês anterior</span>
                 </div>
               </div>
 
-              <div className="kpi-card">
-                <div className="kpi-icon icon-green"><TrendingUp size={22} /></div>
-                <div className="kpi-data">
-                  <span className="kpi-label">Índice CSAT (Satisfação)</span>
-                  <h2 className="kpi-value">{kpis.csat_score}%</h2>
-                  <span className="kpi-sub green">Meta: &gt; 70%</span>
+              <div className="glass-card">
+                <div className="card-icon icon-emerald"><TrendingUp size={20} /></div>
+                <div>
+                  <span className="card-label">Índice CSAT</span>
+                  <h3 className="card-val">{kpis.csat_score}%</h3>
+                  <span className="card-sub green">Meta Executiva: 75%</span>
                 </div>
               </div>
 
-              <div className="kpi-card">
-                <div className="kpi-icon icon-purple"><Sparkles size={22} /></div>
-                <div className="kpi-data">
-                  <span className="kpi-label">Score Médio Sentimento</span>
-                  <h2 className="kpi-value">{kpis.avg_sentiment > 0 ? `+${kpis.avg_sentiment}` : kpis.avg_sentiment}</h2>
-                  <span className="kpi-sub purple">Snowflake Cortex Scale</span>
+              <div className="glass-card">
+                <div className="card-icon icon-indigo"><Sparkles size={20} /></div>
+                <div>
+                  <span className="card-label">Score Médio Cortex</span>
+                  <h3 className="card-val">{kpis.avg_sentiment > 0 ? `+${kpis.avg_sentiment}` : kpis.avg_sentiment}</h3>
+                  <span className="card-sub indigo">Valência Emocional</span>
                 </div>
               </div>
 
-              <div className="kpi-card">
-                <div className="kpi-icon icon-red"><AlertTriangle size={22} /></div>
-                <div className="kpi-data">
-                  <span className="kpi-label">Alertas Críticos</span>
-                  <h2 className="kpi-value">{kpis.negative}</h2>
-                  <span className="kpi-sub red">Requer ação imediata</span>
-                </div>
-              </div>
-            </section>
-
-            <div className="dashboard-grid">
-              <div className="grid-col main-col">
-                <div className="panel-card">
-                  <div className="panel-header">
-                    <h3>Distribuição de Sentimentos (Snowflake Cortex AI)</h3>
-                  </div>
-                  <ResponsiveContainer width="100%" height={250}>
-                    <BarChart data={chartSentimentData} margin={{ top: 20, right: 20, left: -20, bottom: 0 }}>
-                      <XAxis dataKey="name" stroke="#94A3B8" />
-                      <YAxis stroke="#94A3B8" />
-                      <Tooltip contentStyle={{ backgroundColor: '#1E293B', borderColor: '#334155', borderRadius: '8px', color: '#FFF' }} />
-                      <Bar dataKey="count" radius={[6, 6, 0, 0]}>
-                        {chartSentimentData.map((entry, index) => (
-                          <Cell key={`c-${index}`} fill={entry.color} />
-                        ))}
-                      </Bar>
-                    </BarChart>
-                  </ResponsiveContainer>
-                </div>
-
-                <div className="panel-card mt-4">
-                  <div className="panel-header">
-                    <h3>Monitoramento de Feedback de Clientes</h3>
-                  </div>
-                  <div className="table-wrapper">
-                    <table className="data-table">
-                      <thead>
-                        <tr>
-                          <th>Produto</th>
-                          <th>Categoria</th>
-                          <th>Avaliação do Cliente</th>
-                          <th>Sentimento</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {reviews.slice(0, 6).map((rev, i) => {
-                          const score = rev.sentiment_score || 0;
-                          let badgeClass = "badge-neutral", label = "Neutro";
-                          if (score > 0.1) { badgeClass = "badge-pos"; label = `Positivo (${score.toFixed(2)})`; }
-                          else if (score < -0.1) { badgeClass = "badge-neg"; label = `Crítico (${score.toFixed(2)})`; }
-
-                          return (
-                            <tr key={i}>
-                              <td className="fw-semibold">{rev.product_name}</td>
-                              <td><span className="cat-tag">{rev.category}</span></td>
-                              <td className="text-truncate">{rev.review_text}</td>
-                              <td><span className={`badge ${badgeClass}`}>{label}</span></td>
-                            </tr>
-                          );
-                        })}
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-
-              <div className="grid-col side-col">
-                <div className="panel-card cortex-card">
-                  <div className="panel-header">
-                    <div className="flex-align"><Cpu className="icon-cortex" size={20} /><h3>Snowflake Cortex AI Consultant</h3></div>
-                  </div>
-                  <div className="category-selector">
-                    {["Biquínis", "Vestidos", "Blazers", "Macacões"].map(cat => (
-                      <button key={cat} className={`cat-btn ${selectedCategory === cat ? 'active' : ''}`} onClick={() => setSelectedCategory(cat)}>
-                        {cat}
-                      </button>
-                    ))}
-                  </div>
-                  <div className="ai-box">
-                    <p className="ai-text">{aiRec}</p>
-                  </div>
+              <div className="glass-card">
+                <div className="card-icon icon-rose"><AlertTriangle size={20} /></div>
+                <div>
+                  <span className="card-label">Feedbacks Críticos</span>
+                  <h3 className="card-val">{kpis.negative}</h3>
+                  <span className="card-sub rose">Requer Auditoria</span>
                 </div>
               </div>
             </div>
-          </>
-        )}
 
-        {/* TAB 2: COMMERCIAL & ASSORTMENT */}
-        {activeTab === 'comercial' && (
-          <div className="dashboard-grid full-grid">
-            <div className="panel-card">
-              <div className="panel-header">
-                <h3>Resumo Comercial & Participação por Categoria</h3>
-              </div>
-              {commercialData?.category_summary && (
-                <ResponsiveContainer width="100%" height={300}>
-                  <BarChart data={commercialData.category_summary}>
-                    <XAxis dataKey="category" stroke="#94A3B8" />
+            <div className="grid-2col">
+              <div className="glass-panel">
+                <div className="panel-top">
+                  <h3>Valência de Sentimentos (Snowflake Cortex AI)</h3>
+                </div>
+                <ResponsiveContainer width="100%" height={260}>
+                  <BarChart data={chartSentimentData} margin={{ top: 20, right: 20, left: -20, bottom: 0 }}>
+                    <XAxis dataKey="name" stroke="#94A3B8" />
                     <YAxis stroke="#94A3B8" />
-                    <Tooltip contentStyle={{ backgroundColor: '#1E293B', color: '#FFF' }} />
-                    <Bar dataKey="revenue_share" fill="#6366F1" radius={[6, 6, 0, 0]} name="Participação Faturamento (%)" />
+                    <Tooltip contentStyle={{ backgroundColor: '#1E293B', borderColor: '#334155', borderRadius: '8px', color: '#FFF' }} />
+                    <Bar dataKey="count" radius={[6, 6, 0, 0]}>
+                      {chartSentimentData.map((entry, index) => (
+                        <Cell key={`c-${index}`} fill={entry.color} />
+                      ))}
+                    </Bar>
                   </BarChart>
                 </ResponsiveContainer>
-              )}
+              </div>
+
+              <div className="glass-panel">
+                <div className="panel-top">
+                  <h3>Diagnóstico em Tempo Real por Categoria</h3>
+                </div>
+                <div className="cat-pills">
+                  {["Biquínis", "Vestidos", "Blazers", "Macacões"].map(cat => (
+                    <button key={cat} className={`pill-btn ${selectedCategory === cat ? 'active' : ''}`} onClick={() => setSelectedCategory(cat)}>
+                      {cat}
+                    </button>
+                  ))}
+                </div>
+                <div className="cortex-output-box">
+                  <p className="cortex-text">{aiRec}</p>
+                </div>
+              </div>
             </div>
 
-            <div className="panel-card mt-4">
-              <div className="panel-header">
-                <h3>Arquitetura de Sortimento & Preço Médio</h3>
+            <div className="glass-panel mt-4">
+              <div className="panel-top">
+                <h3>Feed Vivo de Avaliações & Qualidade</h3>
               </div>
-              <div className="table-wrapper">
-                <table className="data-table">
+              <div className="table-container">
+                <table className="custom-table">
                   <thead>
                     <tr>
+                      <th>Produto</th>
                       <th>Categoria</th>
-                      <th>Total de Produtos</th>
-                      <th>Preço Médio (R$)</th>
-                      <th>Desconto Médio (%)</th>
-                      <th>Share Faturamento</th>
+                      <th>Avaliação do Cliente</th>
+                      <th>Sentimento Cortex</th>
                     </tr>
                   </thead>
                   <tbody>
-                    {commercialData?.category_summary?.map((row, i) => (
-                      <tr key={i}>
-                        <td className="fw-semibold">{row.category}</td>
-                        <td>{row.product_count}</td>
-                        <td>R$ {row.avg_price?.toFixed(2)}</td>
-                        <td>{row.avg_discount}%</td>
-                        <td><span className="badge badge-pos">{row.revenue_share}%</span></td>
-                      </tr>
-                    ))}
+                    {reviews.map((r, i) => {
+                      const score = r.sentiment_score || 0;
+                      let badge = "badge-neutral", txt = "Neutro";
+                      if (score > 0.1) { badge = "badge-positive"; txt = `Positivo (+${score.toFixed(2)})`; }
+                      else if (score < -0.1) { badge = "badge-negative"; txt = `Crítico (${score.toFixed(2)})`; }
+
+                      return (
+                        <tr key={i}>
+                          <td className="font-bold">{r.product_name}</td>
+                          <td><span className="tag-cat">{r.category}</span></td>
+                          <td>{r.review_text}</td>
+                          <td><span className={`badge ${badge}`}>{txt}</span></td>
+                        </tr>
+                      );
+                    })}
                   </tbody>
                 </table>
               </div>
@@ -387,76 +361,211 @@ function App() {
           </div>
         )}
 
-        {/* TAB 3: PORTFOLIO ML CLUSTERS */}
-        {activeTab === 'portfolio' && (
-          <div className="dashboard-grid full-grid">
-            <div className="panel-card">
-              <div className="panel-header">
-                <h3>Agrupamento por Inteligência Artificial (KMeans Clusters)</h3>
+        {/* SECTION 2: MULTI-AGENT SUITE */}
+        {activeTab === 'agentes' && (
+          <div className="content-body">
+            <div className="agents-selector-grid">
+              {AGENTS.map(ag => {
+                const IconComponent = ag.icon;
+                const isSelected = selectedAgent === ag.id;
+                return (
+                  <div key={ag.id} className={`agent-card ${isSelected ? 'selected' : ''}`} onClick={() => setSelectedAgent(ag.id)}>
+                    <div className="agent-header">
+                      <div className="agent-icon-wrapper" style={{ backgroundColor: `${ag.color}22`, color: ag.color }}>
+                        <IconComponent size={22} />
+                      </div>
+                      <span className="agent-title-tag">{ag.title}</span>
+                    </div>
+                    <h4>{ag.name}</h4>
+                    <p>{ag.desc}</p>
+                    <div className="agent-select-footer">
+                      <span>{isSelected ? 'Agente Ativo' : 'Selecionar'}</span>
+                      <ChevronRight size={14} />
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+
+            <div className="glass-panel mt-4 chat-workspace">
+              <div className="panel-top flex-between">
+                <div className="flex-align">
+                  <Cpu size={20} className="icon-pulse" />
+                  <h3>Chat com {AGENTS.find(a => a.id === selectedAgent)?.name}</h3>
+                </div>
+                <span className="badge badge-indigo">Snowflake Llama3-70B Active</span>
               </div>
-              <div className="clusters-grid">
-                {portfolioData?.clusters?.map((c, i) => (
-                  <div key={i} className="cluster-box">
-                    <div className="cluster-tag">Cluster #{c.cluster_id}</div>
-                    <h4>{c.label}</h4>
-                    <p className="cluster-stat"><strong>{c.count}</strong> Produtos | Preço Médio: <strong>R$ {c.avg_price}</strong></p>
-                    <div className="cluster-opp">
-                      <Target size={14} /> <span>Recomendação: {c.opportunity}</span>
+
+              <div className="chat-flow">
+                {chatMessages.map((msg, i) => (
+                  <div key={i} className={`chat-message-row ${msg.sender === 'user' ? 'row-user' : 'row-agent'}`}>
+                    <div className="message-bubble">
+                      {msg.text}
                     </div>
                   </div>
                 ))}
+              </div>
+
+              <form onSubmit={handleSendMultiChat} className="chat-input-bar">
+                <input 
+                  type="text" 
+                  placeholder={`Pergunte ao ${AGENTS.find(a => a.id === selectedAgent)?.name}...`}
+                  value={userQuery}
+                  onChange={e => setUserQuery(e.target.value)}
+                />
+                <button type="submit" className="btn-send-main"><Send size={16} /> <span>Enviar</span></button>
+              </form>
+            </div>
+          </div>
+        )}
+
+        {/* SECTION 3: DYNAMIC PRICING */}
+        {activeTab === 'pricing' && (
+          <div className="content-body">
+            <div className="grid-2col">
+              <div className="glass-panel">
+                <div className="panel-top">
+                  <h3>Elasticidade de Preços por Categoria</h3>
+                </div>
+                <p className="panel-desc">Calculado com base no histórico de descontos e giro de estoque de cada SKU.</p>
+                <div className="table-container">
+                  <table className="custom-table">
+                    <thead>
+                      <tr>
+                        <th>Categoria</th>
+                        <th>Elasticidade</th>
+                        <th>Desconto Atual</th>
+                        <th>Desconto Ótimo</th>
+                        <th>Delta Margem</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {elasticityData.categories_elasticity.map((c, i) => (
+                        <tr key={i}>
+                          <td className="font-bold">{c.category}</td>
+                          <td><span className="tag-elasticity">{c.elasticity}</span></td>
+                          <td>{c.current_discount}%</td>
+                          <td><span className="font-bold text-emerald">{c.optimal_discount}%</span></td>
+                          <td><span className="badge badge-positive">{c.margin_delta}</span></td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              <div className="glass-panel">
+                <div className="panel-top">
+                  <div className="flex-align"><Calculator size={20} /><h3>Simulador de Demanda & Oportunidade ("What-If")</h3></div>
+                </div>
+                <div className="simulator-form">
+                  <div className="form-group">
+                    <label>Categoria Alvo:</label>
+                    <select value={simCat} onChange={e => setSimCat(e.target.value)}>
+                      <option value="Blazers">Blazers</option>
+                      <option value="Vestidos">Vestidos</option>
+                      <option value="Biquínis">Biquínis</option>
+                      <option value="Macacões">Macacões</option>
+                    </select>
+                  </div>
+
+                  <div className="form-group">
+                    <label>Quantidade de Novos SKUs:</label>
+                    <input type="number" min="1" max="20" value={simSkus} onChange={e => setSimSkus(e.target.value)} />
+                  </div>
+
+                  <div className="form-group">
+                    <label>Preço Médio Alvo (R$):</label>
+                    <input type="number" step="10" value={simPrice} onChange={e => setSimPrice(e.target.value)} />
+                  </div>
+
+                  <button className="btn-action-full" onClick={handleSimulate}>
+                    Simular Projeção Financeira
+                  </button>
+
+                  <div className="sim-results-card">
+                    <div className="sim-res-item">
+                      <span>Faturamento Projetado:</span>
+                      <strong>{simResult.revenue}</strong>
+                    </div>
+                    <div className="sim-res-item">
+                      <span>Margem Bruta Estimada (65%):</span>
+                      <strong className="text-emerald">{simResult.margin}</strong>
+                    </div>
+                    <div className="sim-res-item">
+                      <span>Risco de Canibalização:</span>
+                      <span>{simResult.risk}</span>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         )}
 
-        {/* TAB 4: AI AGENT & DECISIONS */}
-        {activeTab === 'agente' && (
-          <div className="dashboard-grid">
-            <div className="grid-col main-col">
-              <div className="panel-card">
-                <div className="panel-header">
-                  <h3>Matriz de Decisões Executivas & Oportunidades</h3>
-                </div>
-                <div className="opp-list">
-                  {decisionsData?.opportunities?.map((opp, i) => (
-                    <div key={i} className="opp-card">
-                      <div className="opp-header">
-                        <span className="opp-id">{opp.id}</span>
-                        <span className={`badge ${opp.impact === 'Crítico' ? 'badge-neg' : 'badge-pos'}`}>{opp.impact} Impacto</span>
-                      </div>
-                      <h4>{opp.title}</h4>
-                      <p className="opp-cat">Categoria: <strong>{opp.category}</strong> | Confiança: {opp.confidence}</p>
-                      <p className="opp-action">👉 <strong>Ação Recomendada:</strong> {opp.action}</p>
+        {/* SECTION 4: SORTIMENTO & CLUSTERS */}
+        {activeTab === 'sortimento' && (
+          <div className="content-body">
+            <div className="glass-panel">
+              <div className="panel-top">
+                <h3>Clusters de Produtos por Machine Learning (KMeans)</h3>
+              </div>
+              <div className="clusters-grid-4">
+                {portfolioData.clusters.map((cl, i) => (
+                  <div key={i} className="cluster-card-modern">
+                    <div className="cluster-num">Cluster #{cl.cluster_id}</div>
+                    <h4>{cl.label}</h4>
+                    <div className="cluster-metrics">
+                      <div><span>Qtd SKUs:</span> <strong>{cl.count}</strong></div>
+                      <div><span>Preço Médio:</span> <strong>R$ {cl.avg_price}</strong></div>
                     </div>
-                  ))}
-                </div>
+                    <div className="cluster-action-box">
+                      <Target size={14} /> <span>{cl.opportunity}</span>
+                    </div>
+                  </div>
+                ))}
               </div>
             </div>
 
-            <div className="grid-col side-col">
-              <div className="panel-card chat-card">
-                <div className="panel-header">
-                  <div className="flex-align"><Zap className="icon-zap" size={20} /><h3>INTI AI Agent</h3></div>
-                </div>
+            <div className="glass-panel mt-4">
+              <div className="panel-top">
+                <h3>Distribuição do Sortimento Comercial</h3>
+              </div>
+              <ResponsiveContainer width="100%" height={280}>
+                <BarChart data={commercialData.category_summary}>
+                  <XAxis dataKey="category" stroke="#94A3B8" />
+                  <YAxis stroke="#94A3B8" />
+                  <Tooltip contentStyle={{ backgroundColor: '#1E293B', color: '#FFF' }} />
+                  <Bar dataKey="product_count" fill="#3B82F6" radius={[6, 6, 0, 0]} name="Quantidade de SKUs" />
+                </BarChart>
+              </ResponsiveContainer>
+            </div>
+          </div>
+        )}
 
-                <div className="chat-messages">
-                  {chatMessages.map((msg, i) => (
-                    <div key={i} className={`chat-bubble bubble-${msg.sender}`}>
-                      {msg.text}
+        {/* SECTION 5: DECISION MATRIX */}
+        {activeTab === 'decisões' && (
+          <div className="content-body">
+            <div className="glass-panel">
+              <div className="panel-top">
+                <h3>Matriz Executiva de Oportunidades & Decisões Automatizadas</h3>
+              </div>
+              <div className="decisions-list">
+                {decisionsData.opportunities.map((opp, i) => (
+                  <div key={i} className="decision-row-card">
+                    <div className="dec-meta">
+                      <span className="dec-id">{opp.id}</span>
+                      <span className={`badge ${opp.impact === 'Crítico' ? 'badge-negative' : 'badge-positive'}`}>{opp.impact} Impacto</span>
                     </div>
-                  ))}
-                </div>
-
-                <form onSubmit={handleSendChat} className="chat-input-form">
-                  <input 
-                    type="text" 
-                    placeholder="Pergunte ao Agente de IA..." 
-                    value={userQuery}
-                    onChange={e => setUserQuery(e.target.value)}
-                  />
-                  <button type="submit" className="btn-send"><Send size={16} /></button>
-                </form>
+                    <div className="dec-body">
+                      <h4>{opp.title}</h4>
+                      <p>Categoria: <strong>{opp.category}</strong> | Confiança da IA: <strong>{opp.confidence}</strong></p>
+                      <div className="dec-action">
+                        👉 <strong>Recomendação Executiva:</strong> {opp.action}
+                      </div>
+                    </div>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
