@@ -1,5 +1,8 @@
 import os
 import sys
+# Removed problematic PYTHON_EXECUTABLE env var setting
+
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -25,6 +28,12 @@ def main():
         app_py_path = (ROOT / "dashboard" / "app.py").as_posix()
         print(f"Enviando {app_py_path} para {stage_root}...")
         session.file.put(app_py_path, stage_root, auto_compress=False, overwrite=True)
+        
+        # Upload requirements.txt for Streamlit dependencies
+        req_path = (ROOT / "requirements.txt").as_posix()
+        if os.path.exists(req_path):
+            print(f"Enviando {req_path} para {stage_root}...")
+            session.file.put(req_path, stage_root, auto_compress=False, overwrite=True)
         
         # 2. Upload dashboard/logo.png to root stage
         logo_path = (ROOT / "dashboard" / "logo.png").as_posix()

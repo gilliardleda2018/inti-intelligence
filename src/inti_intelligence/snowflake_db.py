@@ -1,6 +1,11 @@
 from __future__ import annotations
 import os
+# Workaround for Windows Store Python stub – skip libc detection in Snowflake connector
+os.environ["SNOWFLAKE_SKIP_LIBC_DETECTION"] = "TRUE"
+# duplicate import removed
 import pandas as pd
+import time
+from pathlib import Path
 from pathlib import Path
 
 # Load .env if python-dotenv is available
@@ -48,6 +53,10 @@ def get_snowflake_session():
 def init_snowflake_db(session=None):
     """Setup the Snowflake schema, tables, and warehouse settings for cost-efficiency."""
     if session is None:
+        session = get_snowflake_session()
+
+    # (Existing init logic remains unchanged – will be kept below)
+
         session = get_snowflake_session()
         
     # Standardize the current warehouse to size XSMALL and suspend after 60s of inactivity to save promotional credits ($400)

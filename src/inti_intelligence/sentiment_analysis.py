@@ -99,6 +99,7 @@ def analyze_sentiment_with_cortex(session=None) -> bool:
                 return False
             # Carrega reviews locais e calcula heurística
             df = session.table(f"{DB}.{SCHEMA}.PRODUCT_REVIEWS").to_pandas()
+            df.columns = [c.lower() for c in df.columns]
             for idx, row in df.iterrows():
                 if row['sentiment_score'] == 0.0 or pd.isna(row['sentiment_score']):
                     score = get_sentiment_local_fallback(row['review_text'])
