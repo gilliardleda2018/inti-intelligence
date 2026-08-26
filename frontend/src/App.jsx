@@ -81,6 +81,33 @@ const DEFAULT_ELASTICITY = {
   ]
 };
 
+const PROMPT_MENUS = {
+  executive: [
+    "Qual a síntese executiva sobre a saúde comercial do catálogo de 587 produtos?",
+    "Quais são as 3 principais ações estratégicas com maior ROI para hoje?",
+    "Qual o diagnóstico de CSAT e percepção de valor dos clientes?",
+    "Como está distribuído o faturamento e preço mediano por categoria?"
+  ],
+  buyer: [
+    "Quais categorias e tamanhos possuem maior risco de ruptura de estoque?",
+    "Quais são os principais White Spaces e lacunas no nosso mix de produtos?",
+    "Como está o índice de cobertura de grade de tamanhos (P, M, G, GG)?",
+    "Quantas unidades da grade M/G devemos remanejar para o CD Principal?"
+  ],
+  pricing: [
+    "Quais categorias apresentam maior pressão de desconto (Markdown Pressure)?",
+    "Qual a elasticidade da categoria Vestidos e o desconto ótimo sugerido?",
+    "Qual a estimativa de ganho em margem ao reduzir 5% de desconto em Blazers?",
+    "Quais SKUs do Cluster de Baixo Giro devemos liquidação hoje?"
+  ],
+  qa: [
+    "Quais foram os principais motivos de reclamação de clientes nas últimas 48h?",
+    "Qual o diagnóstico técnico sobre defeitos de costura em zíperes de Seda?",
+    "Quais produtos apresentam divergência na tabela de medidas e tamanhos?",
+    "Quais fornecedores e lotes devem ser acionados para auditoria técnica?"
+  ]
+};
+
 const AGENTS = [
   { id: "executive", name: "Agente Executivo", title: "CEO Advisor", icon: Crown, color: "#F59E0B", desc: "Análise estratégica dos 587 produtos, metas e visão executiva." },
   { id: "buyer", name: "Agente Comprador", title: "Assortment Specialist", icon: ShoppingBag, color: "#10B981", desc: "Recomendações para as 14 categorias e reposição de estoque." },
@@ -424,6 +451,26 @@ function App() {
                     </div>
                   </div>
                 ))}
+              </div>
+
+              {/* Prompt Menu Chips */}
+              <div className="prompt-menu-container">
+                <span className="prompt-menu-title">💡 Menu de Perguntas Recomendadas para este Agente:</span>
+                <div className="prompt-chips-grid">
+                  {(PROMPT_MENUS[selectedAgent] || []).map((promptText, idx) => (
+                    <button 
+                      key={idx} 
+                      className="prompt-chip-btn"
+                      onClick={() => {
+                        setUserQuery(promptText);
+                        const fakeEvent = { preventDefault: () => {} };
+                        setTimeout(() => handleSendMultiChat(fakeEvent), 50);
+                      }}
+                    >
+                      {promptText}
+                    </button>
+                  ))}
+                </div>
               </div>
 
               <form onSubmit={handleSendMultiChat} className="chat-input-bar">

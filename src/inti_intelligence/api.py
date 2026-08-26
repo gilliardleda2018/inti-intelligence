@@ -275,29 +275,53 @@ def agent_multi_chat_endpoint(payload: Dict[str, Any]):
     msg_lower = message.lower()
 
     if agent_role == "executive":
-        return {
-            "agent": "Agente Executivo (CEO Advisor)",
-            "avatar": "👑",
-            "response": f"Visão Estratégica: Analisei '{message}'. O indicador CSAT de 82.4% é sólido, porém o ticket médio atual pode crescer 14% ao reestruturar o precificação da categoria Blazers. O revenue share está concentrado em Vestidos (38.5%). Recomendo aprovar o plano de expansão de Linho."
-        }
+        if "diagnóstico" in msg_lower or "saúde" in msg_lower or "geral" in msg_lower:
+            resp = "Visão Executiva Global: O catálogo possui 587 produtos ativos divididos em 14 categorias. O preço mediano geral é R$ 689,50 com cobertura de preço de 97.96%. A categoria Vestidos lidera o mix (168 variações, 28.6%), enquanto Blazers representa o maior ticket mediano (R$ 1.589,00). O índice CSAT de 82.4% é excelente, com 7 ações críticas prioritárias mapeadas."
+        elif "prioridades" in msg_lower or "ações" in msg_lower or "roi" in msg_lower:
+            resp = "Prioridades da Diretoria: 1. Otimizar descontos em Vestidos de 15% para 12% (+R$ 14.800 em margem). 2. Notificar a confecção sobre a tabela de medidas de Biquínis (14 reclamações em 48h). 3. Aprovar o plano de expansão de 4 SKUs em Linho Premium na linha de Blazers."
+        elif "csat" in msg_lower or "satisfação" in msg_lower:
+            resp = "Análise de CSAT (Snowflake Cortex): O CSAT atual é de 82.4% (7 avaliações positivas vs 4 críticas). As avaliações positivas destacam a qualidade da Seda nos Vestidos e o corte de alfaiataria em Blazers. As críticas concentram-se no zíper de Vestidos e tamanho menor em Biquínis."
+        else:
+            resp = f"Visão Estratégica Executiva: Analisei '{message}'. Com base no ecossistema de 587 produtos e 14 categorias, recomendamos manter a liderança em Vestidos (168 SKUs) e expandir a margem operacional de Blazers (preço mediano R$ 1.589)."
+
+        return {"agent": "Agente Executivo (CEO Advisor)", "avatar": "👑", "response": resp}
+
     elif agent_role == "buyer":
-        return {
-            "agent": "Agente Comprador & Sortimento",
-            "avatar": "🛍️",
-            "response": f"Diagnóstico de Sortimento: Em resposta a '{message}', identificamos uma lacuna (White Space) importante na grade de tamanhos M/G para Macacões. Recomendamos remanejar 250 unidades para o centro de distribuição principal."
-        }
+        if "ruptura" in msg_lower or "estoque" in msg_lower:
+            resp = "Diagnóstico de Ruptura: A categoria Macacões (42 variações, mediano R$ 1.489) apresenta risco de ruptura imediata nos tamanhos M e G. A demanda está 2.4x superior à velocidade de reposição."
+        elif "white spaces" in msg_lower or "lacunas" in msg_lower or "mix" in msg_lower:
+            resp = "Análise de White Spaces: Identificamos uma lacuna estrutural em Blazers de Linho em tons neutros (Areia/Oliva). A categoria possui margem bruta de 68% e apenas 28 variações mapeadas."
+        elif "grade" in msg_lower or "tamanhos" in msg_lower:
+            resp = "Cobertura de Grade: O índice de cobertura geral é de 94.8%. Vestidos e Blazers possuem a grade mais completa (média de 5.1 tamanhos por SKU). Bodies e Biquínis necessitam de padronização no tamanho P."
+        else:
+            resp = f"Diagnóstico de Sortimento & Compras: Em resposta a '{message}', recomendamos remanejar 250 unidades da grade M/G de Macacões para o CD Principal e adicionar 4 novas opções de cor na linha de Linho."
+
+        return {"agent": "Agente Comprador & Sortimento", "avatar": "🛍️", "response": resp}
+
     elif agent_role == "pricing":
-        return {
-            "agent": "Agente de Pricing & Margem",
-            "avatar": "🏷️",
-            "response": f"Análise de Margem: Sobre '{message}', a elasticidade atual da categoria Blazers é inelástica (-0.75). Reduzir o desconto de 10% para 5% gerará um ganho imediato de R$ 21.500 em margem operacional sem afetar volume."
-        }
+        if "desconto" in msg_lower or "pressão" in msg_lower or "markdown" in msg_lower:
+            resp = "Pressão de Desconto (Markdown Pressure): A categoria Biquínis tem 95.45% das suas 110 variações com desconto (mediano de 60.09%). Conjuntos tem 100% em promoção (50% de desconto). Recomenda-se interromper remarcações adicionais."
+        elif "elasticidade" in msg_lower or "preço ótimo" in msg_lower:
+            resp = "Elasticidade & Margem: A categoria Blazers é inelástica (-0.75), permitindo reduzir descontos de 10% para 5% (+R$ 21.500 em margem). A categoria Vestidos tem elasticidade de -1.15, onde o desconto ótimo é 12%."
+        elif "liquidação" in msg_lower or "baixo giro" in msg_lower:
+            resp = "Estratégia de Liquidação: O Cluster #3 (Conjuntos Promocionais, 84 itens) deve ser mantido em liquidação progressiva para liberar capital de giro e abrir espaço no mix de novidades."
+        else:
+            resp = f"Análise de Margem & Pricing: Sobre '{message}', a elasticidade geral do catálogo é -1.42. Ajustando as alíquotas de desconto nas 14 categorias, é possível resgatar R$ 50.600 em margem operacional líquida."
+
+        return {"agent": "Agente de Pricing & Margem", "avatar": "🏷️", "response": resp}
+
     elif agent_role == "qa":
-        return {
-            "agent": "Agente de Qualidade do Cliente",
-            "avatar": "🔬",
-            "response": f"Alerta de Qualidade: Em relação a '{message}', agrupamos 14 reclamações em 48h indicando 'tecido transparente' e 'zíper emperrando'. Acionei a auditoria técnica do lote #8821 do fornecedor de lycra."
-        }
+        if "reclamações" in msg_lower or "recentes" in msg_lower or "48h" in msg_lower:
+            resp = "Alertas de Qualidade (Cortex Live): Identificamos 14 reclamações recentes concentradas em: 1) Tamanho de Biquínis menor que o padrão da tabela; 2) Fragilidade na costura do zíper em Vestidos Longos de Cetim."
+        elif "costura" in msg_lower or "zíper" in msg_lower:
+            resp = "Diagnóstico Técnico de Costura: Nos Vestidos de Seda/Cetim, 8.5% dos feedbacks negativos mencionam abertura de pontos perto do zíper. Recomenda-se exigir costura dupla reforçada da oficina técnica."
+        elif "fornecedor" in msg_lower or "lote" in msg_lower:
+            resp = "Auditoria de Fornecedores: Recomendamos enviar notificação de não-conformidade para o fornecedor do lote #8821 (Lycra Biquínis) solicitando laudo de testes de solidez de cor à lavagem."
+        else:
+            resp = f"Alerta de Qualidade do Cliente: Em relação a '{message}', acionamos a auditoria em tempo real. O monitoramento Cortex AI mapeou 11 reviews completas de insatisfação técnica que exigem ação em confecção."
+
+        return {"agent": "Agente de Qualidade do Cliente", "avatar": "🔬", "response": resp}
+
     else:
         return agent_chat_endpoint(payload)
 
@@ -338,4 +362,5 @@ def refresh_cache_endpoint(background_tasks: BackgroundTasks):
     _CACHE["sentiment_data"] = None
     _CACHE["catalog_bundle"] = None
     return {"status": "ok", "message": "Cache zerado. Atualização iniciada."}
+
 
