@@ -1,0 +1,6679 @@
+{
+  "catalog_count": 587,
+  "commercial_kpis": {
+    "priced_variants": 575,
+    "price_coverage_pct": 97.96,
+    "median_price": 689.5,
+    "q75_price": 995.05,
+    "premium_threshold": 995.05,
+    "discounted_pct": 22.09,
+    "median_discount_pct": 59.93,
+    "promotion_concentration_top_category_pct": 82.68
+  },
+  "category_summary": [
+    {
+      "category": "Blazers",
+      "variants": 25,
+      "median_price": 1589.0,
+      "q25_price": 794.5,
+      "q75_price": 1789.0,
+      "max_price": 2392.1,
+      "discounted_variants": 0,
+      "discounted_pct": 0.0,
+      "median_discount_pct": NaN,
+      "price_position_index": 230.5,
+      "category_price_tier": "PREMIUM"
+    },
+    {
+      "category": "Macacões",
+      "variants": 41,
+      "median_price": 1489.0,
+      "q25_price": 844.5,
+      "q75_price": 1789.0,
+      "max_price": 1889.0,
+      "discounted_variants": 0,
+      "discounted_pct": 0.0,
+      "median_discount_pct": NaN,
+      "price_position_index": 216.0,
+      "category_price_tier": "PREMIUM"
+    },
+    {
+      "category": "Sobretudos",
+      "variants": 1,
+      "median_price": 1244.5,
+      "q25_price": 1244.5,
+      "q75_price": 1244.5,
+      "max_price": 1244.5,
+      "discounted_variants": 0,
+      "discounted_pct": 0.0,
+      "median_discount_pct": NaN,
+      "price_position_index": 180.5,
+      "category_price_tier": "PREMIUM"
+    },
+    {
+      "category": "Vestidos",
+      "variants": 168,
+      "median_price": 1069.5,
+      "q25_price": 744.5,
+      "q75_price": 1889.0,
+      "max_price": 2389.0,
+      "discounted_variants": 0,
+      "discounted_pct": 0.0,
+      "median_discount_pct": NaN,
+      "price_position_index": 155.1,
+      "category_price_tier": "PREMIUM"
+    },
+    {
+      "category": "Blusas",
+      "variants": 23,
+      "median_price": 989.0,
+      "q25_price": 829.0,
+      "q75_price": 1679.6,
+      "max_price": 1879.1,
+      "discounted_variants": 0,
+      "discounted_pct": 0.0,
+      "median_discount_pct": NaN,
+      "price_position_index": 143.4,
+      "category_price_tier": "PREMIUM"
+    },
+    {
+      "category": "Sem categoria",
+      "variants": 18,
+      "median_price": 694.5,
+      "q25_price": 494.5,
+      "q75_price": 869.0,
+      "max_price": 1822.1,
+      "discounted_variants": 0,
+      "discounted_pct": 0.0,
+      "median_discount_pct": NaN,
+      "price_position_index": 100.7,
+      "category_price_tier": "CORE"
+    },
+    {
+      "category": "Calças",
+      "variants": 24,
+      "median_price": 694.25,
+      "q25_price": 569.5,
+      "q75_price": 891.5,
+      "max_price": 989.0,
+      "discounted_variants": 0,
+      "discounted_pct": 0.0,
+      "median_discount_pct": NaN,
+      "price_position_index": 100.7,
+      "category_price_tier": "CORE"
+    },
+    {
+      "category": "Bodies",
+      "variants": 52,
+      "median_price": 649.0,
+      "q25_price": 344.5,
+      "q75_price": 789.0,
+      "max_price": 1822.1,
+      "discounted_variants": 0,
+      "discounted_pct": 0.0,
+      "median_discount_pct": NaN,
+      "price_position_index": 94.1,
+      "category_price_tier": "CORE"
+    },
+    {
+      "category": "Saídas",
+      "variants": 8,
+      "median_price": 594.5,
+      "q25_price": 594.5,
+      "q75_price": 693.12,
+      "max_price": 989.0,
+      "discounted_variants": 0,
+      "discounted_pct": 0.0,
+      "median_discount_pct": NaN,
+      "price_position_index": 86.2,
+      "category_price_tier": "CORE"
+    },
+    {
+      "category": "Pareôs",
+      "variants": 23,
+      "median_price": 489.0,
+      "q25_price": 366.75,
+      "q75_price": 519.0,
+      "max_price": 739.0,
+      "discounted_variants": 0,
+      "discounted_pct": 0.0,
+      "median_discount_pct": NaN,
+      "price_position_index": 70.9,
+      "category_price_tier": "ACCESS"
+    },
+    {
+      "category": "Saias",
+      "variants": 18,
+      "median_price": 444.5,
+      "q25_price": 332.0,
+      "q75_price": 607.0,
+      "max_price": 989.0,
+      "discounted_variants": 0,
+      "discounted_pct": 0.0,
+      "median_discount_pct": NaN,
+      "price_position_index": 64.5,
+      "category_price_tier": "ACCESS"
+    },
+    {
+      "category": "Conjuntos",
+      "variants": 22,
+      "median_price": 429.75,
+      "q25_price": 399.5,
+      "q75_price": 492.25,
+      "max_price": 497.25,
+      "discounted_variants": 22,
+      "discounted_pct": 100.0,
+      "median_discount_pct": 50.0,
+      "price_position_index": 62.3,
+      "category_price_tier": "ACCESS"
+    },
+    {
+      "category": "Croppeds",
+      "variants": 32,
+      "median_price": 394.5,
+      "q25_price": 379.5,
+      "q75_price": 410.75,
+      "max_price": 859.0,
+      "discounted_variants": 0,
+      "discounted_pct": 0.0,
+      "median_discount_pct": NaN,
+      "price_position_index": 57.2,
+      "category_price_tier": "ACCESS"
+    },
+    {
+      "category": "Shorts",
+      "variants": 10,
+      "median_price": 372.0,
+      "q25_price": 349.88,
+      "q75_price": 394.5,
+      "max_price": 689.0,
+      "discounted_variants": 0,
+      "discounted_pct": 0.0,
+      "median_discount_pct": NaN,
+      "price_position_index": 54.0,
+      "category_price_tier": "ACCESS"
+    },
+    {
+      "category": "Biquínis",
+      "variants": 110,
+      "median_price": 118.0,
+      "q25_price": 110.0,
+      "q75_price": 220.0,
+      "max_price": 1261.6,
+      "discounted_variants": 105,
+      "discounted_pct": 95.45,
+      "median_discount_pct": 60.09,
+      "price_position_index": 17.1,
+      "category_price_tier": "ACCESS"
+    }
+  ],
+  "assortment_kpis": {
+    "variants_total": 587,
+    "categories": 15,
+    "colors": 30,
+    "top_category_share_pct": 29.47,
+    "top_color_share_pct": 29.81,
+    "category_concentration_hhi": 0.1491,
+    "color_concentration_hhi": 0.1818,
+    "median_variants_per_product": 1.0,
+    "median_sizes_per_variant": 4.0
+  },
+  "assortment_architecture": [
+    {
+      "category": "Vestidos",
+      "variants": 173,
+      "assortment_share_pct": 29.47,
+      "colors": 14,
+      "median_sizes_per_variant": 5.0,
+      "mean_sizes_per_variant": 4.786127167630058,
+      "median_price": 1069.5,
+      "mean_price": 1310.4238095238095,
+      "max_price": 2389.0,
+      "priced_variants": 168,
+      "discounted_variants": 0,
+      "median_discount_pct": NaN,
+      "markdown_share_pct": 0.0
+    },
+    {
+      "category": "Biquínis",
+      "variants": 110,
+      "assortment_share_pct": 18.74,
+      "colors": 17,
+      "median_sizes_per_variant": 4.0,
+      "mean_sizes_per_variant": 4.118181818181818,
+      "median_price": 118.0,
+      "mean_price": 190.6536363636364,
+      "max_price": 1261.6,
+      "priced_variants": 110,
+      "discounted_variants": 105,
+      "median_discount_pct": 60.09,
+      "markdown_share_pct": 95.45
+    },
+    {
+      "category": "Bodies",
+      "variants": 52,
+      "assortment_share_pct": 8.86,
+      "colors": 9,
+      "median_sizes_per_variant": 4.0,
+      "mean_sizes_per_variant": 4.076923076923077,
+      "median_price": 649.0,
+      "mean_price": 680.6846153846153,
+      "max_price": 1822.1,
+      "priced_variants": 52,
+      "discounted_variants": 0,
+      "median_discount_pct": NaN,
+      "markdown_share_pct": 0.0
+    },
+    {
+      "category": "Macacões",
+      "variants": 42,
+      "assortment_share_pct": 7.16,
+      "colors": 8,
+      "median_sizes_per_variant": 5.0,
+      "mean_sizes_per_variant": 5.0,
+      "median_price": 1489.0,
+      "mean_price": 1333.1487804878047,
+      "max_price": 1889.0,
+      "priced_variants": 41,
+      "discounted_variants": 0,
+      "median_discount_pct": NaN,
+      "markdown_share_pct": 0.0
+    },
+    {
+      "category": "Croppeds",
+      "variants": 32,
+      "assortment_share_pct": 5.45,
+      "colors": 10,
+      "median_sizes_per_variant": 4.0,
+      "mean_sizes_per_variant": 4.375,
+      "median_price": 394.5,
+      "mean_price": 408.84375,
+      "max_price": 859.0,
+      "priced_variants": 32,
+      "discounted_variants": 0,
+      "median_discount_pct": NaN,
+      "markdown_share_pct": 0.0
+    },
+    {
+      "category": "Blazers",
+      "variants": 28,
+      "assortment_share_pct": 4.77,
+      "colors": 7,
+      "median_sizes_per_variant": 5.5,
+      "mean_sizes_per_variant": 5.071428571428571,
+      "median_price": 1589.0,
+      "mean_price": 1416.312,
+      "max_price": 2392.1,
+      "priced_variants": 25,
+      "discounted_variants": 0,
+      "median_discount_pct": NaN,
+      "markdown_share_pct": 0.0
+    },
+    {
+      "category": "Blusas",
+      "variants": 26,
+      "assortment_share_pct": 4.43,
+      "colors": 4,
+      "median_sizes_per_variant": 6.0,
+      "mean_sizes_per_variant": 5.307692307692308,
+      "median_price": 989.0,
+      "mean_price": 1137.121739130435,
+      "max_price": 1879.1,
+      "priced_variants": 23,
+      "discounted_variants": 0,
+      "median_discount_pct": NaN,
+      "markdown_share_pct": 0.0
+    },
+    {
+      "category": "Calças",
+      "variants": 24,
+      "assortment_share_pct": 4.09,
+      "colors": 6,
+      "median_sizes_per_variant": 4.5,
+      "mean_sizes_per_variant": 4.75,
+      "median_price": 694.25,
+      "mean_price": 716.5416666666666,
+      "max_price": 989.0,
+      "priced_variants": 24,
+      "discounted_variants": 0,
+      "median_discount_pct": NaN,
+      "markdown_share_pct": 0.0
+    },
+    {
+      "category": "Pareôs",
+      "variants": 23,
+      "assortment_share_pct": 3.92,
+      "colors": 10,
+      "median_sizes_per_variant": 4.0,
+      "mean_sizes_per_variant": 2.6956521739130435,
+      "median_price": 489.0,
+      "mean_price": 475.8695652173913,
+      "max_price": 739.0,
+      "priced_variants": 23,
+      "discounted_variants": 0,
+      "median_discount_pct": NaN,
+      "markdown_share_pct": 0.0
+    },
+    {
+      "category": "Conjuntos",
+      "variants": 22,
+      "assortment_share_pct": 3.75,
+      "colors": 7,
+      "median_sizes_per_variant": 4.5,
+      "mean_sizes_per_variant": 4.5,
+      "median_price": 429.75,
+      "mean_price": 415.3636363636364,
+      "max_price": 497.25,
+      "priced_variants": 22,
+      "discounted_variants": 22,
+      "median_discount_pct": 50.0,
+      "markdown_share_pct": 100.0
+    },
+    {
+      "category": "Saias",
+      "variants": 18,
+      "assortment_share_pct": 3.07,
+      "colors": 7,
+      "median_sizes_per_variant": 4.0,
+      "mean_sizes_per_variant": 4.277777777777778,
+      "median_price": 444.5,
+      "mean_price": 508.55555555555554,
+      "max_price": 989.0,
+      "priced_variants": 18,
+      "discounted_variants": 0,
+      "median_discount_pct": NaN,
+      "markdown_share_pct": 0.0
+    },
+    {
+      "category": "Sem categoria",
+      "variants": 18,
+      "assortment_share_pct": 3.07,
+      "colors": 7,
+      "median_sizes_per_variant": 4.0,
+      "mean_sizes_per_variant": 4.5,
+      "median_price": 694.5,
+      "mean_price": 811.6222222222223,
+      "max_price": 1822.1,
+      "priced_variants": 18,
+      "discounted_variants": 0,
+      "median_discount_pct": NaN,
+      "markdown_share_pct": 0.0
+    },
+    {
+      "category": "Shorts",
+      "variants": 10,
+      "assortment_share_pct": 1.7,
+      "colors": 4,
+      "median_sizes_per_variant": 4.0,
+      "mean_sizes_per_variant": 4.5,
+      "median_price": 372.0,
+      "mean_price": 430.95,
+      "max_price": 689.0,
+      "priced_variants": 10,
+      "discounted_variants": 0,
+      "median_discount_pct": NaN,
+      "markdown_share_pct": 0.0
+    },
+    {
+      "category": "Saídas",
+      "variants": 8,
+      "assortment_share_pct": 1.36,
+      "colors": 4,
+      "median_sizes_per_variant": 4.0,
+      "mean_sizes_per_variant": 3.75,
+      "median_price": 594.5,
+      "mean_price": 693.125,
+      "max_price": 989.0,
+      "priced_variants": 8,
+      "discounted_variants": 0,
+      "median_discount_pct": NaN,
+      "markdown_share_pct": 0.0
+    },
+    {
+      "category": "Sobretudos",
+      "variants": 1,
+      "assortment_share_pct": 0.17,
+      "colors": 1,
+      "median_sizes_per_variant": 4.0,
+      "mean_sizes_per_variant": 4.0,
+      "median_price": 1244.5,
+      "mean_price": 1244.5,
+      "max_price": 1244.5,
+      "priced_variants": 1,
+      "discounted_variants": 0,
+      "median_discount_pct": NaN,
+      "markdown_share_pct": 0.0
+    }
+  ],
+  "opportunities": [
+    {
+      "priority": "HIGH",
+      "signal_type": "MARKDOWN_CONCENTRATION",
+      "category": "Biquínis",
+      "headline": "Biquínis: pressão promocional acima do mix",
+      "evidence": "95.5% das variantes em markdown; profundidade mediana 60.1%.",
+      "action": "Revisar ciclo da categoria, cobertura de grade, preço cheio e necessidade de novas compras antes de ampliar promoções.",
+      "score": 97.5
+    },
+    {
+      "priority": "HIGH",
+      "signal_type": "MARKDOWN_CONCENTRATION",
+      "category": "Conjuntos",
+      "headline": "Conjuntos: pressão promocional acima do mix",
+      "evidence": "100.0% das variantes em markdown; profundidade mediana 50.0%.",
+      "action": "Revisar ciclo da categoria, cobertura de grade, preço cheio e necessidade de novas compras antes de ampliar promoções.",
+      "score": 92.4
+    },
+    {
+      "priority": "MEDIUM",
+      "signal_type": "PREMIUM_CONCENTRATION",
+      "category": "Vestidos",
+      "headline": "Vestidos: concentração de ticket premium",
+      "evidence": "Preço mediano R$ 1069.50, acima da mediana global por categoria.",
+      "action": "Proteger percepção de valor, priorizar storytelling e evitar desconto indiscriminado em itens premium.",
+      "score": 100.0
+    },
+    {
+      "priority": "MEDIUM",
+      "signal_type": "PREMIUM_CONCENTRATION",
+      "category": "Macacões",
+      "headline": "Macacões: concentração de ticket premium",
+      "evidence": "Preço mediano R$ 1489.00, acima da mediana global por categoria.",
+      "action": "Proteger percepção de valor, priorizar storytelling e evitar desconto indiscriminado em itens premium.",
+      "score": 100.0
+    },
+    {
+      "priority": "MEDIUM",
+      "signal_type": "PREMIUM_CONCENTRATION",
+      "category": "Blazers",
+      "headline": "Blazers: concentração de ticket premium",
+      "evidence": "Preço mediano R$ 1589.00, acima da mediana global por categoria.",
+      "action": "Proteger percepção de valor, priorizar storytelling e evitar desconto indiscriminado em itens premium.",
+      "score": 100.0
+    },
+    {
+      "priority": "MEDIUM",
+      "signal_type": "ASSORTMENT_CONCENTRATION",
+      "category": "Vestidos",
+      "headline": "Vestidos: forte concentração do sortimento",
+      "evidence": "29.5% de todas as variantes públicas.",
+      "action": "Avaliar se a concentração reflete estratégia de coleção ou dependência excessiva de uma categoria.",
+      "score": 98.0
+    },
+    {
+      "priority": "MEDIUM",
+      "signal_type": "PREMIUM_CONCENTRATION",
+      "category": "Blusas",
+      "headline": "Blusas: concentração de ticket premium",
+      "evidence": "Preço mediano R$ 989.00, acima da mediana global por categoria.",
+      "action": "Proteger percepção de valor, priorizar storytelling e evitar desconto indiscriminado em itens premium.",
+      "score": 91.9
+    }
+  ],
+  "near_duplicates": [
+    {
+      "product": "Vestido Walker Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Salvi Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Zephyr Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Tess Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Walker Framboesa",
+      "category": "Vestidos",
+      "neighbor": "Vestido Fontaine Framboesa",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Vitalli Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Vallez Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Vitalli Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Rennie Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Vallez Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Rennie Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Tucker Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Cowden Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Tucker Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Cowden Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Tricot Nau Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Tricot Murphy Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Tricot Nau Avelã",
+      "category": "Vestidos",
+      "neighbor": "Vestido Tricot Murphy Avelã",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Blusa Percy Off-White",
+      "category": "Blusas",
+      "neighbor": "Blusa Alexis Off-White",
+      "neighbor_category": "Blusas",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "BLUSA PERCY OFF-WHITE + CALÇA JEANS MALCOLM AZUL CLARO",
+      "category": "Blusas",
+      "neighbor": "BLUSA ALEXIS OFF-WHITE + CALÇA JEANS MALCOLM AZUL ESCURO",
+      "neighbor_category": "Blusas",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Blazer Vestido Schiffer Off-White",
+      "category": "Blazers",
+      "neighbor": "Blazer Vestido Agatha Off-White",
+      "neighbor_category": "Blazers",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Blazer Vestido Schiffer Preto",
+      "category": "Blazers",
+      "neighbor": "Blazer Vestido Agatha Preto",
+      "neighbor_category": "Blazers",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Blazer Vestido Schiffer Preto",
+      "category": "Blazers",
+      "neighbor": "Blazer Adonis Preto",
+      "neighbor_category": "Blazers",
+      "rank": 2,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Blazer Vestido Vincent Preto",
+      "category": "Blazers",
+      "neighbor": "Blazer Vestido Darleen Preto",
+      "neighbor_category": "Blazers",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "BLUSA PERCY PRETA + CALÇA JEANS MALCOLM AZUL ESCURO",
+      "category": "Blusas",
+      "neighbor": "BLUSA ALEXIS PRETA + CALÇA JEANS MALCOLM AZUL ESCURO",
+      "neighbor_category": "Blusas",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Blusa Percy Preto",
+      "category": "Blusas",
+      "neighbor": "Blusa Alexis Preto",
+      "neighbor_category": "Blusas",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Blusa Tommaso Preto",
+      "category": "Blusas",
+      "neighbor": "Blusa Cesare Preto",
+      "neighbor_category": "Blusas",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Body Bonnie Pérola",
+      "category": "Bodies",
+      "neighbor": "Body Darius Pérola",
+      "neighbor_category": "Bodies",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Riccie Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Malmo Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Rizzo Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Linho Reyes Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Rizzo Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Azarius Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Rizzo Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Linho Masp Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Rizzo Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Azarius Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Roland Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Salvi Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Roland Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Fontaine Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Roland Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Walker Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Roland Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Salvi Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Roland Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Fontaine Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Roland Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Walker Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Roland Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Walker Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Roland Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Salvi Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Roland Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Fontaine Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Ludwig Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Jones Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Ludwig Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Dylan Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Ludwig Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Jones Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Ludwig Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Dylan Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Malmo Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Harpa Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Malmo Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Harpa Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Perot Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Reidy Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Linho Reyes Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Azarius Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Linho Reyes Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Linho Masp Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Linho Sugarloaf Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Calla Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Linho Sugarloaf Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Archie Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Linho Sugarloaf Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Atlas Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Linho Sugarloaf Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Calla Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Linho Sugarloaf Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Atlas Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Linho Sugarloaf Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Archie Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Loren Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Tricot Effie Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Ludwig Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Jones Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Ludwig Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Dylan Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Jones Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Dylan Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Linho Arum Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Asther Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Linho Arum Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Linho Frank Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Linho Masp Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Azarius Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Linho Masp Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Azarius Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Biquíni Cyprus Fúcsia",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Lusty Fúcsia",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Biquíni Dion Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Marzan Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Biquíni Dion Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Hali Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Body Ezio Off-White",
+      "category": "Bodies",
+      "neighbor": "Body Theron Off-White",
+      "neighbor_category": "Bodies",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Body Ezio Preto",
+      "category": "Bodies",
+      "neighbor": "Body Lyra Preto",
+      "neighbor_category": "Bodies",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Blazer Vestido Agatha Preto",
+      "category": "Blazers",
+      "neighbor": "Blazer Adonis Preto",
+      "neighbor_category": "Blazers",
+      "rank": 2,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Calça Jeans Dihl Azul Claro",
+      "category": "Calças",
+      "neighbor": "Calça Jeans Dihl Azul Escuro",
+      "neighbor_category": "Calças",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Calça Jeans Malcolm Azul Claro",
+      "category": "Calças",
+      "neighbor": "Calça Jeans Malcolm Azul Escuro",
+      "neighbor_category": "Calças",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Conjunto Denver Off-White",
+      "category": "Conjuntos",
+      "neighbor": "Conjunto Ivy Off-White",
+      "neighbor_category": "Conjuntos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Forest Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Barlett Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Forest Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Hadid Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Forest Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Barlett Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Gio Azul",
+      "category": "Vestidos",
+      "neighbor": "Vestido Salk Azul",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Gio Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Salk Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Hadid Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Forest Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Hadid Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Barlett Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Hadid Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Barlett Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Hadid Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Barlett Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Jones Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Dylan Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Jones Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Dylan Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Fontaine Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Salvi Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Biquíni Hali Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Marzan Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Biquíni Harper Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Peter Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Fontaine Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Walker Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Fontaine Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Salvi Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Fontaine Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Walker Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Fontaine Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Walker Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Fontaine Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Salvi Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Biquíni Kobe Pérola",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Vince Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Filippo Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Tricot Aubrey Preto com Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Corselet Adrian Off-White",
+      "category": "Unknown",
+      "neighbor": "Corselet Kimbell Off-White",
+      "neighbor_category": "Unknown",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Cropped Linho Brett Caramelo",
+      "category": "Croppeds",
+      "neighbor": "Cropped Linho Carl Caramelo",
+      "neighbor_category": "Croppeds",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Cropped Linho Brett Off-White",
+      "category": "Croppeds",
+      "neighbor": "Cropped Robie Off-White",
+      "neighbor_category": "Croppeds",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "BLAZER DONATO MARROM + PANTALONA SAVOYE OFF-WHITE",
+      "category": "Blazers",
+      "neighbor": "BLAZER DONATO + PANTALONA SAVOYE OFF-WHITE",
+      "neighbor_category": "Blazers",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Cropped Linho Brett Off-White",
+      "category": "Croppeds",
+      "neighbor": "Cropped Linho Carl Off-White",
+      "neighbor_category": "Croppeds",
+      "rank": 2,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Cropped Linho Brett Preto",
+      "category": "Croppeds",
+      "neighbor": "Cropped Robie Preto",
+      "neighbor_category": "Croppeds",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Cropped Linho Brett Preto",
+      "category": "Croppeds",
+      "neighbor": "Cropped Linho Carl Preto",
+      "neighbor_category": "Croppeds",
+      "rank": 2,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Cropped Linho Carl Off-White",
+      "category": "Croppeds",
+      "neighbor": "Cropped Robie Off-White",
+      "neighbor_category": "Croppeds",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Calla Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Atlas Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Calla Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Archie Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Collins Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Tricot Aubrey Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Biquíni Kobe Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Vince Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Brice Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Axel Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Bridget Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Walker Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Bridget Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Salvi Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Bridget Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Roland Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Calla Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Archie Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Calla Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Atlas Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Atlas Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Archie Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Atlas Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Archie Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Atlas Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Archie Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Cropped Linho Carl Preto",
+      "category": "Croppeds",
+      "neighbor": "Cropped Robie Preto",
+      "neighbor_category": "Croppeds",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Macacão Aaron Preto",
+      "category": "Macacões",
+      "neighbor": "Macacão Megan Preto",
+      "neighbor_category": "Macacões",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Macacão Amber Off-White",
+      "category": "Macacões",
+      "neighbor": "Macacão Breddon Off-White",
+      "neighbor_category": "Macacões",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Biquíni Miller Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Perez Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Saia Dorian Off-White",
+      "category": "Saias",
+      "neighbor": "Saia Hazel Off-White",
+      "neighbor_category": "Saias",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Short Adonis Preto",
+      "category": "Shorts",
+      "neighbor": "Short Saia Donati Preto",
+      "neighbor_category": "Shorts",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Acacius Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Warren Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Acacius Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Warren Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Macacão Amber Off-White",
+      "category": "Macacões",
+      "neighbor": "Macacão Megan Off-White",
+      "neighbor_category": "Macacões",
+      "rank": 2,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Macacão Amber Preto",
+      "category": "Macacões",
+      "neighbor": "Macacão Breddon Preto",
+      "neighbor_category": "Macacões",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Macacão Amber Vermelho",
+      "category": "Macacões",
+      "neighbor": "Macacão Breddon Vermelho",
+      "neighbor_category": "Macacões",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Macacão Breddon Off-White",
+      "category": "Macacões",
+      "neighbor": "Macacão Megan Off-White",
+      "neighbor_category": "Macacões",
+      "rank": 2,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Macacão Linho Braid Off-White",
+      "category": "Macacões",
+      "neighbor": "Macacão Rith Off-White",
+      "neighbor_category": "Macacões",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Macacão Linho Braid Preto",
+      "category": "Macacões",
+      "neighbor": "Macacão Rith Preto",
+      "neighbor_category": "Macacões",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Macacão Oliver Off-White",
+      "category": "Macacões",
+      "neighbor": "Macacão Zander Off-White",
+      "neighbor_category": "Macacões",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Macaquinho Evans Bege",
+      "category": "Unknown",
+      "neighbor": "Macaquinho Linho Tau Bege",
+      "neighbor_category": "Unknown",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Macaquinho Evans Preto",
+      "category": "Unknown",
+      "neighbor": "Macaquinho Linho Tau Preto",
+      "neighbor_category": "Unknown",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Pantalona Linho Abbie Off-White",
+      "category": "Calças",
+      "neighbor": "Pantalona Ozuna Off-White",
+      "neighbor_category": "Calças",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Pantalona Linho Abbie Preto",
+      "category": "Calças",
+      "neighbor": "Pantalona Ozuna Preto",
+      "neighbor_category": "Calças",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Pareô Lenk Preto",
+      "category": "Pareôs",
+      "neighbor": "Pareô Preto",
+      "neighbor_category": "Pareôs",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Walker Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Salvi Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "Vestido Walker Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Salvi Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 100.0
+    },
+    {
+      "product": "BLUSA ALEXIS OFF-WHITE + CALÇA JEANS MALCOLM AZUL ESCURO",
+      "category": "Blusas",
+      "neighbor": "BLUSA MAYFAR + PANTALONA SAVOYE | OFF-WHITE",
+      "neighbor_category": "Blusas",
+      "rank": 2,
+      "similarity_pct": 99.99
+    },
+    {
+      "product": "Biquíni Vince Pérola",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Conti Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 99.99
+    },
+    {
+      "product": "Biquíni Vince Vermelho Carmim",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Conti Vermelho Carmim",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 99.99
+    },
+    {
+      "product": "Biquíni Vince Castanho",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Conti Castanho",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 99.99
+    },
+    {
+      "product": "BLUSA MAYFAR + PANTALONA SAVOYE | OFF-WHITE",
+      "category": "Blusas",
+      "neighbor": "BLUSA PERCY OFF-WHITE + CALÇA JEANS MALCOLM AZUL CLARO",
+      "neighbor_category": "Blusas",
+      "rank": 2,
+      "similarity_pct": 99.99
+    },
+    {
+      "product": "Biquíni Conti Pérola",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Kobe Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 99.99
+    },
+    {
+      "product": "Biquíni Kobe Azul",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Duncan Azul",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 99.99
+    },
+    {
+      "product": "Biquíni Kobe Cobre",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Duncan Cobre",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 99.99
+    },
+    {
+      "product": "Body Rinaldi Preto",
+      "category": "Bodies",
+      "neighbor": "Body Aliyev Preto",
+      "neighbor_category": "Bodies",
+      "rank": 1,
+      "similarity_pct": 99.98
+    },
+    {
+      "product": "Biquíni Easton Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Vitto Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 99.98
+    },
+    {
+      "product": "Biquíni Vitto Azul Marinho",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Easton Azul Marinho",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 99.98
+    },
+    {
+      "product": "Biquíni Clark Fúcsia",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Cyprus Fúcsia",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 99.98
+    },
+    {
+      "product": "Body Aliyev Off-White",
+      "category": "Bodies",
+      "neighbor": "Body Rinaldi Off-White",
+      "neighbor_category": "Bodies",
+      "rank": 1,
+      "similarity_pct": 99.98
+    },
+    {
+      "product": "Biquíni Clark Fúcsia",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Lusty Fúcsia",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 99.98
+    },
+    {
+      "product": "Cropped Robie Off-White",
+      "category": "Croppeds",
+      "neighbor": "Cropped Saarinen Off-White",
+      "neighbor_category": "Croppeds",
+      "rank": 3,
+      "similarity_pct": 99.98
+    },
+    {
+      "product": "Cropped Saarinen Off-White",
+      "category": "Croppeds",
+      "neighbor": "Cropped Linho Brett Off-White",
+      "neighbor_category": "Croppeds",
+      "rank": 2,
+      "similarity_pct": 99.98
+    },
+    {
+      "product": "Conjunto Fellicce Preto",
+      "category": "Conjuntos",
+      "neighbor": "Conjunto Mitchell Preto",
+      "neighbor_category": "Conjuntos",
+      "rank": 1,
+      "similarity_pct": 99.98
+    },
+    {
+      "product": "Biquíni Bercy Pérola",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Malawi Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 99.97
+    },
+    {
+      "product": "Biquíni Peter Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Perez Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 99.97
+    },
+    {
+      "product": "Biquíni Perez Pérola",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Harper Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 99.97
+    },
+    {
+      "product": "Biquíni Harper Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Miller Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 99.97
+    },
+    {
+      "product": "Biquíni Peter Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Miller Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 99.97
+    },
+    {
+      "product": "Biquíni Peter Cobre",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Miller Cobre",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 99.97
+    },
+    {
+      "product": "Biquíni Perez Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Harper Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 99.97
+    },
+    {
+      "product": "Cropped Saarinen Off-White",
+      "category": "Croppeds",
+      "neighbor": "Cropped Linho Carl Off-White",
+      "neighbor_category": "Croppeds",
+      "rank": 3,
+      "similarity_pct": 99.97
+    },
+    {
+      "product": "Biquíni Bernie Off-White",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Marzan Off-White",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 99.96
+    },
+    {
+      "product": "Short Saia Kahn Off-White",
+      "category": "Shorts",
+      "neighbor": "Short Vesu Off-White",
+      "neighbor_category": "Shorts",
+      "rank": 1,
+      "similarity_pct": 99.96
+    },
+    {
+      "product": "Vestido Asther Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Ethan Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 99.96
+    },
+    {
+      "product": "Vestido Azarius Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Ethan Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.96
+    },
+    {
+      "product": "Vestido Asther Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Ethan Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.96
+    },
+    {
+      "product": "Biquíni Marzan Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Julian Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 99.96
+    },
+    {
+      "product": "Vestido Azarius Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Ethan Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.96
+    },
+    {
+      "product": "Vestido Ethan Bege",
+      "category": "Vestidos",
+      "neighbor": "Vestido Linho Frank Bege",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 99.96
+    },
+    {
+      "product": "Vestido Ethan Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Rizzo Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 99.96
+    },
+    {
+      "product": "Vestido Ethan Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Linho Arum Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.96
+    },
+    {
+      "product": "Biquíni Julian Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Dion Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 99.96
+    },
+    {
+      "product": "Biquíni Hali Pérola",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Julian Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 99.96
+    },
+    {
+      "product": "Biquíni Hali Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Julian Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 99.96
+    },
+    {
+      "product": "Vestido Linho Masp Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Ethan Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.95
+    },
+    {
+      "product": "Vestido Maddox Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Osbert Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 99.95
+    },
+    {
+      "product": "Biquíni Hess Pérola",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Kobe Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 99.94
+    },
+    {
+      "product": "Short Adonis Preto",
+      "category": "Shorts",
+      "neighbor": "Short Linho Strauss Preto",
+      "neighbor_category": "Shorts",
+      "rank": 2,
+      "similarity_pct": 99.94
+    },
+    {
+      "product": "Biquíni Vince Pérola",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Hess Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 99.94
+    },
+    {
+      "product": "Cropped Wiley Off-White",
+      "category": "Croppeds",
+      "neighbor": "Cropped Saarinen Off-White",
+      "neighbor_category": "Croppeds",
+      "rank": 1,
+      "similarity_pct": 99.94
+    },
+    {
+      "product": "Short Saia Donati Preto",
+      "category": "Shorts",
+      "neighbor": "Short Linho Strauss Preto",
+      "neighbor_category": "Shorts",
+      "rank": 2,
+      "similarity_pct": 99.94
+    },
+    {
+      "product": "Biquíni Capanema Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Galea Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 99.93
+    },
+    {
+      "product": "Biquíni Riva Pérola",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Atticus Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 99.92
+    },
+    {
+      "product": "Conjunto Lamellae Preto",
+      "category": "Conjuntos",
+      "neighbor": "Conjunto Ivy Preto",
+      "neighbor_category": "Conjuntos",
+      "rank": 1,
+      "similarity_pct": 99.92
+    },
+    {
+      "product": "Conjunto Lamellae Off-White",
+      "category": "Conjuntos",
+      "neighbor": "Conjunto Ivy Off-White",
+      "neighbor_category": "Conjuntos",
+      "rank": 1,
+      "similarity_pct": 99.92
+    },
+    {
+      "product": "Biquíni Conti Pérola",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Hess Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 99.91
+    },
+    {
+      "product": "Cropped Wiley Off-White",
+      "category": "Croppeds",
+      "neighbor": "Cropped Adams Off-White",
+      "neighbor_category": "Croppeds",
+      "rank": 2,
+      "similarity_pct": 99.91
+    },
+    {
+      "product": "Biquíni Alann Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Castillo Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 99.91
+    },
+    {
+      "product": "Blazer Adonis Preto",
+      "category": "Blazers",
+      "neighbor": "Blazer Corrington Preto",
+      "neighbor_category": "Blazers",
+      "rank": 3,
+      "similarity_pct": 99.9
+    },
+    {
+      "product": "Blazer Vestido Schiffer Preto",
+      "category": "Blazers",
+      "neighbor": "Blazer Corrington Preto",
+      "neighbor_category": "Blazers",
+      "rank": 3,
+      "similarity_pct": 99.9
+    },
+    {
+      "product": "Conjunto Denver Off-White",
+      "category": "Conjuntos",
+      "neighbor": "Conjunto Lamellae Off-White",
+      "neighbor_category": "Conjuntos",
+      "rank": 2,
+      "similarity_pct": 99.9
+    },
+    {
+      "product": "Blazer Corrington Preto",
+      "category": "Blazers",
+      "neighbor": "Blazer Vestido Agatha Preto",
+      "neighbor_category": "Blazers",
+      "rank": 3,
+      "similarity_pct": 99.9
+    },
+    {
+      "product": "Body Ezio Preto",
+      "category": "Bodies",
+      "neighbor": "Body Waud Preto",
+      "neighbor_category": "Bodies",
+      "rank": 2,
+      "similarity_pct": 99.89
+    },
+    {
+      "product": "Vestido Linho Sugarloaf Avelã",
+      "category": "Vestidos",
+      "neighbor": "Vestido Linho Masp Avelã",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 99.89
+    },
+    {
+      "product": "Vestido Linho Masp Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Linho Sugarloaf Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.89
+    },
+    {
+      "product": "Body Rodd Preto",
+      "category": "Bodies",
+      "neighbor": "Body Lyra Preto",
+      "neighbor_category": "Bodies",
+      "rank": 1,
+      "similarity_pct": 99.89
+    },
+    {
+      "product": "Vestido Matt Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Alvorada Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 99.88
+    },
+    {
+      "product": "Macacão Zander Off-White",
+      "category": "Macacões",
+      "neighbor": "Macacão Alberts Off-White",
+      "neighbor_category": "Macacões",
+      "rank": 2,
+      "similarity_pct": 99.88
+    },
+    {
+      "product": "Macacão Alberts Off-White",
+      "category": "Macacões",
+      "neighbor": "Macacão Oliver Off-White",
+      "neighbor_category": "Macacões",
+      "rank": 1,
+      "similarity_pct": 99.88
+    },
+    {
+      "product": "Macacão Linho Braid Off-White",
+      "category": "Macacões",
+      "neighbor": "Macacão Fiorese Off-White",
+      "neighbor_category": "Macacões",
+      "rank": 2,
+      "similarity_pct": 99.87
+    },
+    {
+      "product": "Vestido Zephyr Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Amida Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.87
+    },
+    {
+      "product": "Vestido Harpa Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Ivory Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.87
+    },
+    {
+      "product": "Vestido Malmo Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Ivory Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.87
+    },
+    {
+      "product": "Vestido Malmo Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Ivory Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.87
+    },
+    {
+      "product": "Vestido Cameron Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Salvi Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 99.87
+    },
+    {
+      "product": "Body Lyra Preto",
+      "category": "Bodies",
+      "neighbor": "Body Waud Preto",
+      "neighbor_category": "Bodies",
+      "rank": 3,
+      "similarity_pct": 99.87
+    },
+    {
+      "product": "Vestido Cameron Azul",
+      "category": "Vestidos",
+      "neighbor": "Vestido Salvi Azul",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 99.87
+    },
+    {
+      "product": "Body Otto Preto",
+      "category": "Bodies",
+      "neighbor": "Body Heydar Preto",
+      "neighbor_category": "Bodies",
+      "rank": 1,
+      "similarity_pct": 99.87
+    },
+    {
+      "product": "Vestido Tess Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Amida Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.87
+    },
+    {
+      "product": "Vestido Cameron Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Fontaine Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.87
+    },
+    {
+      "product": "Vestido Ivory Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Riccie Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 99.87
+    },
+    {
+      "product": "Macacão Rith Off-White",
+      "category": "Macacões",
+      "neighbor": "Macacão Fiorese Off-White",
+      "neighbor_category": "Macacões",
+      "rank": 2,
+      "similarity_pct": 99.87
+    },
+    {
+      "product": "Vestido Cameron Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Roland Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.87
+    },
+    {
+      "product": "Vestido Cameron Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Salvi Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 99.87
+    },
+    {
+      "product": "Vestido Cameron Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Fontaine Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.87
+    },
+    {
+      "product": "Cropped Wiley Off-White",
+      "category": "Croppeds",
+      "neighbor": "Cropped Robie Off-White",
+      "neighbor_category": "Croppeds",
+      "rank": 3,
+      "similarity_pct": 99.87
+    },
+    {
+      "product": "Vestido Cameron Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Roland Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.87
+    },
+    {
+      "product": "Vestido Iron Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Perot Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 99.86
+    },
+    {
+      "product": "Vestido Rizzo Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Atlas Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.86
+    },
+    {
+      "product": "Vestido Archie Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Rizzo Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.86
+    },
+    {
+      "product": "Vestido Atlas Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Azarius Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.86
+    },
+    {
+      "product": "Vestido Catton Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Bonet Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 99.86
+    },
+    {
+      "product": "Vestido Azarius Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Atlas Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.86
+    },
+    {
+      "product": "Body Ezio Preto",
+      "category": "Bodies",
+      "neighbor": "Body Rodd Preto",
+      "neighbor_category": "Bodies",
+      "rank": 3,
+      "similarity_pct": 99.86
+    },
+    {
+      "product": "Vestido Archie Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Azarius Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.86
+    },
+    {
+      "product": "Vestido Acacius Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Cameron Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.85
+    },
+    {
+      "product": "Short Linho Strauss Preto",
+      "category": "Shorts",
+      "neighbor": "Short Saia Kahn Preto",
+      "neighbor_category": "Shorts",
+      "rank": 3,
+      "similarity_pct": 99.85
+    },
+    {
+      "product": "Vestido Warren Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Cameron Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.85
+    },
+    {
+      "product": "Vestido Warren Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Cameron Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.85
+    },
+    {
+      "product": "Vestido Linho Arum Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Linho Reyes Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.85
+    },
+    {
+      "product": "Vestido Linho Arum Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Rizzo Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.85
+    },
+    {
+      "product": "Vestido Linho Arum Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Azarius Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.85
+    },
+    {
+      "product": "Vestido Asther Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Azarius Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.85
+    },
+    {
+      "product": "Vestido Acacius Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Cameron Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.85
+    },
+    {
+      "product": "Vestido Linho Frank Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Rizzo Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.85
+    },
+    {
+      "product": "Vestido Linho Frank Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Linho Reyes Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.85
+    },
+    {
+      "product": "Vestido Asther Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Rizzo Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.85
+    },
+    {
+      "product": "Vestido Asther Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Azarius Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.85
+    },
+    {
+      "product": "Vestido Gio Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Barlett Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.84
+    },
+    {
+      "product": "Vestido Tucker Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Harpa Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.84
+    },
+    {
+      "product": "Vestido Gio Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Forest Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.84
+    },
+    {
+      "product": "Vestido Tucker Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Malmo Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.84
+    },
+    {
+      "product": "Vestido Gio Azul",
+      "category": "Vestidos",
+      "neighbor": "Vestido Forest Azul",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.84
+    },
+    {
+      "product": "Vestido Gio Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Hadid Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.84
+    },
+    {
+      "product": "Vestido Gio Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Forest Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.84
+    },
+    {
+      "product": "Vestido Gio Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Hadid Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 99.84
+    },
+    {
+      "product": "Vestido Hadid Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Linho Arum Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.84
+    },
+    {
+      "product": "Vestido Hadid Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Linho Arum Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.84
+    },
+    {
+      "product": "Vestido Hadid Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Asther Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.84
+    },
+    {
+      "product": "Vestido Hadid Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Salk Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.84
+    },
+    {
+      "product": "Vestido Harpa Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Cowden Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.84
+    },
+    {
+      "product": "Vestido Harpa Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Cowden Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.84
+    },
+    {
+      "product": "Vestido Filippo Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Amida Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.84
+    },
+    {
+      "product": "Vestido Forest Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Linho Arum Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.84
+    },
+    {
+      "product": "Vestido Cowden Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Malmo Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.84
+    },
+    {
+      "product": "Body Dominic Preto",
+      "category": "Bodies",
+      "neighbor": "Body Foster Preto",
+      "neighbor_category": "Bodies",
+      "rank": 1,
+      "similarity_pct": 99.84
+    },
+    {
+      "product": "Vestido Barlett Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Asther Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.84
+    },
+    {
+      "product": "Vestido Barlett Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Linho Arum Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.84
+    },
+    {
+      "product": "Vestido Barlett Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Linho Arum Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.84
+    },
+    {
+      "product": "Vestido Malmo Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Cowden Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.84
+    },
+    {
+      "product": "Vestido Malmo Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Cowden Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.84
+    },
+    {
+      "product": "Vestido Cowden Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Riccie Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.84
+    },
+    {
+      "product": "Vestido Salk Azul",
+      "category": "Vestidos",
+      "neighbor": "Vestido Forest Azul",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.84
+    },
+    {
+      "product": "Pareô Heidi Cobre",
+      "category": "Pareôs",
+      "neighbor": "Pareô Leanni Cobre",
+      "neighbor_category": "Pareôs",
+      "rank": 1,
+      "similarity_pct": 99.84
+    },
+    {
+      "product": "Vestido Alvorada Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Bauhaus Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.84
+    },
+    {
+      "product": "Vestido Alvorada Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Bauhaus Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 99.84
+    },
+    {
+      "product": "Vestido Amida Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Tricot Aubrey Preto com Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.84
+    },
+    {
+      "product": "Vestido Salk Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Hadid Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.84
+    },
+    {
+      "product": "Vestido Salk Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Forest Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.84
+    },
+    {
+      "product": "Vestido Barlett Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Salk Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.84
+    },
+    {
+      "product": "Vestido Tucker Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Malmo Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.84
+    },
+    {
+      "product": "Vestido Tucker Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Riccie Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.84
+    },
+    {
+      "product": "Vestido Forest Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Linho Arum Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.84
+    },
+    {
+      "product": "Biquíni Malawi Pérola",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Eaton Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 99.83
+    },
+    {
+      "product": "Vestido Salk Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Tricot Murphy Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.83
+    },
+    {
+      "product": "Vestido Tricot Murphy Preto com Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Salk Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 99.83
+    },
+    {
+      "product": "Vestido Matt Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Linho Alanis Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.83
+    },
+    {
+      "product": "Vestido Tricot Murphy Preto com Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Gio Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.83
+    },
+    {
+      "product": "Biquíni Riva Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Eaton Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 99.83
+    },
+    {
+      "product": "Biquíni Riva Pérola",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Eaton Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 99.83
+    },
+    {
+      "product": "Vestido Acacius Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Dylan Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.82
+    },
+    {
+      "product": "Vestido Linho Masp Avelã",
+      "category": "Vestidos",
+      "neighbor": "Vestido Linho Arum Avelã",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.82
+    },
+    {
+      "product": "Vestido Acacius Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Ludwig Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 99.82
+    },
+    {
+      "product": "Biquíni Perez Azul Índigo",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Galea Azul Índigo",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 99.82
+    },
+    {
+      "product": "Vestido Ludwig Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Warren Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.82
+    },
+    {
+      "product": "BLUSA CESARE + SAIA RILEY | OFF-WHITE",
+      "category": "Blusas",
+      "neighbor": "BLUSA MAYFAR + PANTALONA SAVOYE | OFF-WHITE",
+      "neighbor_category": "Blusas",
+      "rank": 1,
+      "similarity_pct": 99.82
+    },
+    {
+      "product": "Macacão Breddon Preto",
+      "category": "Macacões",
+      "neighbor": "Macacão Novari Preto",
+      "neighbor_category": "Macacões",
+      "rank": 2,
+      "similarity_pct": 99.82
+    },
+    {
+      "product": "Macacão Breddon Vermelho",
+      "category": "Macacões",
+      "neighbor": "Macacão Novari Vermelho",
+      "neighbor_category": "Macacões",
+      "rank": 2,
+      "similarity_pct": 99.82
+    },
+    {
+      "product": "Macacão Linho Armand Marrom",
+      "category": "Macacões",
+      "neighbor": "Macacão Breddon Marrom",
+      "neighbor_category": "Macacões",
+      "rank": 1,
+      "similarity_pct": 99.82
+    },
+    {
+      "product": "Macacão Amber Off-White",
+      "category": "Macacões",
+      "neighbor": "Macacão Novari Off-White",
+      "neighbor_category": "Macacões",
+      "rank": 3,
+      "similarity_pct": 99.82
+    },
+    {
+      "product": "Macacão Breddon Off-White",
+      "category": "Macacões",
+      "neighbor": "Macacão Novari Off-White",
+      "neighbor_category": "Macacões",
+      "rank": 3,
+      "similarity_pct": 99.82
+    },
+    {
+      "product": "Macacão Novari Off-White",
+      "category": "Macacões",
+      "neighbor": "Macacão Megan Off-White",
+      "neighbor_category": "Macacões",
+      "rank": 3,
+      "similarity_pct": 99.82
+    },
+    {
+      "product": "Vestido Dylan Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Warren Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.82
+    },
+    {
+      "product": "Biquíni Galea Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Miller Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 99.82
+    },
+    {
+      "product": "Vestido Dylan Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Warren Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.82
+    },
+    {
+      "product": "Biquíni Galea Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Perez Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 99.82
+    },
+    {
+      "product": "Macacão Novari Preto",
+      "category": "Macacões",
+      "neighbor": "Macacão Amber Preto",
+      "neighbor_category": "Macacões",
+      "rank": 2,
+      "similarity_pct": 99.82
+    },
+    {
+      "product": "Macacão Novari Vermelho",
+      "category": "Macacões",
+      "neighbor": "Macacão Amber Vermelho",
+      "neighbor_category": "Macacões",
+      "rank": 1,
+      "similarity_pct": 99.82
+    },
+    {
+      "product": "Vestido Jones Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Warren Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.82
+    },
+    {
+      "product": "Vestido Jones Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Warren Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.82
+    },
+    {
+      "product": "Vestido Jones Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Acacius Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.82
+    },
+    {
+      "product": "Vestido Ludwig Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Warren Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.82
+    },
+    {
+      "product": "Vestido Acacius Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Jones Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.82
+    },
+    {
+      "product": "Vestido Acacius Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Jones Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.82
+    },
+    {
+      "product": "Biquíni Taut Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Vitto Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 99.81
+    },
+    {
+      "product": "Vestido Tricot Nau Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Salk Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.79
+    },
+    {
+      "product": "Vestido Fontana Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Catton Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 99.79
+    },
+    {
+      "product": "Pantalona Savoye Preta",
+      "category": "Calças",
+      "neighbor": "Pantalona Flare Preta",
+      "neighbor_category": "Calças",
+      "rank": 1,
+      "similarity_pct": 99.79
+    },
+    {
+      "product": "Pantalona Savoye Off-White",
+      "category": "Calças",
+      "neighbor": "Pantalona Flare Off-White",
+      "neighbor_category": "Calças",
+      "rank": 1,
+      "similarity_pct": 99.79
+    },
+    {
+      "product": "Vestido Tricot Nau Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Gio Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 99.79
+    },
+    {
+      "product": "Vestido Iron Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Tricot Murphy Preto com Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.79
+    },
+    {
+      "product": "Vestido Brent Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Dylan Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.78
+    },
+    {
+      "product": "Vestido Brent Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Dylan Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.78
+    },
+    {
+      "product": "Vestido Brent Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Ludwig Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 99.78
+    },
+    {
+      "product": "Vestido Brent Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Jones Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.78
+    },
+    {
+      "product": "Vestido Brent Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Jones Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.78
+    },
+    {
+      "product": "Vestido Brent Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Ludwig Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 99.78
+    },
+    {
+      "product": "Body Steffano Preto",
+      "category": "Bodies",
+      "neighbor": "Body Rocco Preto",
+      "neighbor_category": "Bodies",
+      "rank": 1,
+      "similarity_pct": 99.77
+    },
+    {
+      "product": "Macaquinho Martin Off-White",
+      "category": "Unknown",
+      "neighbor": "Macaquinho Linho Tau Off-White",
+      "neighbor_category": "Unknown",
+      "rank": 1,
+      "similarity_pct": 99.77
+    },
+    {
+      "product": "Body Steffano Off-White",
+      "category": "Bodies",
+      "neighbor": "Body Rocco Off-White",
+      "neighbor_category": "Bodies",
+      "rank": 1,
+      "similarity_pct": 99.77
+    },
+    {
+      "product": "Biquíni Capanema Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Miller Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 99.75
+    },
+    {
+      "product": "Biquíni Miller Cobre",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Capanema Cobre",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 99.75
+    },
+    {
+      "product": "Biquíni Capanema Pérola",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Perez Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 99.75
+    },
+    {
+      "product": "Biquíni Capanema Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Perez Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 99.75
+    },
+    {
+      "product": "Biquíni Arenella Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Harper Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 99.74
+    },
+    {
+      "product": "Biquíni Arenella Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Peter Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 99.74
+    },
+    {
+      "product": "BODY ROCCO + PANTALONA FLARE | OFF-WHITE",
+      "category": "Bodies",
+      "neighbor": "BODY CHIARA + PANTALONA SAVOYE | OFF-WHITE",
+      "neighbor_category": "Bodies",
+      "rank": 1,
+      "similarity_pct": 99.74
+    },
+    {
+      "product": "Biquíni Azov Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Menorca Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 99.73
+    },
+    {
+      "product": "Cropped Adams Off-White",
+      "category": "Croppeds",
+      "neighbor": "Cropped Saarinen Off-White",
+      "neighbor_category": "Croppeds",
+      "rank": 2,
+      "similarity_pct": 99.71
+    },
+    {
+      "product": "BLUSA PERCY OFF-WHITE + CALÇA JEANS MALCOLM AZUL CLARO",
+      "category": "Blusas",
+      "neighbor": "BLUSA CESARE + SAIA RILEY | OFF-WHITE",
+      "neighbor_category": "Blusas",
+      "rank": 3,
+      "similarity_pct": 99.7
+    },
+    {
+      "product": "BLUSA ALEXIS OFF-WHITE + CALÇA JEANS MALCOLM AZUL ESCURO",
+      "category": "Blusas",
+      "neighbor": "BLUSA CESARE + SAIA RILEY | OFF-WHITE",
+      "neighbor_category": "Blusas",
+      "rank": 3,
+      "similarity_pct": 99.7
+    },
+    {
+      "product": "Biquíni Kobe Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Mies Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 99.7
+    },
+    {
+      "product": "Biquíni Atticus Pérola",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Eaton Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 99.7
+    },
+    {
+      "product": "Biquíni Mies Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Vince Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 99.7
+    },
+    {
+      "product": "Conjunto Denver Preto",
+      "category": "Conjuntos",
+      "neighbor": "Conjunto Althea Preto",
+      "neighbor_category": "Conjuntos",
+      "rank": 1,
+      "similarity_pct": 99.68
+    },
+    {
+      "product": "Biquíni Bardi Off-White",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Arenella Off-White",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 99.68
+    },
+    {
+      "product": "Biquíni Bardi Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Arenella Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 99.68
+    },
+    {
+      "product": "Biquíni Taut Off-White",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Easton Off-White",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 99.68
+    },
+    {
+      "product": "Biquíni Taut Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Easton Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 99.68
+    },
+    {
+      "product": "Conjunto Guillen Preto",
+      "category": "Conjuntos",
+      "neighbor": "Conjunto Althea Preto",
+      "neighbor_category": "Conjuntos",
+      "rank": 1,
+      "similarity_pct": 99.67
+    },
+    {
+      "product": "Conjunto Althea Off-White",
+      "category": "Conjuntos",
+      "neighbor": "Conjunto Guillen Off-White",
+      "neighbor_category": "Conjuntos",
+      "rank": 1,
+      "similarity_pct": 99.67
+    },
+    {
+      "product": "Biquíni Eaton Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Bercy Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 99.67
+    },
+    {
+      "product": "Biquíni Bercy Pérola",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Eaton Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 99.67
+    },
+    {
+      "product": "Saia Dorian Off-White",
+      "category": "Saias",
+      "neighbor": "Saia Lisse Off-White",
+      "neighbor_category": "Saias",
+      "rank": 2,
+      "similarity_pct": 99.65
+    },
+    {
+      "product": "Saia Dorian Preto",
+      "category": "Saias",
+      "neighbor": "Saia Lisse Preto",
+      "neighbor_category": "Saias",
+      "rank": 1,
+      "similarity_pct": 99.65
+    },
+    {
+      "product": "Saia Lisse Off-White",
+      "category": "Saias",
+      "neighbor": "Saia Hazel Off-White",
+      "neighbor_category": "Saias",
+      "rank": 2,
+      "similarity_pct": 99.65
+    },
+    {
+      "product": "Cropped Petal Preto",
+      "category": "Croppeds",
+      "neighbor": "Cropped Ophelia Preto",
+      "neighbor_category": "Croppeds",
+      "rank": 1,
+      "similarity_pct": 99.64
+    },
+    {
+      "product": "Cropped Petal Off-White",
+      "category": "Croppeds",
+      "neighbor": "Cropped Ophelia Off-White",
+      "neighbor_category": "Croppeds",
+      "rank": 1,
+      "similarity_pct": 99.64
+    },
+    {
+      "product": "Biquíni Mies Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Azov Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 99.63
+    },
+    {
+      "product": "Body Aliyev Off-White",
+      "category": "Bodies",
+      "neighbor": "Body Otto Off-White",
+      "neighbor_category": "Bodies",
+      "rank": 2,
+      "similarity_pct": 99.61
+    },
+    {
+      "product": "Body Aliyev Preto",
+      "category": "Bodies",
+      "neighbor": "Body Otto Preto",
+      "neighbor_category": "Bodies",
+      "rank": 2,
+      "similarity_pct": 99.61
+    },
+    {
+      "product": "Short Saia Kahn Preto",
+      "category": "Shorts",
+      "neighbor": "Short Adonis Preto",
+      "neighbor_category": "Shorts",
+      "rank": 2,
+      "similarity_pct": 99.6
+    },
+    {
+      "product": "Cropped Linho Carl Preto",
+      "category": "Croppeds",
+      "neighbor": "Cropped Petal Preto",
+      "neighbor_category": "Croppeds",
+      "rank": 3,
+      "similarity_pct": 99.59
+    },
+    {
+      "product": "Short Saia Kahn Preto",
+      "category": "Shorts",
+      "neighbor": "Short Saia Donati Preto",
+      "neighbor_category": "Shorts",
+      "rank": 3,
+      "similarity_pct": 99.59
+    },
+    {
+      "product": "Cropped Petal Off-White",
+      "category": "Croppeds",
+      "neighbor": "Cropped Linho Carl Off-White",
+      "neighbor_category": "Croppeds",
+      "rank": 2,
+      "similarity_pct": 99.59
+    },
+    {
+      "product": "Biquíni Castillo Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Bonneville Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 99.58
+    },
+    {
+      "product": "Biquíni Capanema Cobre",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Peter Cobre",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 99.57
+    },
+    {
+      "product": "Biquíni Harper Pérola",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Capanema Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 99.57
+    },
+    {
+      "product": "Cropped Adams Preto",
+      "category": "Croppeds",
+      "neighbor": "Cropped Robie Preto",
+      "neighbor_category": "Croppeds",
+      "rank": 1,
+      "similarity_pct": 99.56
+    },
+    {
+      "product": "Cropped Adams Off-White",
+      "category": "Croppeds",
+      "neighbor": "Cropped Robie Off-White",
+      "neighbor_category": "Croppeds",
+      "rank": 3,
+      "similarity_pct": 99.56
+    },
+    {
+      "product": "Cropped Adams Preto",
+      "category": "Croppeds",
+      "neighbor": "Cropped Linho Brett Preto",
+      "neighbor_category": "Croppeds",
+      "rank": 2,
+      "similarity_pct": 99.56
+    },
+    {
+      "product": "Conjunto Fellicce Off-White",
+      "category": "Conjuntos",
+      "neighbor": "Conjunto Denver Off-White",
+      "neighbor_category": "Conjuntos",
+      "rank": 1,
+      "similarity_pct": 99.54
+    },
+    {
+      "product": "Body Waud Preto",
+      "category": "Bodies",
+      "neighbor": "Body Rodd Preto",
+      "neighbor_category": "Bodies",
+      "rank": 3,
+      "similarity_pct": 99.52
+    },
+    {
+      "product": "Cropped Petal Preto",
+      "category": "Croppeds",
+      "neighbor": "Cropped Robie Preto",
+      "neighbor_category": "Croppeds",
+      "rank": 3,
+      "similarity_pct": 99.51
+    },
+    {
+      "product": "Body Steffano Preto",
+      "category": "Bodies",
+      "neighbor": "Body Espanya Preto",
+      "neighbor_category": "Bodies",
+      "rank": 2,
+      "similarity_pct": 99.51
+    },
+    {
+      "product": "Cropped Petal Off-White",
+      "category": "Croppeds",
+      "neighbor": "Cropped Robie Off-White",
+      "neighbor_category": "Croppeds",
+      "rank": 3,
+      "similarity_pct": 99.51
+    },
+    {
+      "product": "Macacão Oliver Off-White",
+      "category": "Macacões",
+      "neighbor": "Macacão Sleuk Off-White",
+      "neighbor_category": "Macacões",
+      "rank": 3,
+      "similarity_pct": 99.5
+    },
+    {
+      "product": "Blazer Linho Fruges Preto",
+      "category": "Blazers",
+      "neighbor": "Blazer Vestido Agatha Preto",
+      "neighbor_category": "Blazers",
+      "rank": 3,
+      "similarity_pct": 99.5
+    },
+    {
+      "product": "Macacão Sleuk Off-White",
+      "category": "Macacões",
+      "neighbor": "Macacão Zander Off-White",
+      "neighbor_category": "Macacões",
+      "rank": 2,
+      "similarity_pct": 99.5
+    },
+    {
+      "product": "Macacão Oliver Vermelho",
+      "category": "Macacões",
+      "neighbor": "Macacão Sleuk Vermelho",
+      "neighbor_category": "Macacões",
+      "rank": 1,
+      "similarity_pct": 99.5
+    },
+    {
+      "product": "Blazer Linho Fruges Preto",
+      "category": "Blazers",
+      "neighbor": "Blazer Vestido Schiffer Preto",
+      "neighbor_category": "Blazers",
+      "rank": 1,
+      "similarity_pct": 99.5
+    },
+    {
+      "product": "Blazer Linho Fruges Preto",
+      "category": "Blazers",
+      "neighbor": "Blazer Adonis Preto",
+      "neighbor_category": "Blazers",
+      "rank": 2,
+      "similarity_pct": 99.5
+    },
+    {
+      "product": "Conjunto Ivy Preto",
+      "category": "Conjuntos",
+      "neighbor": "Conjunto Fellicce Preto",
+      "neighbor_category": "Conjuntos",
+      "rank": 2,
+      "similarity_pct": 99.48
+    },
+    {
+      "product": "Cropped Adams Preto",
+      "category": "Croppeds",
+      "neighbor": "Cropped Linho Carl Preto",
+      "neighbor_category": "Croppeds",
+      "rank": 3,
+      "similarity_pct": 99.48
+    },
+    {
+      "product": "Conjunto Ivy Off-White",
+      "category": "Conjuntos",
+      "neighbor": "Conjunto Fellicce Off-White",
+      "neighbor_category": "Conjuntos",
+      "rank": 3,
+      "similarity_pct": 99.48
+    },
+    {
+      "product": "Macacão Damian Preto",
+      "category": "Macacões",
+      "neighbor": "Macacão Rith Preto",
+      "neighbor_category": "Macacões",
+      "rank": 2,
+      "similarity_pct": 99.46
+    },
+    {
+      "product": "Macacão Linho Braid Off-White",
+      "category": "Macacões",
+      "neighbor": "Macacão Damian Off-White",
+      "neighbor_category": "Macacões",
+      "rank": 3,
+      "similarity_pct": 99.46
+    },
+    {
+      "product": "Macacão Damian Off-White",
+      "category": "Macacões",
+      "neighbor": "Macacão Rith Off-White",
+      "neighbor_category": "Macacões",
+      "rank": 1,
+      "similarity_pct": 99.46
+    },
+    {
+      "product": "Macacão Damian Preto",
+      "category": "Macacões",
+      "neighbor": "Macacão Linho Braid Preto",
+      "neighbor_category": "Macacões",
+      "rank": 1,
+      "similarity_pct": 99.46
+    },
+    {
+      "product": "Vestido Matt Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Bauhaus Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.45
+    },
+    {
+      "product": "Vestido Roland Marrom",
+      "category": "Vestidos",
+      "neighbor": "Vestido Warren Marrom",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 99.44
+    },
+    {
+      "product": "Body Otto Preto",
+      "category": "Bodies",
+      "neighbor": "Body Rinaldi Preto",
+      "neighbor_category": "Bodies",
+      "rank": 3,
+      "similarity_pct": 99.43
+    },
+    {
+      "product": "Vestido Tricot Aubrey Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Tess Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.43
+    },
+    {
+      "product": "Vestido Ivory Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Cowden Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.43
+    },
+    {
+      "product": "Vestido Tess Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Tricot Aubrey Preto com Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.43
+    },
+    {
+      "product": "Vestido Ivory Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Cowden Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.43
+    },
+    {
+      "product": "Vestido Alvorada Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Linho Alanis Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 99.43
+    },
+    {
+      "product": "Body Rinaldi Off-White",
+      "category": "Bodies",
+      "neighbor": "Body Otto Off-White",
+      "neighbor_category": "Bodies",
+      "rank": 2,
+      "similarity_pct": 99.43
+    },
+    {
+      "product": "Vestido Tess Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Collins Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.43
+    },
+    {
+      "product": "Vestido Linho Alanis Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Alvorada Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.43
+    },
+    {
+      "product": "Vestido Zephyr Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Tricot Aubrey Preto com Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.43
+    },
+    {
+      "product": "Vestido Filippo Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Tess Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.43
+    },
+    {
+      "product": "Vestido Filippo Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Tess Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 99.43
+    },
+    {
+      "product": "Blusa Moonsoon Bege",
+      "category": "Blusas",
+      "neighbor": "Blusa Mayfar Bege",
+      "neighbor_category": "Blusas",
+      "rank": 1,
+      "similarity_pct": 99.42
+    },
+    {
+      "product": "Vestido Linho Arum Avelã",
+      "category": "Vestidos",
+      "neighbor": "Vestido Linho Sugarloaf Avelã",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.42
+    },
+    {
+      "product": "Cropped Phuket Pink Juice",
+      "category": "Croppeds",
+      "neighbor": "Cropped Nahanni Pink Juice",
+      "neighbor_category": "Croppeds",
+      "rank": 1,
+      "similarity_pct": 99.4
+    },
+    {
+      "product": "Vestido Tricot Nau Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Reidy Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.38
+    },
+    {
+      "product": "Vestido Tricot Nau Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Reidy Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.38
+    },
+    {
+      "product": "Vestido Perot Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Tricot Nau Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.38
+    },
+    {
+      "product": "Biquíni Atticus Pérola",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Julian Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 99.36
+    },
+    {
+      "product": "Vestido Fontana Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Bauhaus Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 99.34
+    },
+    {
+      "product": "Conjunto Denver Preto",
+      "category": "Conjuntos",
+      "neighbor": "Conjunto Guillen Preto",
+      "neighbor_category": "Conjuntos",
+      "rank": 2,
+      "similarity_pct": 99.33
+    },
+    {
+      "product": "Vestido Tricot Murphy Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Hadid Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.33
+    },
+    {
+      "product": "Biquíni Riva Pérola",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Malawi Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 99.32
+    },
+    {
+      "product": "BIQUÍNI VITTO + PAREÔ | PRETO",
+      "category": "Biquínis",
+      "neighbor": "BIQUÍNI EASTON + PAREÔ GRAZIA | PRETO",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 99.31
+    },
+    {
+      "product": "Conjunto Murano Rosê",
+      "category": "Conjuntos",
+      "neighbor": "Conjunto Campbell Rosê",
+      "neighbor_category": "Conjuntos",
+      "rank": 1,
+      "similarity_pct": 99.31
+    },
+    {
+      "product": "Vestido Perot Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Tricot Murphy Preto com Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.31
+    },
+    {
+      "product": "Vestido Reidy Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Tricot Murphy Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.31
+    },
+    {
+      "product": "Vestido Fontana Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Bonet Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.31
+    },
+    {
+      "product": "Vestido Axel Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Fontana Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 99.31
+    },
+    {
+      "product": "Vestido Perot Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Tricot Murphy Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.31
+    },
+    {
+      "product": "Vestido Osbert Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Ivory Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.27
+    },
+    {
+      "product": "Vestido Osbert Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Ivory Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 99.27
+    },
+    {
+      "product": "Blusa Tommaso Preto",
+      "category": "Blusas",
+      "neighbor": "Blusa Percy Preto",
+      "neighbor_category": "Blusas",
+      "rank": 2,
+      "similarity_pct": 99.26
+    },
+    {
+      "product": "Blusa Tommaso Preto",
+      "category": "Blusas",
+      "neighbor": "Blusa Alexis Preto",
+      "neighbor_category": "Blusas",
+      "rank": 3,
+      "similarity_pct": 99.26
+    },
+    {
+      "product": "Blusa Percy Preto",
+      "category": "Blusas",
+      "neighbor": "Blusa Cesare Preto",
+      "neighbor_category": "Blusas",
+      "rank": 3,
+      "similarity_pct": 99.26
+    },
+    {
+      "product": "Blusa Alexis Preto",
+      "category": "Blusas",
+      "neighbor": "Blusa Cesare Preto",
+      "neighbor_category": "Blusas",
+      "rank": 3,
+      "similarity_pct": 99.26
+    },
+    {
+      "product": "Vestido Tricot Nau Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Hadid Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.26
+    },
+    {
+      "product": "Pantalona Touret Off-White",
+      "category": "Calças",
+      "neighbor": "Pantalona Ozuna Off-White",
+      "neighbor_category": "Calças",
+      "rank": 1,
+      "similarity_pct": 99.25
+    },
+    {
+      "product": "Vestido Iron Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Salk Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 99.25
+    },
+    {
+      "product": "Blazer Carmine Preto",
+      "category": "Blazers",
+      "neighbor": "Blazer Vestido Darleen Preto",
+      "neighbor_category": "Blazers",
+      "rank": 1,
+      "similarity_pct": 99.25
+    },
+    {
+      "product": "Conjunto Ivy Preto",
+      "category": "Conjuntos",
+      "neighbor": "Conjunto Mitchell Preto",
+      "neighbor_category": "Conjuntos",
+      "rank": 3,
+      "similarity_pct": 99.25
+    },
+    {
+      "product": "Pantalona Ozuna Avelã",
+      "category": "Calças",
+      "neighbor": "Pantalona Touret Avelã",
+      "neighbor_category": "Calças",
+      "rank": 1,
+      "similarity_pct": 99.25
+    },
+    {
+      "product": "Pantalona Ozuna Preto",
+      "category": "Calças",
+      "neighbor": "Pantalona Touret Preto",
+      "neighbor_category": "Calças",
+      "rank": 2,
+      "similarity_pct": 99.25
+    },
+    {
+      "product": "Vestido Brent Marrom",
+      "category": "Vestidos",
+      "neighbor": "Vestido Warren Marrom",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 99.21
+    },
+    {
+      "product": "Blazer Carmine Preto",
+      "category": "Blazers",
+      "neighbor": "Blazer Vestido Vincent Preto",
+      "neighbor_category": "Blazers",
+      "rank": 2,
+      "similarity_pct": 99.18
+    },
+    {
+      "product": "Blazer Vestido Vincent Off-White",
+      "category": "Blazers",
+      "neighbor": "Blazer Carmine Off-White",
+      "neighbor_category": "Blazers",
+      "rank": 1,
+      "similarity_pct": 99.18
+    },
+    {
+      "product": "Blazer Carmine Caramelo",
+      "category": "Blazers",
+      "neighbor": "Blazer Vestido Vincent Caramelo",
+      "neighbor_category": "Blazers",
+      "rank": 1,
+      "similarity_pct": 99.18
+    },
+    {
+      "product": "Pantalona Touret Preto",
+      "category": "Calças",
+      "neighbor": "Pantalona Linho Abbie Preto",
+      "neighbor_category": "Calças",
+      "rank": 2,
+      "similarity_pct": 99.17
+    },
+    {
+      "product": "Pantalona Linho Abbie Off-White",
+      "category": "Calças",
+      "neighbor": "Pantalona Touret Off-White",
+      "neighbor_category": "Calças",
+      "rank": 2,
+      "similarity_pct": 99.17
+    },
+    {
+      "product": "Biquíni Bonneville Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Alann Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 99.12
+    },
+    {
+      "product": "Biquíni Bonneville Pérola",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Alann Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 99.12
+    },
+    {
+      "product": "BIQUÍNI EASTON + PAREÔ GRAZIA | PRETO",
+      "category": "Biquínis",
+      "neighbor": "BIQUÍNI VITTO + PAREÔ GRAZIA | PÉROLA",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 99.11
+    },
+    {
+      "product": "Conjunto Fellicce Off-White",
+      "category": "Conjuntos",
+      "neighbor": "Conjunto Lamellae Off-White",
+      "neighbor_category": "Conjuntos",
+      "rank": 3,
+      "similarity_pct": 99.1
+    },
+    {
+      "product": "Conjunto Fellicce Preto",
+      "category": "Conjuntos",
+      "neighbor": "Conjunto Lamellae Preto",
+      "neighbor_category": "Conjuntos",
+      "rank": 3,
+      "similarity_pct": 99.1
+    },
+    {
+      "product": "Biquíni Julian Pérola",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Riva Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 99.09
+    },
+    {
+      "product": "Biquíni Riva Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Julian Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 99.09
+    },
+    {
+      "product": "Biquíni Hali Pérola",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Atticus Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 99.08
+    },
+    {
+      "product": "Biquíni Marzan Off-White",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Nari Off-White",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 99.07
+    },
+    {
+      "product": "Body Heydar Preto",
+      "category": "Bodies",
+      "neighbor": "Body Aliyev Preto",
+      "neighbor_category": "Bodies",
+      "rank": 2,
+      "similarity_pct": 99.04
+    },
+    {
+      "product": "Vestido Brice Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Cowden Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 99.03
+    },
+    {
+      "product": "Vestido Brice Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Tucker Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 99.03
+    },
+    {
+      "product": "Biquíni Easton Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Bonneville Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 99.02
+    },
+    {
+      "product": "Biquíni Riva Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Bercy Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 99.02
+    },
+    {
+      "product": "Biquíni Bercy Pérola",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Riva Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 99.02
+    },
+    {
+      "product": "Body Giorgia Marrom",
+      "category": "Bodies",
+      "neighbor": "Body Chiara Marrom",
+      "neighbor_category": "Bodies",
+      "rank": 1,
+      "similarity_pct": 98.95
+    },
+    {
+      "product": "Biquíni Easton Off-White",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Castillo Off-White",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 98.95
+    },
+    {
+      "product": "Biquíni Castillo Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Easton Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 98.95
+    },
+    {
+      "product": "Vestido Loren Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Calla Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 98.93
+    },
+    {
+      "product": "Vestido Loren Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Calla Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 98.93
+    },
+    {
+      "product": "Vestido Loren Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Archie Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 98.93
+    },
+    {
+      "product": "Vestido Loren Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Linho Sugarloaf Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 98.93
+    },
+    {
+      "product": "Vestido Tricot Effie Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Archie Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 98.93
+    },
+    {
+      "product": "Vestido Tricot Effie Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Atlas Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 98.93
+    },
+    {
+      "product": "Body Claude Off-White",
+      "category": "Bodies",
+      "neighbor": "Body Foster Off-White",
+      "neighbor_category": "Bodies",
+      "rank": 1,
+      "similarity_pct": 98.93
+    },
+    {
+      "product": "Vestido Loren Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Atlas Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 98.93
+    },
+    {
+      "product": "Vestido Tricot Effie Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Calla Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 98.93
+    },
+    {
+      "product": "BLUSA PERCY + SAIA REMMY | PRETO",
+      "category": "Blusas",
+      "neighbor": "BLUSA TOMMASO + SAIA RILEY | PRETO",
+      "neighbor_category": "Blusas",
+      "rank": 1,
+      "similarity_pct": 98.93
+    },
+    {
+      "product": "Vestido Tricot Effie Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Atlas Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 98.93
+    },
+    {
+      "product": "Biquíni Bardi Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Peter Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 98.92
+    },
+    {
+      "product": "Biquíni Bardi Cobre",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Peter Cobre",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 98.92
+    },
+    {
+      "product": "Biquíni Bardi Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Harper Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 98.92
+    },
+    {
+      "product": "Macacão Sleuk Off-White",
+      "category": "Macacões",
+      "neighbor": "Macacão Alberts Off-White",
+      "neighbor_category": "Macacões",
+      "rank": 3,
+      "similarity_pct": 98.91
+    },
+    {
+      "product": "Vestido Maddox Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Ivory Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 98.83
+    },
+    {
+      "product": "Blusa Alpheus Off-White",
+      "category": "Blusas",
+      "neighbor": "BLUSA TOMMASO + SHORT CALEB | OFF-WHITE",
+      "neighbor_category": "Blusas",
+      "rank": 1,
+      "similarity_pct": 98.81
+    },
+    {
+      "product": "Biquíni Menorca Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Mies Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 98.81
+    },
+    {
+      "product": "Conjunto Lamellae Preto",
+      "category": "Conjuntos",
+      "neighbor": "Conjunto Mitchell Preto",
+      "neighbor_category": "Conjuntos",
+      "rank": 3,
+      "similarity_pct": 98.81
+    },
+    {
+      "product": "Biquíni Bonneville Pérola",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Vitto Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 98.8
+    },
+    {
+      "product": "Biquíni Vitto Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Bonneville Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 98.8
+    },
+    {
+      "product": "Blusa Alpheus Preto",
+      "category": "Blusas",
+      "neighbor": "Blusa Tommaso Preto",
+      "neighbor_category": "Blusas",
+      "rank": 1,
+      "similarity_pct": 98.79
+    },
+    {
+      "product": "Macacão Damian Off-White",
+      "category": "Macacões",
+      "neighbor": "Macacão Fiorese Off-White",
+      "neighbor_category": "Macacões",
+      "rank": 3,
+      "similarity_pct": 98.79
+    },
+    {
+      "product": "Blusa Alpheus Preto",
+      "category": "Blusas",
+      "neighbor": "Blusa Cesare Preto",
+      "neighbor_category": "Blusas",
+      "rank": 2,
+      "similarity_pct": 98.79
+    },
+    {
+      "product": "Body Heydar Preto",
+      "category": "Bodies",
+      "neighbor": "Body Rinaldi Preto",
+      "neighbor_category": "Bodies",
+      "rank": 3,
+      "similarity_pct": 98.76
+    },
+    {
+      "product": "Biquíni Bardi Cobre",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Miller Cobre",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 98.73
+    },
+    {
+      "product": "Biquíni Vince Castanho",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Alessio Castanho",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 98.73
+    },
+    {
+      "product": "Biquíni Vince Vermelho Carmim",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Alessio Vermelho Carmim",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 98.73
+    },
+    {
+      "product": "Biquíni Vince Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Alessio Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 98.73
+    },
+    {
+      "product": "Biquíni Alessio Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Kobe Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 98.73
+    },
+    {
+      "product": "Biquíni Hali Pérola",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Riva Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 98.71
+    },
+    {
+      "product": "Biquíni Riva Azul Índigo",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Hali Azul Índigo",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 98.71
+    },
+    {
+      "product": "Biquíni Azov Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Kobe Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 98.71
+    },
+    {
+      "product": "Biquíni Bernie Off-White",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Nari Off-White",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 98.7
+    },
+    {
+      "product": "Vestido Sartori Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Fontaine Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 98.69
+    },
+    {
+      "product": "Vestido Sartori Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Fontaine Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 98.69
+    },
+    {
+      "product": "Saia Dorian Off-White",
+      "category": "Saias",
+      "neighbor": "Saia Keith Off-White",
+      "neighbor_category": "Saias",
+      "rank": 3,
+      "similarity_pct": 98.69
+    },
+    {
+      "product": "Saia Hazel Off-White",
+      "category": "Saias",
+      "neighbor": "Saia Keith Off-White",
+      "neighbor_category": "Saias",
+      "rank": 3,
+      "similarity_pct": 98.69
+    },
+    {
+      "product": "Vestido Sartori Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Roland Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 98.69
+    },
+    {
+      "product": "Vestido Sartori Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Salvi Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 98.69
+    },
+    {
+      "product": "Vestido Sartori Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Roland Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 98.69
+    },
+    {
+      "product": "Vestido Sartori Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Roland Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 98.69
+    },
+    {
+      "product": "Vestido Sartori Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Salvi Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 98.69
+    },
+    {
+      "product": "Vestido Sartori Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Walker Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 98.69
+    },
+    {
+      "product": "Vestido Sartori Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Salvi Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 98.69
+    },
+    {
+      "product": "Vestido Bauhaus Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Linho Alanis Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 98.67
+    },
+    {
+      "product": "Biquíni Alessio Castanho",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Mark Castanho",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 98.62
+    },
+    {
+      "product": "Biquíni Alessio Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Mark Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 98.62
+    },
+    {
+      "product": "Body Espanya Preto",
+      "category": "Bodies",
+      "neighbor": "Body Rocco Preto",
+      "neighbor_category": "Bodies",
+      "rank": 2,
+      "similarity_pct": 98.61
+    },
+    {
+      "product": "Conjunto Denver Preto",
+      "category": "Conjuntos",
+      "neighbor": "Conjunto Lamellae Preto",
+      "neighbor_category": "Conjuntos",
+      "rank": 3,
+      "similarity_pct": 98.6
+    },
+    {
+      "product": "BIQUÍNI EASTON + PAREÔ | MARROM",
+      "category": "Biquínis",
+      "neighbor": "BIQUÍNI EASTON + PAREÔ | OFF-WHITE",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 98.57
+    },
+    {
+      "product": "BIQUÍNI EASTON + PAREÔ | OFF-WHITE",
+      "category": "Biquínis",
+      "neighbor": "BIQUÍNI VITTO + PAREÔ | PRETO",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 98.55
+    },
+    {
+      "product": "Vestido Fontana Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Alvorada Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 98.54
+    },
+    {
+      "product": "Vestido Fontana Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Alvorada Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 98.54
+    },
+    {
+      "product": "Vestido Tricot Murphy Avelã",
+      "category": "Vestidos",
+      "neighbor": "Vestido Linho Arum Avelã",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 98.53
+    },
+    {
+      "product": "Vestido Osbert Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Harpa Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 98.53
+    },
+    {
+      "product": "Vestido Osbert Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Riccie Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 98.53
+    },
+    {
+      "product": "Vestido Osbert Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Malmo Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 98.53
+    },
+    {
+      "product": "Biquíni Mies Azul Turquesa",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Cyprus Azul Turquesa",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 98.51
+    },
+    {
+      "product": "Biquíni Cyprus Off-White",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Mies Off-White",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 98.51
+    },
+    {
+      "product": "Vestido Rennie Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Perot Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 98.5
+    },
+    {
+      "product": "Vestido Vitalli Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Perot Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 98.5
+    },
+    {
+      "product": "BIQUÍNI VITTO + PAREÔ | PRETO",
+      "category": "Biquínis",
+      "neighbor": "BIQUÍNI EASTON + PAREÔ | MARROM",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 98.48
+    },
+    {
+      "product": "Biquíni Conti Vermelho Carmim",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Alessio Vermelho Carmim",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 98.47
+    },
+    {
+      "product": "Biquíni Conti Castanho",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Alessio Castanho",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 98.47
+    },
+    {
+      "product": "Cropped Ophelia Off-White",
+      "category": "Croppeds",
+      "neighbor": "Cropped Linho Carl Off-White",
+      "neighbor_category": "Croppeds",
+      "rank": 2,
+      "similarity_pct": 98.47
+    },
+    {
+      "product": "Cropped Ophelia Preto",
+      "category": "Croppeds",
+      "neighbor": "Cropped Linho Carl Preto",
+      "neighbor_category": "Croppeds",
+      "rank": 2,
+      "similarity_pct": 98.47
+    },
+    {
+      "product": "Vestido Perot Azul",
+      "category": "Vestidos",
+      "neighbor": "Vestido Gio Azul",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 98.46
+    },
+    {
+      "product": "Vestido Reidy Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Gio Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 98.46
+    },
+    {
+      "product": "Vestido Perot Azul",
+      "category": "Vestidos",
+      "neighbor": "Vestido Salk Azul",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 98.46
+    },
+    {
+      "product": "Biquíni Alann Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Easton Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 98.44
+    },
+    {
+      "product": "Biquíni Alann Marrom",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Easton Marrom",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 98.44
+    },
+    {
+      "product": "Vestido Tricot Nau Avelã",
+      "category": "Vestidos",
+      "neighbor": "Vestido Linho Arum Avelã",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 98.43
+    },
+    {
+      "product": "Vestido Vallez Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Perot Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 98.41
+    },
+    {
+      "product": "Vestido Reidy Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Vallez Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 98.41
+    },
+    {
+      "product": "BIQUÍNI EASTON + PAREÔ | OFF-WHITE",
+      "category": "Biquínis",
+      "neighbor": "BIQUÍNI EASTON + PAREÔ GRAZIA | PRETO",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 98.34
+    },
+    {
+      "product": "BIQUÍNI VITTO + PAREÔ GRAZIA | PÉROLA",
+      "category": "Biquínis",
+      "neighbor": "BIQUÍNI EASTON + PAREÔ | OFF-WHITE",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 98.33
+    },
+    {
+      "product": "Cropped Ophelia Off-White",
+      "category": "Croppeds",
+      "neighbor": "Cropped Robie Off-White",
+      "neighbor_category": "Croppeds",
+      "rank": 3,
+      "similarity_pct": 98.31
+    },
+    {
+      "product": "Cropped Ophelia Preto",
+      "category": "Croppeds",
+      "neighbor": "Cropped Robie Preto",
+      "neighbor_category": "Croppeds",
+      "rank": 3,
+      "similarity_pct": 98.31
+    },
+    {
+      "product": "Conjunto Althea Off-White",
+      "category": "Conjuntos",
+      "neighbor": "Conjunto Lamellae Off-White",
+      "neighbor_category": "Conjuntos",
+      "rank": 2,
+      "similarity_pct": 98.27
+    },
+    {
+      "product": "Conjunto Althea Preto",
+      "category": "Conjuntos",
+      "neighbor": "Conjunto Lamellae Preto",
+      "neighbor_category": "Conjuntos",
+      "rank": 3,
+      "similarity_pct": 98.27
+    },
+    {
+      "product": "Macaquinho Martin Off-White",
+      "category": "Unknown",
+      "neighbor": "Corselet Kimbell Off-White",
+      "neighbor_category": "Unknown",
+      "rank": 2,
+      "similarity_pct": 98.23
+    },
+    {
+      "product": "Macaquinho Martin Off-White",
+      "category": "Unknown",
+      "neighbor": "Corselet Adrian Off-White",
+      "neighbor_category": "Unknown",
+      "rank": 3,
+      "similarity_pct": 98.23
+    },
+    {
+      "product": "Conjunto Althea Off-White",
+      "category": "Conjuntos",
+      "neighbor": "Conjunto Denver Off-White",
+      "neighbor_category": "Conjuntos",
+      "rank": 3,
+      "similarity_pct": 98.23
+    },
+    {
+      "product": "Biquíni Eaton Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Julian Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 98.22
+    },
+    {
+      "product": "BODY EMMA + SHORT CALEB | PRETO",
+      "category": "Bodies",
+      "neighbor": "BODY EMMA + PANTALONA BRAXTON | PRETO",
+      "neighbor_category": "Bodies",
+      "rank": 1,
+      "similarity_pct": 98.22
+    },
+    {
+      "product": "Blusa Soho Preto",
+      "category": "Blusas",
+      "neighbor": "BLUSA ZENO + CALÇA ZENO | PRETO",
+      "neighbor_category": "Blusas",
+      "rank": 1,
+      "similarity_pct": 98.18
+    },
+    {
+      "product": "BLUSA ZENO + CALÇA ZENO | OFF-WHITE",
+      "category": "Blusas",
+      "neighbor": "Blusa Soho Off-White",
+      "neighbor_category": "Blusas",
+      "rank": 1,
+      "similarity_pct": 98.18
+    },
+    {
+      "product": "BIQUÍNI EASTON + PAREÔ | MARROM",
+      "category": "Biquínis",
+      "neighbor": "BIQUÍNI EASTON + PAREÔ GRAZIA | PRETO",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 98.17
+    },
+    {
+      "product": "BIQUÍNI VITTO + PAREÔ GRAZIA | PÉROLA",
+      "category": "Biquínis",
+      "neighbor": "BIQUÍNI EASTON + PAREÔ | MARROM",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 98.17
+    },
+    {
+      "product": "Body Giorgia Marrom",
+      "category": "Bodies",
+      "neighbor": "Body Steffano Marrom",
+      "neighbor_category": "Bodies",
+      "rank": 2,
+      "similarity_pct": 98.14
+    },
+    {
+      "product": "Biquíni Alann Pérola",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Vitto Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 98.1
+    },
+    {
+      "product": "Macacão Avia Off-White",
+      "category": "Macacões",
+      "neighbor": "Macacão Fiorese Off-White",
+      "neighbor_category": "Macacões",
+      "rank": 1,
+      "similarity_pct": 98.1
+    },
+    {
+      "product": "Vestido Brice Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Harpa Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 98.08
+    },
+    {
+      "product": "Conjunto Althea Vermelho",
+      "category": "Conjuntos",
+      "neighbor": "Conjunto Fellicce Vermelho",
+      "neighbor_category": "Conjuntos",
+      "rank": 1,
+      "similarity_pct": 98.05
+    },
+    {
+      "product": "Vestido Tricot Effie Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Rizzo Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 98.03
+    },
+    {
+      "product": "Vestido Ethan Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Hadid Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 98.01
+    },
+    {
+      "product": "Vestido Ethan Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Barlett Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 98.01
+    },
+    {
+      "product": "Vestido Ethan Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Forest Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 98.01
+    },
+    {
+      "product": "Vestido Maddox Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Malmo Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 97.93
+    },
+    {
+      "product": "Vestido Maddox Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Harpa Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 97.93
+    },
+    {
+      "product": "Vestido Maddox Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Riccie Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 97.93
+    },
+    {
+      "product": "Biquíni Taut Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Bonneville Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 97.85
+    },
+    {
+      "product": "Body Espanya Preto",
+      "category": "Bodies",
+      "neighbor": "Body Waud Preto",
+      "neighbor_category": "Bodies",
+      "rank": 3,
+      "similarity_pct": 97.85
+    },
+    {
+      "product": "Conjunto Guillen Off-White",
+      "category": "Conjuntos",
+      "neighbor": "Conjunto Fellicce Off-White",
+      "neighbor_category": "Conjuntos",
+      "rank": 2,
+      "similarity_pct": 97.81
+    },
+    {
+      "product": "Conjunto Guillen Preto",
+      "category": "Conjuntos",
+      "neighbor": "Conjunto Fellicce Preto",
+      "neighbor_category": "Conjuntos",
+      "rank": 3,
+      "similarity_pct": 97.81
+    },
+    {
+      "product": "Blusa Mayfar Off-White",
+      "category": "Blusas",
+      "neighbor": "BLUSA ZENO + CALÇA ZENO | OFF-WHITE",
+      "neighbor_category": "Blusas",
+      "rank": 1,
+      "similarity_pct": 97.76
+    },
+    {
+      "product": "Blusa Mayfar Preto",
+      "category": "Blusas",
+      "neighbor": "BLUSA ZENO + CALÇA ZENO | PRETO",
+      "neighbor_category": "Blusas",
+      "rank": 1,
+      "similarity_pct": 97.76
+    },
+    {
+      "product": "Biquíni Capanema Cobre",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Bardi Cobre",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 97.52
+    },
+    {
+      "product": "Blusa Soho Preto",
+      "category": "Blusas",
+      "neighbor": "Blusa Mayfar Preto",
+      "neighbor_category": "Blusas",
+      "rank": 2,
+      "similarity_pct": 97.52
+    },
+    {
+      "product": "Blusa Soho Off-White",
+      "category": "Blusas",
+      "neighbor": "Blusa Mayfar Off-White",
+      "neighbor_category": "Blusas",
+      "rank": 2,
+      "similarity_pct": 97.52
+    },
+    {
+      "product": "Conjunto Guillen Off-White",
+      "category": "Conjuntos",
+      "neighbor": "Conjunto Denver Off-White",
+      "neighbor_category": "Conjuntos",
+      "rank": 3,
+      "similarity_pct": 97.5
+    },
+    {
+      "product": "Biquíni Menorca Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Kobe Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 97.5
+    },
+    {
+      "product": "Biquíni Taut Off-White",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Castillo Off-White",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 97.49
+    },
+    {
+      "product": "Vestido Brice Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Bauhaus Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 97.44
+    },
+    {
+      "product": "Conjunto Lamellae Azul",
+      "category": "Conjuntos",
+      "neighbor": "Conjunto Lamellae Preto",
+      "neighbor_category": "Conjuntos",
+      "rank": 2,
+      "similarity_pct": 97.43
+    },
+    {
+      "product": "Conjunto Lamellae Azul",
+      "category": "Conjuntos",
+      "neighbor": "Conjunto Lamellae Off-White",
+      "neighbor_category": "Conjuntos",
+      "rank": 1,
+      "similarity_pct": 97.43
+    },
+    {
+      "product": "Vestido Tricot Murphy Avelã",
+      "category": "Vestidos",
+      "neighbor": "Vestido Linho Masp Avelã",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 97.33
+    },
+    {
+      "product": "Vestido Roland Marrom",
+      "category": "Vestidos",
+      "neighbor": "Vestido Brent Marrom",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 97.32
+    },
+    {
+      "product": "BLUSA TOMMASO + SHORT CALEB | OFF-WHITE",
+      "category": "Blusas",
+      "neighbor": "Blusa Alexis Off-White",
+      "neighbor_category": "Blusas",
+      "rank": 2,
+      "similarity_pct": 97.31
+    },
+    {
+      "product": "BLUSA TOMMASO + SHORT CALEB | OFF-WHITE",
+      "category": "Blusas",
+      "neighbor": "Blusa Percy Off-White",
+      "neighbor_category": "Blusas",
+      "rank": 3,
+      "similarity_pct": 97.31
+    },
+    {
+      "product": "Vestido Axel Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Bauhaus Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 97.31
+    },
+    {
+      "product": "Vestido Axel Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Bauhaus Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 97.31
+    },
+    {
+      "product": "Vestido Forest Azul",
+      "category": "Vestidos",
+      "neighbor": "Vestido Perot Azul",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 97.29
+    },
+    {
+      "product": "Vestido Alvorada Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Catton Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 97.24
+    },
+    {
+      "product": "Body Theron Off-White",
+      "category": "Bodies",
+      "neighbor": "Body Rodd Off-White",
+      "neighbor_category": "Bodies",
+      "rank": 2,
+      "similarity_pct": 97.23
+    },
+    {
+      "product": "Body Rodd Off-White",
+      "category": "Bodies",
+      "neighbor": "Body Ezio Off-White",
+      "neighbor_category": "Bodies",
+      "rank": 1,
+      "similarity_pct": 97.23
+    },
+    {
+      "product": "Biquíni Landon Pérola",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Bonneville Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 97.22
+    },
+    {
+      "product": "Biquíni Landon Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Bonneville Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 97.22
+    },
+    {
+      "product": "Vestido Tricot Nau Avelã",
+      "category": "Vestidos",
+      "neighbor": "Vestido Linho Masp Avelã",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 97.19
+    },
+    {
+      "product": "Blazer Vestido Vincent Caramelo",
+      "category": "Blazers",
+      "neighbor": "BLAZER CARMINE CARAMELO + CALÇA JEANS MALCOLM AZUL CLARO",
+      "neighbor_category": "Blazers",
+      "rank": 2,
+      "similarity_pct": 97.01
+    },
+    {
+      "product": "Saia Lisse Off-White",
+      "category": "Saias",
+      "neighbor": "Saia Keith Off-White",
+      "neighbor_category": "Saias",
+      "rank": 3,
+      "similarity_pct": 96.98
+    },
+    {
+      "product": "Conjunto Lamellae Azul",
+      "category": "Conjuntos",
+      "neighbor": "Conjunto Ivy Off-White",
+      "neighbor_category": "Conjuntos",
+      "rank": 3,
+      "similarity_pct": 96.98
+    },
+    {
+      "product": "Macacão Avia Off-White",
+      "category": "Macacões",
+      "neighbor": "Macacão Linho Braid Off-White",
+      "neighbor_category": "Macacões",
+      "rank": 2,
+      "similarity_pct": 96.97
+    },
+    {
+      "product": "Macacão Avia Off-White",
+      "category": "Macacões",
+      "neighbor": "Macacão Rith Off-White",
+      "neighbor_category": "Macacões",
+      "rank": 3,
+      "similarity_pct": 96.97
+    },
+    {
+      "product": "Conjunto Althea Vermelho",
+      "category": "Conjuntos",
+      "neighbor": "Conjunto Althea Preto",
+      "neighbor_category": "Conjuntos",
+      "rank": 2,
+      "similarity_pct": 96.84
+    },
+    {
+      "product": "Conjunto Althea Vermelho",
+      "category": "Conjuntos",
+      "neighbor": "Conjunto Althea Off-White",
+      "neighbor_category": "Conjuntos",
+      "rank": 3,
+      "similarity_pct": 96.84
+    },
+    {
+      "product": "Macaquinho Linho Tau Off-White",
+      "category": "Unknown",
+      "neighbor": "Corselet Adrian Off-White",
+      "neighbor_category": "Unknown",
+      "rank": 2,
+      "similarity_pct": 96.73
+    },
+    {
+      "product": "Macaquinho Linho Tau Preto",
+      "category": "Unknown",
+      "neighbor": "Corselet Adrian Preto",
+      "neighbor_category": "Unknown",
+      "rank": 2,
+      "similarity_pct": 96.73
+    },
+    {
+      "product": "Corselet Adrian Preto",
+      "category": "Unknown",
+      "neighbor": "Macaquinho Evans Preto",
+      "neighbor_category": "Unknown",
+      "rank": 1,
+      "similarity_pct": 96.73
+    },
+    {
+      "product": "Corselet Kimbell Off-White",
+      "category": "Unknown",
+      "neighbor": "Macaquinho Linho Tau Off-White",
+      "neighbor_category": "Unknown",
+      "rank": 3,
+      "similarity_pct": 96.73
+    },
+    {
+      "product": "Vestido Maddox Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Cowden Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 96.63
+    },
+    {
+      "product": "Vestido Copan Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Brice Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 96.58
+    },
+    {
+      "product": "Body Dominic Preto",
+      "category": "Bodies",
+      "neighbor": "Body Heydar Preto",
+      "neighbor_category": "Bodies",
+      "rank": 2,
+      "similarity_pct": 96.53
+    },
+    {
+      "product": "Biquíni Landon Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Castillo Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 96.5
+    },
+    {
+      "product": "Biquíni Bercy Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Julian Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 96.46
+    },
+    {
+      "product": "BLAZER CARMINE + PANTALONA SAVOYE | OFF-WHITE",
+      "category": "Blazers",
+      "neighbor": "Blazer Vestido Vincent Off-White",
+      "neighbor_category": "Blazers",
+      "rank": 1,
+      "similarity_pct": 96.4
+    },
+    {
+      "product": "BLAZER CARMINE + PANTALONA SAVOYE | PRETO",
+      "category": "Blazers",
+      "neighbor": "Blazer Vestido Vincent Preto",
+      "neighbor_category": "Blazers",
+      "rank": 1,
+      "similarity_pct": 96.4
+    },
+    {
+      "product": "Body Rocco Off-White",
+      "category": "Bodies",
+      "neighbor": "Body Chiara Off-White",
+      "neighbor_category": "Bodies",
+      "rank": 2,
+      "similarity_pct": 96.37
+    },
+    {
+      "product": "Biquíni Finca Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Taut Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 96.3
+    },
+    {
+      "product": "Macacão Mila Off-White",
+      "category": "Macacões",
+      "neighbor": "Macacão Orpheus Off-White",
+      "neighbor_category": "Macacões",
+      "rank": 1,
+      "similarity_pct": 96.28
+    },
+    {
+      "product": "Biquíni Alann Pérola",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Landon Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 96.25
+    },
+    {
+      "product": "Biquíni Landon Marrom",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Alann Marrom",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 96.25
+    },
+    {
+      "product": "Biquíni Landon Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Alann Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 96.25
+    },
+    {
+      "product": "BLAZER CARMINE + PANTALONA SAVOYE | PRETO",
+      "category": "Blazers",
+      "neighbor": "Blazer Vestido Darleen Preto",
+      "neighbor_category": "Blazers",
+      "rank": 2,
+      "similarity_pct": 96.24
+    },
+    {
+      "product": "Biquíni Finca Pérola",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Vitto Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 96.23
+    },
+    {
+      "product": "Biquíni Finca Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Vitto Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 96.23
+    },
+    {
+      "product": "Blusa Alexis Off-White",
+      "category": "Blusas",
+      "neighbor": "Blusa Alpheus Off-White",
+      "neighbor_category": "Blusas",
+      "rank": 3,
+      "similarity_pct": 96.18
+    },
+    {
+      "product": "Blusa Percy Off-White",
+      "category": "Blusas",
+      "neighbor": "Blusa Alpheus Off-White",
+      "neighbor_category": "Blusas",
+      "rank": 3,
+      "similarity_pct": 96.18
+    },
+    {
+      "product": "Blusa Alpheus Preto",
+      "category": "Blusas",
+      "neighbor": "Blusa Percy Preto",
+      "neighbor_category": "Blusas",
+      "rank": 3,
+      "similarity_pct": 96.18
+    },
+    {
+      "product": "Vestido Linho Alanis Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Fontana Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 96.15
+    },
+    {
+      "product": "Biquíni Finca Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Easton Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 96.14
+    },
+    {
+      "product": "Vestido Linho Sugarloaf Avelã",
+      "category": "Vestidos",
+      "neighbor": "Vestido Tricot Murphy Avelã",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 96.13
+    },
+    {
+      "product": "Vestido Brice Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Alvorada Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 96.03
+    },
+    {
+      "product": "Biquíni Lorian Off-White",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Easton Off-White",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 95.95
+    },
+    {
+      "product": "Biquíni Lorian Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Easton Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 95.95
+    },
+    {
+      "product": "Body Kenzo Pérola",
+      "category": "Bodies",
+      "neighbor": "Body Darius Pérola",
+      "neighbor_category": "Bodies",
+      "rank": 1,
+      "similarity_pct": 95.93
+    },
+    {
+      "product": "Biquíni Landon Marrom",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Landon Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 95.89
+    },
+    {
+      "product": "Biquíni Landon Marrom",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Landon Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 95.89
+    },
+    {
+      "product": "BODY ROCCO + PANTALONA FLARE | OFF-WHITE",
+      "category": "Bodies",
+      "neighbor": "BODY ROCCO + PANTALONA FLARE | PRETO",
+      "neighbor_category": "Bodies",
+      "rank": 2,
+      "similarity_pct": 95.87
+    },
+    {
+      "product": "Vestido Axel Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Alvorada Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 95.87
+    },
+    {
+      "product": "Vestido Axel Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Alvorada Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 95.87
+    },
+    {
+      "product": "Vestido Bonet Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Alvorada Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 95.87
+    },
+    {
+      "product": "Pareô Maya Preto",
+      "category": "Pareôs",
+      "neighbor": "Pareô Grazia Preto",
+      "neighbor_category": "Pareôs",
+      "rank": 1,
+      "similarity_pct": 95.84
+    },
+    {
+      "product": "Pareô Grazia Pérola",
+      "category": "Pareôs",
+      "neighbor": "Pareô Maya Pérola",
+      "neighbor_category": "Pareôs",
+      "rank": 1,
+      "similarity_pct": 95.84
+    },
+    {
+      "product": "Biquíni Lorian Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Vitto Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 95.82
+    },
+    {
+      "product": "Vestido Vallez Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Tricot Nau Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 95.81
+    },
+    {
+      "product": "Biquíni Hali Azul Índigo",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Perez Azul Índigo",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 95.75
+    },
+    {
+      "product": "Biquíni Perez Pérola",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Hali Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 95.75
+    },
+    {
+      "product": "BODY CHIARA + PANTALONA SAVOYE | OFF-WHITE",
+      "category": "Bodies",
+      "neighbor": "BODY ROCCO + PANTALONA FLARE | PRETO",
+      "neighbor_category": "Bodies",
+      "rank": 2,
+      "similarity_pct": 95.75
+    },
+    {
+      "product": "Biquíni Lorian Off-White",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Castillo Off-White",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 95.73
+    },
+    {
+      "product": "Biquíni Lorian Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Castillo Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 95.73
+    },
+    {
+      "product": "Biquíni Harper Pérola",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Hali Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 95.7
+    },
+    {
+      "product": "Biquíni Galea Azul Índigo",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Hali Azul Índigo",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 95.68
+    },
+    {
+      "product": "Body Kenzo Pérola",
+      "category": "Bodies",
+      "neighbor": "Body Bonnie Pérola",
+      "neighbor_category": "Bodies",
+      "rank": 2,
+      "similarity_pct": 95.67
+    },
+    {
+      "product": "Biquíni Capanema Pérola",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Hali Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 95.63
+    },
+    {
+      "product": "Biquíni Eaton Cobre",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Bardi Cobre",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 95.6
+    },
+    {
+      "product": "Conjunto Fellicce Vermelho",
+      "category": "Conjuntos",
+      "neighbor": "Conjunto Lamellae Off-White",
+      "neighbor_category": "Conjuntos",
+      "rank": 2,
+      "similarity_pct": 95.59
+    },
+    {
+      "product": "Conjunto Fellicce Framboesa",
+      "category": "Conjuntos",
+      "neighbor": "Conjunto Lamellae Preto",
+      "neighbor_category": "Conjuntos",
+      "rank": 2,
+      "similarity_pct": 95.59
+    },
+    {
+      "product": "Conjunto Fellicce Framboesa",
+      "category": "Conjuntos",
+      "neighbor": "Conjunto Lamellae Azul",
+      "neighbor_category": "Conjuntos",
+      "rank": 1,
+      "similarity_pct": 95.59
+    },
+    {
+      "product": "Conjunto Fellicce Vermelho",
+      "category": "Conjuntos",
+      "neighbor": "Conjunto Lamellae Preto",
+      "neighbor_category": "Conjuntos",
+      "rank": 3,
+      "similarity_pct": 95.59
+    },
+    {
+      "product": "Conjunto Fellicce Framboesa",
+      "category": "Conjuntos",
+      "neighbor": "Conjunto Lamellae Off-White",
+      "neighbor_category": "Conjuntos",
+      "rank": 3,
+      "similarity_pct": 95.59
+    },
+    {
+      "product": "Biquíni Arenella Off-White",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Bernie Off-White",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 95.44
+    },
+    {
+      "product": "Body Steffano Preto",
+      "category": "Bodies",
+      "neighbor": "Body Waud Preto",
+      "neighbor_category": "Bodies",
+      "rank": 3,
+      "similarity_pct": 95.32
+    },
+    {
+      "product": "Biquíni Marzan Off-White",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Arenella Off-White",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 95.31
+    },
+    {
+      "product": "Biquíni Taut Off-White",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Lorian Off-White",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 95.18
+    },
+    {
+      "product": "Body Dominic Preto",
+      "category": "Bodies",
+      "neighbor": "Body Otto Preto",
+      "neighbor_category": "Bodies",
+      "rank": 3,
+      "similarity_pct": 95.08
+    },
+    {
+      "product": "Biquíni Mark Pérola",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Hess Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 95.06
+    },
+    {
+      "product": "Biquíni Sopka Off-White",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Nari Off-White",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 94.99
+    },
+    {
+      "product": "Biquíni Finca Pérola",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Bonneville Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 94.9
+    },
+    {
+      "product": "Body Foster Preto",
+      "category": "Bodies",
+      "neighbor": "Body Heydar Preto",
+      "neighbor_category": "Bodies",
+      "rank": 2,
+      "similarity_pct": 94.88
+    },
+    {
+      "product": "Vestido Salvi Azul",
+      "category": "Vestidos",
+      "neighbor": "Vestido Ivory Azul",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 94.85
+    },
+    {
+      "product": "Biquíni Mark Pérola",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Kobe Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 94.74
+    },
+    {
+      "product": "Biquíni Mark Castanho",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Vince Castanho",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 94.74
+    },
+    {
+      "product": "Biquíni Mark Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Kobe Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 94.74
+    },
+    {
+      "product": "Biquíni Mark Preto",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Vince Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 94.74
+    },
+    {
+      "product": "Biquíni Mark Pérola",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Vince Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 94.74
+    },
+    {
+      "product": "Vestido Copan Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Axel Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 94.69
+    },
+    {
+      "product": "Vestido Copan Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Bonet Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 94.69
+    },
+    {
+      "product": "Biquíni Bardi Off-White",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Bernie Off-White",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 94.6
+    },
+    {
+      "product": "Biquíni Perez Azul Índigo",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Riva Azul Índigo",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 94.58
+    },
+    {
+      "product": "Biquíni Sopka Off-White",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Cyprus Off-White",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 94.55
+    },
+    {
+      "product": "Body Steffano Marrom",
+      "category": "Bodies",
+      "neighbor": "Body Chiara Marrom",
+      "neighbor_category": "Bodies",
+      "rank": 2,
+      "similarity_pct": 94.34
+    },
+    {
+      "product": "Body Chiara Off-White",
+      "category": "Bodies",
+      "neighbor": "Body Steffano Off-White",
+      "neighbor_category": "Bodies",
+      "rank": 2,
+      "similarity_pct": 94.34
+    },
+    {
+      "product": "Pareô Maya Pérola",
+      "category": "Pareôs",
+      "neighbor": "Pareô Leanni Pérola",
+      "neighbor_category": "Pareôs",
+      "rank": 2,
+      "similarity_pct": 94.33
+    },
+    {
+      "product": "Pareô Leanni Preto",
+      "category": "Pareôs",
+      "neighbor": "Pareô Maya Preto",
+      "neighbor_category": "Pareôs",
+      "rank": 1,
+      "similarity_pct": 94.33
+    },
+    {
+      "product": "Biquíni Kobe Cobre",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Peter Cobre",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 94.28
+    },
+    {
+      "product": "Biquíni Duncan Cobre",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Peter Cobre",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 94.27
+    },
+    {
+      "product": "Biquíni Bardi Off-White",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Marzan Off-White",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 94.27
+    },
+    {
+      "product": "Biquíni Conti Castanho",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Perez Castanho",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 94.25
+    },
+    {
+      "product": "Biquíni Perez Castanho",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Vince Castanho",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 94.24
+    },
+    {
+      "product": "Biquíni Miller Vermelho",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Kobe Vermelho",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 94.24
+    },
+    {
+      "product": "Biquíni Kobe Cobre",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Miller Cobre",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 94.24
+    },
+    {
+      "product": "Biquíni Mark Castanho",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Conti Castanho",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 94.23
+    },
+    {
+      "product": "Blusa Zeno Off-White",
+      "category": "Blusas",
+      "neighbor": "Blusa Soho Off-White",
+      "neighbor_category": "Blusas",
+      "rank": 1,
+      "similarity_pct": 94.23
+    },
+    {
+      "product": "Biquíni Eaton Cobre",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Peter Cobre",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 94.21
+    },
+    {
+      "product": "Biquíni Duncan Cobre",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Miller Cobre",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 94.2
+    },
+    {
+      "product": "Vestido Linho Alanis Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Catton Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 94.18
+    },
+    {
+      "product": "Body Alkash Vermelho",
+      "category": "Bodies",
+      "neighbor": "Body Espanya Vermelho",
+      "neighbor_category": "Bodies",
+      "rank": 1,
+      "similarity_pct": 94.17
+    },
+    {
+      "product": "Vestido Zakynthos Rosê",
+      "category": "Vestidos",
+      "neighbor": "Vestido Mayon Rosê",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 93.97
+    },
+    {
+      "product": "Body Eli Preto",
+      "category": "Bodies",
+      "neighbor": "Body Mattia Preto",
+      "neighbor_category": "Bodies",
+      "rank": 1,
+      "similarity_pct": 93.96
+    },
+    {
+      "product": "Body Eli Off-White",
+      "category": "Bodies",
+      "neighbor": "Body Mattia Off-White",
+      "neighbor_category": "Bodies",
+      "rank": 1,
+      "similarity_pct": 93.96
+    },
+    {
+      "product": "Vestido Ivory Azul",
+      "category": "Vestidos",
+      "neighbor": "Vestido Cameron Azul",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 93.88
+    },
+    {
+      "product": "Vestido Cameron Fúcsia",
+      "category": "Vestidos",
+      "neighbor": "Vestido Ivory Fúcsia",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 93.88
+    },
+    {
+      "product": "Blazer Vestido Dustin Off-White",
+      "category": "Blazers",
+      "neighbor": "Blazer Vestido Vincent Off-White",
+      "neighbor_category": "Blazers",
+      "rank": 1,
+      "similarity_pct": 93.88
+    },
+    {
+      "product": "Blazer Vestido Dustin Preto",
+      "category": "Blazers",
+      "neighbor": "Blazer Vestido Vincent Preto",
+      "neighbor_category": "Blazers",
+      "rank": 1,
+      "similarity_pct": 93.88
+    },
+    {
+      "product": "Biquíni Eaton Cobre",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Miller Cobre",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 93.87
+    },
+    {
+      "product": "Body Theron Off-White",
+      "category": "Bodies",
+      "neighbor": "Body Steffano Off-White",
+      "neighbor_category": "Bodies",
+      "rank": 3,
+      "similarity_pct": 93.84
+    },
+    {
+      "product": "Body Ezio Off-White",
+      "category": "Bodies",
+      "neighbor": "Body Steffano Off-White",
+      "neighbor_category": "Bodies",
+      "rank": 3,
+      "similarity_pct": 93.84
+    },
+    {
+      "product": "Blazer Vestido Dustin Preto",
+      "category": "Blazers",
+      "neighbor": "Blazer Vestido Darleen Preto",
+      "neighbor_category": "Blazers",
+      "rank": 2,
+      "similarity_pct": 93.83
+    },
+    {
+      "product": "Vestido Vallez Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Gio Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 93.78
+    },
+    {
+      "product": "Vestido Tess Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Osbert Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 93.71
+    },
+    {
+      "product": "Biquíni Alann Marrom",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Alann Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 93.64
+    },
+    {
+      "product": "Macacão Aaron Off-White",
+      "category": "Macacões",
+      "neighbor": "Macacão Megan Off-White",
+      "neighbor_category": "Macacões",
+      "rank": 1,
+      "similarity_pct": 93.62
+    },
+    {
+      "product": "Macacão Breddon Vermelho",
+      "category": "Macacões",
+      "neighbor": "Macacão Megan Vermelho",
+      "neighbor_category": "Macacões",
+      "rank": 3,
+      "similarity_pct": 93.62
+    },
+    {
+      "product": "Macacão Aaron Preto",
+      "category": "Macacões",
+      "neighbor": "Macacão Amber Preto",
+      "neighbor_category": "Macacões",
+      "rank": 3,
+      "similarity_pct": 93.62
+    },
+    {
+      "product": "Macacão Aaron Off-White",
+      "category": "Macacões",
+      "neighbor": "Macacão Breddon Off-White",
+      "neighbor_category": "Macacões",
+      "rank": 3,
+      "similarity_pct": 93.62
+    },
+    {
+      "product": "Macacão Aaron Off-White",
+      "category": "Macacões",
+      "neighbor": "Macacão Amber Off-White",
+      "neighbor_category": "Macacões",
+      "rank": 2,
+      "similarity_pct": 93.62
+    },
+    {
+      "product": "Macacão Megan Preto",
+      "category": "Macacões",
+      "neighbor": "Macacão Amber Preto",
+      "neighbor_category": "Macacões",
+      "rank": 3,
+      "similarity_pct": 93.62
+    },
+    {
+      "product": "Macacão Amber Vermelho",
+      "category": "Macacões",
+      "neighbor": "Macacão Megan Vermelho",
+      "neighbor_category": "Macacões",
+      "rank": 3,
+      "similarity_pct": 93.62
+    },
+    {
+      "product": "Macacão Breddon Preto",
+      "category": "Macacões",
+      "neighbor": "Macacão Aaron Preto",
+      "neighbor_category": "Macacões",
+      "rank": 3,
+      "similarity_pct": 93.62
+    },
+    {
+      "product": "Macacão Megan Preto",
+      "category": "Macacões",
+      "neighbor": "Macacão Breddon Preto",
+      "neighbor_category": "Macacões",
+      "rank": 2,
+      "similarity_pct": 93.62
+    },
+    {
+      "product": "Calça Zeno Off-White",
+      "category": "Calças",
+      "neighbor": "Pantalona Linho Abbie Off-White",
+      "neighbor_category": "Calças",
+      "rank": 1,
+      "similarity_pct": 93.58
+    },
+    {
+      "product": "Pantalona Linho Abbie Preto",
+      "category": "Calças",
+      "neighbor": "Calça Zeno Preto",
+      "neighbor_category": "Calças",
+      "rank": 3,
+      "similarity_pct": 93.58
+    },
+    {
+      "product": "Biquíni Finca Pérola",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Alann Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 93.58
+    },
+    {
+      "product": "Macaquinho Neil Preto",
+      "category": "Unknown",
+      "neighbor": "CORSELET KIMBELL + PANTALONA SAVOYE | PRETO",
+      "neighbor_category": "Unknown",
+      "rank": 1,
+      "similarity_pct": 93.57
+    },
+    {
+      "product": "Vestido Tess Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Maddox Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 93.56
+    },
+    {
+      "product": "Biquíni Galea Azul Índigo",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Riva Azul Índigo",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 93.55
+    },
+    {
+      "product": "Vestido Tess Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Ivory Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 93.41
+    },
+    {
+      "product": "Calça Zeno Off-White",
+      "category": "Calças",
+      "neighbor": "Pantalona Ozuna Off-White",
+      "neighbor_category": "Calças",
+      "rank": 2,
+      "similarity_pct": 93.35
+    },
+    {
+      "product": "Calça Zeno Preto",
+      "category": "Calças",
+      "neighbor": "Pantalona Ozuna Preto",
+      "neighbor_category": "Calças",
+      "rank": 2,
+      "similarity_pct": 93.35
+    },
+    {
+      "product": "Biquíni Castillo Terracota",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Alann Pérola",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 93.29
+    },
+    {
+      "product": "Biquíni Castillo Terracota",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Alann Marrom",
+      "neighbor_category": "Biquínis",
+      "rank": 1,
+      "similarity_pct": 93.29
+    },
+    {
+      "product": "Biquíni Castillo Terracota",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Alann Preto",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 93.29
+    },
+    {
+      "product": "Vestido Roland Marrom",
+      "category": "Vestidos",
+      "neighbor": "Vestido Osbert Marrom",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 93.28
+    },
+    {
+      "product": "Body Foster Off-White",
+      "category": "Bodies",
+      "neighbor": "Body Otto Off-White",
+      "neighbor_category": "Bodies",
+      "rank": 2,
+      "similarity_pct": 93.16
+    },
+    {
+      "product": "Body Foster Preto",
+      "category": "Bodies",
+      "neighbor": "Body Otto Preto",
+      "neighbor_category": "Bodies",
+      "rank": 3,
+      "similarity_pct": 93.16
+    },
+    {
+      "product": "Body Rodd Off-White",
+      "category": "Bodies",
+      "neighbor": "Body Steffano Off-White",
+      "neighbor_category": "Bodies",
+      "rank": 3,
+      "similarity_pct": 93.13
+    },
+    {
+      "product": "BLAZER CARMINE CARAMELO + CALÇA JEANS MALCOLM AZUL CLARO",
+      "category": "Blazers",
+      "neighbor": "Blazer Carmine Caramelo",
+      "neighbor_category": "Blazers",
+      "rank": 2,
+      "similarity_pct": 93.1
+    },
+    {
+      "product": "Biquíni Mies Off-White",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Arenella Off-White",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 93.07
+    },
+    {
+      "product": "Body Rocco Preto",
+      "category": "Bodies",
+      "neighbor": "Body Waud Preto",
+      "neighbor_category": "Bodies",
+      "rank": 3,
+      "similarity_pct": 93.06
+    },
+    {
+      "product": "Biquíni Sopka Off-White",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Arenella Off-White",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 93.04
+    },
+    {
+      "product": "Biquíni Easton Marrom",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Landon Marrom",
+      "neighbor_category": "Biquínis",
+      "rank": 2,
+      "similarity_pct": 93.02
+    },
+    {
+      "product": "Vestido Copan Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Catton Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 92.86
+    },
+    {
+      "product": "Biquíni Perez Castanho",
+      "category": "Biquínis",
+      "neighbor": "Biquíni Alessio Castanho",
+      "neighbor_category": "Biquínis",
+      "rank": 3,
+      "similarity_pct": 92.8
+    },
+    {
+      "product": "Pareô Vermelho",
+      "category": "Pareôs",
+      "neighbor": "Pareô Azul",
+      "neighbor_category": "Pareôs",
+      "rank": 1,
+      "similarity_pct": 92.62
+    },
+    {
+      "product": "Blazer Vestido Dustin Preto",
+      "category": "Blazers",
+      "neighbor": "BLAZER CARMINE + PANTALONA SAVOYE | PRETO",
+      "neighbor_category": "Blazers",
+      "rank": 3,
+      "similarity_pct": 92.6
+    },
+    {
+      "product": "BLAZER CARMINE + PANTALONA SAVOYE | OFF-WHITE",
+      "category": "Blazers",
+      "neighbor": "Blazer Vestido Dustin Off-White",
+      "neighbor_category": "Blazers",
+      "rank": 2,
+      "similarity_pct": 92.6
+    },
+    {
+      "product": "Pareô Marrom",
+      "category": "Pareôs",
+      "neighbor": "Pareô Vermelho",
+      "neighbor_category": "Pareôs",
+      "rank": 1,
+      "similarity_pct": 92.57
+    },
+    {
+      "product": "Pareô Azul Marinho",
+      "category": "Pareôs",
+      "neighbor": "Pareô Vermelho",
+      "neighbor_category": "Pareôs",
+      "rank": 1,
+      "similarity_pct": 92.57
+    },
+    {
+      "product": "Pareô Azul Marinho",
+      "category": "Pareôs",
+      "neighbor": "Pareô Marrom",
+      "neighbor_category": "Pareôs",
+      "rank": 2,
+      "similarity_pct": 92.56
+    },
+    {
+      "product": "Macacão Novari Preto",
+      "category": "Macacões",
+      "neighbor": "Macacão Aaron Preto",
+      "neighbor_category": "Macacões",
+      "rank": 3,
+      "similarity_pct": 92.56
+    },
+    {
+      "product": "Macacão Novari Vermelho",
+      "category": "Macacões",
+      "neighbor": "Macacão Megan Vermelho",
+      "neighbor_category": "Macacões",
+      "rank": 3,
+      "similarity_pct": 92.56
+    },
+    {
+      "product": "Pareô Preto",
+      "category": "Pareôs",
+      "neighbor": "Pareô Off-White",
+      "neighbor_category": "Pareôs",
+      "rank": 2,
+      "similarity_pct": 92.51
+    },
+    {
+      "product": "Pareô Terracota",
+      "category": "Pareôs",
+      "neighbor": "Pareô Off-White",
+      "neighbor_category": "Pareôs",
+      "rank": 1,
+      "similarity_pct": 92.51
+    },
+    {
+      "product": "Pareô Preto",
+      "category": "Pareôs",
+      "neighbor": "Pareô Terracota",
+      "neighbor_category": "Pareôs",
+      "rank": 3,
+      "similarity_pct": 92.51
+    },
+    {
+      "product": "Pareô Marrom",
+      "category": "Pareôs",
+      "neighbor": "Pareô Terracota",
+      "neighbor_category": "Pareôs",
+      "rank": 3,
+      "similarity_pct": 92.51
+    },
+    {
+      "product": "Pareô Off-White",
+      "category": "Pareôs",
+      "neighbor": "Pareô Marrom",
+      "neighbor_category": "Pareôs",
+      "rank": 3,
+      "similarity_pct": 92.51
+    },
+    {
+      "product": "Pareô Azul Marinho",
+      "category": "Pareôs",
+      "neighbor": "Pareô Preto",
+      "neighbor_category": "Pareôs",
+      "rank": 3,
+      "similarity_pct": 92.51
+    },
+    {
+      "product": "Pareô Terracota",
+      "category": "Pareôs",
+      "neighbor": "Pareô Azul Marinho",
+      "neighbor_category": "Pareôs",
+      "rank": 3,
+      "similarity_pct": 92.51
+    },
+    {
+      "product": "Pareô Azul",
+      "category": "Pareôs",
+      "neighbor": "Pareô Azul Marinho",
+      "neighbor_category": "Pareôs",
+      "rank": 2,
+      "similarity_pct": 92.5
+    },
+    {
+      "product": "Pareô Lenk Cobre",
+      "category": "Pareôs",
+      "neighbor": "Pareô Terracota",
+      "neighbor_category": "Pareôs",
+      "rank": 1,
+      "similarity_pct": 92.5
+    },
+    {
+      "product": "Pareô Lenk Cobre",
+      "category": "Pareôs",
+      "neighbor": "Pareô Preto",
+      "neighbor_category": "Pareôs",
+      "rank": 2,
+      "similarity_pct": 92.5
+    },
+    {
+      "product": "Pareô Lenk Pérola",
+      "category": "Pareôs",
+      "neighbor": "Pareô Terracota",
+      "neighbor_category": "Pareôs",
+      "rank": 2,
+      "similarity_pct": 92.5
+    },
+    {
+      "product": "Pareô Lenk Preto",
+      "category": "Pareôs",
+      "neighbor": "Pareô Off-White",
+      "neighbor_category": "Pareôs",
+      "rank": 3,
+      "similarity_pct": 92.5
+    },
+    {
+      "product": "Pareô Azul",
+      "category": "Pareôs",
+      "neighbor": "Pareô Marrom",
+      "neighbor_category": "Pareôs",
+      "rank": 3,
+      "similarity_pct": 92.5
+    },
+    {
+      "product": "Pareô Lenk Pérola",
+      "category": "Pareôs",
+      "neighbor": "Pareô Preto",
+      "neighbor_category": "Pareôs",
+      "rank": 3,
+      "similarity_pct": 92.5
+    },
+    {
+      "product": "Pareô Lenk Preto",
+      "category": "Pareôs",
+      "neighbor": "Pareô Terracota",
+      "neighbor_category": "Pareôs",
+      "rank": 2,
+      "similarity_pct": 92.5
+    },
+    {
+      "product": "Pareô Lenk Cobre",
+      "category": "Pareôs",
+      "neighbor": "Pareô Off-White",
+      "neighbor_category": "Pareôs",
+      "rank": 3,
+      "similarity_pct": 92.5
+    },
+    {
+      "product": "Pareô Lenk Pérola",
+      "category": "Pareôs",
+      "neighbor": "Pareô Off-White",
+      "neighbor_category": "Pareôs",
+      "rank": 1,
+      "similarity_pct": 92.5
+    },
+    {
+      "product": "Pantalona Savoye Avelã",
+      "category": "Calças",
+      "neighbor": "Pantalona Ozuna Avelã",
+      "neighbor_category": "Calças",
+      "rank": 1,
+      "similarity_pct": 92.29
+    },
+    {
+      "product": "Blazer Carmine Off-White",
+      "category": "Blazers",
+      "neighbor": "BLAZER CARMINE + PANTALONA SAVOYE | OFF-WHITE",
+      "neighbor_category": "Blazers",
+      "rank": 2,
+      "similarity_pct": 92.19
+    },
+    {
+      "product": "Blazer Carmine Preto",
+      "category": "Blazers",
+      "neighbor": "BLAZER CARMINE + PANTALONA SAVOYE | PRETO",
+      "neighbor_category": "Blazers",
+      "rank": 3,
+      "similarity_pct": 92.19
+    },
+    {
+      "product": "Blazer Vestido Dustin Off-White",
+      "category": "Blazers",
+      "neighbor": "Blazer Carmine Off-White",
+      "neighbor_category": "Blazers",
+      "rank": 3,
+      "similarity_pct": 92.09
+    },
+    {
+      "product": "Vestido Filippo Azul",
+      "category": "Vestidos",
+      "neighbor": "Vestido Ivory Azul",
+      "neighbor_category": "Vestidos",
+      "rank": 1,
+      "similarity_pct": 92.04
+    },
+    {
+      "product": "Vestido Filippo Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Ivory Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 2,
+      "similarity_pct": 92.04
+    },
+    {
+      "product": "Vestido Copan Off-White",
+      "category": "Vestidos",
+      "neighbor": "Vestido Cowden Off-White",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 92.04
+    },
+    {
+      "product": "Vestido Copan Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Cowden Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 92.04
+    },
+    {
+      "product": "Vestido Collins Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Harpa Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 92.0
+    },
+    {
+      "product": "Vestido Filippo Preto",
+      "category": "Vestidos",
+      "neighbor": "Vestido Malmo Preto",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 92.0
+    },
+    {
+      "product": "Vestido Tricot Aubrey Vermelho",
+      "category": "Vestidos",
+      "neighbor": "Vestido Harpa Vermelho",
+      "neighbor_category": "Vestidos",
+      "rank": 3,
+      "similarity_pct": 92.0
+    }
+  ],
+  "clusters": [
+    {
+      "portfolio_cluster": 0,
+      "items": 289,
+      "median_price": 644.5,
+      "mean_discount_pct": 0.0,
+      "median_sizes": 4.0,
+      "dominant_category": "Vestidos",
+      "dominant_color": "Off White",
+      "share_pct": 49.23,
+      "cluster_archetype": "CORE_DENSITY",
+      "density_score": 100.0,
+      "premium_score": 46.7,
+      "markdown_score": 0.0
+    },
+    {
+      "portfolio_cluster": 2,
+      "items": 166,
+      "median_price": 1789.0,
+      "mean_discount_pct": 0.0,
+      "median_sizes": 6.0,
+      "dominant_category": "Vestidos",
+      "dominant_color": "Off White",
+      "share_pct": 28.28,
+      "cluster_archetype": "PREMIUM_DENSITY",
+      "density_score": 84.8,
+      "premium_score": 100.0,
+      "markdown_score": 0.0
+    },
+    {
+      "portfolio_cluster": 3,
+      "items": 81,
+      "median_price": 116.0,
+      "mean_discount_pct": 60.88679012345679,
+      "median_sizes": 4.0,
+      "dominant_category": "Biquínis",
+      "dominant_color": "Preto",
+      "share_pct": 13.8,
+      "cluster_archetype": "PROMOTIONAL_DENSITY",
+      "density_score": 41.4,
+      "premium_score": 8.4,
+      "markdown_score": 100.0
+    },
+    {
+      "portfolio_cluster": 1,
+      "items": 46,
+      "median_price": 297.25,
+      "mean_discount_pct": 57.40108695652174,
+      "median_sizes": 4.0,
+      "dominant_category": "Biquínis",
+      "dominant_color": "Preto",
+      "share_pct": 7.84,
+      "cluster_archetype": "PROMOTIONAL_DENSITY",
+      "density_score": 23.5,
+      "premium_score": 21.6,
+      "markdown_score": 100.0
+    },
+    {
+      "portfolio_cluster": 4,
+      "items": 5,
+      "median_price": 1048.0,
+      "mean_discount_pct": 0.0,
+      "median_sizes": 5.0,
+      "dominant_category": "Biquínis",
+      "dominant_color": "Preto",
+      "share_pct": 0.85,
+      "cluster_archetype": "SPARSE_ZONE",
+      "density_score": 2.6,
+      "premium_score": 76.0,
+      "markdown_score": 0.0
+    }
+  ],
+  "reviews": [
+    {
+      "product_id": "v-1",
+      "category": "Vestidos",
+      "product_name": "Vestido Midi Seda",
+      "review_text": "Adorei o vestido, tecido maravilhoso e caimento impecável! Com certeza comprarei mais."
+    },
+    {
+      "product_id": "v-2",
+      "category": "Vestidos",
+      "product_name": "Vestido Longo Floral",
+      "review_text": "A costura do vestido rasgou no primeiro uso perto do zíper. Tecido muito frágil para o preço."
+    },
+    {
+      "product_id": "v-3",
+      "category": "Vestidos",
+      "product_name": "Vestido Festa Cetim",
+      "review_text": "Lindo, mas o tamanho ficou um pouco apertado na cintura. A qualidade é excelente."
+    },
+    {
+      "product_id": "b-1",
+      "category": "Biquínis",
+      "product_name": "Biquíni Cortininha Classic",
+      "review_text": "O biquíni veio muito pequeno e a cor desbotou logo na primeira lavagem. Fiquei decepcionada."
+    },
+    {
+      "product_id": "b-2",
+      "category": "Biquínis",
+      "product_name": "Biquíni Asa Delta",
+      "review_text": "Produto de baixa qualidade, o elástico ficou frouxo muito rápido. Não recomendo."
+    },
+    {
+      "product_id": "bl-1",
+      "category": "Blazers",
+      "product_name": "Blazer Linho Premium",
+      "review_text": "Blazer de alfaiataria com excelente caimento. Peça clássica que vale cada centavo."
+    },
+    {
+      "product_id": "bl-2",
+      "category": "Blazers",
+      "product_name": "Blazer Estruturado Luxo",
+      "review_text": "Acabamento de luxo incrível. Fiquei muito satisfeita com a qualidade dos botões e forro."
+    },
+    {
+      "product_id": "m-1",
+      "category": "Macacões",
+      "product_name": "Macacão Pantalona Crepe",
+      "review_text": "O caimento é perfeito, mas achei o tecido um pouco sintético e quente para o verão."
+    },
+    {
+      "product_id": "m-2",
+      "category": "Macacões",
+      "product_name": "Macacão Utilitário Algodão",
+      "review_text": "Muito confortável e prático. A entrega atrasou dois dias, mas o produto compensa."
+    },
+    {
+      "product_id": "c-1",
+      "category": "Conjuntos",
+      "product_name": "Conjunto Tricot Verão",
+      "review_text": "O conjunto encolheu muito na primeira lavagem manual. Devolvi o produto."
+    },
+    {
+      "product_id": "c-2",
+      "category": "Conjuntos",
+      "product_name": "Conjunto Alfaiataria Colete",
+      "review_text": "Maravilhoso! Modelagem elegante e tecido muito confortável. Perfeito para trabalhar."
+    }
+  ]
+}

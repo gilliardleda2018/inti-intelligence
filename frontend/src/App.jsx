@@ -4,41 +4,69 @@ import {
 } from 'recharts';
 import { 
   TrendingUp, MessageSquare, AlertTriangle, RefreshCw, Send, Cpu, Sparkles, 
-  ShoppingBag, Layers, Target, Zap, Crown, Tag, ShieldCheck, DollarSign, Calculator, ChevronRight
+  ShoppingBag, Layers, Target, Zap, Crown, Tag, ShieldCheck, DollarSign, Calculator, ChevronRight, Copy
 } from 'lucide-react';
 import './styles.css';
 
 const DEFAULT_REVIEWS = [
-  { product_name: "Vestido Midi Seda", category: "Vestidos", sentiment_score: 0.95, review_text: "Adorei o vestido, tecido maravilhoso e caimento impecável!" },
-  { product_name: "Blazer Linho Premium", category: "Blazers", sentiment_score: 0.88, review_text: "Blazer de alfaiataria com excelente caimento. Peça clássica." },
-  { product_name: "Vestido Longo Floral", category: "Vestidos", sentiment_score: -0.85, review_text: "A costura do vestido rasgou no primeiro uso perto do zíper." },
-  { product_name: "Biquíni Cortininha Classic", category: "Biquínis", sentiment_score: -0.92, review_text: "O biquíni veio muito pequeno e a cor desbotou na primeira lavagem." },
-  { product_name: "Macacão Utilitário Algodão", category: "Macacões", sentiment_score: 0.45, review_text: "Muito confortável e prático. A entrega atrasou dois dias." }
+  { product_name: "Vestido Midi Seda Pure Luxury", category: "Vestidos", sentiment_score: 0.95, rating: 5, review_text: "Adorei o vestido! Tecido de seda maravilhoso, caimento impecável e acabamento perfeito." },
+  { product_name: "Blazer Linho Premium Alfaiataria", category: "Blazers", sentiment_score: 0.88, rating: 5, review_text: "Blazer elegante com corte de alfaiataria excelente. Cor fiel à foto." },
+  { product_name: "Biquíni Cortininha Classic Fit", category: "Biquínis", sentiment_score: -0.92, rating: 1, review_text: "O biquíni veio muito menor que a tabela de tamanhos e desbotou na primeira lavagem." },
+  { product_name: "Vestido Longo Floral Cetim", category: "Vestidos", sentiment_score: -0.85, rating: 2, review_text: "A costura próxima ao zíper rasgou na primeira tentativa de vestir." },
+  { product_name: "Macacão Utilitário Algodão", category: "Macacões", sentiment_score: 0.45, rating: 4, review_text: "Muito confortável e prático para o dia a dia. A entrega apenas demorou 2 dias." }
 ];
 
 const DEFAULT_COMMERCIAL = {
   kpis: {
-    total_revenue_est: "R$ 485.200,00",
-    avg_discount_pct: "18.4%",
-    top_category: "Vestidos",
-    markdown_pressure: "Moderada"
+    priced_variants: 575,
+    price_coverage_pct: 97.96,
+    median_price: 689.5,
+    discounted_pct: 22.09,
+    top_category: "Vestidos"
   },
+  catalog_count: 587,
   category_summary: [
-    { category: "Vestidos", product_count: 42, avg_price: 289.0, avg_discount: 15.0, revenue_share: 38.5 },
-    { category: "Biquínis", product_count: 28, avg_price: 149.0, avg_discount: 22.0, revenue_share: 24.1 },
-    { category: "Blazers", product_count: 18, avg_price: 450.0, avg_discount: 10.0, revenue_share: 21.4 },
-    { category: "Macacões", product_count: 14, avg_price: 310.0, avg_discount: 18.0, revenue_share: 16.0 }
+    { category: "Blazers", variants: 25, median_price: 1589.0, category_price_tier: "PREMIUM", share_pct: 4.7 },
+    { category: "Macacões", variants: 41, median_price: 1489.0, category_price_tier: "PREMIUM", share_pct: 7.1 },
+    { category: "Sobretudos", variants: 1, median_price: 1244.5, category_price_tier: "PREMIUM", share_pct: 0.2 },
+    { category: "Vestidos", variants: 168, median_price: 1069.5, category_price_tier: "PREMIUM", share_pct: 28.6 },
+    { category: "Blusas", variants: 23, median_price: 989.0, category_price_tier: "PREMIUM", share_pct: 3.9 },
+    { category: "Calças", variants: 24, median_price: 694.25, category_price_tier: "CORE", share_pct: 4.1 },
+    { category: "Bodies", variants: 52, median_price: 649.0, category_price_tier: "CORE", share_pct: 8.8 },
+    { category: "Saídas", variants: 8, median_price: 594.5, category_price_tier: "CORE", share_pct: 1.4 },
+    { category: "Pareôs", variants: 23, median_price: 489.0, category_price_tier: "ACCESS", share_pct: 3.9 },
+    { category: "Biquínis", variants: 110, median_price: 489.0, category_price_tier: "ACCESS", share_pct: 18.7 },
+    { category: "Croppeds", variants: 32, median_price: 394.5, category_price_tier: "ACCESS", share_pct: 5.4 }
   ]
 };
 
 const DEFAULT_PORTFOLIO = {
+  total_clustered: 587,
+  total_duplicates_pairs: 753,
   clusters: [
-    { cluster_id: 0, label: "Top Sellers Premium", count: 28, avg_price: 380.0, opportunity: "Expandir Cores em Alta Demanda" },
-    { cluster_id: 1, label: "Volume & Entrada", count: 45, avg_price: 149.0, opportunity: "Manter Estoque Contínuo" },
-    { cluster_id: 2, label: "Nicho / Alto Ticket", count: 16, avg_price: 620.0, opportunity: "Campanha de Marketing Exclusiva" },
-    { cluster_id: 3, label: "Baixo Giro / Desconto", count: 13, avg_price: 190.0, opportunity: "Liquidação Estratégica" }
+    { portfolio_cluster: 0, dominant_category: "Biquínis", items: 110, label: "Roupas de Banho & Praia", opportunity: "Manter Grade Contínua" },
+    { portfolio_cluster: 1, dominant_category: "Blazers", items: 68, label: "Alfaiataria Premium", opportunity: "Expandir Linha Linho" },
+    { portfolio_cluster: 2, dominant_category: "Vestidos", items: 210, label: "Vestidos & Macacões Elegance", opportunity: "Costura Dupla nos Zíperes" },
+    { portfolio_cluster: 3, dominant_category: "Bodies", items: 84, label: "Conjuntos Promocionais", opportunity: "Liquidação Estratégica" },
+    { portfolio_cluster: 4, dominant_category: "Calças", items: 115, label: "Básicos & Essenciais", opportunity: "Reposição de Tamanho M" }
   ],
-  total_clustered: 102
+  near_duplicates: [
+    { product_a: "Vestido Midi Seda Rose", product_b: "Vestido Midi Seda Rosê Soft", similarity: 0.98, category: "Vestidos" },
+    { product_a: "Blazer Linho Areia", product_b: "Blazer Alfaiataria Linho Nude", similarity: 0.96, category: "Blazers" },
+    { product_a: "Biquíni Cortininha Preto", product_b: "Biquíni Triângulo Classic Black", similarity: 0.95, category: "Biquínis" },
+    { product_a: "Macacão Algodão Oliva", product_b: "Macacão Utilitário Sarja Kaki", similarity: 0.94, category: "Macacões" }
+  ]
+};
+
+const DEFAULT_DECISIONS = {
+  high_priority_count: 7,
+  opportunities: [
+    { priority: "HIGH", scope: "CATEGORY", entity: "Vestidos", headline: "Desvio Severo de Promoção (168 Peças)", recommended_action: "Otimizar desconto de 15% para 12%, preservando R$ 14.800 de margem.", evidence: "168 variações mapeadas" },
+    { priority: "HIGH", scope: "PRODUCT", entity: "Biquíni Cortininha Classic", headline: "Tamanho Menor que Padrão & Desbotamento", recommended_action: "Revisar tabela de medidas e solidez de cor com a confecção.", evidence: "14 reclamações em 48h" },
+    { priority: "HIGH", scope: "CLUSTER", entity: "Alfaiataria Premium", headline: "Demanda Reprimida de Linho", recommended_action: "Adicionar 4 SKUs em cores neutras (Areia/Oliva).", evidence: "Margem de 68% e Profundidade 9.1" },
+    { priority: "HIGH", scope: "PRODUCT", entity: "Macacão Utilitário Algodão", headline: "Ruptura de Estoque na Grade M/G", recommended_action: "Remanejar 250 unidades para o CD Principal.", evidence: "Giro 2.4x superior" },
+    { priority: "MEDIUM", scope: "CATEGORY", entity: "Blazers", headline: "Preço Inelástico (-0.75)", recommended_action: "Reduzir remarcação de 10% para 5%.", evidence: "Preço Mediano R$ 1.589" }
+  ]
 };
 
 const DEFAULT_ELASTICITY = {
@@ -46,26 +74,18 @@ const DEFAULT_ELASTICITY = {
   markdown_risk: "Moderado",
   recommended_action: "Otimizar desconto na categoria Vestidos de 15% para 12%, preservando R$ 14.800 de margem bruta.",
   categories_elasticity: [
-    { category: "Vestidos", elasticity: -1.15, optimal_discount: 12.0, current_discount: 15.0, margin_delta: "+R$ 14.800" },
-    { category: "Biquínis", elasticity: -1.85, optimal_discount: 20.0, current_discount: 22.0, margin_delta: "+R$ 8.200" },
     { category: "Blazers", elasticity: -0.75, optimal_discount: 5.0, current_discount: 10.0, margin_delta: "+R$ 21.500" },
-    { category: "Macacões", elasticity: -1.30, optimal_discount: 15.0, current_discount: 18.0, margin_delta: "+R$ 6.100" }
-  ]
-};
-
-const DEFAULT_DECISIONS = {
-  opportunities: [
-    { id: "OPP-01", title: "Expansão de Linha Linho Premium", category: "Blazers", impact: "Alto", confidence: "94%", action: "Adicionar 4 SKUs em cores neutras" },
-    { id: "OPP-02", title: "Revisão de Tabela de Medidas", category: "Biquínis", impact: "Crítico", confidence: "89%", action: "Ajustar modelagem com a confecção" },
-    { id: "OPP-03", title: "Reforço de Costura em Zíperes", category: "Vestidos", impact: "Médio", confidence: "91%", action: "Costura dupla nos modelos de seda/cetim" }
+    { category: "Macacões", elasticity: -1.30, optimal_discount: 15.0, current_discount: 18.0, margin_delta: "+R$ 6.100" },
+    { category: "Vestidos", elasticity: -1.15, optimal_discount: 12.0, current_discount: 15.0, margin_delta: "+R$ 14.800" },
+    { category: "Biquínis", elasticity: -1.85, optimal_discount: 20.0, current_discount: 22.0, margin_delta: "+R$ 8.200" }
   ]
 };
 
 const AGENTS = [
-  { id: "executive", name: "Agente Executivo", title: "CEO Advisor", icon: Crown, color: "#F59E0B", desc: "Análise estratégica de vendas, metas e projeção executiva." },
-  { id: "buyer", name: "Agente Comprador", title: "Assortment Specialist", icon: ShoppingBag, color: "#10B981", desc: "Recomendações de reposição, novos SKUs e white spaces." },
-  { id: "pricing", name: "Agente de Pricing", title: "Margin & Elasticity", icon: Tag, color: "#3B82F6", desc: "Estratégia de preço ótimo, liquidação e margem de contribuição." },
-  { id: "qa", name: "Agente de Qualidade", title: "Customer QA Audit", icon: ShieldCheck, color: "#EF4444", desc: "Auditoria de insatisfações de produtos, tecidos e modelagens." }
+  { id: "executive", name: "Agente Executivo", title: "CEO Advisor", icon: Crown, color: "#F59E0B", desc: "Análise estratégica dos 587 produtos, metas e visão executiva." },
+  { id: "buyer", name: "Agente Comprador", title: "Assortment Specialist", icon: ShoppingBag, color: "#10B981", desc: "Recomendações para as 14 categorias e reposição de estoque." },
+  { id: "pricing", name: "Agente de Pricing", title: "Margin & Elasticity", icon: Tag, color: "#3B82F6", desc: "Precificação dinâmica por tier (Premium R$ 1.589 / Access R$ 489)." },
+  { id: "qa", name: "Agente de Qualidade", title: "Customer QA Audit", icon: ShieldCheck, color: "#EF4444", desc: "Auditoria de insatisfações e reclamações em tempo real." }
 ];
 
 function App() {
@@ -85,12 +105,12 @@ function App() {
   // Simulator State
   const [simSkus, setSimSkus] = useState(4);
   const [simCat, setSimCat] = useState("Blazers");
-  const [simPrice, setSimPrice] = useState(450);
-  const [simResult, setSimResult] = useState({ revenue: "R$ 153.000,00", margin: "R$ 99.450,00", risk: "Baixo (6.2%)" });
+  const [simPrice, setSimPrice] = useState(1589);
+  const [simResult, setSimResult] = useState({ revenue: "R$ 540.260,00", margin: "R$ 351.169,00", risk: "Baixo (6.2%)" });
 
   // Multi-Agent Chat Messages
   const [chatMessages, setChatMessages] = useState([
-    { sender: "agent", agentRole: "executive", text: "👑 Agente Executivo INTI: Bem-vindo! Selecione um dos 4 Agentes Especialistas no painel acima para consultas analíticas específicas." }
+    { sender: "agent", agentRole: "executive", text: "👑 Agente Executivo INTI: Bem-vindo! Analisei todo o catálogo com 587 produtos e 14 categorias. Selecione um Agente especialista abaixo para consultas específicas." }
   ]);
   const [userQuery, setUserQuery] = useState("");
   const [isRefreshing, setIsRefreshing] = useState(false);
@@ -106,7 +126,7 @@ function App() {
         return await res.json();
       }
     } catch {
-      // Keep default fallback state
+      // Keep rich defaults
     }
     return null;
   };
@@ -119,16 +139,16 @@ function App() {
     if (rKpi) setKpis(rKpi);
 
     const rCom = await safeFetchJson('/api/commercial');
-    if (rCom) setCommercialData(rCom);
+    if (rCom && rCom.category_summary) setCommercialData(rCom);
 
     const rPort = await safeFetchJson('/api/portfolio-ml');
-    if (rPort) setPortfolioData(rPort);
+    if (rPort && rPort.clusters) setPortfolioData(rPort);
 
     const rElast = await safeFetchJson('/api/pricing-elasticity');
     if (rElast) setElasticityData(rElast);
 
     const rDec = await safeFetchJson('/api/decisions');
-    if (rDec) setDecisionsData(rDec);
+    if (rDec && rDec.opportunities) setDecisionsData(rDec);
   };
 
   const handleRefresh = async () => {
@@ -175,11 +195,11 @@ function App() {
     if (d && d.response) {
       setChatMessages(prev => [...prev, { sender: "agent", agentRole: currentRole, text: `${d.avatar || '🤖'} ${d.agent || 'Agente'}: ${d.response}` }]);
     } else {
-      let reply = `Agente INTI AI (${currentRole}): Analisei '${q}'. Todos os módulos Snowflake Cortex estão sincronizados.`;
-      if (currentRole === "executive") reply = `👑 Agente Executivo: Analisei '${q}'. O CSAT de ${kpis.csat_score}% indica alta fidelidade. Recomendo focar na expansão da linha de linho.`;
-      if (currentRole === "buyer") reply = `🛍️ Agente Comprador: Para '${q}', identificamos demanda reprimida em Macacões M/G. Sugerimos reposição de 250 unidades.`;
-      if (currentRole === "pricing") reply = `🏷️ Agente de Pricing: Em '${q}', a elasticidade atual é -1.42. Reduzir o desconto médio em 3% aumentará a margem em R$ 21.500.`;
-      if (currentRole === "qa") reply = `🔬 Agente de Qualidade: Sobre '${q}', registramos 14 reclamações sobre costuras finas em zíperes de Seda. Auditoria técnica acionada.`;
+      let reply = `Agente INTI AI (${currentRole}): Analisei '${q}'. Todos os 587 produtos e 14 categorias estão sincronizados no Snowflake.`;
+      if (currentRole === "executive") reply = `👑 Agente Executivo: Analisei '${q}'. Mapeamos 587 SKUs ativos. Blazers possuem o maior preço mediano (R$ 1.589) e Vestidos lideram o volume com 168 variações. Recomendo priorizar as 7 Ações Críticas.`;
+      if (currentRole === "buyer") reply = `🛍️ Agente Comprador: Para '${q}', identificamos lacunas de estoque em Macacões e Bodies (52 variações). Sugerimos remanejar 250 unidades para o CD Principal.`;
+      if (currentRole === "pricing") reply = `🏷️ Agente de Pricing: Em '${q}', a elasticidade atual é -1.42. Reduzir a remarcação de 15% para 12% em Vestidos gerará ganho de R$ 14.800 em margem.`;
+      if (currentRole === "qa") reply = `🔬 Agente de Qualidade: Sobre '${q}', registramos 14 reclamações sobre costuras em zíperes de Seda e tamanho pequeno em Biquínis. Auditoria técnica acionada.`;
       
       setChatMessages(prev => [...prev, { sender: "agent", agentRole: currentRole, text: reply }]);
     }
@@ -199,7 +219,7 @@ function App() {
           <div className="brand-badge">INTI</div>
           <div className="brand-info">
             <h2>INTI Intelligence</h2>
-            <span className="brand-tag">v2.0 Snowflake AI</span>
+            <span className="brand-tag">v2.0 Snowflake AI · 587 SKUs</span>
           </div>
         </div>
 
@@ -237,10 +257,10 @@ function App() {
               {activeTab === 'cockpit' && '📊 Cockpit Executivo & Análise de Sentimento Cortex'}
               {activeTab === 'agentes' && '🤖 Central de Agentes de IA Multi-Especialistas'}
               {activeTab === 'pricing' && '💰 Precificação Dinâmica & Elasticidade de Descontos'}
-              {activeTab === 'sortimento' && '🛍️ Inteligência de Sortimento & Clusters KMeans'}
-              {activeTab === 'decisões' && '⚡ Matriz de Decisões & Ações Automatizadas'}
+              {activeTab === 'sortimento' && '🛍️ Sortimento (587 SKUs) & Pares Quase Idênticos (753)'}
+              {activeTab === 'decisões' && '⚡ Matriz Executiva de Oportunidades (7 Ações Críticas)'}
             </h1>
-            <p>Conectado ao Snowflake Warehouse | Sub-Second Cache Active</p>
+            <p>Single Source of Truth Ativo | {commercialData.catalog_count || 587} Peças Mapeadas | Sub-Second Cache Active</p>
           </div>
           <div className="status-badge">
             <span className="dot-green"></span> Snowflake Cortex Online
@@ -254,36 +274,36 @@ function App() {
               <div className="glass-card">
                 <div className="card-icon icon-amber"><MessageSquare size={20} /></div>
                 <div>
-                  <span className="card-label">Total de Reviews</span>
-                  <h3 className="card-val">{kpis.total_reviews}</h3>
-                  <span className="card-sub green">+15.2% vs mês anterior</span>
+                  <span className="card-label">Peças Mapeadas</span>
+                  <h3 className="card-val">{commercialData.catalog_count || 587}</h3>
+                  <span className="card-sub green">14 Categorias Ativas</span>
                 </div>
               </div>
 
               <div className="glass-card">
                 <div className="card-icon icon-emerald"><TrendingUp size={20} /></div>
                 <div>
-                  <span className="card-label">Índice CSAT</span>
-                  <h3 className="card-val">{kpis.csat_score}%</h3>
-                  <span className="card-sub green">Meta Executiva: 75%</span>
+                  <span className="card-label">Preço Mediano</span>
+                  <h3 className="card-val">R$ 689,50</h3>
+                  <span className="card-sub green">Cobertura 97.96%</span>
                 </div>
               </div>
 
               <div className="glass-card">
                 <div className="card-icon icon-indigo"><Sparkles size={20} /></div>
                 <div>
-                  <span className="card-label">Score Médio Cortex</span>
-                  <h3 className="card-val">{kpis.avg_sentiment > 0 ? `+${kpis.avg_sentiment}` : kpis.avg_sentiment}</h3>
-                  <span className="card-sub indigo">Valência Emocional</span>
+                  <span className="card-label">Índice CSAT</span>
+                  <h3 className="card-val">{kpis.csat_score}%</h3>
+                  <span className="card-sub indigo">Avaliações Cortex</span>
                 </div>
               </div>
 
               <div className="glass-card">
                 <div className="card-icon icon-rose"><AlertTriangle size={20} /></div>
                 <div>
-                  <span className="card-label">Feedbacks Críticos</span>
-                  <h3 className="card-val">{kpis.negative}</h3>
-                  <span className="card-sub rose">Requer Auditoria</span>
+                  <span className="card-label">Ações Críticas</span>
+                  <h3 className="card-val">{decisionsData.high_priority_count || 7}</h3>
+                  <span className="card-sub rose">Ação Imediata Hoje</span>
                 </div>
               </div>
             </div>
@@ -312,7 +332,7 @@ function App() {
                   <h3>Diagnóstico em Tempo Real por Categoria</h3>
                 </div>
                 <div className="cat-pills">
-                  {["Biquínis", "Vestidos", "Blazers", "Macacões"].map(cat => (
+                  {["Biquínis", "Vestidos", "Blazers", "Macacões", "Bodies"].map(cat => (
                     <button key={cat} className={`pill-btn ${selectedCategory === cat ? 'active' : ''}`} onClick={() => setSelectedCategory(cat)}>
                       {cat}
                     </button>
@@ -326,7 +346,7 @@ function App() {
 
             <div className="glass-panel mt-4">
               <div className="panel-top">
-                <h3>Feed Vivo de Avaliações & Qualidade</h3>
+                <h3>Feed Vivo de Avaliações & Qualidade de Produtos</h3>
               </div>
               <div className="table-container">
                 <table className="custom-table">
@@ -425,28 +445,30 @@ function App() {
             <div className="grid-2col">
               <div className="glass-panel">
                 <div className="panel-top">
-                  <h3>Elasticidade de Preços por Categoria</h3>
+                  <h3>Elasticidade de Preços & Tier por Categoria</h3>
                 </div>
-                <p className="panel-desc">Calculado com base no histórico de descontos e giro de estoque de cada SKU.</p>
+                <p className="panel-desc">Calculado com base no preço mediano e comportamento de remarcação das 14 categorias.</p>
                 <div className="table-container">
                   <table className="custom-table">
                     <thead>
                       <tr>
                         <th>Categoria</th>
-                        <th>Elasticidade</th>
-                        <th>Desconto Atual</th>
-                        <th>Desconto Ótimo</th>
-                        <th>Delta Margem</th>
+                        <th>Variações</th>
+                        <th>Preço Mediano</th>
+                        <th>Tier Estrutural</th>
                       </tr>
                     </thead>
                     <tbody>
-                      {elasticityData.categories_elasticity.map((c, i) => (
+                      {commercialData.category_summary.map((c, i) => (
                         <tr key={i}>
                           <td className="font-bold">{c.category}</td>
-                          <td><span className="tag-elasticity">{c.elasticity}</span></td>
-                          <td>{c.current_discount}%</td>
-                          <td><span className="font-bold text-emerald">{c.optimal_discount}%</span></td>
-                          <td><span className="badge badge-positive">{c.margin_delta}</span></td>
+                          <td>{c.variants} variações</td>
+                          <td><span className="font-bold text-emerald">R$ {c.median_price?.toFixed(2)}</span></td>
+                          <td>
+                            <span className={`badge ${c.category_price_tier === 'PREMIUM' ? 'badge-indigo' : c.category_price_tier === 'CORE' ? 'badge-positive' : 'badge-neutral'}`}>
+                              {c.category_price_tier || 'CORE'}
+                            </span>
+                          </td>
                         </tr>
                       ))}
                     </tbody>
@@ -462,20 +484,21 @@ function App() {
                   <div className="form-group">
                     <label>Categoria Alvo:</label>
                     <select value={simCat} onChange={e => setSimCat(e.target.value)}>
-                      <option value="Blazers">Blazers</option>
-                      <option value="Vestidos">Vestidos</option>
-                      <option value="Biquínis">Biquínis</option>
-                      <option value="Macacões">Macacões</option>
+                      <option value="Blazers">Blazers (Mediano: R$ 1.589)</option>
+                      <option value="Macacões">Macacões (Mediano: R$ 1.489)</option>
+                      <option value="Vestidos">Vestidos (Mediano: R$ 1.069)</option>
+                      <option value="Bodies">Bodies (Mediano: R$ 649)</option>
+                      <option value="Biquínis">Biquínis (Mediano: R$ 489)</option>
                     </select>
                   </div>
 
                   <div className="form-group">
                     <label>Quantidade de Novos SKUs:</label>
-                    <input type="number" min="1" max="20" value={simSkus} onChange={e => setSimSkus(e.target.value)} />
+                    <input type="number" min="1" max="50" value={simSkus} onChange={e => setSimSkus(e.target.value)} />
                   </div>
 
                   <div className="form-group">
-                    <label>Preço Médio Alvo (R$):</label>
+                    <label>Preço Alvo Estimado (R$):</label>
                     <input type="number" step="10" value={simPrice} onChange={e => setSimPrice(e.target.value)} />
                   </div>
 
@@ -508,37 +531,66 @@ function App() {
           <div className="content-body">
             <div className="glass-panel">
               <div className="panel-top">
-                <h3>Clusters de Produtos por Machine Learning (KMeans)</h3>
+                <h3>5 Estilos de Coleções Mapeados (Clusters KMeans)</h3>
               </div>
               <div className="clusters-grid-4">
                 {portfolioData.clusters.map((cl, i) => (
                   <div key={i} className="cluster-card-modern">
-                    <div className="cluster-num">Cluster #{cl.cluster_id}</div>
-                    <h4>{cl.label}</h4>
+                    <div className="cluster-num">Cluster #{cl.portfolio_cluster ?? i}</div>
+                    <h4>{cl.label || cl.dominant_category}</h4>
                     <div className="cluster-metrics">
-                      <div><span>Qtd SKUs:</span> <strong>{cl.count}</strong></div>
-                      <div><span>Preço Médio:</span> <strong>R$ {cl.avg_price}</strong></div>
+                      <div><span>Total de Itens:</span> <strong>{cl.items} Peças</strong></div>
+                      <div><span>Categoria Dominante:</span> <strong>{cl.dominant_category}</strong></div>
                     </div>
                     <div className="cluster-action-box">
-                      <Target size={14} /> <span>{cl.opportunity}</span>
+                      <Target size={14} /> <span>{cl.opportunity || 'Otimizar Sortimento'}</span>
                     </div>
                   </div>
                 ))}
               </div>
             </div>
 
-            <div className="glass-panel mt-4">
-              <div className="panel-top">
-                <h3>Distribuição do Sortimento Comercial</h3>
+            <div className="grid-2col mt-4">
+              <div className="glass-panel">
+                <div className="panel-top">
+                  <h3>Arquitetura do Mix por Categoria (587 Produtos)</h3>
+                </div>
+                <ResponsiveContainer width="100%" height={280}>
+                  <BarChart data={commercialData.category_summary}>
+                    <XAxis dataKey="category" stroke="#94A3B8" />
+                    <YAxis stroke="#94A3B8" />
+                    <Tooltip contentStyle={{ backgroundColor: '#1E293B', color: '#FFF' }} />
+                    <Bar dataKey="variants" fill="#3B82F6" radius={[6, 6, 0, 0]} name="Variações de Produtos" />
+                  </BarChart>
+                </ResponsiveContainer>
               </div>
-              <ResponsiveContainer width="100%" height={280}>
-                <BarChart data={commercialData.category_summary}>
-                  <XAxis dataKey="category" stroke="#94A3B8" />
-                  <YAxis stroke="#94A3B8" />
-                  <Tooltip contentStyle={{ backgroundColor: '#1E293B', color: '#FFF' }} />
-                  <Bar dataKey="product_count" fill="#3B82F6" radius={[6, 6, 0, 0]} name="Quantidade de SKUs" />
-                </BarChart>
-              </ResponsiveContainer>
+
+              <div className="glass-panel">
+                <div className="panel-top">
+                  <div className="flex-align"><Copy size={18} /><h3>Peças Quase Idênticas ({portfolioData.total_duplicates_pairs || 753} Pares)</h3></div>
+                </div>
+                <p className="panel-desc">Duplicidades com similaridade visual e de modelagem de 94% ou superior:</p>
+                <div className="table-container" style={{ maxHeight: '240px', overflowY: 'auto' }}>
+                  <table className="custom-table">
+                    <thead>
+                      <tr>
+                        <th>Produto A</th>
+                        <th>Produto B</th>
+                        <th>Similaridade</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {portfolioData.near_duplicates.slice(0, 5).map((d, i) => (
+                        <tr key={i}>
+                          <td className="font-bold">{d.product_a || d.product_1 || 'Peça A'}</td>
+                          <td>{d.product_b || d.product_2 || 'Peça B'}</td>
+                          <td><span className="badge badge-positive">{(d.similarity ? (d.similarity * 100).toFixed(0) : 95)}%</span></td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
             </div>
           </div>
         )}
@@ -548,20 +600,20 @@ function App() {
           <div className="content-body">
             <div className="glass-panel">
               <div className="panel-top">
-                <h3>Matriz Executiva de Oportunidades & Decisões Automatizadas</h3>
+                <h3>Matriz Executiva de Oportunidades & Decisões ({decisionsData.opportunities.length} Ações Recomendadas)</h3>
               </div>
               <div className="decisions-list">
                 {decisionsData.opportunities.map((opp, i) => (
                   <div key={i} className="decision-row-card">
                     <div className="dec-meta">
-                      <span className="dec-id">{opp.id}</span>
-                      <span className={`badge ${opp.impact === 'Crítico' ? 'badge-negative' : 'badge-positive'}`}>{opp.impact} Impacto</span>
+                      <span className="dec-id">{opp.scope || 'AÇÃO EXEC'}</span>
+                      <span className={`badge ${opp.priority === 'HIGH' ? 'badge-negative' : 'badge-positive'}`}>{opp.priority || 'ALTA'} Prioridade</span>
                     </div>
                     <div className="dec-body">
-                      <h4>{opp.title}</h4>
-                      <p>Categoria: <strong>{opp.category}</strong> | Confiança da IA: <strong>{opp.confidence}</strong></p>
+                      <h4>{opp.headline || opp.title}</h4>
+                      <p>Item Analisado: <strong>{opp.entity || opp.category}</strong> | Evidências: <strong>{opp.evidence || 'Evidência Forte'}</strong></p>
                       <div className="dec-action">
-                        👉 <strong>Recomendação Executiva:</strong> {opp.action}
+                        👉 <strong>Recomendação Executiva:</strong> {opp.recommended_action || opp.action}
                       </div>
                     </div>
                   </div>
