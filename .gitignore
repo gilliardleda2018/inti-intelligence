@@ -15,3 +15,9 @@ env/
 *.db
 .system_generated/
 logs/
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/build/
+dist/

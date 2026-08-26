@@ -29,11 +29,16 @@ def main():
         print(f"Enviando {app_py_path} para {stage_root}...")
         session.file.put(app_py_path, stage_root, auto_compress=False, overwrite=True)
         
-        # Upload requirements.txt for Streamlit dependencies
+        # Upload requirements.txt and environment.yml for Streamlit dependencies
         req_path = (ROOT / "requirements.txt").as_posix()
         if os.path.exists(req_path):
             print(f"Enviando {req_path} para {stage_root}...")
             session.file.put(req_path, stage_root, auto_compress=False, overwrite=True)
+
+        env_path = (ROOT / "dashboard" / "environment.yml").as_posix()
+        if os.path.exists(env_path):
+            print(f"Enviando {env_path} para {stage_root}...")
+            session.file.put(env_path, stage_root, auto_compress=False, overwrite=True)
         
         # 2. Upload dashboard/logo.png to root stage
         logo_path = (ROOT / "dashboard" / "logo.png").as_posix()

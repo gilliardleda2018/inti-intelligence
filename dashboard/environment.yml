@@ -1,0 +1,12 @@
+name: sf_env
+channels:
+  - snowflake
+dependencies:
+  - plotly
+  - pandas
+  - numpy
+  - requests
+  - beautifulsoup4
+  - lxml
+  - python-dateutil
+  - scikit-learn

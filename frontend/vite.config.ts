@@ -8,7 +8,7 @@ export default defineConfig({
     open: true,
   },
   build: {
-    outDir: '../build_frontend',
+    outDir: 'build',
     emptyOutDir: true,
   },
 });
