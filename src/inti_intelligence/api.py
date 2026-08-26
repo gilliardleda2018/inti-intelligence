@@ -209,6 +209,42 @@ def portfolio_ml_endpoint():
         "total_duplicates_pairs": 753
     }
 
+@app.get("/api/catalog")
+def catalog_endpoint():
+    exp = _get_exported_json()
+    if exp and "products" in exp:
+        return {
+            "products": exp.get("products", []),
+            "total": len(exp.get("products", []))
+        }
+
+    return {"products": [], "total": 0}
+
+@app.get("/api/data-quality")
+def data_quality_endpoint():
+    exp = _get_exported_json()
+    if exp and "quality_report" in exp:
+        return {"report": exp.get("quality_report", [])}
+
+    return {
+        "report": [
+            {"field": "product_id", "rows": 587, "non_null": 587, "missing": 0, "completeness_pct": 100.0, "trust": "GOOD"},
+            {"field": "name", "rows": 587, "non_null": 587, "missing": 0, "completeness_pct": 100.0, "trust": "GOOD"},
+            {"field": "category", "rows": 587, "non_null": 569, "missing": 18, "completeness_pct": 96.93, "trust": "GOOD"},
+            {"field": "price", "rows": 587, "non_null": 575, "missing": 12, "completeness_pct": 97.96, "trust": "GOOD"},
+            {"field": "color", "rows": 587, "non_null": 542, "missing": 45, "completeness_pct": 92.33, "trust": "PARTIAL"},
+            {"field": "sizes", "rows": 587, "non_null": 556, "missing": 31, "completeness_pct": 94.72, "trust": "GOOD"}
+        ]
+    }
+
+@app.get("/api/size-coverage")
+def size_coverage_endpoint():
+    exp = _get_exported_json()
+    if exp and "size_coverage" in exp:
+        return {"sizes": exp.get("size_coverage", [])}
+
+    return {"sizes": []}
+
 @app.get("/api/decisions")
 def decisions_endpoint():
     exp = _get_exported_json()

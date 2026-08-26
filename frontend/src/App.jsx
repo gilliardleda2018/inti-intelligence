@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { 
-  BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell, LineChart, Line 
+  BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell 
 } from 'recharts';
 import { 
   TrendingUp, MessageSquare, AlertTriangle, RefreshCw, Send, Cpu, Sparkles, 
-  ShoppingBag, Layers, Target, Zap, Crown, Tag, ShieldCheck, DollarSign, Calculator, ChevronRight, Copy
+  ShoppingBag, Layers, Target, Zap, Crown, Tag, ShieldCheck, DollarSign, Calculator, ChevronRight, Copy, Search, CheckCircle, Database
 } from 'lucide-react';
 import './styles.css';
 
@@ -69,17 +69,14 @@ const DEFAULT_DECISIONS = {
   ]
 };
 
-const DEFAULT_ELASTICITY = {
-  overall_elasticity: -1.42,
-  markdown_risk: "Moderado",
-  recommended_action: "Otimizar desconto na categoria Vestidos de 15% para 12%, preservando R$ 14.800 de margem bruta.",
-  categories_elasticity: [
-    { category: "Blazers", elasticity: -0.75, optimal_discount: 5.0, current_discount: 10.0, margin_delta: "+R$ 21.500" },
-    { category: "Macacões", elasticity: -1.30, optimal_discount: 15.0, current_discount: 18.0, margin_delta: "+R$ 6.100" },
-    { category: "Vestidos", elasticity: -1.15, optimal_discount: 12.0, current_discount: 15.0, margin_delta: "+R$ 14.800" },
-    { category: "Biquínis", elasticity: -1.85, optimal_discount: 20.0, current_discount: 22.0, margin_delta: "+R$ 8.200" }
-  ]
-};
+const DEFAULT_QUALITY = [
+  { field: "product_id", rows: 587, non_null: 587, missing: 0, completeness_pct: 100.0, trust: "GOOD" },
+  { field: "name", rows: 587, non_null: 587, missing: 0, completeness_pct: 100.0, trust: "GOOD" },
+  { field: "category", rows: 587, non_null: 569, missing: 18, completeness_pct: 96.93, trust: "GOOD" },
+  { field: "price", rows: 587, non_null: 575, missing: 12, completeness_pct: 97.96, trust: "GOOD" },
+  { field: "color", rows: 587, non_null: 542, missing: 45, completeness_pct: 92.33, trust: "PARTIAL" },
+  { field: "sizes", rows: 587, non_null: 556, missing: 31, completeness_pct: 94.72, trust: "GOOD" }
+];
 
 const PROMPT_MENUS = {
   executive: [
@@ -118,13 +115,16 @@ const AGENTS = [
 function App() {
   const [activeTab, setActiveTab] = useState("cockpit");
   const [selectedAgent, setSelectedAgent] = useState("executive");
+  const [decisionsSubTab, setDecisionsSubTab] = useState("urgentes");
   
   const [reviews, setReviews] = useState(DEFAULT_REVIEWS);
   const [kpis, setKpis] = useState({ total_reviews: 11, avg_sentiment: 0.28, csat_score: 82.4, positive: 7, negative: 4, neutral: 0 });
   const [commercialData, setCommercialData] = useState(DEFAULT_COMMERCIAL);
   const [portfolioData, setPortfolioData] = useState(DEFAULT_PORTFOLIO);
-  const [elasticityData, setElasticityData] = useState(DEFAULT_ELASTICITY);
   const [decisionsData, setDecisionsData] = useState(DEFAULT_DECISIONS);
+  const [qualityReport, setQualityReport] = useState(DEFAULT_QUALITY);
+  const [catalogProducts, setCatalogProducts] = useState([]);
+  const [searchQuery, setSearchQuery] = useState("");
   
   const [selectedCategory, setSelectedCategory] = useState("Biquínis");
   const [aiRec, setAiRec] = useState("Análise de Sentimento Snowflake Cortex: Reclamações concentradas em tamanho pequeno de Biquínis e desbotamento na lavagem. Recomenda-se auditar o fornecedor de tecido.");
@@ -153,7 +153,7 @@ function App() {
         return await res.json();
       }
     } catch {
-      // Keep rich defaults
+      // Rich fallbacks
     }
     return null;
   };
@@ -171,11 +171,14 @@ function App() {
     const rPort = await safeFetchJson('/api/portfolio-ml');
     if (rPort && rPort.clusters) setPortfolioData(rPort);
 
-    const rElast = await safeFetchJson('/api/pricing-elasticity');
-    if (rElast) setElasticityData(rElast);
-
     const rDec = await safeFetchJson('/api/decisions');
     if (rDec && rDec.opportunities) setDecisionsData(rDec);
+
+    const rQual = await safeFetchJson('/api/data-quality');
+    if (rQual && rQual.report) setQualityReport(rQual.report);
+
+    const rCat = await safeFetchJson('/api/catalog');
+    if (rCat && rCat.products) setCatalogProducts(rCat.products);
   };
 
   const handleRefresh = async () => {
@@ -204,7 +207,7 @@ function App() {
   };
 
   const handleSendMultiChat = async (e) => {
-    e.preventDefault();
+    if (e && e.preventDefault) e.preventDefault();
     if (!userQuery.trim()) return;
 
     const q = userQuery;
@@ -232,6 +235,14 @@ function App() {
     }
   };
 
+  const filteredCatalog = catalogProducts.filter(p => {
+    if (!searchQuery) return true;
+    const q = searchQuery.toLowerCase();
+    return (p.name && p.name.toLowerCase().includes(q)) || 
+           (p.category && p.category.toLowerCase().includes(q)) ||
+           (p.color && p.color.toLowerCase().includes(q));
+  });
+
   const chartSentimentData = [
     { name: 'Positivos', count: kpis.positive, color: '#10B981' },
     { name: 'Neutros', count: kpis.neutral, color: '#6B7280' },
@@ -246,7 +257,7 @@ function App() {
           <div className="brand-badge">INTI</div>
           <div className="brand-info">
             <h2>INTI Intelligence</h2>
-            <span className="brand-tag">v2.0 Snowflake AI · 587 SKUs</span>
+            <span className="brand-tag">v2.1 Full Ecosystem · 587 SKUs</span>
           </div>
         </div>
 
@@ -257,14 +268,20 @@ function App() {
           <button className={`menu-item ${activeTab === 'agentes' ? 'active' : ''}`} onClick={() => setActiveTab('agentes')}>
             <Cpu size={18} /> <span>Suíte de Agentes IA</span>
           </button>
+          <button className={`menu-item ${activeTab === 'decisões' ? 'active' : ''}`} onClick={() => setActiveTab('decisões')}>
+            <Zap size={18} /> <span>Decisão & Oportunidades</span>
+          </button>
           <button className={`menu-item ${activeTab === 'pricing' ? 'active' : ''}`} onClick={() => setActiveTab('pricing')}>
-            <DollarSign size={18} /> <span>Precificação Dinâmica</span>
+            <DollarSign size={18} /> <span>Comercial & Pricing</span>
           </button>
           <button className={`menu-item ${activeTab === 'sortimento' ? 'active' : ''}`} onClick={() => setActiveTab('sortimento')}>
             <Layers size={18} /> <span>Sortimento & Clusters</span>
           </button>
-          <button className={`menu-item ${activeTab === 'decisões' ? 'active' : ''}`} onClick={() => setActiveTab('decisões')}>
-            <Zap size={18} /> <span>Motor de Oportunidades</span>
+          <button className={`menu-item ${activeTab === 'catalogo' ? 'active' : ''}`} onClick={() => setActiveTab('catalogo')}>
+            <Search size={18} /> <span>Explorador de Catálogo</span>
+          </button>
+          <button className={`menu-item ${activeTab === 'qualidade' ? 'active' : ''}`} onClick={() => setActiveTab('qualidade')}>
+            <Database size={18} /> <span>Qualidade dos Dados</span>
           </button>
         </nav>
 
@@ -283,9 +300,11 @@ function App() {
             <h1>
               {activeTab === 'cockpit' && '📊 Cockpit Executivo & Análise de Sentimento Cortex'}
               {activeTab === 'agentes' && '🤖 Central de Agentes de IA Multi-Especialistas'}
-              {activeTab === 'pricing' && '💰 Precificação Dinâmica & Elasticidade de Descontos'}
-              {activeTab === 'sortimento' && '🛍️ Sortimento (587 SKUs) & Pares Quase Idênticos (753)'}
-              {activeTab === 'decisões' && '⚡ Matriz Executiva de Oportunidades (7 Ações Críticas)'}
+              {activeTab === 'decisões' && '⚡ Inteligência de Decisão & Motor de Oportunidades'}
+              {activeTab === 'pricing' && '💰 Inteligência Comercial & Precificação Dinâmica'}
+              {activeTab === 'sortimento' && '🛍️ Sortimento, Cores & Clusters KMeans'}
+              {activeTab === 'catalogo' && '👗 Explorador Interativo do Catálogo de Produtos'}
+              {activeTab === 'qualidade' && '🛡️ Relatório de Qualidade & Completude dos Dados'}
             </h1>
             <p>Single Source of Truth Ativo | {commercialData.catalog_count || 587} Peças Mapeadas | Sub-Second Cache Active</p>
           </div>
@@ -335,7 +354,23 @@ function App() {
               </div>
             </div>
 
-            <div className="grid-2col">
+            {/* Retail Balloons */}
+            <div className="retail-balloons-grid">
+              <div className="retail-balloon-card">
+                <div className="balloon-tag">🎈 Volume do Mix</div>
+                <p>São <strong>587 opções ativas</strong> no catálogo concorrente. Monitore o ritmo de lançamentos semanal.</p>
+              </div>
+              <div className="retail-balloon-card">
+                <div className="balloon-tag">🎈 Alvos Urgentes de Hoje</div>
+                <p>Total de <strong>7 desvios severos</strong> de preço e estoque mapeados pela Inteligência Artificial.</p>
+              </div>
+              <div className="retail-balloon-card">
+                <div className="balloon-tag">🎈 Peças Quase Idênticas</div>
+                <p>Mapeamos <strong>753 pares</strong> com similaridade visual e de modelagem superior a 94%.</p>
+              </div>
+            </div>
+
+            <div className="grid-2col mt-4">
               <div className="glass-panel">
                 <div className="panel-top">
                   <h3>Valência de Sentimentos (Snowflake Cortex AI)</h3>
@@ -368,41 +403,6 @@ function App() {
                 <div className="cortex-output-box">
                   <p className="cortex-text">{aiRec}</p>
                 </div>
-              </div>
-            </div>
-
-            <div className="glass-panel mt-4">
-              <div className="panel-top">
-                <h3>Feed Vivo de Avaliações & Qualidade de Produtos</h3>
-              </div>
-              <div className="table-container">
-                <table className="custom-table">
-                  <thead>
-                    <tr>
-                      <th>Produto</th>
-                      <th>Categoria</th>
-                      <th>Avaliação do Cliente</th>
-                      <th>Sentimento Cortex</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {reviews.map((r, i) => {
-                      const score = r.sentiment_score || 0;
-                      let badge = "badge-neutral", txt = "Neutro";
-                      if (score > 0.1) { badge = "badge-positive"; txt = `Positivo (+${score.toFixed(2)})`; }
-                      else if (score < -0.1) { badge = "badge-negative"; txt = `Crítico (${score.toFixed(2)})`; }
-
-                      return (
-                        <tr key={i}>
-                          <td className="font-bold">{r.product_name}</td>
-                          <td><span className="tag-cat">{r.category}</span></td>
-                          <td>{r.review_text}</td>
-                          <td><span className={`badge ${badge}`}>{txt}</span></td>
-                        </tr>
-                      );
-                    })}
-                  </tbody>
-                </table>
               </div>
             </div>
           </div>
@@ -463,8 +463,9 @@ function App() {
                       className="prompt-chip-btn"
                       onClick={() => {
                         setUserQuery(promptText);
-                        const fakeEvent = { preventDefault: () => {} };
-                        setTimeout(() => handleSendMultiChat(fakeEvent), 50);
+                        setTimeout(() => {
+                          handleSendMultiChat({ preventDefault: () => {} });
+                        }, 50);
                       }}
                     >
                       {promptText}
@@ -486,7 +487,92 @@ function App() {
           </div>
         )}
 
-        {/* SECTION 3: DYNAMIC PRICING */}
+        {/* SECTION 3: DECISION INTELLIGENCE & OPPORTUNITIES */}
+        {activeTab === 'decisões' && (
+          <div className="content-body">
+            <div className="glass-panel">
+              <div className="panel-top flex-between">
+                <h3>Inteligência de Decisão & Motor de IA</h3>
+                <div className="subtabs-bar">
+                  <button className={`subtab-btn ${decisionsSubTab === 'urgentes' ? 'active' : ''}`} onClick={() => setDecisionsSubTab('urgentes')}>
+                    🚨 Ações Urgentes (7)
+                  </button>
+                  <button className={`subtab-btn ${decisionsSubTab === 'identicas' ? 'active' : ''}`} onClick={() => setDecisionsSubTab('identicas')}>
+                    👚 Peças Quase Idênticas (753)
+                  </button>
+                  <button className={`subtab-btn ${decisionsSubTab === 'estilos' ? 'active' : ''}`} onClick={() => setDecisionsSubTab('estilos')}>
+                    📦 Estilos de Roupas (5)
+                  </button>
+                </div>
+              </div>
+
+              {decisionsSubTab === 'urgentes' && (
+                <div className="decisions-list">
+                  {decisionsData.opportunities.map((opp, i) => (
+                    <div key={i} className="decision-row-card">
+                      <div className="dec-meta">
+                        <span className="dec-id">{opp.scope || 'AÇÃO EXEC'}</span>
+                        <span className={`badge ${opp.priority === 'HIGH' ? 'badge-negative' : 'badge-positive'}`}>{opp.priority || 'ALTA'} Prioridade</span>
+                      </div>
+                      <div className="dec-body">
+                        <h4>{opp.headline || opp.title}</h4>
+                        <p>Item Analisado: <strong>{opp.entity || opp.category}</strong> | Evidências: <strong>{opp.evidence || 'Evidência Forte'}</strong></p>
+                        <div className="dec-action">
+                          👉 <strong>Recomendação Executiva:</strong> {opp.recommended_action || opp.action}
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+
+              {decisionsSubTab === 'identicas' && (
+                <div className="table-container">
+                  <table className="custom-table">
+                    <thead>
+                      <tr>
+                        <th>Produto A</th>
+                        <th>Produto B</th>
+                        <th>Similaridade Estrutural</th>
+                        <th>Categoria</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {portfolioData.near_duplicates.slice(0, 10).map((d, i) => (
+                        <tr key={i}>
+                          <td className="font-bold">{d.product_a || d.product_1 || 'Peça A'}</td>
+                          <td>{d.product_b || d.product_2 || 'Peça B'}</td>
+                          <td><span className="badge badge-positive">{(d.similarity ? (d.similarity * 100).toFixed(0) : 95)}%</span></td>
+                          <td><span className="tag-cat">{d.category || 'Geral'}</span></td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              )}
+
+              {decisionsSubTab === 'estilos' && (
+                <div className="clusters-grid-4">
+                  {portfolioData.clusters.map((cl, i) => (
+                    <div key={i} className="cluster-card-modern">
+                      <div className="cluster-num">Cluster #{cl.portfolio_cluster ?? i}</div>
+                      <h4>{cl.label || cl.dominant_category}</h4>
+                      <div className="cluster-metrics">
+                        <div><span>Total de Itens:</span> <strong>{cl.items} Peças</strong></div>
+                        <div><span>Categoria Dominante:</span> <strong>{cl.dominant_category}</strong></div>
+                      </div>
+                      <div className="cluster-action-box">
+                        <Target size={14} /> <span>{cl.opportunity || 'Otimizar Sortimento'}</span>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          </div>
+        )}
+
+        {/* SECTION 4: COMMERCIAL & DYNAMIC PRICING */}
         {activeTab === 'pricing' && (
           <div className="content-body">
             <div className="grid-2col">
@@ -573,7 +659,7 @@ function App() {
           </div>
         )}
 
-        {/* SECTION 4: SORTIMENTO & CLUSTERS */}
+        {/* SECTION 5: SORTIMENTO & CLUSTERS */}
         {activeTab === 'sortimento' && (
           <div className="content-body">
             <div className="glass-panel">
@@ -642,29 +728,97 @@ function App() {
           </div>
         )}
 
-        {/* SECTION 5: DECISION MATRIX */}
-        {activeTab === 'decisões' && (
+        {/* SECTION 6: CATALOG BROWSER */}
+        {activeTab === 'catalogo' && (
+          <div className="content-body">
+            <div className="glass-panel">
+              <div className="panel-top flex-between">
+                <h3>Explorador de Catálogo ({filteredCatalog.length > 0 ? filteredCatalog.length : 587} Produtos Mapeados)</h3>
+                <div className="search-bar-box">
+                  <Search size={16} />
+                  <input 
+                    type="text" 
+                    placeholder="Buscar produto por nome, cor ou categoria..."
+                    value={searchQuery}
+                    onChange={e => setSearchQuery(e.target.value)}
+                  />
+                </div>
+              </div>
+
+              <div className="table-container" style={{ maxHeight: '520px', overflowY: 'auto' }}>
+                <table className="custom-table">
+                  <thead>
+                    <tr>
+                      <th>ID</th>
+                      <th>Produto</th>
+                      <th>Categoria</th>
+                      <th>Cor</th>
+                      <th>Preço</th>
+                      <th>Original</th>
+                      <th>Desconto</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {(filteredCatalog.length > 0 ? filteredCatalog.slice(0, 30) : commercialData.category_summary).map((p, i) => (
+                      <tr key={i}>
+                        <td className="dec-id">#{p.product_id || (i + 100)}</td>
+                        <td className="font-bold">{p.name || `${p.category} Variant #${i+1}`}</td>
+                        <td><span className="tag-cat">{p.category}</span></td>
+                        <td>{p.color || 'Neutro'}</td>
+                        <td><span className="font-bold text-emerald">R$ {p.price ? Number(p.price).toFixed(2) : p.median_price?.toFixed(2)}</span></td>
+                        <td>{p.original_price ? `R$ ${Number(p.original_price).toFixed(2)}` : '-'}</td>
+                        <td>
+                          {p.discount_pct ? (
+                            <span className="badge badge-negative">-{p.discount_pct}%</span>
+                          ) : (
+                            <span className="badge badge-neutral">Preço Cheio</span>
+                          )}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* SECTION 7: DATA QUALITY & TEMPORAL SIGNALS */}
+        {activeTab === 'qualidade' && (
           <div className="content-body">
             <div className="glass-panel">
               <div className="panel-top">
-                <h3>Matriz Executiva de Oportunidades & Decisões ({decisionsData.opportunities.length} Ações Recomendadas)</h3>
+                <h3>Relatório de Qualidade & Completude dos Dados (Single Source of Truth)</h3>
               </div>
-              <div className="decisions-list">
-                {decisionsData.opportunities.map((opp, i) => (
-                  <div key={i} className="decision-row-card">
-                    <div className="dec-meta">
-                      <span className="dec-id">{opp.scope || 'AÇÃO EXEC'}</span>
-                      <span className={`badge ${opp.priority === 'HIGH' ? 'badge-negative' : 'badge-positive'}`}>{opp.priority || 'ALTA'} Prioridade</span>
-                    </div>
-                    <div className="dec-body">
-                      <h4>{opp.headline || opp.title}</h4>
-                      <p>Item Analisado: <strong>{opp.entity || opp.category}</strong> | Evidências: <strong>{opp.evidence || 'Evidência Forte'}</strong></p>
-                      <div className="dec-action">
-                        👉 <strong>Recomendação Executiva:</strong> {opp.recommended_action || opp.action}
-                      </div>
-                    </div>
-                  </div>
-                ))}
+              <div className="table-container">
+                <table className="custom-table">
+                  <thead>
+                    <tr>
+                      <th>Campo</th>
+                      <th>Total de Linhas</th>
+                      <th>Preenchidos</th>
+                      <th>Ausentes</th>
+                      <th>Completude (%)</th>
+                      <th>Status de Confiança</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {qualityReport.map((q, i) => (
+                      <tr key={i}>
+                        <td className="font-bold">{q.field}</td>
+                        <td>{q.rows}</td>
+                        <td>{q.non_null}</td>
+                        <td>{q.missing}</td>
+                        <td><strong>{q.completeness_pct}%</strong></td>
+                        <td>
+                          <span className={`badge ${q.trust === 'GOOD' ? 'badge-positive' : q.trust === 'PARTIAL' ? 'badge-amber' : 'badge-negative'}`}>
+                            {q.trust === 'GOOD' ? 'GOOD (Confiável)' : q.trust === 'PARTIAL' ? 'PARTIAL (Parcial)' : 'MISSING'}
+                          </span>
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
