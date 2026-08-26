@@ -37,7 +37,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.2rem 2.5rem;
+  padding: 1rem 2.5rem;
   background: var(--panel-bg);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border-color);
@@ -64,7 +64,7 @@ body {
 }
 
 .brand h1 {
-  font-size: 1.35rem;
+  font-size: 1.25rem;
   font-weight: 700;
   display: flex;
   align-items: center;
@@ -81,8 +81,38 @@ body {
 }
 
 .subtitle {
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   color: var(--text-muted);
+}
+
+/* Tab Navigation */
+.tab-nav {
+  display: flex;
+  gap: 0.5rem;
+  background: rgba(15, 23, 42, 0.6);
+  padding: 0.3rem;
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
+}
+
+.tab-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  padding: 0.55rem 1rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tab-btn.active, .tab-btn:hover {
+  background: var(--primary-accent);
+  color: #FFF;
 }
 
 .btn-refresh {
@@ -92,7 +122,7 @@ body {
   background: rgba(255, 255, 255, 0.06);
   color: var(--text-main);
   border: 1px solid var(--border-color);
-  padding: 0.65rem 1.2rem;
+  padding: 0.55rem 1.1rem;
   border-radius: 8px;
   font-weight: 600;
   cursor: pointer;
@@ -128,12 +158,6 @@ body {
   display: flex;
   align-items: center;
   gap: 1.1rem;
-  transition: transform 0.2s ease, border-color 0.2s ease;
-}
-
-.kpi-card:hover {
-  transform: translateY(-2px);
-  border-color: rgba(255, 255, 255, 0.18);
 }
 
 .kpi-icon {
@@ -179,6 +203,10 @@ body {
   display: grid;
   grid-template-columns: 1fr 420px;
   gap: 1.5rem;
+}
+
+.dashboard-grid.full-grid {
+  grid-template-columns: 1fr;
 }
 
 @media (max-width: 1100px) {
@@ -283,21 +311,13 @@ body {
   color: #E2E8F0;
 }
 
-.ai-loading {
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-  color: #A855F7;
-}
-
 .chat-messages {
-  height: 200px;
+  height: 240px;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
   margin-bottom: 1rem;
-  padding-right: 4px;
 }
 
 .chat-bubble {
@@ -348,6 +368,102 @@ body {
   padding: 0.65rem 0.9rem;
   border-radius: 8px;
   cursor: pointer;
+}
+
+/* Clusters Grid */
+.clusters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+}
+
+.cluster-box {
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.cluster-tag {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--primary-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.cluster-box h4 {
+  font-size: 1.1rem;
+  color: #FFF;
+}
+
+.cluster-stat {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.cluster-opp {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  background: rgba(16, 185, 129, 0.1);
+  border-radius: 6px;
+  color: #10B981;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+/* Opportunities */
+.opp-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.opp-card {
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.opp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.opp-id {
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--primary-accent);
+}
+
+.opp-card h4 {
+  font-size: 1.05rem;
+  color: #FFF;
+}
+
+.opp-cat {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.opp-action {
+  font-size: 0.88rem;
+  color: #E2E8F0;
+  background: rgba(255, 255, 255, 0.04);
+  padding: 0.6rem;
+  border-radius: 8px;
+  margin-top: 0.3rem;
 }
 
 .spinning {
