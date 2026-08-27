@@ -4,4 +4,8 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 ENV PYTHONPATH=/app/src
-CMD ["uvicorn","app.main:app","--host","0.0.0.0","--port","8000","--reload"]
+EXPOSE 8000
+
+# Render injects PORT at runtime. Keep a local fallback while avoiding the
+# development-only reloader in production.
+CMD ["sh", "-c", "uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-8000}"]
