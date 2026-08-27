@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: inti-intelligence-api
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /health
+    autoDeployTrigger: commit
+    envVars:
+      - key: PYTHONPATH
+        value: /app/src
